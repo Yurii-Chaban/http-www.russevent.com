@@ -934,7 +934,7 @@ footer .copyright h4 a:hover {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 33px 0 36px;
+  padding: 33px 0 65px;
   background: rgba(255, 255, 255, 0.6);
 }
 /* line 68, ../sass/_scene3.scss */
@@ -1120,41 +1120,44 @@ footer .copyright h4 a:hover {
 .scene3-page .white-bg-container .scene-block,
 .scene3-page .white-bg-container .scene3-block {
   clear: both;
-  margin: 0 auto 95px;
+  margin: 0 auto 46px;
+  padding-top: 26px;
 }
-/* line 224, ../sass/_scene3.scss */
+/* line 225, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .block-title,
 .scene3-page .white-bg-container .scene3-block .block-title {
-  width: 317px;
+  width: 210px;
   margin: 0 auto;
-  padding: 21px 4px;
+  padding: 13px 4px;
   text-align: center;
-  font: 400 49px/21px "Open Sans", sans-serif;
+  font: 400 36px/21px "Open Sans", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   padding-right: 9px;
   text-transform: uppercase;
   background: #9D9D9D;
-  -webkit-border-bottom-right-radius: 40px;
-  -webkit-border-bottom-left-radius: 40px;
-  -moz-border-radius-bottomright: 40px;
-  -moz-border-radius-bottomleft: 40px;
-  border-bottom-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-/* line 250, ../sass/_scene3.scss */
+/* line 251, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene,
 .scene3-page .white-bg-container .scene3-block .scene {
   width: 100%;
+  margin-top: -8px;
 }
-/* line 253, ../sass/_scene3.scss */
+/* line 255, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-scene,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-scene {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin: 40px auto 20px;
+  margin: 40px auto 14px;
+  padding-left: 10px;
   clear: both;
   overflow: hidden;
   -webkit-box-sizing: border-box;
@@ -1162,38 +1165,38 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 263, ../sass/_scene3.scss */
+/* line 266, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-scene li,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-scene li {
   float: left;
   width: auto;
-  margin: 0 15px;
-}
-/* line 268, ../sass/_scene3.scss */
-.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:first-child,
-.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:first-child {
-  margin-left: 0;
+  margin: 0;
 }
 /* line 271, ../sass/_scene3.scss */
-.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:last-child,
-.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:last-child {
-  margin-right: 0;
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:first-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:first-child {
+  margin-left: 35px;
 }
 /* line 274, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:last-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:last-child {
+  margin-right: 50px;
+}
+/* line 277, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-scene li span,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-scene li span {
   color: #262626;
-  font: 400 20px/21px "Open Sans", sans-serif;
+  font: 400 15px/21px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 281, ../sass/_scene3.scss */
+/* line 284, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-balcony,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-balcony {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  margin: 40px auto 20px;
+  width: 66%;
+  margin: 30px auto 11px;
   clear: both;
   overflow: hidden;
   -webkit-box-sizing: border-box;
@@ -1201,39 +1204,39 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 291, ../sass/_scene3.scss */
+/* line 294, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-balcony li,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li {
   float: left;
   width: auto;
   margin: 0 15px;
 }
-/* line 296, ../sass/_scene3.scss */
+/* line 299, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-balcony li:first-child,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li:first-child {
   margin-left: 0;
 }
-/* line 299, ../sass/_scene3.scss */
+/* line 302, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-balcony li:last-child,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li:last-child {
   margin-right: 0;
 }
-/* line 302, ../sass/_scene3.scss */
+/* line 305, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .scene .list-header-balcony li span,
 .scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li span {
   color: #262626;
-  font: 400 20px/21px "Open Sans", sans-serif;
+  font: 400 15px/21px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 311, ../sass/_scene3.scss */
+/* line 314, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .reservation-btn,
 .scene3-page .white-bg-container .scene3-block .reservation-btn {
   display: block;
   width: 205px;
-  height: 40px;
-  margin: 0 auto;
+  height: 43px;
+  margin: 43px auto 0;
   color: #fff;
-  font: 700 20px/40px "Open Sans", sans-serif;
+  font: 700 20px/43px "Open Sans", sans-serif;
   text-align: center;
   background: #74033B;
   -webkit-border-radius: 10px;
@@ -1245,26 +1248,26 @@ footer .copyright h4 a:hover {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 325, ../sass/_scene3.scss */
+/* line 328, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .scene-block .reservation-btn:hover,
 .scene3-page .white-bg-container .scene3-block .reservation-btn:hover {
   -webkit-box-shadow: 2.5px 4.3px 9px #74023b;
   -moz-box-shadow: 2.5px 4.3px 9px #74023b;
   box-shadow: 2.5px 4.3px 9px #74023b;
 }
-/* line 332, ../sass/_scene3.scss */
+/* line 335, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block {
   padding-top: 8px;
   border-top: 2px solid #C2C2C2;
 }
-/* line 335, ../sass/_scene3.scss */
+/* line 338, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-title {
   margin: 10px 0 0 15px;
   letter-spacing: -1px;
   color: #75023B;
   font: 700 24px/41px "Open Sans", sans-serif;
 }
-/* line 341, ../sass/_scene3.scss */
+/* line 344, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1276,29 +1279,29 @@ footer .copyright h4 a:hover {
   display: -webkit-flex;
   display: flex;
 }
-/* line 349, ../sass/_scene3.scss */
+/* line 352, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li {
   display: inline-block;
   width: 33.3%;
 }
-/* line 353, ../sass/_scene3.scss */
+/* line 356, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li:nth-child(2) {
   margin-left: 18px;
 }
-/* line 355, ../sass/_scene3.scss */
+/* line 358, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li:nth-child(2) .sign {
   margin: 9px 40px 10px 19px;
 }
-/* line 359, ../sass/_scene3.scss */
+/* line 362, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li:nth-child(3) {
   width: 31.3%;
   margin-left: 3px;
 }
-/* line 362, ../sass/_scene3.scss */
+/* line 365, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li:nth-child(3) .sign {
   margin: 16px 15px 10px 16px;
 }
-/* line 366, ../sass/_scene3.scss */
+/* line 369, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li .number {
   float: left;
   color: #E51002;
@@ -1306,7 +1309,7 @@ footer .copyright h4 a:hover {
   display: inline-block;
   margin: 14px 0 0 0;
 }
-/* line 373, ../sass/_scene3.scss */
+/* line 376, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li .sign {
   float: left;
   margin: 9px 15px 10px 1px;
@@ -1315,8 +1318,89 @@ footer .copyright h4 a:hover {
   color: #666666;
   font: 400 20px/25px "Open Sans", sans-serif;
 }
-/* line 381, ../sass/_scene3.scss */
+/* line 384, ../sass/_scene3.scss */
 .scene3-page .white-bg-container .according-block .according-list li img {
   float: left;
   margin: 31px 0;
+}
+
+/* line 393, ../sass/_scene3.scss */
+.scene3 {
+  margin: 0 0 0 14px;
+}
+/* line 395, ../sass/_scene3.scss */
+.scene3 .A, .scene3 .B, .scene3 .C, .scene3 .D, .scene3 .E,
+.scene3 .F, .scene3 .G, .scene3 .H, .scene3 .J, .scene3 .K,
+.scene3 .L, .scene3 .M, .scene3 .N, .scene3 .P, .scene3 .Q,
+.scene3 .R, .scene3 .S, .scene3 .T, .scene3 .U, .scene3 .V,
+.scene3 .AA, .scene3 .BB, .scene3 .CC, .scene3 .DD,
+.scene3 .EE, .scene3 .FF, .scene3 .GG, .scene3 .HH,
+.scene3 .JJ, .scene3 .KK, .scene3 .LL, .scene3 .MM {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 407, ../sass/_scene3.scss */
+.scene3 .A li, .scene3 .B li, .scene3 .C li, .scene3 .D li, .scene3 .E li,
+.scene3 .F li, .scene3 .G li, .scene3 .H li, .scene3 .J li, .scene3 .K li,
+.scene3 .L li, .scene3 .M li, .scene3 .N li, .scene3 .P li, .scene3 .Q li,
+.scene3 .R li, .scene3 .S li, .scene3 .T li, .scene3 .U li, .scene3 .V li,
+.scene3 .AA li, .scene3 .BB li, .scene3 .CC li, .scene3 .DD li,
+.scene3 .EE li, .scene3 .FF li, .scene3 .GG li, .scene3 .HH li,
+.scene3 .JJ li, .scene3 .KK li, .scene3 .LL li, .scene3 .MM li {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 1px 1px 2px;
+}
+/* line 413, ../sass/_scene3.scss */
+.scene3 .A li a, .scene3 .B li a, .scene3 .C li a, .scene3 .D li a, .scene3 .E li a,
+.scene3 .F li a, .scene3 .G li a, .scene3 .H li a, .scene3 .J li a, .scene3 .K li a,
+.scene3 .L li a, .scene3 .M li a, .scene3 .N li a, .scene3 .P li a, .scene3 .Q li a,
+.scene3 .R li a, .scene3 .S li a, .scene3 .T li a, .scene3 .U li a, .scene3 .V li a,
+.scene3 .AA li a, .scene3 .BB li a, .scene3 .CC li a, .scene3 .DD li a,
+.scene3 .EE li a, .scene3 .FF li a, .scene3 .GG li a, .scene3 .HH li a,
+.scene3 .JJ li a, .scene3 .KK li a, .scene3 .LL li a, .scene3 .MM li a {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  color: white;
+  font: 400 7px/14px "Open Sans", sans-serif;
+}
+/* line 422, ../sass/_scene3.scss */
+.scene3 .A .series-name a, .scene3 .B .series-name a, .scene3 .C .series-name a, .scene3 .D .series-name a, .scene3 .E .series-name a,
+.scene3 .F .series-name a, .scene3 .G .series-name a, .scene3 .H .series-name a, .scene3 .J .series-name a, .scene3 .K .series-name a,
+.scene3 .L .series-name a, .scene3 .M .series-name a, .scene3 .N .series-name a, .scene3 .P .series-name a, .scene3 .Q .series-name a,
+.scene3 .R .series-name a, .scene3 .S .series-name a, .scene3 .T .series-name a, .scene3 .U .series-name a, .scene3 .V .series-name a,
+.scene3 .AA .series-name a, .scene3 .BB .series-name a, .scene3 .CC .series-name a, .scene3 .DD .series-name a,
+.scene3 .EE .series-name a, .scene3 .FF .series-name a, .scene3 .GG .series-name a, .scene3 .HH .series-name a,
+.scene3 .JJ .series-name a, .scene3 .KK .series-name a, .scene3 .LL .series-name a, .scene3 .MM .series-name a {
+  color: #000;
+  font: 400 7px/14px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 428, ../sass/_scene3.scss */
+.scene3 .A .reserved, .scene3 .B .reserved, .scene3 .C .reserved, .scene3 .D .reserved, .scene3 .E .reserved,
+.scene3 .F .reserved, .scene3 .G .reserved, .scene3 .H .reserved, .scene3 .J .reserved, .scene3 .K .reserved,
+.scene3 .L .reserved, .scene3 .M .reserved, .scene3 .N .reserved, .scene3 .P .reserved, .scene3 .Q .reserved,
+.scene3 .R .reserved, .scene3 .S .reserved, .scene3 .T .reserved, .scene3 .U .reserved, .scene3 .V .reserved,
+.scene3 .AA .reserved, .scene3 .BB .reserved, .scene3 .CC .reserved, .scene3 .DD .reserved,
+.scene3 .EE .reserved, .scene3 .FF .reserved, .scene3 .GG .reserved, .scene3 .HH .reserved,
+.scene3 .JJ .reserved, .scene3 .KK .reserved, .scene3 .LL .reserved, .scene3 .MM .reserved {
+  background-color: #bcb8b6;
+}
+/* line 431, ../sass/_scene3.scss */
+.scene3 .A .ather-backets, .scene3 .B .ather-backets, .scene3 .C .ather-backets, .scene3 .D .ather-backets, .scene3 .E .ather-backets,
+.scene3 .F .ather-backets, .scene3 .G .ather-backets, .scene3 .H .ather-backets, .scene3 .J .ather-backets, .scene3 .K .ather-backets,
+.scene3 .L .ather-backets, .scene3 .M .ather-backets, .scene3 .N .ather-backets, .scene3 .P .ather-backets, .scene3 .Q .ather-backets,
+.scene3 .R .ather-backets, .scene3 .S .ather-backets, .scene3 .T .ather-backets, .scene3 .U .ather-backets, .scene3 .V .ather-backets,
+.scene3 .AA .ather-backets, .scene3 .BB .ather-backets, .scene3 .CC .ather-backets, .scene3 .DD .ather-backets,
+.scene3 .EE .ather-backets, .scene3 .FF .ather-backets, .scene3 .GG .ather-backets, .scene3 .HH .ather-backets,
+.scene3 .JJ .ather-backets, .scene3 .KK .ather-backets, .scene3 .LL .ather-backets, .scene3 .MM .ather-backets {
+  background-color: #ed6a00;
 }
