@@ -48,6 +48,15 @@
 		height: 100%;
     }
 }
+@mixin white-bg-container {
+	position: relative;
+	max-width: 1010px;
+	margin: 0 auto;
+    padding: 0 0px 20px 19px;
+	background: #fff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
 $family: 'Open Sans', sans-serif;
 
 .bilet-more-page {
@@ -60,13 +69,7 @@ $family: 'Open Sans', sans-serif;
 	}
 
 	.white-bg-container {
-		position: relative;
-		max-width: 1010px;
-    	margin: 0 auto;
-	    padding: 0 0px 20px 19px;
-		background: #fff;
-		overflow: hidden;
-		box-sizing: border-box;
+		@include white-bg-container;
 	}
 
 	.about-actor  {

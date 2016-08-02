@@ -713,7 +713,7 @@ footer .copyright h4 a:hover {
 }
 
 /*------------------------------------------------*/
-/* line 53, ../sass/_bilet-more.scss */
+/* line 62, ../sass/_bilet-more.scss */
 .bilet-more-page {
   position: relative;
   width: 100%;
@@ -736,11 +736,11 @@ footer .copyright h4 a:hover {
   padding: 33px 0 36px;
   background: rgba(255, 255, 255, 0.6);
 }
-/* line 58, ../sass/_bilet-more.scss */
+/* line 67, ../sass/_bilet-more.scss */
 .bilet-more-page .rgb-background {
   padding: 33px 3px 36px;
 }
-/* line 62, ../sass/_bilet-more.scss */
+/* line 71, ../sass/_bilet-more.scss */
 .bilet-more-page .white-bg-container {
   position: relative;
   max-width: 1010px;
@@ -750,7 +750,7 @@ footer .copyright h4 a:hover {
   overflow: hidden;
   box-sizing: border-box;
 }
-/* line 73, ../sass/_bilet-more.scss */
+/* line 76, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .block-content-date {
   float: right;
   width: 85px;
@@ -762,16 +762,16 @@ footer .copyright h4 a:hover {
   text-align: center;
   background-color: #74023b;
 }
-/* line 83, ../sass/_bilet-more.scss */
+/* line 86, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .block-content-date a {
   color: #fff;
 }
-/* line 87, ../sass/_bilet-more.scss */
+/* line 90, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .block-content-date .day {
   position: relative;
   padding-bottom: 5px;
 }
-/* line 91, ../sass/_bilet-more.scss */
+/* line 94, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .block-content-date .day:after {
   position: absolute;
   bottom: 0;
@@ -783,7 +783,7 @@ footer .copyright h4 a:hover {
   height: 1px;
   background: #fff;
 }
-/* line 104, ../sass/_bilet-more.scss */
+/* line 107, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .img-wrapper {
   float: left;
   max-width: 371px;
@@ -793,12 +793,12 @@ footer .copyright h4 a:hover {
   margin: 20px 26px 28px 0;
   overflow: hidden;
 }
-/* line 113, ../sass/_bilet-more.scss */
+/* line 116, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .img-wrapper img {
   max-width: 100%;
   height: auto;
 }
-/* line 118, ../sass/_bilet-more.scss */
+/* line 121, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .actor-name {
   max-width: 310px;
   width: 100%;
@@ -808,29 +808,29 @@ footer .copyright h4 a:hover {
   font: 700 49px/61px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 127, ../sass/_bilet-more.scss */
+/* line 130, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .time {
   display: block;
   color: #74023b;
   font: 700 31px/31px "Open Sans", sans-serif;
 }
-/* line 132, ../sass/_bilet-more.scss */
+/* line 135, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .concert-location {
   margin: 28px 0 159px;
   color: #262626;
   font: 400 22px/32px "Open Sans", sans-serif;
 }
-/* line 137, ../sass/_bilet-more.scss */
+/* line 140, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .buy-block {
   overflow: hidden;
 }
-/* line 140, ../sass/_bilet-more.scss */
+/* line 143, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .buy-block .tickets-price {
   float: left;
   color: #74023b;
   font: 700 31px/44px "Open Sans", sans-serif;
 }
-/* line 145, ../sass/_bilet-more.scss */
+/* line 148, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .buy-block .buy-ticket-btn {
   display: block;
   float: right;
@@ -842,11 +842,11 @@ footer .copyright h4 a:hover {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 153, ../sass/_bilet-more.scss */
+/* line 156, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor .buy-block .buy-ticket-btn:hover {
   text-decoration: underline;
 }
-/* line 158, ../sass/_bilet-more.scss */
+/* line 161, ../sass/_bilet-more.scss */
 .bilet-more-page .about-actor p {
   margin: 20px auto;
   clear: both;
@@ -854,12 +854,12 @@ footer .copyright h4 a:hover {
   color: #232323;
   font: 400 18px/21px "Open Sans", sans-serif;
 }
-/* line 167, ../sass/_bilet-more.scss */
+/* line 170, ../sass/_bilet-more.scss */
 .bilet-more-page .swiper-container {
   width: 100%;
   height: 100%;
 }
-/* line 171, ../sass/_bilet-more.scss */
+/* line 174, ../sass/_bilet-more.scss */
 .bilet-more-page .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -878,12 +878,12 @@ footer .copyright h4 a:hover {
   -webkit-align-items: center;
   align-items: center;
 }
-/* line 190, ../sass/_bilet-more.scss */
+/* line 193, ../sass/_bilet-more.scss */
 .bilet-more-page .swiper-slide img {
   width: 100%;
   height: 100%;
 }
-/* line 195, ../sass/_bilet-more.scss */
+/* line 198, ../sass/_bilet-more.scss */
 .bilet-more-page .mapWrapper {
   position: relative;
   padding-bottom: 53.25%;
@@ -904,7 +904,7 @@ footer .copyright h4 a:hover {
   width: 100%;
   height: 100%;
 }
-/* line 203, ../sass/_bilet-more.scss */
+/* line 206, ../sass/_bilet-more.scss */
 .bilet-more-page .back-btn {
   display: block;
   float: right;
@@ -912,4 +912,411 @@ footer .copyright h4 a:hover {
   color: #770c40;
   font: 400 22px/24px "Open Sans", sans-serif;
   text-transform: uppercase;
+}
+
+/* line 63, ../sass/_scene3.scss */
+.scene3-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  padding: 31px 0 39px;
+  background: url("../images/backgr.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 38px 0 39px;
+}
+/* line 27, ../sass/_scene3.scss */
+.scene3-page .rgb-background {
+  max-width: 1060px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 33px 0 36px;
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 68, ../sass/_scene3.scss */
+.scene3-page .rgb-background {
+  padding: 33px 0 36px;
+}
+/* line 72, ../sass/_scene3.scss */
+.scene3-page .white-bg-container {
+  position: relative;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 0px 20px 0;
+  background: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+/* line 75, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 19px;
+  border-bottom: 2px solid #C2C2C2;
+}
+/* line 81, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .left-content {
+  float: left;
+}
+/* line 83, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .left-content .title {
+  color: #272727;
+  margin: 21px 0 0 13px;
+  font: 700 50px/60px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+}
+/* line 90, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .left-content .location {
+  margin: 8px 0 0 15px;
+  color: #252525;
+  font: 700 20px/41px "Open Sans", sans-serif;
+}
+/* line 96, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .right-content {
+  float: right;
+}
+/* line 98, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .right-content .date {
+  margin: 38px 22px 0 0;
+  color: #73023A;
+  text-transform: uppercase;
+  font: 700 30px/41px "Open Sans", sans-serif;
+}
+/* line 104, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .header-content .right-content .time {
+  float: right;
+  margin: 5px 23px 0 0;
+  color: #73023A;
+  font: 700 30px/41px "Open Sans", sans-serif;
+}
+/* line 113, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block {
+  overflow: hidden;
+  margin: 0 auto 58px;
+}
+/* line 116, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-title {
+  margin: 12px 0 0 17px;
+  color: #75023B;
+  font: 700 22px/41px "Open Sans", sans-serif;
+}
+/* line 121, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 37%;
+  margin: 13px 0 0 17px;
+  overflow: hidden;
+}
+/* line 128, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list li {
+  display: inline-block;
+  margin-left: 36px;
+}
+/* line 132, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list li:first-child {
+  margin-left: 0;
+}
+/* line 139, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .circle-1 span,
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .circle-2 span,
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .circle-3 span {
+  color: #262626;
+  font: 700 21px/40px "Open Sans", sans-serif;
+}
+/* line 144, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-1,
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-2,
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-3 {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin: 0 8px 0 0;
+  border-radius: 100%;
+}
+/* line 153, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-1 {
+  background: #840343;
+}
+/* line 156, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-2 {
+  background: #C00463;
+}
+/* line 159, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-sircle-list .color-circle-3 {
+  background: #E7CE00;
+}
+/* line 163, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list {
+  float: right;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 56%;
+  margin: 13px 0 0 0;
+  overflow: hidden;
+}
+/* line 172, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list li {
+  display: inline-block;
+  margin-left: 27px !important;
+}
+/* line 176, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list li:first-child {
+  margin-left: 0 !important;
+}
+/* line 184, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .square-1 span,
+.scene3-page .white-bg-container .designations-block .designations-square-list .square-2 span,
+.scene3-page .white-bg-container .designations-block .designations-square-list .square-3 span {
+  float: left;
+  overflow: hidden;
+  font: 400 18px/20px "Open Sans", sans-serif;
+  color: #262626;
+}
+/* line 192, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .square-2 span {
+  margin: 7px 0 0;
+}
+/* line 196, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-1,
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-2,
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
+  float: left;
+  margin-right: 10px;
+}
+/* line 202, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-1,
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-2,
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
+  float: left;
+  width: 36px;
+  height: 36px;
+}
+/* line 209, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-1 {
+  background: #BCB8B5;
+}
+/* line 212, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-2 {
+  background: #5A009E;
+}
+/* line 215, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
+  background: #ED6A00;
+}
+/* line 220, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block,
+.scene3-page .white-bg-container .scene3-block {
+  clear: both;
+  margin: 0 auto 95px;
+}
+/* line 224, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .block-title,
+.scene3-page .white-bg-container .scene3-block .block-title {
+  width: 317px;
+  margin: 0 auto;
+  padding: 21px 4px;
+  text-align: center;
+  font: 400 49px/21px "Open Sans", sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  padding-right: 9px;
+  text-transform: uppercase;
+  background: #9D9D9D;
+  -webkit-border-bottom-right-radius: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  -moz-border-radius-bottomright: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+/* line 250, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene,
+.scene3-page .white-bg-container .scene3-block .scene {
+  width: 100%;
+}
+/* line 253, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 40px auto 20px;
+  clear: both;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 263, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li {
+  float: left;
+  width: auto;
+  margin: 0 15px;
+}
+/* line 268, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:first-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:first-child {
+  margin-left: 0;
+}
+/* line 271, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li:last-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li:last-child {
+  margin-right: 0;
+}
+/* line 274, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-scene li span,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-scene li span {
+  color: #262626;
+  font: 400 20px/21px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 281, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-balcony,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-balcony {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 40px auto 20px;
+  clear: both;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 291, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-balcony li,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li {
+  float: left;
+  width: auto;
+  margin: 0 15px;
+}
+/* line 296, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-balcony li:first-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li:first-child {
+  margin-left: 0;
+}
+/* line 299, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-balcony li:last-child,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li:last-child {
+  margin-right: 0;
+}
+/* line 302, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .scene .list-header-balcony li span,
+.scene3-page .white-bg-container .scene3-block .scene .list-header-balcony li span {
+  color: #262626;
+  font: 400 20px/21px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 311, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .reservation-btn,
+.scene3-page .white-bg-container .scene3-block .reservation-btn {
+  display: block;
+  width: 205px;
+  height: 40px;
+  margin: 0 auto;
+  color: #fff;
+  font: 700 20px/40px "Open Sans", sans-serif;
+  text-align: center;
+  background: #74033B;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 325, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .scene-block .reservation-btn:hover,
+.scene3-page .white-bg-container .scene3-block .reservation-btn:hover {
+  -webkit-box-shadow: 2.5px 4.3px 9px #74023b;
+  -moz-box-shadow: 2.5px 4.3px 9px #74023b;
+  box-shadow: 2.5px 4.3px 9px #74023b;
+}
+/* line 332, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block {
+  padding-top: 8px;
+  border-top: 2px solid #C2C2C2;
+}
+/* line 335, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-title {
+  margin: 10px 0 0 15px;
+  letter-spacing: -1px;
+  color: #75023B;
+  font: 700 24px/41px "Open Sans", sans-serif;
+}
+/* line 341, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  margin: 10px 0 0 12px;
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 349, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li {
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 353, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li:nth-child(2) {
+  margin-left: 18px;
+}
+/* line 355, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li:nth-child(2) .sign {
+  margin: 9px 40px 10px 19px;
+}
+/* line 359, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li:nth-child(3) {
+  width: 31.3%;
+  margin-left: 3px;
+}
+/* line 362, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li:nth-child(3) .sign {
+  margin: 16px 15px 10px 16px;
+}
+/* line 366, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li .number {
+  float: left;
+  color: #E51002;
+  font: 600 70px/53px "Open Sans", sans-serif;
+  display: inline-block;
+  margin: 14px 0 0 0;
+}
+/* line 373, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li .sign {
+  float: left;
+  margin: 9px 15px 10px 1px;
+  overflow: hidden;
+  letter-spacing: 1px;
+  color: #666666;
+  font: 400 20px/25px "Open Sans", sans-serif;
+}
+/* line 381, ../sass/_scene3.scss */
+.scene3-page .white-bg-container .according-block .according-list li img {
+  float: left;
+  margin: 31px 0;
 }
