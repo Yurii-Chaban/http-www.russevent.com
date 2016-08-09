@@ -2512,6 +2512,7 @@ footer .copyright h4 a:hover {
   background-size: contain;
   background-position: center;
   padding: 31px 0 39px;
+  background: url("../images/backgr.png") no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 38px 0 39px;
@@ -2709,7 +2710,7 @@ footer .copyright h4 a:hover {
 .scene4-page .white-bg-container .scene4-block {
   clear: both;
   margin: 0 auto 46px;
-  padding-top: 26px;
+  padding-top: 7px;
 }
 /* line 225, ../sass/_scene4.scss */
 .scene4-page .white-bg-container .scene-block .block-title,
@@ -3242,8 +3243,9 @@ footer .copyright h4 a:hover {
   width: 100%;
   position: relative;
   left: 64px;
+  z-index: 9;
 }
-/* line 554, ../sass/_scene4.scss */
+/* line 555, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P, .scene4 .horizontal-places .Q {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3255,14 +3257,14 @@ footer .copyright h4 a:hover {
   margin: 0 auto;
   text-align: center;
 }
-/* line 562, ../sass/_scene4.scss */
+/* line 563, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P li, .scene4 .horizontal-places .Q li {
   display: inline-block;
   width: 21px;
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 568, ../sass/_scene4.scss */
+/* line 569, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P li a, .scene4 .horizontal-places .Q li a {
   overflow: hidden;
   display: block;
@@ -3270,47 +3272,48 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 576, ../sass/_scene4.scss */
+/* line 577, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .reserved, .scene4 .horizontal-places .Q .reserved {
   background-color: #bcb8b6;
 }
-/* line 579, ../sass/_scene4.scss */
+/* line 580, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .ather-backets, .scene4 .horizontal-places .Q .ather-backets {
   background-color: #ed6a00;
 }
-/* line 582, ../sass/_scene4.scss */
+/* line 583, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .in-the-basket, .scene4 .horizontal-places .Q .in-the-basket {
   background-color: #5A009E;
 }
-/* line 585, ../sass/_scene4.scss */
+/* line 586, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .cheap-price, .scene4 .horizontal-places .Q .cheap-price {
   background-color: #E7CE00;
 }
-/* line 588, ../sass/_scene4.scss */
+/* line 589, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .average-price, .scene4 .horizontal-places .Q .average-price {
   background-color: #C00463;
 }
-/* line 591, ../sass/_scene4.scss */
+/* line 592, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .highest-price, .scene4 .horizontal-places .Q .highest-price {
   background-color: #840343;
 }
-/* line 595, ../sass/_scene4.scss */
+/* line 596, ../sass/_scene4.scss */
 .scene4 .horizontal-places .P .series-name a, .scene4 .horizontal-places .Q .series-name a {
   color: #000;
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 603, ../sass/_scene4.scss */
+/* line 604, ../sass/_scene4.scss */
 .scene4 .floor-places {
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
   width: 100%;
   position: relative;
-  left: 64px;
-  margin-top: 50px;
+  left: 28px;
+  top: -70px;
+  margin-top: 0;
 }
-/* line 611, ../sass/_scene4.scss */
+/* line 614, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left, .scene4 .floor-places .R-center, .scene4 .floor-places .R-right,
 .scene4 .floor-places .S-left, .scene4 .floor-places .S-center, .scene4 .floor-places .S-right,
 .scene4 .floor-places .T-left, .scene4 .floor-places .T-center, .scene4 .floor-places .T-right,
@@ -3326,7 +3329,7 @@ footer .copyright h4 a:hover {
   margin: -10px auto;
   text-align: center;
 }
-/* line 623, ../sass/_scene4.scss */
+/* line 626, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left li, .scene4 .floor-places .R-center li, .scene4 .floor-places .R-right li,
 .scene4 .floor-places .S-left li, .scene4 .floor-places .S-center li, .scene4 .floor-places .S-right li,
 .scene4 .floor-places .T-left li, .scene4 .floor-places .T-center li, .scene4 .floor-places .T-right li,
@@ -3338,7 +3341,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 629, ../sass/_scene4.scss */
+/* line 632, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left li a, .scene4 .floor-places .R-center li a, .scene4 .floor-places .R-right li a,
 .scene4 .floor-places .S-left li a, .scene4 .floor-places .S-center li a, .scene4 .floor-places .S-right li a,
 .scene4 .floor-places .T-left li a, .scene4 .floor-places .T-center li a, .scene4 .floor-places .T-right li a,
@@ -3350,7 +3353,7 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 637, ../sass/_scene4.scss */
+/* line 640, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .reserved, .scene4 .floor-places .R-center .reserved, .scene4 .floor-places .R-right .reserved,
 .scene4 .floor-places .S-left .reserved, .scene4 .floor-places .S-center .reserved, .scene4 .floor-places .S-right .reserved,
 .scene4 .floor-places .T-left .reserved, .scene4 .floor-places .T-center .reserved, .scene4 .floor-places .T-right .reserved,
@@ -3358,7 +3361,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .reserved, .scene4 .floor-places .V-center .reserved, .scene4 .floor-places .V-right .reserved {
   background-color: #bcb8b6;
 }
-/* line 640, ../sass/_scene4.scss */
+/* line 643, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .ather-backets, .scene4 .floor-places .R-center .ather-backets, .scene4 .floor-places .R-right .ather-backets,
 .scene4 .floor-places .S-left .ather-backets, .scene4 .floor-places .S-center .ather-backets, .scene4 .floor-places .S-right .ather-backets,
 .scene4 .floor-places .T-left .ather-backets, .scene4 .floor-places .T-center .ather-backets, .scene4 .floor-places .T-right .ather-backets,
@@ -3366,7 +3369,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .ather-backets, .scene4 .floor-places .V-center .ather-backets, .scene4 .floor-places .V-right .ather-backets {
   background-color: #ed6a00;
 }
-/* line 643, ../sass/_scene4.scss */
+/* line 646, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .in-the-basket, .scene4 .floor-places .R-center .in-the-basket, .scene4 .floor-places .R-right .in-the-basket,
 .scene4 .floor-places .S-left .in-the-basket, .scene4 .floor-places .S-center .in-the-basket, .scene4 .floor-places .S-right .in-the-basket,
 .scene4 .floor-places .T-left .in-the-basket, .scene4 .floor-places .T-center .in-the-basket, .scene4 .floor-places .T-right .in-the-basket,
@@ -3374,7 +3377,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .in-the-basket, .scene4 .floor-places .V-center .in-the-basket, .scene4 .floor-places .V-right .in-the-basket {
   background-color: #5A009E;
 }
-/* line 646, ../sass/_scene4.scss */
+/* line 649, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .cheap-price, .scene4 .floor-places .R-center .cheap-price, .scene4 .floor-places .R-right .cheap-price,
 .scene4 .floor-places .S-left .cheap-price, .scene4 .floor-places .S-center .cheap-price, .scene4 .floor-places .S-right .cheap-price,
 .scene4 .floor-places .T-left .cheap-price, .scene4 .floor-places .T-center .cheap-price, .scene4 .floor-places .T-right .cheap-price,
@@ -3382,7 +3385,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .cheap-price, .scene4 .floor-places .V-center .cheap-price, .scene4 .floor-places .V-right .cheap-price {
   background-color: #E7CE00;
 }
-/* line 649, ../sass/_scene4.scss */
+/* line 652, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .average-price, .scene4 .floor-places .R-center .average-price, .scene4 .floor-places .R-right .average-price,
 .scene4 .floor-places .S-left .average-price, .scene4 .floor-places .S-center .average-price, .scene4 .floor-places .S-right .average-price,
 .scene4 .floor-places .T-left .average-price, .scene4 .floor-places .T-center .average-price, .scene4 .floor-places .T-right .average-price,
@@ -3390,7 +3393,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .average-price, .scene4 .floor-places .V-center .average-price, .scene4 .floor-places .V-right .average-price {
   background-color: #C00463;
 }
-/* line 652, ../sass/_scene4.scss */
+/* line 655, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .highest-price, .scene4 .floor-places .R-center .highest-price, .scene4 .floor-places .R-right .highest-price,
 .scene4 .floor-places .S-left .highest-price, .scene4 .floor-places .S-center .highest-price, .scene4 .floor-places .S-right .highest-price,
 .scene4 .floor-places .T-left .highest-price, .scene4 .floor-places .T-center .highest-price, .scene4 .floor-places .T-right .highest-price,
@@ -3398,7 +3401,7 @@ footer .copyright h4 a:hover {
 .scene4 .floor-places .V-left .highest-price, .scene4 .floor-places .V-center .highest-price, .scene4 .floor-places .V-right .highest-price {
   background-color: #840343;
 }
-/* line 656, ../sass/_scene4.scss */
+/* line 659, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left .series-name a, .scene4 .floor-places .R-center .series-name a, .scene4 .floor-places .R-right .series-name a,
 .scene4 .floor-places .S-left .series-name a, .scene4 .floor-places .S-center .series-name a, .scene4 .floor-places .S-right .series-name a,
 .scene4 .floor-places .T-left .series-name a, .scene4 .floor-places .T-center .series-name a, .scene4 .floor-places .T-right .series-name a,
@@ -3408,22 +3411,51 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 663, ../sass/_scene4.scss */
+/* line 666, ../sass/_scene4.scss */
 .scene4 .floor-places .R-left,
 .scene4 .floor-places .S-left,
 .scene4 .floor-places .T-left,
 .scene4 .floor-places .U-left,
 .scene4 .floor-places .V-left {
-  -ms-transform: rotate(20deg);
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
   position: relative;
-  left: 0;
-  top: 104px;
+  left: 64px;
+  top: 150px;
 }
-/* line 678, ../sass/_scene4.scss */
+/* line 680, ../sass/_scene4.scss */
+.scene4 .floor-places .R-left {
+  left: 100px;
+  top: 155px;
+}
+/* line 684, ../sass/_scene4.scss */
+.scene4 .floor-places .S-left {
+  left: 71px;
+  top: 144px;
+}
+/* line 688, ../sass/_scene4.scss */
+.scene4 .floor-places .T-left {
+  left: 43px;
+  top: 133px;
+}
+/* line 692, ../sass/_scene4.scss */
+.scene4 .floor-places .U-left {
+  left: 23px;
+  top: 125px;
+}
+/* line 696, ../sass/_scene4.scss */
+.scene4 .floor-places .U-left li:nth-child(2) {
+  width: 12px !important;
+}
+/* line 701, ../sass/_scene4.scss */
+.scene4 .floor-places .V-left {
+  left: 3px;
+  top: 121px;
+}
+/* line 706, ../sass/_scene4.scss */
 .scene4 .floor-places .R-center,
 .scene4 .floor-places .S-center,
 .scene4 .floor-places .T-center,
@@ -3433,22 +3465,62 @@ footer .copyright h4 a:hover {
   top: 4px;
   left: 311px;
 }
-/* line 688, ../sass/_scene4.scss */
+/* line 716, ../sass/_scene4.scss */
+.scene4 .floor-places .U-center {
+  left: 322px;
+}
+/* line 719, ../sass/_scene4.scss */
+.scene4 .floor-places .T-center {
+  left: 330px;
+}
+/* line 722, ../sass/_scene4.scss */
+.scene4 .floor-places .S-center {
+  left: 338px;
+}
+/* line 725, ../sass/_scene4.scss */
+.scene4 .floor-places .R-center {
+  left: 348px;
+}
+/* line 729, ../sass/_scene4.scss */
 .scene4 .floor-places .R-right,
 .scene4 .floor-places .S-right,
 .scene4 .floor-places .T-right,
 .scene4 .floor-places .U-right,
 .scene4 .floor-places .V-right {
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
   position: relative;
-  right: -466px;
-  top: -103px;
+  right: -493px;
+  top: -252px;
 }
-/* line 705, ../sass/_scene4.scss */
+/* line 743, ../sass/_scene4.scss */
+.scene4 .floor-places .S-right {
+  right: -506px;
+  top: -252px;
+}
+/* line 747, ../sass/_scene4.scss */
+.scene4 .floor-places .T-right {
+  right: -521px;
+  top: -252px;
+}
+/* line 751, ../sass/_scene4.scss */
+.scene4 .floor-places .U-right {
+  right: -536px;
+  top: -252px;
+}
+/* line 755, ../sass/_scene4.scss */
+.scene4 .floor-places .U-right li:nth-child(11) {
+  width: 12px !important;
+}
+/* line 760, ../sass/_scene4.scss */
+.scene4 .floor-places .V-right {
+  right: -548px;
+  top: -252px;
+}
+/* line 767, ../sass/_scene4.scss */
 .scene4 .place-list-1,
 .scene4 .place-list-2,
 .scene4 .place-list-3,
@@ -3469,7 +3541,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(10deg);
   transform: rotate(10deg);
 }
-/* line 722, ../sass/_scene4.scss */
+/* line 784, ../sass/_scene4.scss */
 .scene4 .place-list-1 li,
 .scene4 .place-list-2 li,
 .scene4 .place-list-3 li,
@@ -3480,7 +3552,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 728, ../sass/_scene4.scss */
+/* line 790, ../sass/_scene4.scss */
 .scene4 .place-list-1 li a,
 .scene4 .place-list-2 li a,
 .scene4 .place-list-3 li a,
@@ -3491,49 +3563,49 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 736, ../sass/_scene4.scss */
+/* line 798, ../sass/_scene4.scss */
 .scene4 .place-list-1 .reserved,
 .scene4 .place-list-2 .reserved,
 .scene4 .place-list-3 .reserved,
 .scene4 .place-list-4 .reserved {
   background-color: #bcb8b6;
 }
-/* line 739, ../sass/_scene4.scss */
+/* line 801, ../sass/_scene4.scss */
 .scene4 .place-list-1 .ather-backets,
 .scene4 .place-list-2 .ather-backets,
 .scene4 .place-list-3 .ather-backets,
 .scene4 .place-list-4 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 742, ../sass/_scene4.scss */
+/* line 804, ../sass/_scene4.scss */
 .scene4 .place-list-1 .in-the-basket,
 .scene4 .place-list-2 .in-the-basket,
 .scene4 .place-list-3 .in-the-basket,
 .scene4 .place-list-4 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 745, ../sass/_scene4.scss */
+/* line 807, ../sass/_scene4.scss */
 .scene4 .place-list-1 .cheap-price,
 .scene4 .place-list-2 .cheap-price,
 .scene4 .place-list-3 .cheap-price,
 .scene4 .place-list-4 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 748, ../sass/_scene4.scss */
+/* line 810, ../sass/_scene4.scss */
 .scene4 .place-list-1 .average-price,
 .scene4 .place-list-2 .average-price,
 .scene4 .place-list-3 .average-price,
 .scene4 .place-list-4 .average-price {
   background-color: #C00463;
 }
-/* line 751, ../sass/_scene4.scss */
+/* line 813, ../sass/_scene4.scss */
 .scene4 .place-list-1 .highest-price,
 .scene4 .place-list-2 .highest-price,
 .scene4 .place-list-3 .highest-price,
 .scene4 .place-list-4 .highest-price {
   background-color: #840343;
 }
-/* line 755, ../sass/_scene4.scss */
+/* line 817, ../sass/_scene4.scss */
 .scene4 .place-list-1 .series-name a,
 .scene4 .place-list-2 .series-name a,
 .scene4 .place-list-3 .series-name a,
@@ -3542,7 +3614,7 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 763, ../sass/_scene4.scss */
+/* line 825, ../sass/_scene4.scss */
 .scene4 .sixth-list-1,
 .scene4 .sixth-list-2,
 .scene4 .sixth-list-3,
@@ -3563,7 +3635,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(60deg);
   transform: rotate(60deg);
 }
-/* line 780, ../sass/_scene4.scss */
+/* line 842, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 li,
 .scene4 .sixth-list-2 li,
 .scene4 .sixth-list-3 li,
@@ -3574,7 +3646,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 786, ../sass/_scene4.scss */
+/* line 848, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 li a,
 .scene4 .sixth-list-2 li a,
 .scene4 .sixth-list-3 li a,
@@ -3585,49 +3657,49 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 794, ../sass/_scene4.scss */
+/* line 856, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .reserved,
 .scene4 .sixth-list-2 .reserved,
 .scene4 .sixth-list-3 .reserved,
 .scene4 .sixth-list-4 .reserved {
   background-color: #bcb8b6;
 }
-/* line 797, ../sass/_scene4.scss */
+/* line 859, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .ather-backets,
 .scene4 .sixth-list-2 .ather-backets,
 .scene4 .sixth-list-3 .ather-backets,
 .scene4 .sixth-list-4 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 800, ../sass/_scene4.scss */
+/* line 862, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .in-the-basket,
 .scene4 .sixth-list-2 .in-the-basket,
 .scene4 .sixth-list-3 .in-the-basket,
 .scene4 .sixth-list-4 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 803, ../sass/_scene4.scss */
+/* line 865, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .cheap-price,
 .scene4 .sixth-list-2 .cheap-price,
 .scene4 .sixth-list-3 .cheap-price,
 .scene4 .sixth-list-4 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 806, ../sass/_scene4.scss */
+/* line 868, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .average-price,
 .scene4 .sixth-list-2 .average-price,
 .scene4 .sixth-list-3 .average-price,
 .scene4 .sixth-list-4 .average-price {
   background-color: #C00463;
 }
-/* line 809, ../sass/_scene4.scss */
+/* line 871, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .highest-price,
 .scene4 .sixth-list-2 .highest-price,
 .scene4 .sixth-list-3 .highest-price,
 .scene4 .sixth-list-4 .highest-price {
   background-color: #840343;
 }
-/* line 813, ../sass/_scene4.scss */
+/* line 875, ../sass/_scene4.scss */
 .scene4 .sixth-list-1 .series-name a,
 .scene4 .sixth-list-2 .series-name a,
 .scene4 .sixth-list-3 .series-name a,
@@ -3636,21 +3708,21 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 820, ../sass/_scene4.scss */
+/* line 882, ../sass/_scene4.scss */
 .scene4 .sixth-list-2 {
   top: 25px;
   left: -30px;
 }
-/* line 824, ../sass/_scene4.scss */
+/* line 886, ../sass/_scene4.scss */
 .scene4 .sixth-list-3 {
   top: -30px;
   left: -90px;
 }
-/* line 828, ../sass/_scene4.scss */
+/* line 890, ../sass/_scene4.scss */
 .scene4 .sixth-list-3 li {
   margin: 2px 5px;
 }
-/* line 831, ../sass/_scene4.scss */
+/* line 893, ../sass/_scene4.scss */
 .scene4 .sixth-list-3 li img {
   -ms-transform: rotate(-50deg);
   -webkit-transform: rotate(-50deg);
@@ -3658,7 +3730,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-50deg);
   transform: rotate(-50deg);
 }
-/* line 841, ../sass/_scene4.scss */
+/* line 903, ../sass/_scene4.scss */
 .scene4 .other-list-1,
 .scene4 .other-list-2,
 .scene4 .other-list-3,
@@ -3682,7 +3754,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(10deg);
   transform: rotate(10deg);
 }
-/* line 861, ../sass/_scene4.scss */
+/* line 923, ../sass/_scene4.scss */
 .scene4 .other-list-1 li,
 .scene4 .other-list-2 li,
 .scene4 .other-list-3 li,
@@ -3696,7 +3768,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 867, ../sass/_scene4.scss */
+/* line 929, ../sass/_scene4.scss */
 .scene4 .other-list-1 li a,
 .scene4 .other-list-2 li a,
 .scene4 .other-list-3 li a,
@@ -3710,7 +3782,7 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 875, ../sass/_scene4.scss */
+/* line 937, ../sass/_scene4.scss */
 .scene4 .other-list-1 .reserved,
 .scene4 .other-list-2 .reserved,
 .scene4 .other-list-3 .reserved,
@@ -3720,7 +3792,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .reserved {
   background-color: #bcb8b6;
 }
-/* line 878, ../sass/_scene4.scss */
+/* line 940, ../sass/_scene4.scss */
 .scene4 .other-list-1 .ather-backets,
 .scene4 .other-list-2 .ather-backets,
 .scene4 .other-list-3 .ather-backets,
@@ -3730,7 +3802,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 881, ../sass/_scene4.scss */
+/* line 943, ../sass/_scene4.scss */
 .scene4 .other-list-1 .in-the-basket,
 .scene4 .other-list-2 .in-the-basket,
 .scene4 .other-list-3 .in-the-basket,
@@ -3740,7 +3812,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 884, ../sass/_scene4.scss */
+/* line 946, ../sass/_scene4.scss */
 .scene4 .other-list-1 .cheap-price,
 .scene4 .other-list-2 .cheap-price,
 .scene4 .other-list-3 .cheap-price,
@@ -3750,7 +3822,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 887, ../sass/_scene4.scss */
+/* line 949, ../sass/_scene4.scss */
 .scene4 .other-list-1 .average-price,
 .scene4 .other-list-2 .average-price,
 .scene4 .other-list-3 .average-price,
@@ -3760,7 +3832,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .average-price {
   background-color: #C00463;
 }
-/* line 890, ../sass/_scene4.scss */
+/* line 952, ../sass/_scene4.scss */
 .scene4 .other-list-1 .highest-price,
 .scene4 .other-list-2 .highest-price,
 .scene4 .other-list-3 .highest-price,
@@ -3770,7 +3842,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-list-7 .highest-price {
   background-color: #840343;
 }
-/* line 894, ../sass/_scene4.scss */
+/* line 956, ../sass/_scene4.scss */
 .scene4 .other-list-1 .series-name a,
 .scene4 .other-list-2 .series-name a,
 .scene4 .other-list-3 .series-name a,
@@ -3782,18 +3854,18 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 902, ../sass/_scene4.scss */
+/* line 964, ../sass/_scene4.scss */
 .scene4 .other-list-3,
 .scene4 .other-list-4,
 .scene4 .other-list-7 {
   padding-left: 10px;
 }
-/* line 909, ../sass/_scene4.scss */
+/* line 971, ../sass/_scene4.scss */
 .scene4 .top-transform {
   width: 100%;
   margin: 50px auto 0;
 }
-/* line 912, ../sass/_scene4.scss */
+/* line 974, ../sass/_scene4.scss */
 .scene4 .top-transform .A-left, .scene4 .top-transform .B-left,
 .scene4 .top-transform .C-left, .scene4 .top-transform .D-left,
 .scene4 .top-transform .E-left {
@@ -3807,7 +3879,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(10deg);
   transform: rotate(10deg);
 }
-/* line 926, ../sass/_scene4.scss */
+/* line 988, ../sass/_scene4.scss */
 .scene4 .top-transform .A-right, .scene4 .top-transform .B-right,
 .scene4 .top-transform .C-right, .scene4 .top-transform .D-right,
 .scene4 .top-transform .E-right {
@@ -3821,27 +3893,26 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
-/* line 940, ../sass/_scene4.scss */
+/* line 1002, ../sass/_scene4.scss */
 .scene4 .main-floor {
   clear: both;
   width: 100%;
   height: 500px;
   margin: 0 auto;
-  overflow: hidden;
 }
-/* line 947, ../sass/_scene4.scss */
+/* line 1009, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-block-left {
   width: 170px;
   overflow: hidden;
 }
-/* line 950, ../sass/_scene4.scss */
+/* line 1012, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-block-left .place-title {
   display: block;
   margin: 10px auto;
   text-align: center;
   font: 400 12px/22px "Open Sans", sans-serif;
 }
-/* line 956, ../sass/_scene4.scss */
+/* line 1018, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-block-left .rotate-list {
   width: 300px;
   height: 170px;
@@ -3856,21 +3927,21 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
-/* line 971, ../sass/_scene4.scss */
+/* line 1033, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right {
   position: relative;
   top: -1085px;
   right: -90px;
 }
-/* line 975, ../sass/_scene4.scss */
+/* line 1037, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right {
   width: 230px;
   overflow: hidden;
   position: relative;
-  top: 25px;
+  top: -25px;
   right: -635px;
 }
-/* line 981, ../sass/_scene4.scss */
+/* line 1043, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-title {
   display: block;
   width: 15px;
@@ -3879,7 +3950,7 @@ footer .copyright h4 a:hover {
   text-align: center;
   font: 400 12px/22px "Open Sans", sans-serif;
 }
-/* line 989, ../sass/_scene4.scss */
+/* line 1051, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .rotate-list {
   width: 300px;
   height: 200px;
@@ -3894,7 +3965,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
-/* line 1004, ../sass/_scene4.scss */
+/* line 1066, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3,
@@ -3915,7 +3986,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(10deg);
   transform: rotate(10deg);
 }
-/* line 1021, ../sass/_scene4.scss */
+/* line 1083, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 li,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 li,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 li,
@@ -3926,7 +3997,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 1027, ../sass/_scene4.scss */
+/* line 1089, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 li a,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 li a,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 li a,
@@ -3937,49 +4008,49 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 1035, ../sass/_scene4.scss */
+/* line 1097, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .reserved,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .reserved,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .reserved,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .reserved {
   background-color: #bcb8b6;
 }
-/* line 1038, ../sass/_scene4.scss */
+/* line 1100, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .ather-backets,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .ather-backets,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .ather-backets,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 1041, ../sass/_scene4.scss */
+/* line 1103, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .in-the-basket,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .in-the-basket,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .in-the-basket,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 1044, ../sass/_scene4.scss */
+/* line 1106, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .cheap-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .cheap-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .cheap-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 1047, ../sass/_scene4.scss */
+/* line 1109, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .average-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .average-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .average-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .average-price {
   background-color: #C00463;
 }
-/* line 1050, ../sass/_scene4.scss */
+/* line 1112, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .highest-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .highest-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .highest-price,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-4 .highest-price {
   background-color: #840343;
 }
-/* line 1054, ../sass/_scene4.scss */
+/* line 1116, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-1 .series-name a,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-2 .series-name a,
 .scene4 .main-floor .eight-place-right .eight-block-right .place-list-3 .series-name a,
@@ -3988,15 +4059,16 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 1066, ../sass/_scene4.scss */
+/* line 1128, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-left {
   width: 300px;
   overflow: hidden;
   position: relative;
   top: -220px;
   left: 35px;
+  z-index: 9;
 }
-/* line 1072, ../sass/_scene4.scss */
+/* line 1135, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-left .sixth-title {
   display: block;
   width: 15px;
@@ -4007,9 +4079,9 @@ footer .copyright h4 a:hover {
   left: 30px;
   top: -30px;
 }
-/* line 1082, ../sass/_scene4.scss */
+/* line 1145, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-left .sixth-rotate-list {
-  width: 300px;
+  width: 178px;
   height: 170px;
   overflow: hidden;
   position: relative;
@@ -4017,16 +4089,17 @@ footer .copyright h4 a:hover {
   top: 0;
   left: 0;
 }
-/* line 1093, ../sass/_scene4.scss */
+/* line 1156, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right {
-  width: 300px;
+  width: 180px;
   overflow: hidden;
   position: relative;
-  top: -260px;
-  right: 15px;
+  top: -295px;
+  right: 135px;
   float: right;
+  z-index: 9;
 }
-/* line 1100, ../sass/_scene4.scss */
+/* line 1164, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-title {
   display: block;
   width: 15px;
@@ -4034,12 +4107,12 @@ footer .copyright h4 a:hover {
   text-align: center;
   font: 400 12px/22px "Open Sans", sans-serif;
   position: relative;
-  right: -130px;
-  top: 75px;
+  right: -160px;
+  top: 30px;
 }
-/* line 1110, ../sass/_scene4.scss */
+/* line 1174, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list {
-  width: 300px;
+  width: 180px;
   height: 250px;
   overflow: hidden;
   position: relative;
@@ -4047,7 +4120,7 @@ footer .copyright h4 a:hover {
   top: 0;
   right: 0;
 }
-/* line 1119, ../sass/_scene4.scss */
+/* line 1183, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3,
@@ -4069,7 +4142,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
-/* line 1137, ../sass/_scene4.scss */
+/* line 1201, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 li,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 li,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 li,
@@ -4080,7 +4153,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 1143, ../sass/_scene4.scss */
+/* line 1207, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 li a,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 li a,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 li a,
@@ -4091,49 +4164,49 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 1151, ../sass/_scene4.scss */
+/* line 1215, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .reserved,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .reserved,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .reserved,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .reserved {
   background-color: #bcb8b6;
 }
-/* line 1154, ../sass/_scene4.scss */
+/* line 1218, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .ather-backets,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .ather-backets,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .ather-backets,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 1157, ../sass/_scene4.scss */
+/* line 1221, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .in-the-basket,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .in-the-basket,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .in-the-basket,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 1160, ../sass/_scene4.scss */
+/* line 1224, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .cheap-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .cheap-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .cheap-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 1163, ../sass/_scene4.scss */
+/* line 1227, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .average-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .average-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .average-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .average-price {
   background-color: #C00463;
 }
-/* line 1166, ../sass/_scene4.scss */
+/* line 1230, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .highest-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .highest-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .highest-price,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-4 .highest-price {
   background-color: #840343;
 }
-/* line 1170, ../sass/_scene4.scss */
+/* line 1234, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 .series-name a,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 .series-name a,
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 .series-name a,
@@ -4142,26 +4215,26 @@ footer .copyright h4 a:hover {
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 1177, ../sass/_scene4.scss */
+/* line 1241, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1 {
   top: 0px;
   right: 40px;
 }
-/* line 1181, ../sass/_scene4.scss */
+/* line 1245, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-2 {
-  top: 25px;
-  right: 30px;
+  top: 0px;
+  right: 13px;
 }
-/* line 1185, ../sass/_scene4.scss */
+/* line 1249, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 {
-  top: 80px;
-  right: 40px;
+  top: 40px;
+  right: 12px;
 }
-/* line 1189, ../sass/_scene4.scss */
+/* line 1253, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 li {
   margin: 2px 5px;
 }
-/* line 1192, ../sass/_scene4.scss */
+/* line 1256, ../sass/_scene4.scss */
 .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-3 li img {
   -ms-transform: rotate(50deg);
   -webkit-transform: rotate(50deg);
@@ -4169,7 +4242,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(50deg);
   transform: rotate(50deg);
 }
-/* line 1204, ../sass/_scene4.scss */
+/* line 1268, ../sass/_scene4.scss */
 .scene4 .main-floor .left-label {
   float: left;
   margin: 130px 0 0 0;
@@ -4177,7 +4250,7 @@ footer .copyright h4 a:hover {
   font: 400 16px/22px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 1211, ../sass/_scene4.scss */
+/* line 1275, ../sass/_scene4.scss */
 .scene4 .main-floor .right-label {
   float: right;
   margin: 130px 0 0 0;
@@ -4185,20 +4258,28 @@ footer .copyright h4 a:hover {
   font: 400 16px/22px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 1218, ../sass/_scene4.scss */
+/* line 1282, ../sass/_scene4.scss */
 .scene4 .main-floor .eight-place {
   position: relative;
   left: -30px;
+  left: -30px;
+  top: -40px;
 }
-/* line 1223, ../sass/_scene4.scss */
+/* line 1288, ../sass/_scene4.scss */
+.scene4 .main-floor .eight-place .other-list-6,
+.scene4 .main-floor .eight-place .other-list-7 {
+  z-index: 99;
+}
+/* line 1294, ../sass/_scene4.scss */
 .scene4 .main-floor .center-places {
   position: relative;
-  top: -615px;
+  top: -665px;
   left: 23px;
   width: 480px;
   margin: 0 auto;
+  z-index: 9;
 }
-/* line 1229, ../sass/_scene4.scss */
+/* line 1301, ../sass/_scene4.scss */
 .scene4 .main-floor .center-places .F-left, .scene4 .main-floor .center-places .G-left,
 .scene4 .main-floor .center-places .H-left, .scene4 .main-floor .center-places .I-left,
 .scene4 .main-floor .center-places .J-left, .scene4 .main-floor .center-places .K-left,
@@ -4213,7 +4294,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(5deg);
   transform: rotate(5deg);
 }
-/* line 1244, ../sass/_scene4.scss */
+/* line 1316, ../sass/_scene4.scss */
 .scene4 .main-floor .center-places .F-right, .scene4 .main-floor .center-places .G-right,
 .scene4 .main-floor .center-places .H-right, .scene4 .main-floor .center-places .I-right,
 .scene4 .main-floor .center-places .J-right, .scene4 .main-floor .center-places .K-right,
@@ -4228,21 +4309,25 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
-/* line 1261, ../sass/_scene4.scss */
+/* line 1333, ../sass/_scene4.scss */
 .scene4 .other-place {
   height: 205px;
+  width: 125px;
   position: relative;
   top: -180px;
-  left: -245px;
+  left: 163px;
+  z-index: 99;
 }
-/* line 1267, ../sass/_scene4.scss */
+/* line 1341, ../sass/_scene4.scss */
 .scene4 .other-place-right {
+  width: 125px;
   height: 205px;
   position: relative;
-  top: -205px;
-  right: -205px;
+  top: -242px;
+  right: -598px;
+  z-index: 9;
 }
-/* line 1273, ../sass/_scene4.scss */
+/* line 1349, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1,
 .scene4 .other-place-right .other-list-2,
 .scene4 .other-place-right .other-list-3,
@@ -4266,7 +4351,7 @@ footer .copyright h4 a:hover {
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
-/* line 1293, ../sass/_scene4.scss */
+/* line 1369, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 li,
 .scene4 .other-place-right .other-list-2 li,
 .scene4 .other-place-right .other-list-3 li,
@@ -4280,7 +4365,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 1299, ../sass/_scene4.scss */
+/* line 1375, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 li a,
 .scene4 .other-place-right .other-list-2 li a,
 .scene4 .other-place-right .other-list-3 li a,
@@ -4294,7 +4379,7 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 11px/22px "Open Sans", sans-serif;
 }
-/* line 1307, ../sass/_scene4.scss */
+/* line 1383, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .reserved,
 .scene4 .other-place-right .other-list-2 .reserved,
 .scene4 .other-place-right .other-list-3 .reserved,
@@ -4304,7 +4389,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .reserved {
   background-color: #bcb8b6;
 }
-/* line 1310, ../sass/_scene4.scss */
+/* line 1386, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .ather-backets,
 .scene4 .other-place-right .other-list-2 .ather-backets,
 .scene4 .other-place-right .other-list-3 .ather-backets,
@@ -4314,7 +4399,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .ather-backets {
   background-color: #ed6a00;
 }
-/* line 1313, ../sass/_scene4.scss */
+/* line 1389, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .in-the-basket,
 .scene4 .other-place-right .other-list-2 .in-the-basket,
 .scene4 .other-place-right .other-list-3 .in-the-basket,
@@ -4324,7 +4409,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .in-the-basket {
   background-color: #5A009E;
 }
-/* line 1316, ../sass/_scene4.scss */
+/* line 1392, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .cheap-price,
 .scene4 .other-place-right .other-list-2 .cheap-price,
 .scene4 .other-place-right .other-list-3 .cheap-price,
@@ -4334,7 +4419,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .cheap-price {
   background-color: #E7CE00;
 }
-/* line 1319, ../sass/_scene4.scss */
+/* line 1395, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .average-price,
 .scene4 .other-place-right .other-list-2 .average-price,
 .scene4 .other-place-right .other-list-3 .average-price,
@@ -4344,7 +4429,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .average-price {
   background-color: #C00463;
 }
-/* line 1322, ../sass/_scene4.scss */
+/* line 1398, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .highest-price,
 .scene4 .other-place-right .other-list-2 .highest-price,
 .scene4 .other-place-right .other-list-3 .highest-price,
@@ -4354,7 +4439,7 @@ footer .copyright h4 a:hover {
 .scene4 .other-place-right .other-list-7 .highest-price {
   background-color: #840343;
 }
-/* line 1326, ../sass/_scene4.scss */
+/* line 1402, ../sass/_scene4.scss */
 .scene4 .other-place-right .other-list-1 .series-name a,
 .scene4 .other-place-right .other-list-2 .series-name a,
 .scene4 .other-place-right .other-list-3 .series-name a,
