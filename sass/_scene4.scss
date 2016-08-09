@@ -2027,11 +2027,21 @@ $family: 'Open Sans', sans-serif;
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 .balcony-main {
+	width: 100%;
+	@include border-box;
 
 	.series-label {
 		color: #000;
 		font: 400 14px / 17px $family;
 		text-transform: uppercase;
+	}
+
+	.balcony-main-title {
+		margin: 0 auto;
+		text-align: center;
+		color: #262626;
+    font: 400 20px / 22px $family;
+    text-transform: uppercase;
 	}
 
 	.balcony-left-side-AA,
@@ -2057,7 +2067,13 @@ $family: 'Open Sans', sans-serif;
 	.balcony-right-side-EE,
 	.balcony-right-side-FF,
 	.balcony-right-side-GG,
-	.balcony-right-side-HH {
+	.balcony-right-side-HH,
+	.left-alone-DD,
+	.right-alone-DD,
+	.left-alone-EE,
+	.right-alone-EE,
+	.left-alone-FF,
+	.right-alone-FF {
 		@include border-box;
 		width: 100%;
 		overflow: hidden;
@@ -2104,7 +2120,15 @@ $family: 'Open Sans', sans-serif;
 	.balcony-left-side-FF,
 	.balcony-left-side-GG,
 	.balcony-left-side-HH {
-
+		position: relative;
+		width: 260px;
+		top: 0;
+		left: -200px;
+		-ms-transform: rotate(30deg);
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		-o-transform: rotate(30deg);
+		transform: rotate(30deg);
 	}
 	.balcony-center-side-AA,
 	.balcony-center-side-BB,
@@ -2114,7 +2138,9 @@ $family: 'Open Sans', sans-serif;
 	.balcony-center-side-FF,
 	.balcony-center-side-GG,
 	.balcony-center-side-HH {
-		
+		position: relative;
+		top: 0;
+		left: 400px;
 	}
 	.balcony-right-side-AA,
 	.balcony-right-side-BB,
@@ -2124,6 +2150,14 @@ $family: 'Open Sans', sans-serif;
 	.balcony-right-side-FF,
 	.balcony-right-side-GG,
 	.balcony-right-side-HH {
-		
+		position: relative;
+		width: 260px;
+		top: 0;
+		right: -200px;
+		-ms-transform: rotate(-30deg);
+		-webkit-transform: rotate(-30deg);
+		-moz-transform: rotate(-30deg);
+		-o-transform: rotate(-30deg);
+		transform: rotate(-30deg);
 	}
 }

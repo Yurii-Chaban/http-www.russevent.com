@@ -5278,13 +5278,29 @@ footer .copyright h4 a:hover {
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-/* line 2031, ../sass/_scene4.scss */
+/* line 2029, ../sass/_scene4.scss */
+.balcony-main {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 2033, ../sass/_scene4.scss */
 .balcony-main .series-label {
   color: #000;
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 2037, ../sass/_scene4.scss */
+/* line 2039, ../sass/_scene4.scss */
+.balcony-main .balcony-main-title {
+  margin: 0 auto;
+  text-align: center;
+  color: #262626;
+  font: 400 20px/22px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 2047, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA,
 .balcony-main .balcony-left-side-BB,
 .balcony-main .balcony-left-side-CC,
@@ -5308,7 +5324,13 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE,
 .balcony-main .balcony-right-side-FF,
 .balcony-main .balcony-right-side-GG,
-.balcony-main .balcony-right-side-HH {
+.balcony-main .balcony-right-side-HH,
+.balcony-main .left-alone-DD,
+.balcony-main .right-alone-DD,
+.balcony-main .left-alone-EE,
+.balcony-main .right-alone-EE,
+.balcony-main .left-alone-FF,
+.balcony-main .right-alone-FF {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -5317,7 +5339,7 @@ footer .copyright h4 a:hover {
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 2066, ../sass/_scene4.scss */
+/* line 2082, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA li,
 .balcony-main .balcony-left-side-BB li,
 .balcony-main .balcony-left-side-CC li,
@@ -5341,14 +5363,20 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE li,
 .balcony-main .balcony-right-side-FF li,
 .balcony-main .balcony-right-side-GG li,
-.balcony-main .balcony-right-side-HH li {
+.balcony-main .balcony-right-side-HH li,
+.balcony-main .left-alone-DD li,
+.balcony-main .right-alone-DD li,
+.balcony-main .left-alone-EE li,
+.balcony-main .right-alone-EE li,
+.balcony-main .left-alone-FF li,
+.balcony-main .right-alone-FF li {
   display: block;
   float: left;
   width: 21px;
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 2072, ../sass/_scene4.scss */
+/* line 2088, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA li a,
 .balcony-main .balcony-left-side-BB li a,
 .balcony-main .balcony-left-side-CC li a,
@@ -5372,14 +5400,20 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE li a,
 .balcony-main .balcony-right-side-FF li a,
 .balcony-main .balcony-right-side-GG li a,
-.balcony-main .balcony-right-side-HH li a {
+.balcony-main .balcony-right-side-HH li a,
+.balcony-main .left-alone-DD li a,
+.balcony-main .right-alone-DD li a,
+.balcony-main .left-alone-EE li a,
+.balcony-main .right-alone-EE li a,
+.balcony-main .left-alone-FF li a,
+.balcony-main .right-alone-FF li a {
   overflow: hidden;
   display: block;
   text-align: center;
   color: white;
   font: 400 14px/17px "Open Sans", sans-serif;
 }
-/* line 2080, ../sass/_scene4.scss */
+/* line 2096, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .reserved,
 .balcony-main .balcony-left-side-BB .reserved,
 .balcony-main .balcony-left-side-CC .reserved,
@@ -5403,10 +5437,16 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .reserved,
 .balcony-main .balcony-right-side-FF .reserved,
 .balcony-main .balcony-right-side-GG .reserved,
-.balcony-main .balcony-right-side-HH .reserved {
+.balcony-main .balcony-right-side-HH .reserved,
+.balcony-main .left-alone-DD .reserved,
+.balcony-main .right-alone-DD .reserved,
+.balcony-main .left-alone-EE .reserved,
+.balcony-main .right-alone-EE .reserved,
+.balcony-main .left-alone-FF .reserved,
+.balcony-main .right-alone-FF .reserved {
   background-color: #bcb8b6;
 }
-/* line 2083, ../sass/_scene4.scss */
+/* line 2099, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .ather-backets,
 .balcony-main .balcony-left-side-BB .ather-backets,
 .balcony-main .balcony-left-side-CC .ather-backets,
@@ -5430,10 +5470,16 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .ather-backets,
 .balcony-main .balcony-right-side-FF .ather-backets,
 .balcony-main .balcony-right-side-GG .ather-backets,
-.balcony-main .balcony-right-side-HH .ather-backets {
+.balcony-main .balcony-right-side-HH .ather-backets,
+.balcony-main .left-alone-DD .ather-backets,
+.balcony-main .right-alone-DD .ather-backets,
+.balcony-main .left-alone-EE .ather-backets,
+.balcony-main .right-alone-EE .ather-backets,
+.balcony-main .left-alone-FF .ather-backets,
+.balcony-main .right-alone-FF .ather-backets {
   background-color: #ed6a00;
 }
-/* line 2086, ../sass/_scene4.scss */
+/* line 2102, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .in-the-basket,
 .balcony-main .balcony-left-side-BB .in-the-basket,
 .balcony-main .balcony-left-side-CC .in-the-basket,
@@ -5457,10 +5503,16 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .in-the-basket,
 .balcony-main .balcony-right-side-FF .in-the-basket,
 .balcony-main .balcony-right-side-GG .in-the-basket,
-.balcony-main .balcony-right-side-HH .in-the-basket {
+.balcony-main .balcony-right-side-HH .in-the-basket,
+.balcony-main .left-alone-DD .in-the-basket,
+.balcony-main .right-alone-DD .in-the-basket,
+.balcony-main .left-alone-EE .in-the-basket,
+.balcony-main .right-alone-EE .in-the-basket,
+.balcony-main .left-alone-FF .in-the-basket,
+.balcony-main .right-alone-FF .in-the-basket {
   background-color: #5A009E;
 }
-/* line 2089, ../sass/_scene4.scss */
+/* line 2105, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .cheap-price,
 .balcony-main .balcony-left-side-BB .cheap-price,
 .balcony-main .balcony-left-side-CC .cheap-price,
@@ -5484,10 +5536,16 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .cheap-price,
 .balcony-main .balcony-right-side-FF .cheap-price,
 .balcony-main .balcony-right-side-GG .cheap-price,
-.balcony-main .balcony-right-side-HH .cheap-price {
+.balcony-main .balcony-right-side-HH .cheap-price,
+.balcony-main .left-alone-DD .cheap-price,
+.balcony-main .right-alone-DD .cheap-price,
+.balcony-main .left-alone-EE .cheap-price,
+.balcony-main .right-alone-EE .cheap-price,
+.balcony-main .left-alone-FF .cheap-price,
+.balcony-main .right-alone-FF .cheap-price {
   background-color: #E7CE00;
 }
-/* line 2092, ../sass/_scene4.scss */
+/* line 2108, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .average-price,
 .balcony-main .balcony-left-side-BB .average-price,
 .balcony-main .balcony-left-side-CC .average-price,
@@ -5511,10 +5569,16 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .average-price,
 .balcony-main .balcony-right-side-FF .average-price,
 .balcony-main .balcony-right-side-GG .average-price,
-.balcony-main .balcony-right-side-HH .average-price {
+.balcony-main .balcony-right-side-HH .average-price,
+.balcony-main .left-alone-DD .average-price,
+.balcony-main .right-alone-DD .average-price,
+.balcony-main .left-alone-EE .average-price,
+.balcony-main .right-alone-EE .average-price,
+.balcony-main .left-alone-FF .average-price,
+.balcony-main .right-alone-FF .average-price {
   background-color: #C00463;
 }
-/* line 2095, ../sass/_scene4.scss */
+/* line 2111, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .highest-price,
 .balcony-main .balcony-left-side-BB .highest-price,
 .balcony-main .balcony-left-side-CC .highest-price,
@@ -5538,6 +5602,63 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-EE .highest-price,
 .balcony-main .balcony-right-side-FF .highest-price,
 .balcony-main .balcony-right-side-GG .highest-price,
-.balcony-main .balcony-right-side-HH .highest-price {
+.balcony-main .balcony-right-side-HH .highest-price,
+.balcony-main .left-alone-DD .highest-price,
+.balcony-main .right-alone-DD .highest-price,
+.balcony-main .left-alone-EE .highest-price,
+.balcony-main .right-alone-EE .highest-price,
+.balcony-main .left-alone-FF .highest-price,
+.balcony-main .right-alone-FF .highest-price {
   background-color: #840343;
+}
+/* line 2115, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-AA,
+.balcony-main .balcony-left-side-BB,
+.balcony-main .balcony-left-side-CC,
+.balcony-main .balcony-left-side-DD,
+.balcony-main .balcony-left-side-EE,
+.balcony-main .balcony-left-side-FF,
+.balcony-main .balcony-left-side-GG,
+.balcony-main .balcony-left-side-HH {
+  position: relative;
+  width: 260px;
+  top: 0;
+  left: -200px;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+/* line 2133, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-AA,
+.balcony-main .balcony-center-side-BB,
+.balcony-main .balcony-center-side-CC,
+.balcony-main .balcony-center-side-DD,
+.balcony-main .balcony-center-side-EE,
+.balcony-main .balcony-center-side-FF,
+.balcony-main .balcony-center-side-GG,
+.balcony-main .balcony-center-side-HH {
+  position: relative;
+  top: 0;
+  left: 400px;
+}
+/* line 2145, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-AA,
+.balcony-main .balcony-right-side-BB,
+.balcony-main .balcony-right-side-CC,
+.balcony-main .balcony-right-side-DD,
+.balcony-main .balcony-right-side-EE,
+.balcony-main .balcony-right-side-FF,
+.balcony-main .balcony-right-side-GG,
+.balcony-main .balcony-right-side-HH {
+  position: relative;
+  width: 260px;
+  top: 0;
+  right: -200px;
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
