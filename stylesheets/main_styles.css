@@ -1768,10 +1768,10 @@ footer .copyright h4 a:hover {
 /* line 352, ../sass/_scene2.scss */
 .scene2 .left-side-block {
   float: left;
-  overflow: hidden;
   margin: 0 0 20px 5%;
+  z-index: 2009;
 }
-/* line 356, ../sass/_scene2.scss */
+/* line 357, ../sass/_scene2.scss */
 .scene2 .left-side-block .A, .scene2 .left-side-block .B, .scene2 .left-side-block .C, .scene2 .left-side-block .D, .scene2 .left-side-block .E,
 .scene2 .left-side-block .F, .scene2 .left-side-block .G, .scene2 .left-side-block .H, .scene2 .left-side-block .J, .scene2 .left-side-block .I,
 .scene2 .left-side-block .K, .scene2 .left-side-block .L, .scene2 .left-side-block .M, .scene2 .left-side-block .N {
@@ -1780,12 +1780,12 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   width: 17px;
-  overflow: hidden;
   display: block;
   float: right;
   margin: 0 1px;
+  z-index: 9;
 }
-/* line 366, ../sass/_scene2.scss */
+/* line 368, ../sass/_scene2.scss */
 .scene2 .left-side-block .A li, .scene2 .left-side-block .B li, .scene2 .left-side-block .C li, .scene2 .left-side-block .D li, .scene2 .left-side-block .E li,
 .scene2 .left-side-block .F li, .scene2 .left-side-block .G li, .scene2 .left-side-block .H li, .scene2 .left-side-block .J li, .scene2 .left-side-block .I li,
 .scene2 .left-side-block .K li, .scene2 .left-side-block .L li, .scene2 .left-side-block .M li, .scene2 .left-side-block .N li {
@@ -1794,7 +1794,7 @@ footer .copyright h4 a:hover {
   height: 15px;
   margin: 1px 2px 1px 1px;
 }
-/* line 371, ../sass/_scene2.scss */
+/* line 373, ../sass/_scene2.scss */
 .scene2 .left-side-block .A li a, .scene2 .left-side-block .B li a, .scene2 .left-side-block .C li a, .scene2 .left-side-block .D li a, .scene2 .left-side-block .E li a,
 .scene2 .left-side-block .F li a, .scene2 .left-side-block .G li a, .scene2 .left-side-block .H li a, .scene2 .left-side-block .J li a, .scene2 .left-side-block .I li a,
 .scene2 .left-side-block .K li a, .scene2 .left-side-block .L li a, .scene2 .left-side-block .M li a, .scene2 .left-side-block .N li a {
@@ -1805,26 +1805,34 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 7px/15px "Open Sans", sans-serif;
 }
-/* line 380, ../sass/_scene2.scss */
-.scene2 .left-side-block .A li a:hover .hover-block, .scene2 .left-side-block .B li a:hover .hover-block, .scene2 .left-side-block .C li a:hover .hover-block, .scene2 .left-side-block .D li a:hover .hover-block, .scene2 .left-side-block .E li a:hover .hover-block,
-.scene2 .left-side-block .F li a:hover .hover-block, .scene2 .left-side-block .G li a:hover .hover-block, .scene2 .left-side-block .H li a:hover .hover-block, .scene2 .left-side-block .J li a:hover .hover-block, .scene2 .left-side-block .I li a:hover .hover-block,
-.scene2 .left-side-block .K li a:hover .hover-block, .scene2 .left-side-block .L li a:hover .hover-block, .scene2 .left-side-block .M li a:hover .hover-block, .scene2 .left-side-block .N li a:hover .hover-block {
-  display: block;
-  z-index: 9999999999;
+/* line 382, ../sass/_scene2.scss */
+.scene2 .left-side-block .A .hoverParent, .scene2 .left-side-block .B .hoverParent, .scene2 .left-side-block .C .hoverParent, .scene2 .left-side-block .D .hoverParent, .scene2 .left-side-block .E .hoverParent,
+.scene2 .left-side-block .F .hoverParent, .scene2 .left-side-block .G .hoverParent, .scene2 .left-side-block .H .hoverParent, .scene2 .left-side-block .J .hoverParent, .scene2 .left-side-block .I .hoverParent,
+.scene2 .left-side-block .K .hoverParent, .scene2 .left-side-block .L .hoverParent, .scene2 .left-side-block .M .hoverParent, .scene2 .left-side-block .N .hoverParent {
+  position: relative;
 }
 /* line 384, ../sass/_scene2.scss */
+.scene2 .left-side-block .A .hoverParent:hover .hover-block, .scene2 .left-side-block .B .hoverParent:hover .hover-block, .scene2 .left-side-block .C .hoverParent:hover .hover-block, .scene2 .left-side-block .D .hoverParent:hover .hover-block, .scene2 .left-side-block .E .hoverParent:hover .hover-block,
+.scene2 .left-side-block .F .hoverParent:hover .hover-block, .scene2 .left-side-block .G .hoverParent:hover .hover-block, .scene2 .left-side-block .H .hoverParent:hover .hover-block, .scene2 .left-side-block .J .hoverParent:hover .hover-block, .scene2 .left-side-block .I .hoverParent:hover .hover-block,
+.scene2 .left-side-block .K .hoverParent:hover .hover-block, .scene2 .left-side-block .L .hoverParent:hover .hover-block, .scene2 .left-side-block .M .hoverParent:hover .hover-block, .scene2 .left-side-block .N .hoverParent:hover .hover-block {
+  display: block !important;
+  z-index: 9999999999;
+  left: 0;
+  right: 0;
+}
+/* line 391, ../sass/_scene2.scss */
 .scene2 .left-side-block .A .reserved, .scene2 .left-side-block .B .reserved, .scene2 .left-side-block .C .reserved, .scene2 .left-side-block .D .reserved, .scene2 .left-side-block .E .reserved,
 .scene2 .left-side-block .F .reserved, .scene2 .left-side-block .G .reserved, .scene2 .left-side-block .H .reserved, .scene2 .left-side-block .J .reserved, .scene2 .left-side-block .I .reserved,
 .scene2 .left-side-block .K .reserved, .scene2 .left-side-block .L .reserved, .scene2 .left-side-block .M .reserved, .scene2 .left-side-block .N .reserved {
   background-color: #bcb8b6;
 }
-/* line 387, ../sass/_scene2.scss */
+/* line 394, ../sass/_scene2.scss */
 .scene2 .left-side-block .A .ather-backets, .scene2 .left-side-block .B .ather-backets, .scene2 .left-side-block .C .ather-backets, .scene2 .left-side-block .D .ather-backets, .scene2 .left-side-block .E .ather-backets,
 .scene2 .left-side-block .F .ather-backets, .scene2 .left-side-block .G .ather-backets, .scene2 .left-side-block .H .ather-backets, .scene2 .left-side-block .J .ather-backets, .scene2 .left-side-block .I .ather-backets,
 .scene2 .left-side-block .K .ather-backets, .scene2 .left-side-block .L .ather-backets, .scene2 .left-side-block .M .ather-backets, .scene2 .left-side-block .N .ather-backets {
   background-color: #ed6a00;
 }
-/* line 391, ../sass/_scene2.scss */
+/* line 398, ../sass/_scene2.scss */
 .scene2 .left-side-block .A .series-name a, .scene2 .left-side-block .B .series-name a, .scene2 .left-side-block .C .series-name a, .scene2 .left-side-block .D .series-name a, .scene2 .left-side-block .E .series-name a,
 .scene2 .left-side-block .F .series-name a, .scene2 .left-side-block .G .series-name a, .scene2 .left-side-block .H .series-name a, .scene2 .left-side-block .J .series-name a, .scene2 .left-side-block .I .series-name a,
 .scene2 .left-side-block .K .series-name a, .scene2 .left-side-block .L .series-name a, .scene2 .left-side-block .M .series-name a, .scene2 .left-side-block .N .series-name a {
@@ -1832,13 +1840,12 @@ footer .copyright h4 a:hover {
   font: 400 7px/14px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 399, ../sass/_scene2.scss */
+/* line 406, ../sass/_scene2.scss */
 .scene2 .right-side-block {
   float: right;
-  overflow: hidden;
   margin: 0 7% 20px 0;
 }
-/* line 403, ../sass/_scene2.scss */
+/* line 410, ../sass/_scene2.scss */
 .scene2 .right-side-block .A, .scene2 .right-side-block .B, .scene2 .right-side-block .C, .scene2 .right-side-block .D, .scene2 .right-side-block .E,
 .scene2 .right-side-block .F, .scene2 .right-side-block .G, .scene2 .right-side-block .H, .scene2 .right-side-block .J, .scene2 .right-side-block .I,
 .scene2 .right-side-block .K, .scene2 .right-side-block .L, .scene2 .right-side-block .M, .scene2 .right-side-block .N {
@@ -1847,12 +1854,11 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   width: 17px;
-  overflow: hidden;
   display: block;
   float: left;
   margin: 0 1px;
 }
-/* line 413, ../sass/_scene2.scss */
+/* line 420, ../sass/_scene2.scss */
 .scene2 .right-side-block .A li, .scene2 .right-side-block .B li, .scene2 .right-side-block .C li, .scene2 .right-side-block .D li, .scene2 .right-side-block .E li,
 .scene2 .right-side-block .F li, .scene2 .right-side-block .G li, .scene2 .right-side-block .H li, .scene2 .right-side-block .J li, .scene2 .right-side-block .I li,
 .scene2 .right-side-block .K li, .scene2 .right-side-block .L li, .scene2 .right-side-block .M li, .scene2 .right-side-block .N li {
@@ -1862,7 +1868,7 @@ footer .copyright h4 a:hover {
   height: 15px;
   margin: 1px 2px 1px 1px;
 }
-/* line 419, ../sass/_scene2.scss */
+/* line 426, ../sass/_scene2.scss */
 .scene2 .right-side-block .A li a, .scene2 .right-side-block .B li a, .scene2 .right-side-block .C li a, .scene2 .right-side-block .D li a, .scene2 .right-side-block .E li a,
 .scene2 .right-side-block .F li a, .scene2 .right-side-block .G li a, .scene2 .right-side-block .H li a, .scene2 .right-side-block .J li a, .scene2 .right-side-block .I li a,
 .scene2 .right-side-block .K li a, .scene2 .right-side-block .L li a, .scene2 .right-side-block .M li a, .scene2 .right-side-block .N li a {
@@ -1872,25 +1878,40 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 7px/15px "Open Sans", sans-serif;
 }
-/* line 427, ../sass/_scene2.scss */
+/* line 434, ../sass/_scene2.scss */
+.scene2 .right-side-block .A .hoverParent, .scene2 .right-side-block .B .hoverParent, .scene2 .right-side-block .C .hoverParent, .scene2 .right-side-block .D .hoverParent, .scene2 .right-side-block .E .hoverParent,
+.scene2 .right-side-block .F .hoverParent, .scene2 .right-side-block .G .hoverParent, .scene2 .right-side-block .H .hoverParent, .scene2 .right-side-block .J .hoverParent, .scene2 .right-side-block .I .hoverParent,
+.scene2 .right-side-block .K .hoverParent, .scene2 .right-side-block .L .hoverParent, .scene2 .right-side-block .M .hoverParent, .scene2 .right-side-block .N .hoverParent {
+  position: relative;
+}
+/* line 436, ../sass/_scene2.scss */
+.scene2 .right-side-block .A .hoverParent:hover .hover-block, .scene2 .right-side-block .B .hoverParent:hover .hover-block, .scene2 .right-side-block .C .hoverParent:hover .hover-block, .scene2 .right-side-block .D .hoverParent:hover .hover-block, .scene2 .right-side-block .E .hoverParent:hover .hover-block,
+.scene2 .right-side-block .F .hoverParent:hover .hover-block, .scene2 .right-side-block .G .hoverParent:hover .hover-block, .scene2 .right-side-block .H .hoverParent:hover .hover-block, .scene2 .right-side-block .J .hoverParent:hover .hover-block, .scene2 .right-side-block .I .hoverParent:hover .hover-block,
+.scene2 .right-side-block .K .hoverParent:hover .hover-block, .scene2 .right-side-block .L .hoverParent:hover .hover-block, .scene2 .right-side-block .M .hoverParent:hover .hover-block, .scene2 .right-side-block .N .hoverParent:hover .hover-block {
+  display: block !important;
+  z-index: 9999999999;
+  left: 0;
+  right: 0;
+}
+/* line 443, ../sass/_scene2.scss */
 .scene2 .right-side-block .A .reserved, .scene2 .right-side-block .B .reserved, .scene2 .right-side-block .C .reserved, .scene2 .right-side-block .D .reserved, .scene2 .right-side-block .E .reserved,
 .scene2 .right-side-block .F .reserved, .scene2 .right-side-block .G .reserved, .scene2 .right-side-block .H .reserved, .scene2 .right-side-block .J .reserved, .scene2 .right-side-block .I .reserved,
 .scene2 .right-side-block .K .reserved, .scene2 .right-side-block .L .reserved, .scene2 .right-side-block .M .reserved, .scene2 .right-side-block .N .reserved {
   background-color: #bcb8b6;
 }
-/* line 430, ../sass/_scene2.scss */
+/* line 446, ../sass/_scene2.scss */
 .scene2 .right-side-block .A .ather-backets, .scene2 .right-side-block .B .ather-backets, .scene2 .right-side-block .C .ather-backets, .scene2 .right-side-block .D .ather-backets, .scene2 .right-side-block .E .ather-backets,
 .scene2 .right-side-block .F .ather-backets, .scene2 .right-side-block .G .ather-backets, .scene2 .right-side-block .H .ather-backets, .scene2 .right-side-block .J .ather-backets, .scene2 .right-side-block .I .ather-backets,
 .scene2 .right-side-block .K .ather-backets, .scene2 .right-side-block .L .ather-backets, .scene2 .right-side-block .M .ather-backets, .scene2 .right-side-block .N .ather-backets {
   background-color: #ed6a00;
 }
-/* line 433, ../sass/_scene2.scss */
+/* line 449, ../sass/_scene2.scss */
 .scene2 .right-side-block .A .in-the-basket, .scene2 .right-side-block .B .in-the-basket, .scene2 .right-side-block .C .in-the-basket, .scene2 .right-side-block .D .in-the-basket, .scene2 .right-side-block .E .in-the-basket,
 .scene2 .right-side-block .F .in-the-basket, .scene2 .right-side-block .G .in-the-basket, .scene2 .right-side-block .H .in-the-basket, .scene2 .right-side-block .J .in-the-basket, .scene2 .right-side-block .I .in-the-basket,
 .scene2 .right-side-block .K .in-the-basket, .scene2 .right-side-block .L .in-the-basket, .scene2 .right-side-block .M .in-the-basket, .scene2 .right-side-block .N .in-the-basket {
   background-color: #5A009E;
 }
-/* line 437, ../sass/_scene2.scss */
+/* line 453, ../sass/_scene2.scss */
 .scene2 .right-side-block .A .series-name a, .scene2 .right-side-block .B .series-name a, .scene2 .right-side-block .C .series-name a, .scene2 .right-side-block .D .series-name a, .scene2 .right-side-block .E .series-name a,
 .scene2 .right-side-block .F .series-name a, .scene2 .right-side-block .G .series-name a, .scene2 .right-side-block .H .series-name a, .scene2 .right-side-block .J .series-name a, .scene2 .right-side-block .I .series-name a,
 .scene2 .right-side-block .K .series-name a, .scene2 .right-side-block .L .series-name a, .scene2 .right-side-block .M .series-name a, .scene2 .right-side-block .N .series-name a {
@@ -1898,23 +1919,21 @@ footer .copyright h4 a:hover {
   font: 400 7px/14px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 445, ../sass/_scene2.scss */
+/* line 461, ../sass/_scene2.scss */
 .scene2 .rotate-block {
   clear: both;
-  overflow: hidden;
   padding-top: 45px;
   height: 485px;
 }
-/* line 451, ../sass/_scene2.scss */
+/* line 467, ../sass/_scene2.scss */
 .scene2 .left-center-block,
 .scene2 .right-center-block,
 .scene2 .center-block {
-  overflow: hidden;
   clear: both;
   margin: 0 auto;
   text-align: center;
 }
-/* line 459, ../sass/_scene2.scss */
+/* line 475, ../sass/_scene2.scss */
 .scene2 .left-center-block .left-center-block-title,
 .scene2 .left-center-block .right-center-block-title,
 .scene2 .left-center-block .center-block-title,
@@ -1927,7 +1946,7 @@ footer .copyright h4 a:hover {
   margin: 10px 0 0 0;
   letter-spacing: 1px;
 }
-/* line 465, ../sass/_scene2.scss */
+/* line 481, ../sass/_scene2.scss */
 .scene2 .left-center-block .A, .scene2 .left-center-block .B, .scene2 .left-center-block .C, .scene2 .left-center-block .D, .scene2 .left-center-block .E,
 .scene2 .left-center-block .F, .scene2 .left-center-block .G, .scene2 .left-center-block .H, .scene2 .left-center-block .J, .scene2 .left-center-block .I,
 .scene2 .left-center-block .K, .scene2 .left-center-block .L, .scene2 .left-center-block .M, .scene2 .left-center-block .N, .scene2 .left-center-block .O,
@@ -1966,12 +1985,11 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  overflow: hidden;
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-/* line 475, ../sass/_scene2.scss */
+/* line 491, ../sass/_scene2.scss */
 .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
 .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
 .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li,
@@ -2012,7 +2030,7 @@ footer .copyright h4 a:hover {
   text-align: center;
   margin: 0;
 }
-/* line 482, ../sass/_scene2.scss */
+/* line 498, ../sass/_scene2.scss */
 .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
 .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
 .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a,
@@ -2052,7 +2070,82 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 7px/15px "Open Sans", sans-serif;
 }
-/* line 490, ../sass/_scene2.scss */
+/* line 506, ../sass/_scene2.scss */
+.scene2 .left-center-block .A .hoverParent, .scene2 .left-center-block .B .hoverParent, .scene2 .left-center-block .C .hoverParent, .scene2 .left-center-block .D .hoverParent, .scene2 .left-center-block .E .hoverParent,
+.scene2 .left-center-block .F .hoverParent, .scene2 .left-center-block .G .hoverParent, .scene2 .left-center-block .H .hoverParent, .scene2 .left-center-block .J .hoverParent, .scene2 .left-center-block .I .hoverParent,
+.scene2 .left-center-block .K .hoverParent, .scene2 .left-center-block .L .hoverParent, .scene2 .left-center-block .M .hoverParent, .scene2 .left-center-block .N .hoverParent, .scene2 .left-center-block .O .hoverParent,
+.scene2 .right-center-block .A .hoverParent,
+.scene2 .right-center-block .B .hoverParent,
+.scene2 .right-center-block .C .hoverParent,
+.scene2 .right-center-block .D .hoverParent,
+.scene2 .right-center-block .E .hoverParent,
+.scene2 .right-center-block .F .hoverParent,
+.scene2 .right-center-block .G .hoverParent,
+.scene2 .right-center-block .H .hoverParent,
+.scene2 .right-center-block .J .hoverParent,
+.scene2 .right-center-block .I .hoverParent,
+.scene2 .right-center-block .K .hoverParent,
+.scene2 .right-center-block .L .hoverParent,
+.scene2 .right-center-block .M .hoverParent,
+.scene2 .right-center-block .N .hoverParent,
+.scene2 .right-center-block .O .hoverParent,
+.scene2 .center-block .A .hoverParent,
+.scene2 .center-block .B .hoverParent,
+.scene2 .center-block .C .hoverParent,
+.scene2 .center-block .D .hoverParent,
+.scene2 .center-block .E .hoverParent,
+.scene2 .center-block .F .hoverParent,
+.scene2 .center-block .G .hoverParent,
+.scene2 .center-block .H .hoverParent,
+.scene2 .center-block .J .hoverParent,
+.scene2 .center-block .I .hoverParent,
+.scene2 .center-block .K .hoverParent,
+.scene2 .center-block .L .hoverParent,
+.scene2 .center-block .M .hoverParent,
+.scene2 .center-block .N .hoverParent,
+.scene2 .center-block .O .hoverParent {
+  position: relative;
+}
+/* line 508, ../sass/_scene2.scss */
+.scene2 .left-center-block .A .hoverParent:hover .hover-block, .scene2 .left-center-block .B .hoverParent:hover .hover-block, .scene2 .left-center-block .C .hoverParent:hover .hover-block, .scene2 .left-center-block .D .hoverParent:hover .hover-block, .scene2 .left-center-block .E .hoverParent:hover .hover-block,
+.scene2 .left-center-block .F .hoverParent:hover .hover-block, .scene2 .left-center-block .G .hoverParent:hover .hover-block, .scene2 .left-center-block .H .hoverParent:hover .hover-block, .scene2 .left-center-block .J .hoverParent:hover .hover-block, .scene2 .left-center-block .I .hoverParent:hover .hover-block,
+.scene2 .left-center-block .K .hoverParent:hover .hover-block, .scene2 .left-center-block .L .hoverParent:hover .hover-block, .scene2 .left-center-block .M .hoverParent:hover .hover-block, .scene2 .left-center-block .N .hoverParent:hover .hover-block, .scene2 .left-center-block .O .hoverParent:hover .hover-block,
+.scene2 .right-center-block .A .hoverParent:hover .hover-block,
+.scene2 .right-center-block .B .hoverParent:hover .hover-block,
+.scene2 .right-center-block .C .hoverParent:hover .hover-block,
+.scene2 .right-center-block .D .hoverParent:hover .hover-block,
+.scene2 .right-center-block .E .hoverParent:hover .hover-block,
+.scene2 .right-center-block .F .hoverParent:hover .hover-block,
+.scene2 .right-center-block .G .hoverParent:hover .hover-block,
+.scene2 .right-center-block .H .hoverParent:hover .hover-block,
+.scene2 .right-center-block .J .hoverParent:hover .hover-block,
+.scene2 .right-center-block .I .hoverParent:hover .hover-block,
+.scene2 .right-center-block .K .hoverParent:hover .hover-block,
+.scene2 .right-center-block .L .hoverParent:hover .hover-block,
+.scene2 .right-center-block .M .hoverParent:hover .hover-block,
+.scene2 .right-center-block .N .hoverParent:hover .hover-block,
+.scene2 .right-center-block .O .hoverParent:hover .hover-block,
+.scene2 .center-block .A .hoverParent:hover .hover-block,
+.scene2 .center-block .B .hoverParent:hover .hover-block,
+.scene2 .center-block .C .hoverParent:hover .hover-block,
+.scene2 .center-block .D .hoverParent:hover .hover-block,
+.scene2 .center-block .E .hoverParent:hover .hover-block,
+.scene2 .center-block .F .hoverParent:hover .hover-block,
+.scene2 .center-block .G .hoverParent:hover .hover-block,
+.scene2 .center-block .H .hoverParent:hover .hover-block,
+.scene2 .center-block .J .hoverParent:hover .hover-block,
+.scene2 .center-block .I .hoverParent:hover .hover-block,
+.scene2 .center-block .K .hoverParent:hover .hover-block,
+.scene2 .center-block .L .hoverParent:hover .hover-block,
+.scene2 .center-block .M .hoverParent:hover .hover-block,
+.scene2 .center-block .N .hoverParent:hover .hover-block,
+.scene2 .center-block .O .hoverParent:hover .hover-block {
+  display: block !important;
+  z-index: 9999999999;
+  left: 0;
+  right: 0;
+}
+/* line 515, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .reserved, .scene2 .left-center-block .B .reserved, .scene2 .left-center-block .C .reserved, .scene2 .left-center-block .D .reserved, .scene2 .left-center-block .E .reserved,
 .scene2 .left-center-block .F .reserved, .scene2 .left-center-block .G .reserved, .scene2 .left-center-block .H .reserved, .scene2 .left-center-block .J .reserved, .scene2 .left-center-block .I .reserved,
 .scene2 .left-center-block .K .reserved, .scene2 .left-center-block .L .reserved, .scene2 .left-center-block .M .reserved, .scene2 .left-center-block .N .reserved, .scene2 .left-center-block .O .reserved,
@@ -2088,7 +2181,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .reserved {
   background-color: #bcb8b6;
 }
-/* line 493, ../sass/_scene2.scss */
+/* line 518, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .ather-backets, .scene2 .left-center-block .B .ather-backets, .scene2 .left-center-block .C .ather-backets, .scene2 .left-center-block .D .ather-backets, .scene2 .left-center-block .E .ather-backets,
 .scene2 .left-center-block .F .ather-backets, .scene2 .left-center-block .G .ather-backets, .scene2 .left-center-block .H .ather-backets, .scene2 .left-center-block .J .ather-backets, .scene2 .left-center-block .I .ather-backets,
 .scene2 .left-center-block .K .ather-backets, .scene2 .left-center-block .L .ather-backets, .scene2 .left-center-block .M .ather-backets, .scene2 .left-center-block .N .ather-backets, .scene2 .left-center-block .O .ather-backets,
@@ -2124,7 +2217,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .ather-backets {
   background-color: #ed6a00;
 }
-/* line 496, ../sass/_scene2.scss */
+/* line 521, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .in-the-basket, .scene2 .left-center-block .B .in-the-basket, .scene2 .left-center-block .C .in-the-basket, .scene2 .left-center-block .D .in-the-basket, .scene2 .left-center-block .E .in-the-basket,
 .scene2 .left-center-block .F .in-the-basket, .scene2 .left-center-block .G .in-the-basket, .scene2 .left-center-block .H .in-the-basket, .scene2 .left-center-block .J .in-the-basket, .scene2 .left-center-block .I .in-the-basket,
 .scene2 .left-center-block .K .in-the-basket, .scene2 .left-center-block .L .in-the-basket, .scene2 .left-center-block .M .in-the-basket, .scene2 .left-center-block .N .in-the-basket, .scene2 .left-center-block .O .in-the-basket,
@@ -2160,7 +2253,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .in-the-basket {
   background-color: #5A009E;
 }
-/* line 499, ../sass/_scene2.scss */
+/* line 524, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .cheap-price, .scene2 .left-center-block .B .cheap-price, .scene2 .left-center-block .C .cheap-price, .scene2 .left-center-block .D .cheap-price, .scene2 .left-center-block .E .cheap-price,
 .scene2 .left-center-block .F .cheap-price, .scene2 .left-center-block .G .cheap-price, .scene2 .left-center-block .H .cheap-price, .scene2 .left-center-block .J .cheap-price, .scene2 .left-center-block .I .cheap-price,
 .scene2 .left-center-block .K .cheap-price, .scene2 .left-center-block .L .cheap-price, .scene2 .left-center-block .M .cheap-price, .scene2 .left-center-block .N .cheap-price, .scene2 .left-center-block .O .cheap-price,
@@ -2196,7 +2289,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .cheap-price {
   background-color: #E7CE00;
 }
-/* line 502, ../sass/_scene2.scss */
+/* line 527, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .average-price, .scene2 .left-center-block .B .average-price, .scene2 .left-center-block .C .average-price, .scene2 .left-center-block .D .average-price, .scene2 .left-center-block .E .average-price,
 .scene2 .left-center-block .F .average-price, .scene2 .left-center-block .G .average-price, .scene2 .left-center-block .H .average-price, .scene2 .left-center-block .J .average-price, .scene2 .left-center-block .I .average-price,
 .scene2 .left-center-block .K .average-price, .scene2 .left-center-block .L .average-price, .scene2 .left-center-block .M .average-price, .scene2 .left-center-block .N .average-price, .scene2 .left-center-block .O .average-price,
@@ -2232,7 +2325,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .average-price {
   background-color: #C00463;
 }
-/* line 505, ../sass/_scene2.scss */
+/* line 530, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .highest-price, .scene2 .left-center-block .B .highest-price, .scene2 .left-center-block .C .highest-price, .scene2 .left-center-block .D .highest-price, .scene2 .left-center-block .E .highest-price,
 .scene2 .left-center-block .F .highest-price, .scene2 .left-center-block .G .highest-price, .scene2 .left-center-block .H .highest-price, .scene2 .left-center-block .J .highest-price, .scene2 .left-center-block .I .highest-price,
 .scene2 .left-center-block .K .highest-price, .scene2 .left-center-block .L .highest-price, .scene2 .left-center-block .M .highest-price, .scene2 .left-center-block .N .highest-price, .scene2 .left-center-block .O .highest-price,
@@ -2268,7 +2361,7 @@ footer .copyright h4 a:hover {
 .scene2 .center-block .O .highest-price {
   background-color: #840343;
 }
-/* line 509, ../sass/_scene2.scss */
+/* line 534, ../sass/_scene2.scss */
 .scene2 .left-center-block .A .series-name a, .scene2 .left-center-block .B .series-name a, .scene2 .left-center-block .C .series-name a, .scene2 .left-center-block .D .series-name a, .scene2 .left-center-block .E .series-name a,
 .scene2 .left-center-block .F .series-name a, .scene2 .left-center-block .G .series-name a, .scene2 .left-center-block .H .series-name a, .scene2 .left-center-block .J .series-name a, .scene2 .left-center-block .I .series-name a,
 .scene2 .left-center-block .K .series-name a, .scene2 .left-center-block .L .series-name a, .scene2 .left-center-block .M .series-name a, .scene2 .left-center-block .N .series-name a, .scene2 .left-center-block .O .series-name a,
@@ -2306,11 +2399,56 @@ footer .copyright h4 a:hover {
   font: 400 7px/14px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 517, ../sass/_scene2.scss */
+/* line 543, ../sass/_scene2.scss */
+.scene2 .left-center-block .A, .scene2 .left-center-block .B, .scene2 .left-center-block .C, .scene2 .left-center-block .D, .scene2 .left-center-block .E,
+.scene2 .left-center-block .F, .scene2 .left-center-block .G, .scene2 .left-center-block .H, .scene2 .left-center-block .J, .scene2 .left-center-block .I,
+.scene2 .left-center-block .K, .scene2 .left-center-block .L, .scene2 .left-center-block .M, .scene2 .left-center-block .N, .scene2 .left-center-block .O {
+  z-index: 8;
+}
+/* line 548, ../sass/_scene2.scss */
+.scene2 .left-center-block .hoverParent {
+  position: relative;
+}
+/* line 550, ../sass/_scene2.scss */
+.scene2 .left-center-block .hoverParent:hover .hover-block {
+  display: block !important;
+  z-index: 9999999999;
+  left: -11px !important;
+  right: 0 !important;
+  top: -141px !important;
+  -ms-transform: rotate(-74deg);
+  -webkit-transform: rotate(-74deg);
+  -moz-transform: rotate(-74deg);
+  -o-transform: rotate(-74deg);
+  transform: rotate(-74deg);
+}
+/* line 565, ../sass/_scene2.scss */
+.scene2 .right-center-block .A, .scene2 .right-center-block .B, .scene2 .right-center-block .C, .scene2 .right-center-block .D, .scene2 .right-center-block .E,
+.scene2 .right-center-block .F, .scene2 .right-center-block .G, .scene2 .right-center-block .H, .scene2 .right-center-block .J, .scene2 .right-center-block .I,
+.scene2 .right-center-block .K, .scene2 .right-center-block .L, .scene2 .right-center-block .M, .scene2 .right-center-block .N, .scene2 .right-center-block .O {
+  z-index: 100;
+}
+/* line 570, ../sass/_scene2.scss */
+.scene2 .right-center-block .hoverParent {
+  position: relative;
+}
+/* line 572, ../sass/_scene2.scss */
+.scene2 .right-center-block .hoverParent:hover .hover-block {
+  display: block !important;
+  z-index: 9999999999 !important;
+  right: 0 !important;
+  left: -65px !important;
+  top: -208px !important;
+  -ms-transform: rotate(74deg);
+  -webkit-transform: rotate(74deg);
+  -moz-transform: rotate(74deg);
+  -o-transform: rotate(74deg);
+  transform: rotate(74deg);
+}
+/* line 586, ../sass/_scene2.scss */
 .scene2 .left-center-block {
   float: left;
   width: 541px;
-  overflow: hidden;
   position: relative;
   left: -65px;
   top: 25px;
@@ -2321,11 +2459,10 @@ footer .copyright h4 a:hover {
   transform: rotate(73deg);
   z-index: 100;
 }
-/* line 531, ../sass/_scene2.scss */
+/* line 600, ../sass/_scene2.scss */
 .scene2 .right-center-block {
   float: right;
   width: 541px;
-  overflow: hidden;
   position: relative;
   -ms-transform: rotate(-73deg);
   -webkit-transform: rotate(-73deg);
@@ -2334,39 +2471,57 @@ footer .copyright h4 a:hover {
   transform: rotate(-73deg);
   right: -65px;
   top: -260px;
-  z-index: 9;
 }
-/* line 545, ../sass/_scene2.scss */
+/* line 614, ../sass/_scene2.scss */
 .scene2 .center-block {
   width: 541px;
   position: relative;
   top: -375px;
+  z-index: 999;
 }
-/* line 552, ../sass/_scene2.scss */
+/* line 620, ../sass/_scene2.scss */
+.scene2 .center-block .A, .scene2 .center-block .B, .scene2 .center-block .C, .scene2 .center-block .D, .scene2 .center-block .E,
+.scene2 .center-block .F, .scene2 .center-block .G, .scene2 .center-block .H, .scene2 .center-block .J, .scene2 .center-block .I,
+.scene2 .center-block .K, .scene2 .center-block .L, .scene2 .center-block .M, .scene2 .center-block .N, .scene2 .center-block .O {
+  z-index: 99;
+}
+/* line 626, ../sass/_scene2.scss */
+.scene2 .center-block .hover-block {
+  width: 224px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: -9999999999px;
+  z-index: 9999999999;
+  top: 15px;
+  background-color: white;
+  box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
+}
+/* line 640, ../sass/_scene2.scss */
 .scene2 .center-block .H li:nth-child(1), .scene2 .center-block .H li:nth-child(2), .scene2 .center-block .H li:nth-child(3), .scene2 .center-block .H li:nth-child(4), .scene2 .center-block .H li:nth-child(5), .scene2 .center-block .H li:nth-child(11), .scene2 .center-block .H li:nth-child(12), .scene2 .center-block .H li:nth-child(13), .scene2 .center-block .H li:nth-child(14) {
   margin: 0 2px 0 1px;
 }
-/* line 567, ../sass/_scene2.scss */
+/* line 655, ../sass/_scene2.scss */
 .scene2 .center-block .J li:nth-child(1), .scene2 .center-block .J li:nth-child(2), .scene2 .center-block .J li:nth-child(3), .scene2 .center-block .J li:nth-child(4), .scene2 .center-block .J li:nth-child(5), .scene2 .center-block .J li:nth-child(13), .scene2 .center-block .J li:nth-child(14), .scene2 .center-block .J li:nth-child(15), .scene2 .center-block .J li:nth-child(16), .scene2 .center-block .J li:nth-child(17) {
   margin: 0 2px 0 1px;
 }
-/* line 583, ../sass/_scene2.scss */
+/* line 671, ../sass/_scene2.scss */
 .scene2 .center-block .K li:nth-child(1), .scene2 .center-block .K li:nth-child(2), .scene2 .center-block .K li:nth-child(3), .scene2 .center-block .K li:nth-child(17), .scene2 .center-block .K li:nth-child(18), .scene2 .center-block .K li:nth-child(19) {
   margin: 0 2px 0 1px;
 }
-/* line 595, ../sass/_scene2.scss */
+/* line 683, ../sass/_scene2.scss */
 .scene2 .center-block .M li:nth-child(1), .scene2 .center-block .M li:nth-child(2), .scene2 .center-block .M li:nth-child(3), .scene2 .center-block .M li:nth-child(4), .scene2 .center-block .M li:nth-child(5), .scene2 .center-block .M li:nth-child(17), .scene2 .center-block .M li:nth-child(18), .scene2 .center-block .M li:nth-child(19), .scene2 .center-block .M li:nth-child(20), .scene2 .center-block .M li:nth-child(21) {
   margin: 0 2px 0 1px;
 }
-/* line 611, ../sass/_scene2.scss */
+/* line 699, ../sass/_scene2.scss */
 .scene2 .center-block .N li:nth-child(14) {
   margin-left: 8px;
 }
-/* line 614, ../sass/_scene2.scss */
+/* line 702, ../sass/_scene2.scss */
 .scene2 .center-block .N li:nth-child(21), .scene2 .center-block .N li:nth-child(22), .scene2 .center-block .N li:nth-child(23) {
   margin: 0 2px 0 1px;
 }
-/* line 626, ../sass/_scene2.scss */
+/* line 714, ../sass/_scene2.scss */
 .scene2 .left-center-block .H li:nth-child(1), .scene2 .left-center-block .H li:nth-child(2), .scene2 .left-center-block .H li:nth-child(3), .scene2 .left-center-block .H li:nth-child(4), .scene2 .left-center-block .H li:nth-child(5), .scene2 .left-center-block .H li:nth-child(11), .scene2 .left-center-block .H li:nth-child(12), .scene2 .left-center-block .H li:nth-child(13), .scene2 .left-center-block .H li:nth-child(14),
 .scene2 .right-center-block .H li:nth-child(1),
 .scene2 .right-center-block .H li:nth-child(2),
@@ -2379,7 +2534,7 @@ footer .copyright h4 a:hover {
 .scene2 .right-center-block .H li:nth-child(14) {
   margin: 0 2px 0 1px;
 }
-/* line 641, ../sass/_scene2.scss */
+/* line 729, ../sass/_scene2.scss */
 .scene2 .left-center-block .J li:nth-child(1), .scene2 .left-center-block .J li:nth-child(2), .scene2 .left-center-block .J li:nth-child(3), .scene2 .left-center-block .J li:nth-child(4), .scene2 .left-center-block .J li:nth-child(5), .scene2 .left-center-block .J li:nth-child(13), .scene2 .left-center-block .J li:nth-child(14), .scene2 .left-center-block .J li:nth-child(15), .scene2 .left-center-block .J li:nth-child(16), .scene2 .left-center-block .J li:nth-child(17),
 .scene2 .right-center-block .J li:nth-child(1),
 .scene2 .right-center-block .J li:nth-child(2),
@@ -2393,7 +2548,7 @@ footer .copyright h4 a:hover {
 .scene2 .right-center-block .J li:nth-child(17) {
   margin: 0 2px 0 1px;
 }
-/* line 657, ../sass/_scene2.scss */
+/* line 745, ../sass/_scene2.scss */
 .scene2 .left-center-block .K li:nth-child(1), .scene2 .left-center-block .K li:nth-child(2), .scene2 .left-center-block .K li:nth-child(3), .scene2 .left-center-block .K li:nth-child(17), .scene2 .left-center-block .K li:nth-child(18), .scene2 .left-center-block .K li:nth-child(19),
 .scene2 .right-center-block .K li:nth-child(1),
 .scene2 .right-center-block .K li:nth-child(2),
@@ -2403,7 +2558,7 @@ footer .copyright h4 a:hover {
 .scene2 .right-center-block .K li:nth-child(19) {
   margin: 0 2px 0 1px;
 }
-/* line 669, ../sass/_scene2.scss */
+/* line 757, ../sass/_scene2.scss */
 .scene2 .left-center-block .M li:nth-child(1), .scene2 .left-center-block .M li:nth-child(2), .scene2 .left-center-block .M li:nth-child(3), .scene2 .left-center-block .M li:nth-child(4), .scene2 .left-center-block .M li:nth-child(5), .scene2 .left-center-block .M li:nth-child(17), .scene2 .left-center-block .M li:nth-child(18), .scene2 .left-center-block .M li:nth-child(19), .scene2 .left-center-block .M li:nth-child(20), .scene2 .left-center-block .M li:nth-child(21),
 .scene2 .right-center-block .M li:nth-child(1),
 .scene2 .right-center-block .M li:nth-child(2),
@@ -2417,17 +2572,17 @@ footer .copyright h4 a:hover {
 .scene2 .right-center-block .M li:nth-child(21) {
   margin: 0 2px 0 1px;
 }
-/* line 685, ../sass/_scene2.scss */
+/* line 773, ../sass/_scene2.scss */
 .scene2 .left-center-block .N li:nth-child(14),
 .scene2 .right-center-block .N li:nth-child(14) {
   margin-left: 1px;
 }
-/* line 688, ../sass/_scene2.scss */
+/* line 776, ../sass/_scene2.scss */
 .scene2 .left-center-block .N li:first-child,
 .scene2 .right-center-block .N li:first-child {
   margin-right: 8px;
 }
-/* line 691, ../sass/_scene2.scss */
+/* line 779, ../sass/_scene2.scss */
 .scene2 .left-center-block .N li:nth-child(21), .scene2 .left-center-block .N li:nth-child(22), .scene2 .left-center-block .N li:nth-child(23),
 .scene2 .right-center-block .N li:nth-child(21),
 .scene2 .right-center-block .N li:nth-child(22),
@@ -2435,71 +2590,67 @@ footer .copyright h4 a:hover {
   margin: 0 2px 0 1px;
 }
 
-/* line 700, ../sass/_scene2.scss */
-.hover-block {
-  width: 250px;
+/* line 790, ../sass/_scene2.scss */
+.scene-block .hover-block {
+  min-width: 224px;
+  width: 224px;
   height: auto;
   overflow: hidden;
   position: absolute;
-  top: auto;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  border: 1px solid #ccc;
-  display: none;
+  left: -9999999999px;
+  z-index: 9999999999;
+  background-color: white;
+  box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
 }
-/* line 712, ../sass/_scene2.scss */
-.hover-block .hover-block-list {
+/* line 801, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
+  padding: 17px 0 21px 16px;
 }
-/* line 716, ../sass/_scene2.scss */
-.hover-block .hover-block-list li {
+/* line 806, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list > li {
   display: block;
+  width: auto;
+  height: auto;
   clear: both;
   overflow: hidden;
+  margin: 11px auto;
 }
-/* line 725, ../sass/_scene2.scss */
-.hover-block .hover-block-list .square-1 span,
-.hover-block .hover-block-list .square-2 span,
-.hover-block .hover-block-list .square-3 span {
+/* line 814, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list > li span {
   float: left;
   overflow: hidden;
-  font: 400 18px/20px "Open Sans", sans-serif;
+  font: 400 16px/20px "Open Sans", sans-serif;
   color: #262626;
 }
-/* line 733, ../sass/_scene2.scss */
-.hover-block .hover-block-list .square-2 span {
-  margin: 7px 0 0;
-}
-/* line 737, ../sass/_scene2.scss */
-.hover-block .hover-block-list .color-square-1,
-.hover-block .hover-block-list .color-square-2,
-.hover-block .hover-block-list .color-square-3 {
+/* line 821, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list > .color-square-1, .scene-block .hover-block .hover-block-list > .color-square-2, .scene-block .hover-block .hover-block-list > .color-square-3 {
   float: left;
   margin-right: 10px;
 }
-/* line 743, ../sass/_scene2.scss */
-.hover-block .hover-block-list .color-square-1,
-.hover-block .hover-block-list .color-square-2,
-.hover-block .hover-block-list .color-square-3 {
+/* line 827, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list .color-square-1,
+.scene-block .hover-block .hover-block-list .color-square-2,
+.scene-block .hover-block .hover-block-list .color-square-3 {
   float: left;
-  width: 36px;
-  height: 36px;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
 }
-/* line 750, ../sass/_scene2.scss */
-.hover-block .hover-block-list .color-square-1 {
+/* line 835, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list .color-square-1 {
   background: #BCB8B5;
 }
-/* line 753, ../sass/_scene2.scss */
-.hover-block .hover-block-list .color-square-2 {
+/* line 838, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list .color-square-2 {
   background: #5A009E;
 }
-/* line 756, ../sass/_scene2.scss */
-.hover-block .hover-block-list .color-square-3 {
+/* line 841, ../sass/_scene2.scss */
+.scene-block .hover-block .hover-block-list .color-square-3 {
   background: #ED6A00;
 }
 
@@ -3543,11 +3694,11 @@ footer .copyright h4 a:hover {
   position: relative;
   top: 0;
   left: -60px;
-  -ms-transform: rotate(10deg);
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  transform: rotate(10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 /* line 791, ../sass/_scene4.scss */
 .scene4 .place-list-1 li,
@@ -3929,8 +4080,8 @@ footer .copyright h4 a:hover {
   padding: 10px 0 15px;
   overflow: hidden;
   position: relative;
-  top: 25px;
-  left: -45px;
+  top: 20px;
+  left: -60px;
   -ms-transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -4471,8 +4622,8 @@ footer .copyright h4 a:hover {
   overflow: hidden;
   float: right;
   position: relative;
-  top: 0;
-  right: 0;
+  top: -10px;
+  right: 30px;
 }
 /* line 1432, ../sass/_scene4.scss */
 .block3 .rotate-block {
@@ -4523,11 +4674,11 @@ footer .copyright h4 a:hover {
   position: relative;
   top: 0;
   left: 0;
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
   float: right;
 }
 /* line 1480, ../sass/_scene4.scss */
@@ -4631,8 +4782,8 @@ footer .copyright h4 a:hover {
 /* line 1549, ../sass/_scene4.scss */
 .block4 .block-label {
   position: relative;
-  top: 10px;
-  left: 80px;
+  top: 20px;
+  left: 65px;
   margin-bottom: 15px;
   text-align: center;
   font: 400 12px/22px "Open Sans", sans-serif;
@@ -4658,11 +4809,11 @@ footer .copyright h4 a:hover {
   position: relative;
   top: 0;
   left: 0;
-  -ms-transform: rotate(10deg);
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  transform: rotate(10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
   float: right;
 }
 /* line 1580, ../sass/_scene4.scss */
@@ -4789,11 +4940,11 @@ footer .copyright h4 a:hover {
   position: relative;
   top: 0;
   left: 0;
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
   float: right;
 }
 /* line 1677, ../sass/_scene4.scss */
@@ -4897,8 +5048,8 @@ footer .copyright h4 a:hover {
 /* line 1746, ../sass/_scene4.scss */
 .block6 .block-label {
   position: relative;
-  top: 0;
-  left: 50px;
+  top: 20px;
+  left: 40px;
   margin-bottom: 15px;
   text-align: center;
   font: 400 12px/22px "Open Sans", sans-serif;
@@ -4924,11 +5075,11 @@ footer .copyright h4 a:hover {
   position: relative;
   top: 0;
   left: 0;
-  -ms-transform: rotate(10deg);
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  transform: rotate(10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
   float: right;
 }
 /* line 1777, ../sass/_scene4.scss */
@@ -5005,8 +5156,8 @@ footer .copyright h4 a:hover {
   overflow: hidden;
   position: relative;
   padding: 0;
-  top: -10px;
-  right: 40px;
+  top: -28px;
+  right: 50px;
 }
 /* line 1828, ../sass/_scene4.scss */
 .block7 .block7-1,
@@ -5139,7 +5290,7 @@ footer .copyright h4 a:hover {
   overflow: hidden;
   position: relative;
   top: 0;
-  left: 40px;
+  left: 30px;
 }
 /* line 1927, ../sass/_scene4.scss */
 .block8 .block8-1,
@@ -5279,28 +5430,47 @@ footer .copyright h4 a:hover {
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /* line 2029, ../sass/_scene4.scss */
+.balcony-block {
+  margin: -75px auto 46px !important;
+}
+/* line 2031, ../sass/_scene4.scss */
+.balcony-block .scene4-balcony {
+  height: 1000px;
+}
+
+/* line 2036, ../sass/_scene4.scss */
 .balcony-main {
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
+  top: -150px;
+  left: -10px;
+  height: 490px;
 }
-/* line 2033, ../sass/_scene4.scss */
+/* line 2044, ../sass/_scene4.scss */
 .balcony-main .series-label {
+  position: relative;
+  top: 75px;
+  margin: 0 auto;
+  text-align: center;
   color: #000;
   font: 400 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 2039, ../sass/_scene4.scss */
+/* line 2054, ../sass/_scene4.scss */
 .balcony-main .balcony-main-title {
   margin: 0 auto;
   text-align: center;
   color: #262626;
   font: 400 20px/22px "Open Sans", sans-serif;
   text-transform: uppercase;
+  position: relative;
+  top: -855px;
 }
-/* line 2047, ../sass/_scene4.scss */
+/* line 2064, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA,
 .balcony-main .balcony-left-side-BB,
 .balcony-main .balcony-left-side-CC,
@@ -5336,10 +5506,9 @@ footer .copyright h4 a:hover {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  overflow: hidden;
   margin: 0 auto;
 }
-/* line 2082, ../sass/_scene4.scss */
+/* line 2099, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA li,
 .balcony-main .balcony-left-side-BB li,
 .balcony-main .balcony-left-side-CC li,
@@ -5376,7 +5545,7 @@ footer .copyright h4 a:hover {
   height: 21px;
   margin: 1px 1px 2px;
 }
-/* line 2088, ../sass/_scene4.scss */
+/* line 2105, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA li a,
 .balcony-main .balcony-left-side-BB li a,
 .balcony-main .balcony-left-side-CC li a,
@@ -5413,7 +5582,7 @@ footer .copyright h4 a:hover {
   color: white;
   font: 400 14px/17px "Open Sans", sans-serif;
 }
-/* line 2096, ../sass/_scene4.scss */
+/* line 2113, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .reserved,
 .balcony-main .balcony-left-side-BB .reserved,
 .balcony-main .balcony-left-side-CC .reserved,
@@ -5446,7 +5615,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .reserved {
   background-color: #bcb8b6;
 }
-/* line 2099, ../sass/_scene4.scss */
+/* line 2116, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .ather-backets,
 .balcony-main .balcony-left-side-BB .ather-backets,
 .balcony-main .balcony-left-side-CC .ather-backets,
@@ -5479,7 +5648,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .ather-backets {
   background-color: #ed6a00;
 }
-/* line 2102, ../sass/_scene4.scss */
+/* line 2119, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .in-the-basket,
 .balcony-main .balcony-left-side-BB .in-the-basket,
 .balcony-main .balcony-left-side-CC .in-the-basket,
@@ -5512,7 +5681,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .in-the-basket {
   background-color: #5A009E;
 }
-/* line 2105, ../sass/_scene4.scss */
+/* line 2122, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .cheap-price,
 .balcony-main .balcony-left-side-BB .cheap-price,
 .balcony-main .balcony-left-side-CC .cheap-price,
@@ -5545,7 +5714,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .cheap-price {
   background-color: #E7CE00;
 }
-/* line 2108, ../sass/_scene4.scss */
+/* line 2125, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .average-price,
 .balcony-main .balcony-left-side-BB .average-price,
 .balcony-main .balcony-left-side-CC .average-price,
@@ -5578,7 +5747,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .average-price {
   background-color: #C00463;
 }
-/* line 2111, ../sass/_scene4.scss */
+/* line 2128, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA .highest-price,
 .balcony-main .balcony-left-side-BB .highest-price,
 .balcony-main .balcony-left-side-CC .highest-price,
@@ -5611,7 +5780,7 @@ footer .copyright h4 a:hover {
 .balcony-main .right-alone-FF .highest-price {
   background-color: #840343;
 }
-/* line 2115, ../sass/_scene4.scss */
+/* line 2132, ../sass/_scene4.scss */
 .balcony-main .balcony-left-side-AA,
 .balcony-main .balcony-left-side-BB,
 .balcony-main .balcony-left-side-CC,
@@ -5622,15 +5791,83 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-left-side-HH {
   position: relative;
   width: 260px;
-  top: 0;
-  left: -200px;
+  top: -20px;
+  left: -265px;
   -ms-transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
+  padding: 48px 0 30px 0;
 }
-/* line 2133, ../sass/_scene4.scss */
+/* line 2151, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-AA {
+  top: -6px;
+  left: -137px;
+}
+/* line 2155, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-BB {
+  top: -18px;
+  left: -167px;
+}
+/* line 2159, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-CC {
+  top: -30px;
+  left: -197px;
+}
+/* line 2163, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-DD {
+  top: -30px;
+  left: -207px;
+}
+/* line 2167, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-EE {
+  top: -30px;
+  left: -217px;
+}
+/* line 2171, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-FF {
+  top: -29px;
+  left: -227px;
+}
+/* line 2175, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-GG {
+  top: -18px;
+  left: -219px;
+}
+/* line 2179, ../sass/_scene4.scss */
+.balcony-main .balcony-left-side-HH {
+  top: -18px;
+  left: -242px;
+}
+/* line 2183, ../sass/_scene4.scss */
+.balcony-main .left-alone-DD {
+  position: relative;
+  top: -50px;
+  left: 104px;
+}
+/* line 2188, ../sass/_scene4.scss */
+.balcony-main .left-alone-EE {
+  position: relative;
+  top: -50px;
+  left: 117px;
+}
+/* line 2193, ../sass/_scene4.scss */
+.balcony-main .left-alone-FF {
+  position: relative;
+  top: -49px;
+  left: 108px;
+}
+/* line 2198, ../sass/_scene4.scss */
+.balcony-main .left-alone-DD,
+.balcony-main .left-alone-EE,
+.balcony-main .left-alone-FF,
+.balcony-main .right-alone-DD,
+.balcony-main .right-alone-EE,
+.balcony-main .right-alone-FF {
+  z-index: 9;
+}
+/* line 2206, ../sass/_scene4.scss */
 .balcony-main .balcony-center-side-AA,
 .balcony-main .balcony-center-side-BB,
 .balcony-main .balcony-center-side-CC,
@@ -5641,9 +5878,39 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-center-side-HH {
   position: relative;
   top: 0;
-  left: 400px;
+  left: 320px;
+  overflow: hidden;
+  z-index: 9;
 }
-/* line 2145, ../sass/_scene4.scss */
+/* line 2220, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-AA {
+  left: 405px;
+}
+/* line 2223, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-BB {
+  left: 395px;
+}
+/* line 2226, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-CC {
+  left: 385px;
+}
+/* line 2229, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-DD {
+  left: 375px;
+}
+/* line 2232, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-EE {
+  left: 365px;
+}
+/* line 2235, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-FF {
+  left: 355px;
+}
+/* line 2238, ../sass/_scene4.scss */
+.balcony-main .balcony-center-side-GG {
+  left: 343px;
+}
+/* line 2241, ../sass/_scene4.scss */
 .balcony-main .balcony-right-side-AA,
 .balcony-main .balcony-right-side-BB,
 .balcony-main .balcony-right-side-CC,
@@ -5654,11 +5921,130 @@ footer .copyright h4 a:hover {
 .balcony-main .balcony-right-side-HH {
   position: relative;
   width: 260px;
-  top: 0;
-  right: -200px;
+  top: -135px;
+  right: -300px;
   -ms-transform: rotate(-30deg);
   -webkit-transform: rotate(-30deg);
   -moz-transform: rotate(-30deg);
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
+  padding: 48px 0 30px 0;
+  z-index: 9;
+}
+/* line 2261, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-AA {
+  top: -135px;
+  right: -211px;
+}
+/* line 2265, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-BB {
+  top: -135px;
+  right: -224px;
+}
+/* line 2269, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-CC {
+  top: -135px;
+  right: -237px;
+}
+/* line 2273, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-DD {
+  top: -139px;
+  right: -257px;
+  width: 276px;
+}
+/* line 2278, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-EE {
+  top: -139px;
+  right: -270px;
+  width: 276px;
+}
+/* line 2283, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-FF {
+  top: -139px;
+  right: -283px;
+  width: 276px;
+}
+/* line 2288, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-GG {
+  top: -135px;
+  right: -288px;
+}
+/* line 2292, ../sass/_scene4.scss */
+.balcony-main .balcony-right-side-HH {
+  top: -135px;
+  right: -311px;
+}
+/* line 2296, ../sass/_scene4.scss */
+.balcony-main .right-alone-DD {
+  float: right;
+  overflow: hidden;
+  width: 46px;
+  position: relative;
+  top: -241px;
+  right: 47px;
+}
+/* line 2304, ../sass/_scene4.scss */
+.balcony-main .right-alone-EE {
+  float: right;
+  overflow: hidden;
+  width: 46px;
+  position: relative;
+  top: -242px;
+  right: 34px;
+}
+/* line 2312, ../sass/_scene4.scss */
+.balcony-main .right-alone-FF {
+  float: right;
+  overflow: hidden;
+  width: 46px;
+  position: relative;
+  top: -242px;
+  right: 21px;
+}
+/* line 2321, ../sass/_scene4.scss */
+.balcony-main .AA, .balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
+.balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
+  padding-top: 15px;
+  height: 165px;
+}
+/* line 2326, ../sass/_scene4.scss */
+.balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
+.balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
+  position: relative;
+  top: -170px;
+}
+/* line 2331, ../sass/_scene4.scss */
+.balcony-main .BB {
+  top: -125px;
+  padding-top: 20px;
+}
+/* line 2335, ../sass/_scene4.scss */
+.balcony-main .CC {
+  top: -255px;
+  padding-top: 30px;
+}
+/* line 2339, ../sass/_scene4.scss */
+.balcony-main .DD {
+  top: -388px;
+  padding-top: 45px;
+}
+/* line 2343, ../sass/_scene4.scss */
+.balcony-main .EE {
+  top: -507px;
+  padding-top: 43px;
+}
+/* line 2348, ../sass/_scene4.scss */
+.balcony-main .FF {
+  top: -628px;
+  padding-top: 44px;
+}
+/* line 2352, ../sass/_scene4.scss */
+.balcony-main .GG {
+  top: -735px;
+  padding-top: 30px;
+}
+/* line 2356, ../sass/_scene4.scss */
+.balcony-main .HH {
+  top: -855px;
+  padding-top: 30px;
 }

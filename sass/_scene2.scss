@@ -351,17 +351,19 @@ $family: 'Open Sans', sans-serif;
 
 		.left-side-block {
 			float: left;
-			overflow: hidden;
+			// overflow: hidden;
 			margin: 0 0 20px 5%;
+			z-index: 2009;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {
 				@include border-box;
 				width: 17px;
-				overflow: hidden;
+				// overflow: hidden;
 				display: block;
 				float: right;
 				margin: 0 1px;
+				z-index: 9;
 
 				li {
 					display: block;
@@ -369,7 +371,7 @@ $family: 'Open Sans', sans-serif;
 					height: 15px;
 					margin: 1px 2px 1px 1px;
 					a {
-					position: relative;
+						position: relative;
 						overflow: hidden;
 						display: block;
 						text-align: center;
@@ -377,10 +379,15 @@ $family: 'Open Sans', sans-serif;
 						font: 400 7px / 15px $family;
 					}
 				}
-				li a:hover .hover-block {
-						display: block;
+				.hoverParent {
+					position: relative;
+					&:hover .hover-block {
+						display: block !important;
 						z-index: 9999999999;
+						left: 0;
+						right: 0;
 					}
+				}
 				.reserved {
 					background-color: #bcb8b6;
 				}
@@ -398,14 +405,14 @@ $family: 'Open Sans', sans-serif;
 		}
 		.right-side-block {
 			float: right;
-			overflow: hidden;
+			// overflow: hidden;
 			margin: 0 7% 20px 0;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {
 				@include border-box;
 				width: 17px;
-				overflow: hidden;
+				// overflow: hidden;
 				display: block;
 				float: left;
 				margin: 0 1px;
@@ -422,6 +429,15 @@ $family: 'Open Sans', sans-serif;
 						text-align: center;
 						color: white;
 						font: 400 7px / 15px $family;
+					}
+				}
+				.hoverParent {
+					position: relative;
+					&:hover .hover-block {
+						display: block !important;
+						z-index: 9999999999;
+						left: 0;
+						right: 0;
 					}
 				}
 				.reserved {
@@ -444,14 +460,14 @@ $family: 'Open Sans', sans-serif;
 		}
 		.rotate-block {
 			clear: both;
-			overflow: hidden;
+			// overflow: hidden;
 			padding-top: 45px;
 			height: 485px;
 		}
 		.left-center-block,
 		.right-center-block,
 		.center-block {
-			overflow: hidden;
+			// overflow: hidden;
 			clear: both;
 			margin: 0 auto;
 			text-align: center;
@@ -467,7 +483,7 @@ $family: 'Open Sans', sans-serif;
 			.K, .L, .M, .N, .O {
 				@include border-box;
 				width: 100%;
-				overflow: hidden;
+				// overflow: hidden;
 				display: block;
 				margin: 0 auto;
 				text-align: center;
@@ -485,6 +501,15 @@ $family: 'Open Sans', sans-serif;
 						text-align: center;
 						color: white;
 						font: 400 7px / 15px $family;
+					}
+				}
+				.hoverParent {
+					position: relative;
+					&:hover .hover-block {
+						display: block !important;
+						z-index: 9999999999;
+						left: 0;
+						right: 0;
 					}
 				}
 				.reserved {
@@ -515,9 +540,53 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 		.left-center-block {
+			.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M, .N, .O {
+				z-index: 8;
+			}
+			.hoverParent {
+				position: relative;
+				&:hover .hover-block {
+					display: block !important;
+					z-index: 9999999999;
+					left: -11px !important;
+			    right: 0 !important;
+			    top: -141px !important;
+					-ms-transform: rotate(-74deg);
+					-webkit-transform: rotate(-74deg);
+					-moz-transform: rotate(-74deg);
+					-o-transform: rotate(-74deg);
+					transform: rotate(-74deg);
+				}
+			}
+		}
+		.right-center-block {
+			.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M, .N, .O {
+				z-index: 100;
+			}
+			.hoverParent {
+				position: relative;
+				&:hover .hover-block {
+					display: block !important;
+					z-index: 9999999999 !important;
+					right: 0 !important;
+			    left: -65px !important;
+    			top: -208px !important;
+					-ms-transform: rotate(74deg);
+					-webkit-transform: rotate(74deg);
+					-moz-transform: rotate(74deg);
+					-o-transform: rotate(74deg);
+					transform: rotate(74deg);
+				}
+			}
+		}
+		.left-center-block {
 			float: left;
 			width: 541px;
-			overflow: hidden;
+			// overflow: hidden;
 			position: relative;
 			left: -65px;
 			top: 25px;
@@ -531,7 +600,7 @@ $family: 'Open Sans', sans-serif;
 		.right-center-block {
 			float: right;
 			width: 541px;
-			overflow: hidden;
+			// overflow: hidden;
 			position: relative;
 			-ms-transform: rotate(-73deg);
 			-webkit-transform: rotate(-73deg);
@@ -540,12 +609,31 @@ $family: 'Open Sans', sans-serif;
 			transform: rotate(-73deg);
 			right: -65px;
 			top: -260px;
-			z-index: 9;
+			// z-index: 9;
 		}
 		.center-block {
 			width: 541px;
 			position: relative;
 			top: -375px;
+			z-index: 999;
+
+			.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M, .N, .O {
+				z-index: 99;
+			}
+
+			.hover-block{
+		    width: 224px;
+		    height: auto;
+		    overflow: hidden;
+		    position: absolute;
+		    left: -9999999999px;
+		    z-index: 9999999999;
+		    top: 15px;
+		    background-color: white;
+		    box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
+			}
 
 			.H {
 				li {
@@ -697,46 +785,42 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 	}
+	.scene-block {
+
 		.hover-block {
-			width: 250px;
+			min-width: 224px;
+			width: 224px;
 			height: auto;
 			overflow: hidden;
 			position: absolute;
-			top: auto;
-			left: auto;
-			right: auto;
-			bottom: auto;
-			border: 1px solid #ccc;
-			display: none;
+			left: -9999999999px;
+			z-index: 9999999999;
+			background-color: white;
+			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
 
 			.hover-block-list {
 				@include border-box;
 				overflow: hidden;
+				padding: 17px 0 21px 16px;
 
-				li {
+				& > li {
 					display: block;
+					width: auto;
+					height: auto;
 					clear: both;
 					overflow: hidden;
-				}
+					margin: 11px auto;
 
-				.square-1,
-				.square-2,
-				.square-3 {
 					span {
 						float: left;
 						overflow: hidden;
-						font: 400 18px / 20px $family;
+						font: 400 16px / 20px $family;
 						color: #262626;
 					}
 				}
-				.square-2 {
-					span {
-						margin: 7px 0 0;
-					}
-				}
-				.color-square-1,
-				.color-square-2,
-				.color-square-3 {
+				& > .color-square-1,
+				& > .color-square-2,
+				& > .color-square-3 {
 					float: left;
 					margin-right: 10px;
 				}
@@ -744,8 +828,9 @@ $family: 'Open Sans', sans-serif;
 				.color-square-2,
 				.color-square-3 {
 					float: left;
-					width: 36px;
-					height: 36px;
+					width: 25px;
+					height: 25px;
+					margin-right: 15px;
 				}
 				.color-square-1 {
 					background: #BCB8B5;					
@@ -758,3 +843,5 @@ $family: 'Open Sans', sans-serif;
 				}
 			}
 		}
+	}
+

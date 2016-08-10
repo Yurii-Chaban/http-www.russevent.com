@@ -782,11 +782,11 @@ $family: 'Open Sans', sans-serif;
 		position: relative;
 		top: 0;
 		left: -60px;
-		-ms-transform: rotate(10deg);
-		-webkit-transform: rotate(10deg);
-		-moz-transform: rotate(10deg);
-		-o-transform: rotate(10deg);
-		transform: rotate(10deg);
+		-ms-transform: rotate(-10deg);
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		transform: rotate(-10deg);
 
 		li {
 			display: block;
@@ -1029,8 +1029,8 @@ $family: 'Open Sans', sans-serif;
 				padding: 10px 0 15px;
 				overflow: hidden;
 				position: relative;
-				top: 25px;
-				left: -45px;		
+				top: 20px;
+				left: -60px;		
 				-ms-transform: rotate(30deg);
 				-webkit-transform: rotate(30deg);
 				-moz-transform: rotate(30deg);
@@ -1427,8 +1427,8 @@ $family: 'Open Sans', sans-serif;
 	overflow: hidden;
 	float: right;
 	position: relative;
-	top: 0;
-	right: 0;	
+	top: -10px;
+	right: 30px;
 	.rotate-block {
 		float: left;
 		width: 140px;
@@ -1450,7 +1450,7 @@ $family: 'Open Sans', sans-serif;
 	.block-label {
 		position: relative;
 		right: 65px;
-    top: 30px;
+		top: 30px;
 		text-align: center;
 		font: 400 12px / 22px $family;
 	}
@@ -1470,11 +1470,11 @@ $family: 'Open Sans', sans-serif;
 	position: relative;
 	top: 0;
 	left: 0;
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	transform: rotate(-10deg);
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
 	float: right;
 
 	li {
@@ -1548,8 +1548,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block-label {
 		position: relative;
-		top: 10px;
-    left: 80px;
+		top: 20px;
+		left: 65px;
 		margin-bottom: 15px;
 		text-align: center;
 		font: 400 12px / 22px $family;
@@ -1570,11 +1570,11 @@ $family: 'Open Sans', sans-serif;
 	position: relative;
 	top: 0;
 	left: 0;
-	-ms-transform: rotate(10deg);
-	-webkit-transform: rotate(10deg);
-	-moz-transform: rotate(10deg);
-	-o-transform: rotate(10deg);
-	transform: rotate(10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
 	float: right;
 
 	li {
@@ -1667,11 +1667,11 @@ $family: 'Open Sans', sans-serif;
 	position: relative;
 	top: 0;
 	left: 0;
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	transform: rotate(-10deg);
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
 	float: right;
 
 	li {
@@ -1745,8 +1745,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block-label {
 		position: relative;
-		top: 0;
-		left: 50px;
+		top: 20px;
+		left: 40px;
 		margin-bottom: 15px;
 		text-align: center;
 		font: 400 12px / 22px $family;
@@ -1767,11 +1767,11 @@ $family: 'Open Sans', sans-serif;
 	position: relative;
 	top: 0;
 	left: 0;
-	-ms-transform: rotate(10deg);
-	-webkit-transform: rotate(10deg);
-	-moz-transform: rotate(10deg);
-	-o-transform: rotate(10deg);
-	transform: rotate(10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
 	float: right;
 
 	li {
@@ -1822,8 +1822,8 @@ $family: 'Open Sans', sans-serif;
 	overflow: hidden;
 	position: relative;
 	padding: 0;
-	top: -10px;
-	right: 40px;
+	top: -28px;
+	right: 50px;
 
 	.block7-1, 
 	.block7-2, 
@@ -1884,7 +1884,7 @@ $family: 'Open Sans', sans-serif;
 	}	
 	.block7-1 {
 		top: 0;
-    right: 50px;
+		right: 50px;
 	}
 	.block7-2 {
 		top: -24px;
@@ -1892,7 +1892,7 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block7-3 {
 		top: -24px;
-    right: -8px;
+		right: -8px;
 
 		li {
 			margin: 2px 5px;
@@ -1908,8 +1908,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block-label {
 		position: relative;
-    top: 10px;
-    left: 70px;
+		top: 10px;
+		left: 70px;
 		text-align: center;
 		font: 400 12px / 22px $family;
 	}
@@ -1918,12 +1918,12 @@ $family: 'Open Sans', sans-serif;
 .block8 {
 	float: left;
 	width: 178px;
-  height: 170px;
-  padding: 11px 11px 0 0;
-  overflow: hidden;
-  position: relative;
-  top: 0;
-  left: 40px;
+	height: 170px;
+	padding: 11px 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 30px;
 	.block8-1, 
 	.block8-2, 
 	.block8-3 {
@@ -1982,15 +1982,15 @@ $family: 'Open Sans', sans-serif;
 	}	
 	.block8-1 {
 		top: 82px;
-    left: 27px;
+		left: 27px;
 	}
 	.block8-2 {
 		top: 84px;
-    left: 4px;
+		left: 4px;
 	}
 	.block8-3 {
 		top: 53px;
-    left: -43px;
+		left: -43px;
 
 		li {
 			margin: 2px 5px;
@@ -2006,8 +2006,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block-label {
 		position: relative;
-    top: -5px;
-    left: -45px;
+		top: -5px;
+		left: -45px;
 		text-align: center;
 		font: 400 12px / 22px $family;
 	}
@@ -2026,11 +2026,26 @@ $family: 'Open Sans', sans-serif;
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
+.balcony-block {
+	margin: -75px auto 46px !important;
+	.scene4-balcony {
+		height: 1000px;
+	}
+}
+
 .balcony-main {
 	width: 100%;
 	@include border-box;
+	position: relative;
+	top: -150px;
+  left: -10px;
+	height: 490px;
 
 	.series-label {
+		position: relative;
+		top: 75px;
+		margin: 0 auto;
+		text-align: center;
 		color: #000;
 		font: 400 14px / 17px $family;
 		text-transform: uppercase;
@@ -2040,8 +2055,10 @@ $family: 'Open Sans', sans-serif;
 		margin: 0 auto;
 		text-align: center;
 		color: #262626;
-    font: 400 20px / 22px $family;
-    text-transform: uppercase;
+		font: 400 20px / 22px $family;
+		text-transform: uppercase;
+		position: relative;
+		top: -855px;
 	}
 
 	.balcony-left-side-AA,
@@ -2076,7 +2093,7 @@ $family: 'Open Sans', sans-serif;
 	.right-alone-FF {
 		@include border-box;
 		width: 100%;
-		overflow: hidden;
+		// overflow: hidden;
 		margin: 0 auto;
 
 		li {
@@ -2122,13 +2139,69 @@ $family: 'Open Sans', sans-serif;
 	.balcony-left-side-HH {
 		position: relative;
 		width: 260px;
-		top: 0;
-		left: -200px;
+		top: -20px;
+		left: -265px;
 		-ms-transform: rotate(30deg);
 		-webkit-transform: rotate(30deg);
 		-moz-transform: rotate(30deg);
 		-o-transform: rotate(30deg);
 		transform: rotate(30deg);
+		padding: 48px 0 30px 0;
+	}
+	.balcony-left-side-AA {
+		top: -6px;
+		left: -137px;
+	}
+	.balcony-left-side-BB {
+		top: -18px;
+		left: -167px;
+	}
+	.balcony-left-side-CC {
+		top: -30px;
+		left: -197px;
+	}
+	.balcony-left-side-DD {
+		top: -30px;
+		left: -207px;
+	}
+	.balcony-left-side-EE {
+		top: -30px;
+		left: -217px;
+	}
+	.balcony-left-side-FF {
+		top: -29px;
+		left: -227px;
+	}
+	.balcony-left-side-GG {
+		top: -18px;
+		left: -219px;
+	}
+	.balcony-left-side-HH {
+		top: -18px;
+		left: -242px;
+	}
+	.left-alone-DD {
+		position: relative;
+		top: -50px;
+    left: 104px;
+	}
+	.left-alone-EE {
+		position: relative;
+		top: -50px;
+    left: 117px;
+	}
+	.left-alone-FF {
+		position: relative;
+		top: -49px;
+    left: 108px;
+	}
+	.left-alone-DD,
+	.left-alone-EE,
+	.left-alone-FF,
+	.right-alone-DD,
+	.right-alone-EE,
+	.right-alone-FF {
+		z-index: 9;
 	}
 	.balcony-center-side-AA,
 	.balcony-center-side-BB,
@@ -2140,7 +2213,30 @@ $family: 'Open Sans', sans-serif;
 	.balcony-center-side-HH {
 		position: relative;
 		top: 0;
-		left: 400px;
+		left: 320px;
+		overflow: hidden;
+		z-index: 9;
+	}
+	.balcony-center-side-AA {
+		left: 405px;
+	}
+	.balcony-center-side-BB {
+		left: 395px;
+	}
+	.balcony-center-side-CC {
+		left: 385px;
+	}
+	.balcony-center-side-DD {
+		left: 375px;
+	}
+	.balcony-center-side-EE {
+		left: 365px;
+	}
+	.balcony-center-side-FF {
+		left: 355px;
+	}
+	.balcony-center-side-GG {
+		left: 343px;
 	}
 	.balcony-right-side-AA,
 	.balcony-right-side-BB,
@@ -2152,12 +2248,113 @@ $family: 'Open Sans', sans-serif;
 	.balcony-right-side-HH {
 		position: relative;
 		width: 260px;
-		top: 0;
-		right: -200px;
+		top: -135px;
+		right: -300px;
 		-ms-transform: rotate(-30deg);
 		-webkit-transform: rotate(-30deg);
 		-moz-transform: rotate(-30deg);
 		-o-transform: rotate(-30deg);
 		transform: rotate(-30deg);
+		padding: 48px 0 30px 0;
+		z-index: 9;
+	}
+	.balcony-right-side-AA {
+		top: -135px;
+		right: -211px;
+	}
+	.balcony-right-side-BB {
+		top: -135px;
+		right: -224px;
+	}
+	.balcony-right-side-CC {
+		top: -135px;
+		right: -237px;
+	}
+	.balcony-right-side-DD {
+		top: -139px;
+		right: -257px;
+		width: 276px;
+	}
+	.balcony-right-side-EE {
+		top: -139px;
+		right: -270px;
+		width: 276px;
+	}
+	.balcony-right-side-FF {
+		top: -139px;
+		right: -283px;
+		width: 276px;
+	}
+	.balcony-right-side-GG {
+		top: -135px;
+		right: -288px;
+	}
+	.balcony-right-side-HH {
+		top: -135px;
+		right: -311px;
+	}
+	.right-alone-DD {
+		float: right;
+		overflow: hidden;
+		width: 46px;
+		position: relative;
+    top: -241px;
+    right: 47px;
+	}
+	.right-alone-EE {
+		float: right;
+		overflow: hidden;
+		width: 46px;
+		position: relative;
+		top: -242px;
+    right: 34px;
+	}
+	.right-alone-FF {
+		float: right;
+		overflow: hidden;
+		width: 46px;
+		position: relative;
+		top: -242px;
+    right: 21px;
+	}
+
+	.AA, .BB, .CC, .DD,
+	.EE, .FF, .GG, .HH {
+		padding-top: 15px;
+		height: 165px;
+	}
+	.BB, .CC, .DD,
+	.EE, .FF, .GG, .HH {
+		position: relative;
+		top: -170px;
+	}
+	.BB {
+		top: -125px;
+		padding-top: 20px;
+	}
+	.CC {
+		top: -255px;
+		padding-top: 30px;
+	}
+	.DD {
+		top: -388px;
+    padding-top: 45px;
+	}
+	.EE {
+		top: -507px;
+		padding-top: 43px;
+
+	}
+	.FF {
+		top: -628px;
+		padding-top: 44px;
+	}
+	.GG {
+		top: -735px;
+		padding-top: 30px;
+	}
+	.HH {
+		top: -855px;
+		padding-top: 30px;
 	}
 }

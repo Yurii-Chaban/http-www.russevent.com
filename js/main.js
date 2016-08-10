@@ -5,7 +5,7 @@ $(function () {
         var link = this.pathname;
         var result = location.match(link);
         if(result && link.length > 0) {
-        $(this).addClass('lenguage-list-active');
+            $(this).addClass('lenguage-list-active');
         }
     });
 });
@@ -16,7 +16,7 @@ $(function () {
         var link = this.pathname;
         var result = location.match(link);
         if(result && link.length > 0) {
-        $(this).addClass('list-menu-active');
+            $(this).addClass('list-menu-active');
         }
     });
 });
@@ -34,4 +34,43 @@ var swiper_main = new Swiper('.swiper-container-bilet-more', {
     speed: 1000,
     watchSlidesProgress: true,
     autoplayDisableOnInteraction: false
+});
+
+// var hoverParent = $('.scene-block ul li'),
+//     hoverChild = $('.hover-block');
+// hoverParent.hover(
+//     function(){
+//         $(".scene-block").find('.hover-block').css('display', 'block');
+//     }
+// );
+
+// $(function(){
+//     $('.scene-block ul li').hover(function(){
+//       $('.hover-block').show(1000);
+//        },
+//        function(){
+//         $('.hover-block').hide(1000);
+//           });
+// });
+// when hover on li in class left center-block, z-index add 1000
+$(function(){
+    $('.left-center-block ul li').mouseover(function(){
+      $(this).parents('.left-center-block').css('z-index', '1000');
+  });
+});
+$(function(){
+    $('.left-center-block ul li').mouseout(function(){
+      $(this).parents('.left-center-block').css('z-index', '100');
+  });
+});
+
+$(function(){
+    $('.right-center-block ul li').mouseover(function(){
+      $(this).parents('.right-center-block').css('z-index', '10000');
+  });
+});
+$(function(){
+    $('.right-center-block ul li').mouseout(function(){
+      $(this).parents('.right-center-block').css('z-index', '100');
+  });
 });
