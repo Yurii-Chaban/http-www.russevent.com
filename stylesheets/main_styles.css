@@ -84,635 +84,1441 @@ a {
   text-decoration: none;
 }
 
-/*----------------------------- HEADER ---------------------*/
-/* line 91, ../sass/main_styles.scss */
-header {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
+@media (max-width: 1023px) {
+  /* line 93, ../sass/main_styles.scss */
+  header {
+    max-height: 67px;
+    padding: 10px 0 9px;
+    background: #fff;
+    border-bottom: 3px solid #74023b;
+  }
+
+  /* line 99, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile {
+    position: relative;
+  }
+  /* line 101, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu {
+    display: block;
+    position: absolute;
+    list-style: none;
+    padding: 55px 0 0 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 217px;
+    background-color: #74023b;
+    box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);
+    height: auto;
+    top: -15px;
+    left: -650px;
+    transition: left .2s;
+    z-index: 9;
+    -webkit-transform: classZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  /* line 118, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu li {
+    display: block;
+    width: 100%;
+    height: 43px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 43px;
+    vertical-align: middle;
+  }
+  /* line 127, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 26px;
+    color: #fff;
+    font: 400 18px/35px "Open Sans", sans-serif;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 137, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu li a:hover {
+    color: #fff;
+    background: #bf0361;
+  }
+  /* line 142, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu li a.active {
+    color: #fff;
+    background: #bf0361;
+  }
+  /* line 148, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu .language-item a {
+    display: inline-block;
+    width: 28px;
+    height: 25px;
+    color: white;
+    font: 400 15px/20px "Open Sans", sans-serif;
+  }
+  /* line 154, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu .language-item a:first-of-type {
+    margin-left: 26px;
+    padding: 0;
+  }
+  /* line 158, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu .language-item a:nth-of-type(2) {
+    padding: 0 0 0 3px;
+  }
+  /* line 162, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu .language-item a.active-lenguage {
+    background: #bf0361;
+  }
+  /* line 165, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu .language-item span {
+    color: #fff;
+  }
+  /* line 170, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu-ticker {
+    display: none;
+  }
+  /* line 173, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .btn-menu {
+    color: #fff;
+    background-color: none;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 99;
+    width: 22px;
+    -webkit-transform: classZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  /* line 186, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .btn-menu span {
+    display: block;
+    height: 2px;
+    background-color: #333;
+    margin: 3px 0 0;
+    transition: all .1s linear .23s;
+    border-radius: 10px;
+    position: relative;
+  }
+  /* line 195, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .btn-menu span.first {
+    margin-top: 0;
+  }
+  /* line 198, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu {
+    left: 160px;
+    top: 15px;
+    z-index: 99;
+  }
+  /* line 203, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu span {
+    background-color: #fff;
+  }
+  /* line 206, ../sass/main_styles.scss */
+  .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .hidden-menu {
+    left: -15px;
+    top: -25px;
+    overflow: hidden;
+    margin: 5px 0 0 0;
+  }
+
+  /*logo*/
+  /* line 216, ../sass/main_styles.scss */
+  .mobile-logo .logo {
+    max-width: 106px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-top: 5px;
+    text-align: center;
+  }
+  /* line 227, ../sass/main_styles.scss */
+  .mobile-logo .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*dropdown phone*/
+  /* line 234, ../sass/main_styles.scss */
+  .call-us-block {
+    float: right;
+    margin: 0;
+    vertical-align: middle;
+  }
+  /* line 239, ../sass/main_styles.scss */
+  .call-us-block img {
+    display: inline-block;
+    line-height: 33px;
+    vertical-align: middle;
+  }
+
+  /* line 245, ../sass/main_styles.scss */
+  #info-mobile {
+    width: 230px;
+    height: auto;
+    background-color: #74023b;
+    box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);
+    clear: none;
+    float: right;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 100;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 258, ../sass/main_styles.scss */
+  #info-mobile a {
+    display: block;
+    margin: 6px auto 5px;
+    text-align: center;
+  }
+  /* line 262, ../sass/main_styles.scss */
+  #info-mobile a .phone {
+    color: #fff;
+    font: 700 22px/35px "Open Sans", sans-serif;
+  }
+
+  /* line 268, ../sass/main_styles.scss */
+  .call-us-block > label {
+    color: #000;
+    float: right;
+    margin: 5px 0 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  /* line 275, ../sass/main_styles.scss */
+  input {
+    display: none;
+  }
+
+  /* line 276, ../sass/main_styles.scss */
+  input:checked + #info-mobile {
+    display: none;
+  }
+
+  /*end dropdown phone*/
+  /*end menu*/
+  /* line 280, ../sass/main_styles.scss */
+  .main-menu,
+  .lenguage-block {
+    display: none;
+  }
+
+  /*---------------------MAIN CONTENT----------------------------------*/
+  /* line 286, ../sass/main_styles.scss */
+  .main-block-content {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+  }
+  /* line 289, ../sass/main_styles.scss */
+  .main-block-content .content-block {
+    margin: 20px auto 0;
+  }
+  /* line 292, ../sass/main_styles.scss */
+  .main-block-content .content-block .full-width-img {
+    display: none;
+    width: 100%;
+    height: 100% img;
+    height-max-width: 100%;
+    height-height: 100%;
+  }
+  /* line 302, ../sass/main_styles.scss */
+  .main-block-content .content-block .full-width-img-mobile {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  /* line 307, ../sass/main_styles.scss */
+  .main-block-content .content-block .full-width-img-mobile img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 313, ../sass/main_styles.scss */
+  .main-block-content .content-block:last-of-type {
+    margin-bottom: 0;
+  }
+  /* line 318, ../sass/main_styles.scss */
+  .main-block-content .relative-block {
+    position: relative;
+  }
+  /* line 321, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  /* line 329, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content,
+  .main-block-content .relative-block .position-block .description-info {
+    clear: both;
+    overflow: hidden;
+  }
+  /* line 336, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-title {
+    width: 195px;
+    height: auto;
+    margin: 22px 0 0;
+    padding: 11px 0 9px 11px;
+    color: #74023b;
+    font: 700 16px/18px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.7);
+    color: #74023b;
+  }
+  /* line 346, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-title a {
+    color: #74023b;
+  }
+  /* line 350, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date {
+    float: right;
+    width: 47px;
+    height: 55px;
+    margin: 0 11px 0 0;
+    padding: 10px 0 14px;
+    color: white;
+    font: 700 16px/18px "Open Sans", sans-serif;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 360, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date a {
+    color: #fff;
+  }
+  /* line 364, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date .day {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  /* line 368, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 33px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 380, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date .month {
+    display: block;
+    margin-top: 15px;
+  }
+  /* line 386, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info {
+    display: none;
+  }
 }
-/* line 93, ../sass/main_styles.scss */
-header .lenguage-block {
-  padding: 27px 0 25px;
-  overflow: hidden;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  background: #fff;
-}
-/* line 99, ../sass/main_styles.scss */
-header .lenguage-block .logo {
-  float: left;
-  width: 142px;
-  height: 54px;
-  overflow: hidden;
-}
-/* line 105, ../sass/main_styles.scss */
-header .lenguage-block .logo img {
-  max-width: 100%;
-  height: auto;
-}
-/* line 110, ../sass/main_styles.scss */
-header .lenguage-block #lenguage-list {
-  float: right;
-  padding: 9px 0;
-}
-/* line 114, ../sass/main_styles.scss */
-header .lenguage-block #lenguage-list li {
-  display: inline-block;
-  width: 53px;
-  height: 35px;
-  margin-left: -.36em;
-}
-/* line 119, ../sass/main_styles.scss */
-header .lenguage-block #lenguage-list li a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font: 400 18px/35px "Open Sans", sans-serif;
-  color: #3e3e3e;
-  text-align: center;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 128, ../sass/main_styles.scss */
-header .lenguage-block #lenguage-list li a:hover {
-  color: #fff;
-  background-color: #74023b;
-}
-/* line 133, ../sass/main_styles.scss */
-header .lenguage-block #lenguage-list li a.lenguage-list-active {
-  color: #fff;
-  background-color: #74023b;
-}
-/* line 140, ../sass/main_styles.scss */
-header .main-menu {
-  width: 100%;
-  height: 38px;
-  background-color: #74023b;
-}
-/* line 144, ../sass/main_styles.scss */
-header .main-menu .list-menu {
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-pack: space-around;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-}
-/* line 155, ../sass/main_styles.scss */
-header .main-menu .list-menu li {
-  width: auto;
-  display: inline-block;
-  margin-left: -.36em;
-  height: 100%;
-}
-/* line 161, ../sass/main_styles.scss */
-header .main-menu .list-menu li a {
-  display: block;
-  width: auto;
-  padding: 0 21px;
-  color: white;
-  text-align: center;
-  font: 400 18px/38px "Open Sans", sans-serif;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 170, ../sass/main_styles.scss */
-header .main-menu .list-menu li a:hover {
-  color: #1c1c1c;
-  background: #fff;
-}
-/* line 175, ../sass/main_styles.scss */
-header .main-menu .list-menu li a.list-menu-active {
-  color: #1c1c1c;
-  background: #fff;
+@media (max-width: 1023px) and (max-width: 1023px) {
+  /* line 390, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    overflow: visible;
+  }
+  /* line 395, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .description-sign {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 8px 0 0 0;
+    padding: 8px 0 8px 11px;
+    color: #333;
+    font: 600 16px/20px "Open Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /* line 404, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .description-sign a {
+    color: #333;
+  }
+  /* line 408, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 411, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .buy-ticket {
+    display: block;
+    width: 154px;
+    height: 40px;
+    margin: 20px auto 14px;
+    text-align: center;
+    color: #74023b;
+    font: 600 20px/40px "Open Sans", sans-serif;
+    background-color: white;
+    border-radius: 7px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 423, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .buy-ticket:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px white;
+    -moz-box-shadow: 0px 0px 5px 1px white;
+    box-shadow: 0px 0px 5px 1px white;
+  }
+  /* line 429, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .more-btn {
+    display: block;
+    width: 154px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font: 600 21px/40px "Open Sans", sans-serif;
+    background-color: #74023b;
+    border-radius: 7px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 441, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .more-btn:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px #74023b;
+    -moz-box-shadow: 0px 0px 5px 1px #74023b;
+    box-shadow: 0px 0px 5px 1px #74023b;
+  }
 }
 
-/*---------------------------MAIN BLOCK CONTENT-----------------------------*/
-/* line 185, ../sass/main_styles.scss */
-.main-block-content {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
-  padding: 31px 0 39px;
-  background: url("../images/backgr.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 72, ../sass/main_styles.scss */
-.main-block-content .rgb-background {
-  max-width: 1060px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 33px 0 36px;
-  background: rgba(255, 255, 255, 0.6);
-}
-/* line 189, ../sass/main_styles.scss */
-.main-block-content .content-block {
-  margin: 58px auto 0;
-}
-/* line 192, ../sass/main_styles.scss */
-.main-block-content .content-block .full-width-img {
-  width: 100%;
-  height: 100% img;
-  height-max-width: 100%;
-  height-height: 100%;
-}
-/* line 202, ../sass/main_styles.scss */
-.main-block-content .content-block:first-of-type {
-  margin-top: 0;
-}
-/* line 205, ../sass/main_styles.scss */
-.main-block-content .content-block:last-of-type {
-  margin-bottom: 0;
-}
-/* line 210, ../sass/main_styles.scss */
-.main-block-content .relative-block {
-  position: relative;
-}
-/* line 213, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-/* line 221, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content,
-.main-block-content .relative-block .position-block .description-info {
-  clear: both;
-  overflow: hidden;
-}
-/* line 228, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-title {
-  width: 331px;
-  height: auto;
-  margin: 22px 0 0;
-  padding: 11px 0 9px 33px;
-  color: #74023b;
-  font: 700 25px/42px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  background: rgba(255, 255, 255, 0.7);
-}
-/* line 237, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-title a {
-  color: #74023b;
-}
-/* line 241, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-date {
-  float: right;
-  width: 87px;
-  height: auto;
-  margin: 0 33px 0 0;
-  padding: 10px 0 14px;
-  color: white;
-  font: 700 30px/41px "Open Sans", sans-serif;
-  text-align: center;
-  background-color: #74023b;
-}
-/* line 251, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-date a {
-  color: #fff;
-}
-/* line 255, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-date .day {
-  position: relative;
-  padding-bottom: 5px;
-}
-/* line 259, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .top-content .top-content-date .day:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  display: block;
-  width: 66px;
-  height: 1px;
-  background: #fff;
-}
-/* line 274, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info {
-  position: absolute;
-  bottom: 25px;
-  width: 100%;
-  overflow: visible;
-}
-/* line 279, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .description-sign {
-  width: 499px;
-  height: auto;
-  margin: 8px 0 0 0;
-  padding: 18px 60px 19px 29px;
-  color: #333;
-  font: 600 16px/20px "Open Sans", sans-serif;
-  background: rgba(255, 255, 255, 0.7);
-}
-/* line 287, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .description-sign a {
-  color: #333;
-}
-/* line 291, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .float-btn-block {
-  float: right;
-  margin: 0 28px 0 0;
-}
-/* line 294, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket {
-  display: block;
-  width: 154px;
-  height: 40px;
-  margin: 0 auto 22px;
-  text-align: center;
-  color: #74023b;
-  font: 600 20px/40px "Open Sans", sans-serif;
-  background-color: white;
-  border-radius: 7px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 306, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket:hover {
-  -webkit-box-shadow: 0px 0px 5px 1px white;
-  -moz-box-shadow: 0px 0px 5px 1px white;
-  box-shadow: 0px 0px 5px 1px white;
-}
-/* line 312, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn {
-  display: block;
-  width: 154px;
-  height: 40px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  font: 600 21px/40px "Open Sans", sans-serif;
-  background-color: #74023b;
-  border-radius: 7px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 324, ../sass/main_styles.scss */
-.main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn:hover {
-  -webkit-box-shadow: 0px 0px 5px 1px #74023b;
-  -moz-box-shadow: 0px 0px 5px 1px #74023b;
-  box-shadow: 0px 0px 5px 1px #74023b;
-}
+@media (max-width: 1023px) {
+  /*-------------------------------------UPCOMING CONCERTS------------------------------------*/
+  /* line 454, ../sass/main_styles.scss */
+  .upcoming-concerts {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 20px 0 15px;
+    margin: 0 auto;
+    background-color: #eaedf2;
+  }
+  /* line 460, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  /* line 471, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  /* line 477, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li:first-child, .upcoming-concerts .upcoming-list li:nth-child(2) {
+    margin-top: 0;
+  }
+  /* line 482, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .upcoming-concerts-img {
+    float: left;
+    max-width: 89px;
+    max-height: 136px;
+    width: 100%;
+    height: 100%;
+    margin: 0 8px 0 0;
+    overflow: hidden;
+  }
+  /* line 490, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .upcoming-concerts-img img {
+    width: auto;
+    height: 100%;
+  }
+  /* line 495, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info {
+    float: right;
+    width: 41px;
+    height: auto;
+    margin: 0 14px 0 0;
+  }
+  /* line 500, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date {
+    margin-bottom: 9px;
+    padding: 0 0 8px 0;
+    color: white;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 506, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .day {
+    position: relative;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+    font: 700 16px/20px "Open Sans", sans-serif;
+  }
+  /* line 512, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 524, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .month {
+    display: block;
+    margin-top: 7px;
+    font: 400 16px/20px "Open Sans", sans-serif;
+  }
+  /* line 530, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-time {
+    color: #74023b;
+    font: 700 10px/14px "Open Sans", sans-serif;
+  }
+  /* line 536, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .main-info .actor-name {
+    margin: 15px 0 0;
+    color: #262626;
+    font: 700 11px/14px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 542, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .main-info .concert-location {
+    margin: 35px 0 10px;
+    color: #080202;
+    font: 400 10px/14px "Open Sans", sans-serif;
+  }
+  /* line 548, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn {
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-right: 26px;
+  }
+  /* line 552, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
+    display: inline-block;
+    color: #74023b;
+    font: 700 10px/14px "Open Sans", sans-serif;
+    text-decoration: underline;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 560, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
+    text-decoration: none;
+  }
+  /* line 564, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
+    float: left;
+  }
+  /* line 567, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
+    float: right;
+  }
 
-/*-------------------------------------UPCOMING CONCERTS------------------------------------*/
-/* line 336, ../sass/main_styles.scss */
-.upcoming-concerts {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
-  padding: 54px 0 42px;
-  margin: 0 auto;
-  background-color: #eaedf2;
+  /*---------------------END MAIN CONTENT----------------------------------*/
+  /*---------------------FOOTER----------------------------------*/
+  /* line 576, ../sass/main_styles.scss */
+  footer {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+  }
+  /* line 578, ../sass/main_styles.scss */
+  footer .contact-form {
+    padding: 47px 0 0;
+    background: url("../images/photo------.png") no-repeat;
+    background-size: initial;
+    background-position: right center;
+    overflow: hidden;
+  }
+  /* line 585, ../sass/main_styles.scss */
+  footer .contact-form .form-title {
+    margin: 0 auto 82px;
+    text-align: center;
+    color: white;
+    font: 700 25px/30px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 593, ../sass/main_styles.scss */
+  footer .contact-form label {
+    display: block;
+    color: white;
+    font: 400 18px/22px "Open Sans", sans-serif;
+  }
+  /* line 598, ../sass/main_styles.scss */
+  footer .contact-form label img {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* line 604, ../sass/main_styles.scss */
+  footer .contact-form .form-row {
+    width: 100%;
+    margin: 36px auto;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 610, ../sass/main_styles.scss */
+  footer .contact-form .form-row:last-of-type {
+    margin-bottom: 0;
+  }
+  /* line 614, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name,
+  footer .contact-form .form-row #tel,
+  footer .contact-form .form-row #email,
+  footer .contact-form .form-row #theme {
+    height: 38px;
+  }
+  /* line 620, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name,
+  footer .contact-form .form-row #tel,
+  footer .contact-form .form-row #email,
+  footer .contact-form .form-row #theme,
+  footer .contact-form .form-row #message {
+    display: block;
+    width: 100%;
+    padding: 0 0  15px 35px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 638, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name {
+    background: url("../images/icon-user.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 642, ../sass/main_styles.scss */
+  footer .contact-form .form-row #tel {
+    background: url("../images/icon-phone-form.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 646, ../sass/main_styles.scss */
+  footer .contact-form .form-row #email {
+    background: url("../images/icon-envelope.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 650, ../sass/main_styles.scss */
+  footer .contact-form .form-row #theme {
+    background: url("../images/icon-theme.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 654, ../sass/main_styles.scss */
+  footer .contact-form .form-row #message {
+    background: url("../images/icon-comment.png") no-repeat;
+    background-position: 0 5%;
+  }
+  /* line 658, ../sass/main_styles.scss */
+  footer .contact-form .form-row #message {
+    resize: none;
+    height: 245px;
+    margin-bottom: 33px;
+  }
+  /* line 663, ../sass/main_styles.scss */
+  footer .contact-form .form-row ::-webkit-input-placeholder {
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 668, ../sass/main_styles.scss */
+  footer .contact-form .form-row :-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 673, ../sass/main_styles.scss */
+  footer .contact-form .form-row ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 678, ../sass/main_styles.scss */
+  footer .contact-form .form-row :-ms-input-placeholder {
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 697, ../sass/main_styles.scss */
+  footer .contact-form .required-fields {
+    margin: 4px 0 0;
+    color: #fff;
+    font: 400 15px/22px "Open Sans", sans-serif;
+    letter-spacing: -1px;
+  }
+  /* line 703, ../sass/main_styles.scss */
+  footer .contact-form .submit-form-btn {
+    display: block;
+    width: 225px;
+    height: 47px;
+    margin: 36px auto 66px;
+    text-align: center;
+    color: white;
+    font: 700 18px/40px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 717, ../sass/main_styles.scss */
+  footer .contact-form .submit-form-btn:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px white;
+    -moz-box-shadow: 0px 0px 5px 1px white;
+    box-shadow: 0px 0px 5px 1px white;
+  }
+  /* line 724, ../sass/main_styles.scss */
+  footer .footer-contacts {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 38px;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 730, ../sass/main_styles.scss */
+  footer .footer-contacts .contact-phone {
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: white;
+    font: 700 22px/35px "Open Sans", sans-serif;
+  }
+  /* line 737, ../sass/main_styles.scss */
+  footer .footer-contacts .contact-location {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font: 400 18px/25px "Open Sans", sans-serif;
+  }
+  /* line 742, ../sass/main_styles.scss */
+  footer .footer-contacts .contact-location a {
+    color: #fff;
+  }
+  /* line 747, ../sass/main_styles.scss */
+  footer .copyright {
+    width: 100%;
+    background: #000;
+    padding: 18px 0;
+  }
+  /* line 752, ../sass/main_styles.scss */
+  footer .copyright h4 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font: 400 16px/27px "Open Sans", sans-serif;
+  }
+  /* line 757, ../sass/main_styles.scss */
+  footer .copyright h4 a {
+    color: #fff;
+  }
+  /* line 759, ../sass/main_styles.scss */
+  footer .copyright h4 a:hover {
+    text-decoration: underline;
+  }
 }
-/* line 342, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-pack: space-around;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
-/* line 353, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li {
-  width: 48%;
-  margin: 20px 0;
-  background: #fff;
-  overflow: hidden;
-}
-/* line 358, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li:first-child, .upcoming-concerts .upcoming-list li:nth-child(2) {
-  margin-top: 0;
-}
-/* line 363, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .upcoming-concerts-img {
-  float: left;
-  max-width: 153px;
-  width: 100%;
-  height: 100%;
-  margin: 0 8px 0 0;
-  overflow: hidden;
-}
-/* line 370, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .upcoming-concerts-img img {
-  width: auto;
-  height: 100%;
-}
-/* line 375, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info {
-  float: right;
-  width: 67px;
-  height: auto;
-  margin: 0 26px 0 0;
-}
-/* line 380, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info .concert-date {
-  margin-bottom: 11px;
-  padding: 0 0 12px 0;
-  color: white;
-  text-align: center;
-  background-color: #74023b;
-}
-/* line 386, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info .concert-date .day {
-  position: relative;
-  margin-bottom: 16px;
-  padding-bottom: 5px;
-  font: 700 30px/41px "Open Sans", sans-serif;
-}
-/* line 392, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info .concert-date .day:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  display: block;
-  width: 52px;
-  height: 1px;
-  background: #fff;
-}
-/* line 404, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info .concert-date .month {
-  font: 400 26px/28px "Open Sans", sans-serif;
-}
-/* line 408, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .date-info .concert-time {
-  color: #74023b;
-  font: 700 16px/22px "Open Sans", sans-serif;
-}
-/* line 414, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .main-info .actor-name {
-  margin: 21px 0;
-  color: #262626;
-  font: 700 18px/22px "Open Sans", sans-serif;
-  text-transform: uppercase;
-}
-/* line 420, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .main-info .concert-location {
-  margin: 50px 0 23px;
-  color: #080202;
-  font: 400 16px/22px "Open Sans", sans-serif;
-}
-/* line 426, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .action-btn {
-  overflow: hidden;
-  margin-bottom: 0;
-  padding-right: 26px;
-}
-/* line 430, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
-.upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
-  display: inline-block;
-  color: #74023b;
-  font: 700 16px/22px "Open Sans", sans-serif;
-  text-decoration: underline;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 438, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
-.upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
-  text-decoration: none;
-}
-/* line 442, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
-  float: left;
-}
-/* line 445, ../sass/main_styles.scss */
-.upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
-  float: right;
-}
+@media (min-width: 1024px) {
+  /*----------------------------- HEADER ---------------------*/
+  /* line 772, ../sass/main_styles.scss */
+  header {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+  }
+  /* line 775, ../sass/main_styles.scss */
+  header .mobile-logo,
+  header .call-us-block {
+    display: none;
+  }
+  /* line 779, ../sass/main_styles.scss */
+  header .dropdovn-menu-mobile {
+    display: none;
+  }
+  /* line 782, ../sass/main_styles.scss */
+  header .lenguage-block {
+    display: block;
+    padding: 27px 0 25px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+  }
+  /* line 789, ../sass/main_styles.scss */
+  header .lenguage-block .logo {
+    float: left;
+    width: 142px;
+    height: 54px;
+    overflow: hidden;
+  }
+  /* line 795, ../sass/main_styles.scss */
+  header .lenguage-block .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* line 800, ../sass/main_styles.scss */
+  header .lenguage-block #lenguage-list {
+    float: right;
+    padding: 9px 0;
+  }
+  /* line 804, ../sass/main_styles.scss */
+  header .lenguage-block #lenguage-list li {
+    display: inline-block;
+    width: 53px;
+    height: 35px;
+    margin-left: -.36em;
+  }
+  /* line 809, ../sass/main_styles.scss */
+  header .lenguage-block #lenguage-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font: 400 18px/35px "Open Sans", sans-serif;
+    color: #3e3e3e;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 818, ../sass/main_styles.scss */
+  header .lenguage-block #lenguage-list li a:hover {
+    color: #fff;
+    background-color: #74023b;
+  }
+  /* line 823, ../sass/main_styles.scss */
+  header .lenguage-block #lenguage-list li a.lenguage-list-active {
+    color: #fff;
+    background-color: #74023b;
+  }
+  /* line 830, ../sass/main_styles.scss */
+  header .main-menu {
+    display: block;
+    width: 100%;
+    height: 38px;
+    background-color: #74023b;
+  }
+  /* line 835, ../sass/main_styles.scss */
+  header .main-menu .list-menu {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+  /* line 846, ../sass/main_styles.scss */
+  header .main-menu .list-menu li {
+    width: auto;
+    display: inline-block;
+    margin-left: -.36em;
+    height: 100%;
+  }
+  /* line 852, ../sass/main_styles.scss */
+  header .main-menu .list-menu li a {
+    display: block;
+    width: auto;
+    padding: 0 21px;
+    color: white;
+    text-align: center;
+    font: 400 18px/38px "Open Sans", sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 861, ../sass/main_styles.scss */
+  header .main-menu .list-menu li a:hover {
+    color: #1c1c1c;
+    background: #fff;
+  }
+  /* line 866, ../sass/main_styles.scss */
+  header .main-menu .list-menu li a.list-menu-active {
+    color: #1c1c1c;
+    background: #fff;
+  }
 
-/*-----------------------------FOOTER--------------*/
-/* line 453, ../sass/main_styles.scss */
-footer {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
-}
-/* line 455, ../sass/main_styles.scss */
-footer .contact-form {
-  padding: 69px 0 138px;
-  background: url("../images/photo------.png") no-repeat;
-  background-size: initial;
-  background-position: right center;
-}
-/* line 461, ../sass/main_styles.scss */
-footer .contact-form .form-title {
-  margin: 0 auto 82px;
-  text-align: center;
-  color: white;
-  font: 700 25px/30px "Open Sans", sans-serif;
-  text-transform: uppercase;
-}
-/* line 469, ../sass/main_styles.scss */
-footer .contact-form label {
-  display: block;
-  color: white;
-  font: 400 18px/22px "Open Sans", sans-serif;
-}
-/* line 474, ../sass/main_styles.scss */
-footer .contact-form label img {
-  display: inline-block;
-  margin-right: 10px;
-}
-/* line 480, ../sass/main_styles.scss */
-footer .contact-form .form-row {
-  width: 100%;
-  margin: 36px auto;
-  padding-left: 12px;
-  overflow: hidden;
-}
-/* line 485, ../sass/main_styles.scss */
-footer .contact-form .form-row #name,
-footer .contact-form .form-row #tel,
-footer .contact-form .form-row #email,
-footer .contact-form .form-row #theme {
-  height: 38px;
-}
-/* line 491, ../sass/main_styles.scss */
-footer .contact-form .form-row #name,
-footer .contact-form .form-row #tel,
-footer .contact-form .form-row #email,
-footer .contact-form .form-row #theme,
-footer .contact-form .form-row #message {
-  display: block;
-  width: 100%;
-  padding: 0 0  15px 35px;
-  border: none;
-  background: none;
-  outline: none;
-  border-bottom: 1px solid #fff;
-  color: white;
-  font: 400 18px/38px "Open Sans", sans-serif;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-/* line 508, ../sass/main_styles.scss */
-footer .contact-form .form-row #name {
-  background: url("../images/icon-user.png") no-repeat;
-  background-position: 0 10%;
-}
-/* line 512, ../sass/main_styles.scss */
-footer .contact-form .form-row #tel {
-  background: url("../images/icon-phone.png") no-repeat;
-  background-position: 0 10%;
-}
-/* line 516, ../sass/main_styles.scss */
-footer .contact-form .form-row #email {
-  background: url("../images/icon-envelope.png") no-repeat;
-  background-position: 0 10%;
-}
-/* line 520, ../sass/main_styles.scss */
-footer .contact-form .form-row #theme {
-  background: url("../images/icon-theme.png") no-repeat;
-  background-position: 0 10%;
-}
-/* line 524, ../sass/main_styles.scss */
-footer .contact-form .form-row #message {
-  background: url("../images/icon-comment.png") no-repeat;
-  background-position: 0 5%;
-}
-/* line 528, ../sass/main_styles.scss */
-footer .contact-form .form-row #message {
-  resize: none;
-  height: 245px;
-  margin-bottom: 33px;
-}
-/* line 533, ../sass/main_styles.scss */
-footer .contact-form .form-row ::-webkit-input-placeholder {
-  color: white;
-  font: 400 18px/38px "Open Sans", sans-serif;
-}
-/* line 538, ../sass/main_styles.scss */
-footer .contact-form .form-row :-moz-placeholder {
-  /* Firefox 18- */
-  color: white;
-  font: 400 18px/38px "Open Sans", sans-serif;
-}
-/* line 543, ../sass/main_styles.scss */
-footer .contact-form .form-row ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: white;
-  font: 400 18px/38px "Open Sans", sans-serif;
-}
-/* line 548, ../sass/main_styles.scss */
-footer .contact-form .form-row :-ms-input-placeholder {
-  color: white;
-  font: 400 18px/38px "Open Sans", sans-serif;
-}
-/* line 553, ../sass/main_styles.scss */
-footer .contact-form .half-block-name,
-footer .contact-form .half-block-tel {
-  width: 44.5%;
-  margin: 0;
-  overflow: hidden;
-}
-/* line 559, ../sass/main_styles.scss */
-footer .contact-form .half-block-name {
-  float: left;
-  margin-right: 7.9%;
-}
-/* line 563, ../sass/main_styles.scss */
-footer .contact-form .half-width-tel {
-  float: right;
-}
-/* line 566, ../sass/main_styles.scss */
-footer .contact-form .required-fields {
-  float: left;
-  margin-top: 4px;
-  color: #fff;
-  font: 400 18px/38px "Open Sans", sans-serif;
-  letter-spacing: -1px;
-}
-/* line 573, ../sass/main_styles.scss */
-footer .contact-form .submit-form-btn {
-  float: right;
-  width: 225px;
-  height: 47px;
-  margin-right: 5px;
-  text-align: center;
-  color: white;
-  font: 700 18px/40px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  border: 1px solid white;
-  background: none;
-  cursor: pointer;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 587, ../sass/main_styles.scss */
-footer .contact-form .submit-form-btn:hover {
-  -webkit-box-shadow: 0px 0px 5px 1px white;
-  -moz-box-shadow: 0px 0px 5px 1px white;
-  box-shadow: 0px 0px 5px 1px white;
-}
-/* line 594, ../sass/main_styles.scss */
-footer .copyright {
-  width: 100%;
-  background: #000;
-  padding: 18px 0;
-}
-/* line 599, ../sass/main_styles.scss */
-footer .copyright h4 {
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  font: 400 16px/27px "Open Sans", sans-serif;
-}
-/* line 604, ../sass/main_styles.scss */
-footer .copyright h4 a {
-  color: #fff;
-}
-/* line 606, ../sass/main_styles.scss */
-footer .copyright h4 a:hover {
-  text-decoration: underline;
-}
+  /*---------------------------MAIN BLOCK CONTENT-----------------------------*/
+  /* line 876, ../sass/main_styles.scss */
+  .main-block-content {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 72, ../sass/main_styles.scss */
+  .main-block-content .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 36px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 880, ../sass/main_styles.scss */
+  .main-block-content .content-block {
+    margin: 58px auto 0;
+  }
+  /* line 883, ../sass/main_styles.scss */
+  .main-block-content .content-block .full-width-img {
+    display: block;
+    width: 100%;
+    height: 100% img;
+    height-max-width: 100%;
+    height-height: 100%;
+  }
+  /* line 893, ../sass/main_styles.scss */
+  .main-block-content .content-block .full-width-img-mobile {
+    display: none;
+  }
+  /* line 897, ../sass/main_styles.scss */
+  .main-block-content .content-block:first-of-type {
+    margin-top: 0;
+  }
+  /* line 900, ../sass/main_styles.scss */
+  .main-block-content .content-block:last-of-type {
+    margin-bottom: 0;
+  }
+  /* line 905, ../sass/main_styles.scss */
+  .main-block-content .relative-block {
+    position: relative;
+  }
+  /* line 908, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  /* line 916, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content,
+  .main-block-content .relative-block .position-block .description-info {
+    clear: both;
+    overflow: hidden;
+  }
+  /* line 923, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-title {
+    width: 331px;
+    height: auto;
+    margin: 22px 0 0;
+    padding: 11px 0 9px 33px;
+    color: #74023b;
+    font: 700 25px/42px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /* line 932, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-title a {
+    color: #74023b;
+  }
+  /* line 936, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date {
+    float: right;
+    width: 87px;
+    height: auto;
+    margin: 0 33px 0 0;
+    padding: 10px 0 14px;
+    color: white;
+    font: 700 30px/41px "Open Sans", sans-serif;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 946, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date a {
+    color: #fff;
+  }
+  /* line 950, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date .day {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  /* line 954, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .top-content .top-content-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 66px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 968, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info-mobile {
+    display: none !important;
+  }
+  /* line 971, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    overflow: visible;
+  }
+  /* line 977, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .description-sign {
+    width: 499px;
+    height: auto;
+    margin: 8px 0 0 0;
+    padding: 18px 60px 19px 29px;
+    color: #333;
+    font: 600 16px/20px "Open Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /* line 985, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .description-sign a {
+    color: #333;
+  }
+  /* line 989, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .float-btn-block {
+    float: right;
+    margin: 0 28px 0 0;
+  }
+  /* line 992, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket {
+    display: block;
+    width: 154px;
+    height: 40px;
+    margin: 0 auto 22px;
+    text-align: center;
+    color: #74023b;
+    font: 600 20px/40px "Open Sans", sans-serif;
+    background-color: white;
+    border-radius: 7px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1004, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px white;
+    -moz-box-shadow: 0px 0px 5px 1px white;
+    box-shadow: 0px 0px 5px 1px white;
+  }
+  /* line 1010, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn {
+    display: block;
+    width: 154px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font: 600 21px/40px "Open Sans", sans-serif;
+    background-color: #74023b;
+    border-radius: 7px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1022, ../sass/main_styles.scss */
+  .main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px #74023b;
+    -moz-box-shadow: 0px 0px 5px 1px #74023b;
+    box-shadow: 0px 0px 5px 1px #74023b;
+  }
 
-/*------------------------------------------------*/
+  /*-------------------------------------UPCOMING CONCERTS------------------------------------*/
+  /* line 1034, ../sass/main_styles.scss */
+  .upcoming-concerts {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 54px 0 42px;
+    margin: 0 auto;
+    background-color: #eaedf2;
+  }
+  /* line 1040, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  /* line 1051, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li {
+    width: 48%;
+    margin: 20px 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  /* line 1056, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li:first-child, .upcoming-concerts .upcoming-list li:nth-child(2) {
+    margin-top: 0;
+  }
+  /* line 1061, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .upcoming-concerts-img {
+    float: left;
+    max-width: 153px;
+    width: 100%;
+    height: 100%;
+    margin: 0 8px 0 0;
+    overflow: hidden;
+  }
+  /* line 1068, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .upcoming-concerts-img img {
+    width: auto;
+    height: 100%;
+  }
+  /* line 1073, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info {
+    float: right;
+    width: 67px;
+    height: auto;
+    margin: 0 26px 0 0;
+  }
+  /* line 1078, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date {
+    margin-bottom: 11px;
+    padding: 0 0 12px 0;
+    color: white;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 1084, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .day {
+    position: relative;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+    font: 700 30px/41px "Open Sans", sans-serif;
+  }
+  /* line 1090, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 52px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 1102, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-date .month {
+    font: 400 26px/28px "Open Sans", sans-serif;
+  }
+  /* line 1106, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .date-info .concert-time {
+    color: #74023b;
+    font: 700 16px/22px "Open Sans", sans-serif;
+  }
+  /* line 1112, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .main-info .actor-name {
+    margin: 21px 0;
+    color: #262626;
+    font: 700 18px/22px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 1118, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .main-info .concert-location {
+    margin: 50px 0 23px;
+    color: #080202;
+    font: 400 16px/22px "Open Sans", sans-serif;
+  }
+  /* line 1124, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn {
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-right: 26px;
+  }
+  /* line 1128, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
+    display: inline-block;
+    color: #74023b;
+    font: 700 16px/22px "Open Sans", sans-serif;
+    text-decoration: underline;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1136, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
+    text-decoration: none;
+  }
+  /* line 1140, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
+    float: left;
+  }
+  /* line 1143, ../sass/main_styles.scss */
+  .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
+    float: right;
+  }
+
+  /*-----------------------------FOOTER--------------*/
+  /* line 1151, ../sass/main_styles.scss */
+  footer {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+  }
+  /* line 1154, ../sass/main_styles.scss */
+  footer .footer-contacts {
+    display: none;
+  }
+  /* line 1157, ../sass/main_styles.scss */
+  footer .contact-form {
+    padding: 69px 0 138px;
+    background: url("../images/photo------.png") no-repeat;
+    background-size: initial;
+    background-position: right center;
+  }
+  /* line 1163, ../sass/main_styles.scss */
+  footer .contact-form .form-title {
+    margin: 0 auto 82px;
+    text-align: center;
+    color: white;
+    font: 700 25px/30px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 1171, ../sass/main_styles.scss */
+  footer .contact-form label {
+    display: block;
+    color: white;
+    font: 400 18px/22px "Open Sans", sans-serif;
+  }
+  /* line 1176, ../sass/main_styles.scss */
+  footer .contact-form label img {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* line 1182, ../sass/main_styles.scss */
+  footer .contact-form .form-row {
+    width: 100%;
+    margin: 36px auto;
+    padding-left: 12px;
+    overflow: hidden;
+  }
+  /* line 1187, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name,
+  footer .contact-form .form-row #tel,
+  footer .contact-form .form-row #email,
+  footer .contact-form .form-row #theme {
+    height: 38px;
+  }
+  /* line 1193, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name,
+  footer .contact-form .form-row #tel,
+  footer .contact-form .form-row #email,
+  footer .contact-form .form-row #theme,
+  footer .contact-form .form-row #message {
+    display: block;
+    width: 100%;
+    padding: 0 0  15px 35px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  /* line 1210, ../sass/main_styles.scss */
+  footer .contact-form .form-row #name {
+    background: url("../images/icon-user.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 1214, ../sass/main_styles.scss */
+  footer .contact-form .form-row #tel {
+    background: url("../images/icon-phone-form.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 1218, ../sass/main_styles.scss */
+  footer .contact-form .form-row #email {
+    background: url("../images/icon-envelope.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 1222, ../sass/main_styles.scss */
+  footer .contact-form .form-row #theme {
+    background: url("../images/icon-theme.png") no-repeat;
+    background-position: 0 10%;
+  }
+  /* line 1226, ../sass/main_styles.scss */
+  footer .contact-form .form-row #message {
+    background: url("../images/icon-comment.png") no-repeat;
+    background-position: 0 5%;
+  }
+  /* line 1230, ../sass/main_styles.scss */
+  footer .contact-form .form-row #message {
+    resize: none;
+    height: 245px;
+    margin-bottom: 33px;
+  }
+  /* line 1235, ../sass/main_styles.scss */
+  footer .contact-form .form-row ::-webkit-input-placeholder {
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 1240, ../sass/main_styles.scss */
+  footer .contact-form .form-row :-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 1245, ../sass/main_styles.scss */
+  footer .contact-form .form-row ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 1250, ../sass/main_styles.scss */
+  footer .contact-form .form-row :-ms-input-placeholder {
+    color: white;
+    font: 400 18px/38px "Open Sans", sans-serif;
+  }
+  /* line 1255, ../sass/main_styles.scss */
+  footer .contact-form .half-block-name,
+  footer .contact-form .half-block-tel {
+    width: 44.5%;
+    margin: 0;
+    overflow: hidden;
+  }
+  /* line 1261, ../sass/main_styles.scss */
+  footer .contact-form .half-block-name {
+    float: left;
+    margin-right: 7.9%;
+  }
+  /* line 1265, ../sass/main_styles.scss */
+  footer .contact-form .half-width-tel {
+    float: right;
+  }
+  /* line 1268, ../sass/main_styles.scss */
+  footer .contact-form .required-fields {
+    float: left;
+    margin-top: 4px;
+    color: #fff;
+    font: 400 18px/38px "Open Sans", sans-serif;
+    letter-spacing: -1px;
+  }
+  /* line 1275, ../sass/main_styles.scss */
+  footer .contact-form .submit-form-btn {
+    float: right;
+    width: 225px;
+    height: 47px;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+    font: 700 18px/40px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 1289, ../sass/main_styles.scss */
+  footer .contact-form .submit-form-btn:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px white;
+    -moz-box-shadow: 0px 0px 5px 1px white;
+    box-shadow: 0px 0px 5px 1px white;
+  }
+  /* line 1296, ../sass/main_styles.scss */
+  footer .copyright {
+    width: 100%;
+    background: #000;
+    padding: 18px 0;
+  }
+  /* line 1301, ../sass/main_styles.scss */
+  footer .copyright h4 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font: 400 16px/27px "Open Sans", sans-serif;
+  }
+  /* line 1306, ../sass/main_styles.scss */
+  footer .copyright h4 a {
+    color: #fff;
+  }
+  /* line 1308, ../sass/main_styles.scss */
+  footer .copyright h4 a:hover {
+    text-decoration: underline;
+  }
+
+  /*------------------------------------------------*/
+}
 /* line 62, ../sass/_bilet-more.scss */
 .bilet-more-page {
   position: relative;
