@@ -288,6 +288,7 @@ a {
 
 		.content-block {
 			margin: 20px auto 0;
+			max-width: 640px;
 
 			.full-width-img {
 				display: none;
@@ -471,7 +472,8 @@ a {
 		li {
 			display: block;
 			width: 100%;
-			margin: 10px 0;
+	    max-width: 640px;
+	    margin: 10px auto;
 			background: #fff;
 			overflow: hidden;
 			&:first-child,
