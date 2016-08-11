@@ -271,7 +271,11 @@ $family: 'Open Sans', sans-serif;
 		    	display: block;
 		    	width: 205px;
 		    	height: 43px;
-		    	margin: 43px auto 0;
+		    	
+		    	// margin: 43px auto 0;
+		    	margin: 43px 0 0 380px;
+		    	overflow: hidden;
+
 		    	color: #fff;
 		    	font: 700 20px / 43px $family;
 		    	text-align: center;
