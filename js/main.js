@@ -46,6 +46,20 @@ var swiper_main = new Swiper('.swiper-container-bilet-more', {
     autoplayDisableOnInteraction: false
 });
 
+// mobile slider
+var swiper_main = new Swiper('.swiper-container-bilet-more-mobile', {
+    paginationClickable: true,
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    simulateTouch: true,
+    centeredSlides: true,
+    autoplay: 3500,
+    speed: 1000,
+    watchSlidesProgress: true,
+    autoplayDisableOnInteraction: false
+});
+
 // var hoverParent = $('.scene-block ul li'),
 //     hoverChild = $('.hover-block');
 // hoverParent.hover(

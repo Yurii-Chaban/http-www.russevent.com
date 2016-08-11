@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	 <title>Русские Концерты в Чикаго</title>
-    <meta name="keywords" content="Russian, tickets, concerts, spectacles, artists, Pugacheva, Kikabidze,Chicago, 
-    Русские, концерты, Чикаго, билеты, спектакли, Пугачева, Галкин, Машина Времени, Елена Воробей, Вячеслав Шалевич, 
-    Лариса Лужина, Татьяна Арнтгольц, Эммануил Виторган, Клара Новикова, Леонид Каневский, Михаил Ефремов">
+	<title>Русские Концерты в Чикаго</title>
+	<meta name="keywords" content="Russian, tickets, concerts, spectacles, artists, Pugacheva, Kikabidze,Chicago, 
+	Русские, концерты, Чикаго, билеты, спектакли, Пугачева, Галкин, Машина Времени, Елена Воробей, Вячеслав Шалевич, 
+	Лариса Лужина, Татьяна Арнтгольц, Эммануил Виторган, Клара Новикова, Леонид Каневский, Михаил Ефремов">
 
 	<link rel="shortcut icon" href="images/favicon.ico" >
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -22,42 +22,99 @@
 	<header>
 		<div class="header-top">
 			<div class="wrapper">
+				<!-- mobile menu -->
+				<div class="dropdovn-menu-mobile">
+					<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+					<label class="btn-menu" for="hmt">
+						<span class="first"></span>
+						<span class="second"></span>
+						<span class="third"></span>
+					</label>
+					<ul class="hidden-menu">
+						<li class="language-item">
+							<a href="#">Eng</a>
+							<span>|</span>
+							<a href="#">Рус</a>
+						</li>
+						<li>
+							<a href="index.html">Главная</a>
+						</li>
+						<li>
+							<a href="#">Афиша</a>
+						</li>
+						<li>
+							<a href="#">Как купить билет</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="call-us-block">
+					<label for="hider">
+						<img src="images/icon-phone.png" alt="icon-phone">
+					</label>
+					<input type="checkbox" checked="no" id="hider">
+					<div id="info-mobile" class="header-info-mobile">
+						<a href="tel:+1 (123) 456-7890">
+							<span class="phone">+1 (123) 456-7890</span>
+						</a>
+					</div>
+				</div>
+				<!-- end- mobile menu -->
+				<div class="mobile-logo">
+					<h1 class="logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Russevent">
+						</a>
+					</h1>
+				</div>
 				<div class="lenguage-block">
-			        <h1 class="logo">
-			        	<a href="index.html">
-			        		<img src="images/logo.png" alt="Russevent">
-			        	</a>
-			        </h1>
-			    	<ul id="lenguage-list">
-			    		<li>
-			    			<a href="#">Eng</a>
-			    		</li>
-			    		<li>
-			    			<a href="#">Рус</a>
-			    		</li>
-			    	</ul>
-			    </div>
-	        </div>
-        </div>
-	    <div class="main-menu">
-	    	<div class="wrapper">
-		    	<ul class="list-menu">
-		            <li>
-		            	<a href="index.html">Главная</a>
-		            </li>
-		            <li>
-		            	<a href="#">Афиша</a>
-		            </li>
-		            <li>
-		            	<a href="#">Как купить билет</a>
-		            </li>
-		            <li>
-		            	<a href="#">Контакты</a>
-		            </li>
-		        </ul>
-	    	</div>
-	    </div>
+					<h1 class="logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Russevent">
+						</a>
+					</h1>
+					<ul id="lenguage-list">
+						<li>
+							<a href="#">Eng</a>
+						</li>
+						<li>
+							<a href="#">Рус</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main-menu">
+			<div class="wrapper">
+				<ul class="list-menu">
+					<li>
+						<a href="index.html">Главная</a>
+					</li>
+					<li>
+						<a href="#">Афиша</a>
+					</li>
+					<li>
+						<a href="#">Как купить билет</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</header>
+	<section class="direction">
+		<div class="wrapper">
+			<a class="arrow-back" href="javascript:history.back()">
+				<img src="images/arrow.png" alt="arrow back">
+			</a>
+			<h3 class="direction-title">
+				<a href="javascript:history.back()">максим галкин</a>
+			</h3>
+		</div>
+	</section>
 	<section class="site-container bilet-more-page">
 		<div class="rgb-background">
 			<div class="white-bg-container">
@@ -69,6 +126,7 @@
 								<span class="month">окт</span>
 							</a>
 						</h3>
+						<h2 class="actor-name-mobile">Максим галкин</h2>
 						<div class="img-wrapper">
 							<img src="images/actor-photos.png" alt="actor-photos">
 						</div>
@@ -81,12 +139,47 @@
 							</h3>
 							<a class="buy-ticket-btn" href="#">Купить билет</a>
 						</div>
-
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-						<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut ali uid.</p>
+						<div class="mobile-description">
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+						</div>
+						<div class="desctop-description">
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut ali uid.</p>
+						</div>
 					</article>
 
 					<!-- Swiper -->
+					<div class="swiper-container swiper-container-bilet-more-mobile">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="images/Galking-1.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-2.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-3.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-1.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-2.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-3.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-1.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-2.png" alt="Galking photos">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/Galking-3.png" alt="Galking photos">
+							</div>
+						</div>
+					</div>
 					<div class="swiper-container swiper-container-bilet-more">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
@@ -154,6 +247,14 @@
 				</form>
 			</div>
 		</div>
+		<div class="footer-contacts">
+			<div class="wrapper">
+				<a class="contact-phone" href="tel: (123) 456-7890">Tel: (123) 456-7890</a>
+				<h3 class="contact-location">
+					<a href="https://www.google.com/maps/place/6814+N+Sheridan+Rd,+Chicago,+IL+60626/@42.005983,-87.6635584,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd1a893bb486f:0x437d9b087bbc1588!8m2!3d42.005983!4d-87.6613697">6814 N Sheridan Rd<br> Chicago, IL 60062</a>
+				</h3>
+			</div>
+		</div>
 		<div class="copyright">
 			<div class="wrapper">
 				<h4>Website development &copy; <a href="http://globalvision.name/">Global Vision</a></h4>
@@ -162,7 +263,7 @@
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<!-- <script src="js/swiper.jquery.js"></script> -->
-    <script src="js/swiper.js"></script>
-    <script src="js/main.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

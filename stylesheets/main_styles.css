@@ -1521,207 +1521,460 @@ a {
 
   /*------------------------------------------------*/
 }
-/* line 62, ../sass/_bilet-more.scss */
-.bilet-more-page {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
-  padding: 31px 0 39px;
-  background: url("../images/backgr.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 38px 0 39px;
-}
-/* line 27, ../sass/_bilet-more.scss */
-.bilet-more-page .rgb-background {
-  max-width: 1060px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 33px 0 36px;
-  background: rgba(255, 255, 255, 0.6);
-}
-/* line 67, ../sass/_bilet-more.scss */
-.bilet-more-page .rgb-background {
-  padding: 33px 3px 36px;
-}
-/* line 71, ../sass/_bilet-more.scss */
-.bilet-more-page .white-bg-container {
-  position: relative;
-  max-width: 1010px;
-  margin: 0 auto;
-  padding: 0 0px 20px 19px;
-  background: #fff;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-/* line 76, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .block-content-date {
-  float: right;
-  width: 85px;
-  height: auto;
-  margin: 0 31px 0 0;
-  padding: 10px 0 11px;
-  color: white;
-  font: 700 30px/41px "Open Sans", sans-serif;
-  text-align: center;
-  background-color: #74023b;
-}
-/* line 86, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .block-content-date a {
-  color: #fff;
-}
-/* line 90, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .block-content-date .day {
-  position: relative;
-  padding-bottom: 5px;
-}
-/* line 94, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .block-content-date .day:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  display: block;
-  width: 66px;
-  height: 1px;
-  background: #fff;
-}
-/* line 107, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .img-wrapper {
-  float: left;
-  max-width: 371px;
-  max-height: 495px;
-  width: 100%;
-  height: 100%;
-  margin: 20px 26px 28px 0;
-  overflow: hidden;
-}
-/* line 116, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .img-wrapper img {
-  max-width: 100%;
-  height: auto;
-}
-/* line 121, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .actor-name {
-  max-width: 310px;
-  width: 100%;
-  margin: 0 auto 16px;
-  padding-top: 20px;
-  color: #262626;
-  font: 700 49px/61px "Open Sans", sans-serif;
-  text-transform: uppercase;
-}
-/* line 130, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .time {
-  display: block;
-  color: #74023b;
-  font: 700 31px/31px "Open Sans", sans-serif;
-}
-/* line 135, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .concert-location {
-  margin: 28px 0 159px;
-  color: #262626;
-  font: 400 22px/32px "Open Sans", sans-serif;
-}
-/* line 140, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .buy-block {
-  overflow: hidden;
-}
-/* line 143, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .buy-block .tickets-price {
-  float: left;
-  color: #74023b;
-  font: 700 31px/44px "Open Sans", sans-serif;
-}
-/* line 148, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .buy-block .buy-ticket-btn {
-  display: block;
-  float: right;
-  margin-right: 32px;
-  color: #74023b;
-  font: 700 22px/41px "Open Sans", sans-serif;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-/* line 156, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor .buy-block .buy-ticket-btn:hover {
-  text-decoration: underline;
-}
-/* line 161, ../sass/_bilet-more.scss */
-.bilet-more-page .about-actor p {
-  margin: 20px auto;
-  clear: both;
-  overflow: hidden;
-  color: #232323;
-  font: 400 18px/21px "Open Sans", sans-serif;
-}
-/* line 170, ../sass/_bilet-more.scss */
-.bilet-more-page .swiper-container {
-  width: 100%;
-  height: 100%;
-}
-/* line 174, ../sass/_bilet-more.scss */
-.bilet-more-page .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-/* line 193, ../sass/_bilet-more.scss */
-.bilet-more-page .swiper-slide img {
-  width: 100%;
-  height: 100%;
-}
-/* line 198, ../sass/_bilet-more.scss */
-.bilet-more-page .mapWrapper {
-  position: relative;
-  padding-bottom: 53.25%;
-  height: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-  margin: 9px auto 30px;
-  max-width: 932px;
-  max-height: 516px;
-  width: 100%;
-  height: 100%;
-}
-/* line 43, ../sass/_bilet-more.scss */
-.bilet-more-page .mapWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* line 206, ../sass/_bilet-more.scss */
-.bilet-more-page .back-btn {
-  display: block;
-  float: right;
-  margin: 0 30px 19px 0;
-  color: #770c40;
-  font: 400 22px/24px "Open Sans", sans-serif;
-  text-transform: uppercase;
-}
+@media (max-width: 1023px) {
+  /* line 82, ../sass/_bilet-more.scss */
+  .direction {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 6px 0;
+    background-color: #74023b;
+    box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);
+  }
+  /* line 65, ../sass/_bilet-more.scss */
+  .direction .arrow-back {
+    float: left;
+    margin: 5px 0 0 0;
+  }
+  /* line 69, ../sass/_bilet-more.scss */
+  .direction .direction-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 72, ../sass/_bilet-more.scss */
+  .direction .direction-title a {
+    color: white;
+    font: 400 15px/25px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
 
+  /* line 85, ../sass/_bilet-more.scss */
+  .bilet-more-page {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+  }
+  /* line 89, ../sass/_bilet-more.scss */
+  .bilet-more-page .rgb-background {
+    padding: 33px 3px 0;
+  }
+  /* line 93, ../sass/_bilet-more.scss */
+  .bilet-more-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 19px;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+  /* line 99, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date {
+    float: right;
+    width: 55px;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: white;
+    font: 700 16px/22px "Open Sans", sans-serif;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 109, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date a {
+    color: #fff;
+  }
+  /* line 113, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date .day {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  /* line 117, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 34px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 129, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date .month {
+    display: block;
+    margin: 4px 0;
+    font: 400 16px/22px "Open Sans", sans-serif;
+  }
+  /* line 135, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .img-wrapper {
+    max-width: 371px;
+    max-height: 495px;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto 0;
+    overflow: hidden;
+    clear: both;
+  }
+  /* line 145, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .img-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* line 150, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .actor-name {
+    display: none;
+  }
+  /* line 153, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .actor-name-mobile {
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
+    color: #262626;
+    font: 700 25px/30px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 161, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .time {
+    clear: both;
+    display: block;
+    color: #74023b;
+    font: 700 16px/24px "Open Sans", sans-serif;
+  }
+  /* line 167, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .concert-location {
+    margin: 10px 0 30px;
+    color: #262626;
+    font: 400 16px/18px "Open Sans", sans-serif;
+  }
+  /* line 172, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block {
+    overflow: hidden;
+  }
+  /* line 175, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .tickets-price {
+    color: #74023b;
+    font: 700 22px/28px "Open Sans", sans-serif;
+  }
+  /* line 179, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .buy-ticket-btn {
+    display: block;
+    margin: 13px 0 0;
+    color: #74023b;
+    font: 700 22px/28px "Open Sans", sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 186, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .buy-ticket-btn:hover {
+    text-decoration: underline;
+  }
+  /* line 191, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .desctop-description {
+    display: none;
+  }
+  /* line 195, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .mobile-description p {
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+    color: #232323;
+    font: 400 18px/21px "Open Sans", sans-serif;
+  }
+  /* line 205, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 209, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-container-bilet-more {
+    display: none;
+  }
+  /* line 212, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* line 231, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 236, ../sass/_bilet-more.scss */
+  .bilet-more-page .mapWrapper {
+    position: relative;
+    padding-bottom: 53.25%;
+    height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 9px auto 30px;
+    max-width: 932px;
+    max-height: 516px;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 43, ../sass/_bilet-more.scss */
+  .bilet-more-page .mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 244, ../sass/_bilet-more.scss */
+  .bilet-more-page .back-btn {
+    display: block;
+    float: right;
+    margin: 0 30px 11px 0;
+    color: #770c40;
+    font: 400 22px/24px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 255, ../sass/_bilet-more.scss */
+  .direction {
+    display: none;
+  }
+
+  /* line 258, ../sass/_bilet-more.scss */
+  .bilet-more-page {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 38px 0 39px;
+  }
+  /* line 27, ../sass/_bilet-more.scss */
+  .bilet-more-page .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 36px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 263, ../sass/_bilet-more.scss */
+  .bilet-more-page .rgb-background {
+    padding: 33px 3px 36px;
+  }
+  /* line 267, ../sass/_bilet-more.scss */
+  .bilet-more-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 19px;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  /* line 272, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date {
+    float: right;
+    width: 85px;
+    height: auto;
+    margin: 0 31px 0 0;
+    padding: 10px 0 11px;
+    color: white;
+    font: 700 30px/41px "Open Sans", sans-serif;
+    text-align: center;
+    background-color: #74023b;
+  }
+  /* line 282, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date a {
+    color: #fff;
+  }
+  /* line 286, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date .day {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  /* line 290, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .block-content-date .day:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 66px;
+    height: 1px;
+    background: #fff;
+  }
+  /* line 303, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .img-wrapper {
+    float: left;
+    max-width: 371px;
+    max-height: 495px;
+    width: 100%;
+    height: 100%;
+    margin: 20px 26px 28px 0;
+    overflow: hidden;
+  }
+  /* line 312, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .img-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* line 317, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .actor-name-mobile {
+    display: none;
+  }
+  /* line 320, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .actor-name {
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto 16px;
+    padding-top: 20px;
+    color: #262626;
+    font: 700 49px/61px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 329, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .time {
+    display: block;
+    color: #74023b;
+    font: 700 31px/31px "Open Sans", sans-serif;
+  }
+  /* line 334, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .concert-location {
+    margin: 28px 0 159px;
+    color: #262626;
+    font: 400 22px/32px "Open Sans", sans-serif;
+  }
+  /* line 339, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block {
+    overflow: hidden;
+  }
+  /* line 342, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .tickets-price {
+    float: left;
+    color: #74023b;
+    font: 700 31px/44px "Open Sans", sans-serif;
+  }
+  /* line 347, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .buy-ticket-btn {
+    display: block;
+    float: right;
+    margin-right: 32px;
+    color: #74023b;
+    font: 700 22px/41px "Open Sans", sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 355, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .buy-block .buy-ticket-btn:hover {
+    text-decoration: underline;
+  }
+  /* line 360, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .mobile-description {
+    display: none;
+  }
+  /* line 364, ../sass/_bilet-more.scss */
+  .bilet-more-page .about-actor .desctop-description p {
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+    color: #232323;
+    font: 400 18px/21px "Open Sans", sans-serif;
+  }
+  /* line 374, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 378, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-container-bilet-more-mobile {
+    display: none;
+  }
+  /* line 381, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* line 400, ../sass/_bilet-more.scss */
+  .bilet-more-page .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 405, ../sass/_bilet-more.scss */
+  .bilet-more-page .mapWrapper {
+    position: relative;
+    padding-bottom: 53.25%;
+    height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 9px auto 30px;
+    max-width: 932px;
+    max-height: 516px;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 43, ../sass/_bilet-more.scss */
+  .bilet-more-page .mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 413, ../sass/_bilet-more.scss */
+  .bilet-more-page .back-btn {
+    display: block;
+    float: right;
+    margin: 0 30px 19px 0;
+    color: #770c40;
+    font: 400 22px/24px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+}
 /* line 63, ../sass/_scene3.scss */
 .scene3-page {
   position: relative;

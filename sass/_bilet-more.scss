@@ -8,9 +8,9 @@
 }
 @mixin transition {
 	-webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 @mixin border-box {
 	-webkit-box-sizing: border-box;
@@ -33,182 +33,390 @@
 		background: rgba(255, 255, 255, 0.6);
 	}
 }
- @mixin mapWrapper {
+@mixin mapWrapper {
 	position: relative;
 	padding-bottom: 53.25%;
 	height: 0;
 	overflow: hidden;
 	box-sizing: border-box;
 
-    iframe {
-        position: absolute;
+	iframe {
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-    }
+	}
 }
 @mixin white-bg-container {
 	position: relative;
 	max-width: 1010px;
 	margin: 0 auto;
-    padding: 0 0px 20px 19px;
+	padding: 0 0px 20px 19px;
 	background: #fff;
 	overflow: hidden;
 	box-sizing: border-box;
 }
+@mixin direction {
+  @include site-container;
+  padding: 6px 0;
+  background-color: #74023b;
+	box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);	
+  .arrow-back {
+    float: left;
+    margin: 5px 0 0 0;
+  }
+  .direction-title {
+    margin: 0 auto;
+    text-align: center;
+    a {
+      color: white;
+      font: 400 15px / 25px $family;
+      text-transform: uppercase;
+    }
+  }
+}
 $family: 'Open Sans', sans-serif;
 
-.bilet-more-page {
-	@include site-container;
-	@include page-bg;
-    padding: 38px 0 39px;
-
-	.rgb-background {
-		padding: 33px 3px 36px;
+@media (max-width: 1023px) {
+	.direction {
+		@include direction;
 	}
+	.bilet-more-page {
+		@include site-container;
+		padding: 0;
 
-	.white-bg-container {
-		@include white-bg-container;
-	}
+		.rgb-background {
+			padding: 33px 3px 0;
+		}
 
-	.about-actor  {
-		.block-content-date {
-			float: right;
-		    width: 85px;
-		    height: auto;
-		    margin: 0 31px 0 0;
-		    padding: 10px 0 11px;
-			color: white;
-			font:  700 30px / 41px $family;
-			text-align: center;
-			background-color: #74023b;
-			a {
-				color: #fff;
-			}
+		.white-bg-container {
+			@include white-bg-container;
+			padding-left: 0;
+		}
 
-			.day {
-				position: relative;
-				padding-bottom: 5px;
+		.about-actor  {
+			.block-content-date {
+				float: right;
+				width: 55px;
+				height: auto;
+				margin: 0 0 20px 0;
+				padding: 0;
+				color: white;
+				font:  700 16px / 22px $family;
+				text-align: center;
+				background-color: #74023b;
+				a {
+					color: #fff;
+				}
 
-				&:after {
-					position: absolute;
-					bottom: 0;
-					left: 50%;
-					transform: translateX(-50%);
-					content: "";
+				.day {
+					position: relative;
+					padding-bottom: 5px;
+
+					&:after {
+						position: absolute;
+						bottom: 0;
+						left: 50%;
+						transform: translateX(-50%);
+						content: "";
+						display: block;
+						width: 34px;
+						height: 1px;
+						background: #fff;
+					}
+				}
+				.month {
 					display: block;
-					width: 66px;
-					height: 1px;
-					background: #fff;
+					margin: 4px 0;
+					font:  400 16px / 22px $family;
+				}
+			}
+			.img-wrapper {
+				// float: left;
+				max-width: 371px;
+				max-height: 495px;
+				width: 100%;
+				height: 100%;
+				margin: 20px auto 0;
+				overflow: hidden;
+				clear: both;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.actor-name {
+				display: none;
+			}
+			.actor-name-mobile {
+				max-width: 310px;
+				width: 100%;
+				margin: 0 auto;
+				color: #262626;
+				font: 700 25px/30px "Open Sans", sans-serif;
+				text-transform: uppercase;
+			}
+			.time {
+				clear: both;
+				display: block;
+				color: #74023b;
+				font: 700 16px / 24px $family;
+			}
+			.concert-location {
+		    margin: 10px 0 30px;
+				color: #262626;
+				font: 400 16px / 18px $family;
+			}
+			.buy-block {
+				overflow: hidden;
+
+				.tickets-price {
+					color: #74023b;
+					font: 700 22px / 28px $family;
+				}
+				.buy-ticket-btn {
+					display: block;
+					margin: 13px 0 0;
+					color: #74023b;
+					font: 700 22px / 28px$family;
+					@include transition;
+
+					&:hover {
+						text-decoration: underline;	
+					}
+				}
+			}
+			.desctop-description {
+				display: none;
+			}
+			.mobile-description {
+				p {
+					margin: 20px auto;
+					clear: both;
+					overflow: hidden;
+					color: #232323;
+					font: 400 18px / 21px $family;
 				}
 			}
 		}
-		.img-wrapper {
-			float: left;
-			max-width: 371px;
-			max-height: 495px;
+
+		.swiper-container {
 			width: 100%;
 			height: 100%;
-			margin: 20px 26px 28px 0;
-			overflow: hidden;
+		}
+		.swiper-container-bilet-more {
+			display: none;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
 
 			img {
-				max-width: 100%;
-				height: auto;
+				width: 100%;
+				height: 100%;
 			}
 		}
-		.actor-name {
-	        max-width: 310px;
-		    width: 100%;
-		    margin: 0 auto 16px;
-		    padding-top: 20px;
-		    color: #262626;
-		    font: 700 49px/61px "Open Sans", sans-serif;
-		    text-transform: uppercase;
+		.mapWrapper {
+			@include mapWrapper;
+			margin: 9px auto 30px;
+			max-width: 932px;
+			max-height: 516px;
+			width: 100%;
+			height: 100%;
 		}
-		.time {
+		.back-btn {
 			display: block;
-			color: #74023b;
-			font: 700 31px / 31px $family;
+			float: right;
+			margin: 0 30px 11px 0;
+			color: #770c40;
+			font: 400 22px / 24px $family;
+			text-transform: uppercase;
 		}
-		.concert-location {
-			margin: 28px 0 159px;
-			color: #262626;
-			font: 400 22px / 32px $family;
-		}
-		.buy-block {
-			overflow: hidden;
+	}
+}
+@media (min-width: 1024px) {
+	.direction {
+		display: none;
+	}
+	.bilet-more-page {
+		@include site-container;
+		@include page-bg;
+		padding: 38px 0 39px;
 
-			.tickets-price {
-				float: left;
-				color: #74023b;
-				font: 700 31px / 44px $family;
-			}
-			.buy-ticket-btn {
-				display: block;
+		.rgb-background {
+			padding: 33px 3px 36px;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+		}
+
+		.about-actor  {
+			.block-content-date {
 				float: right;
-			    margin-right: 32px;
-				color: #74023b;
-				font: 700 22px / 41px$family;
-				@include transition;
+				width: 85px;
+				height: auto;
+				margin: 0 31px 0 0;
+				padding: 10px 0 11px;
+				color: white;
+				font:  700 30px / 41px $family;
+				text-align: center;
+				background-color: #74023b;
+				a {
+					color: #fff;
+				}
 
-				&:hover {
-					text-decoration: underline;	
+				.day {
+					position: relative;
+					padding-bottom: 5px;
+
+					&:after {
+						position: absolute;
+						bottom: 0;
+						left: 50%;
+						transform: translateX(-50%);
+						content: "";
+						display: block;
+						width: 66px;
+						height: 1px;
+						background: #fff;
+					}
+				}
+			}
+			.img-wrapper {
+				float: left;
+				max-width: 371px;
+				max-height: 495px;
+				width: 100%;
+				height: 100%;
+				margin: 20px 26px 28px 0;
+				overflow: hidden;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.actor-name-mobile {
+				display: none;
+			}
+			.actor-name {
+				max-width: 310px;
+				width: 100%;
+				margin: 0 auto 16px;
+				padding-top: 20px;
+				color: #262626;
+				font: 700 49px/61px "Open Sans", sans-serif;
+				text-transform: uppercase;
+			}
+			.time {
+				display: block;
+				color: #74023b;
+				font: 700 31px / 31px $family;
+			}
+			.concert-location {
+				margin: 28px 0 159px;
+				color: #262626;
+				font: 400 22px / 32px $family;
+			}
+			.buy-block {
+				overflow: hidden;
+
+				.tickets-price {
+					float: left;
+					color: #74023b;
+					font: 700 31px / 44px $family;
+				}
+				.buy-ticket-btn {
+					display: block;
+					float: right;
+					margin-right: 32px;
+					color: #74023b;
+					font: 700 22px / 41px$family;
+					@include transition;
+
+					&:hover {
+						text-decoration: underline;	
+					}
+				}
+			}
+			.mobile-description {
+				display: none;
+			}
+			.desctop-description  {
+				p {
+					margin: 20px auto;
+					clear: both;
+					overflow: hidden;
+					color: #232323;
+					font: 400 18px / 21px $family;
 				}
 			}
 		}
-		p {
-			margin: 20px auto;
-			clear: both;
-			overflow: hidden;
-			color: #232323;
-			font: 400 18px / 21px $family;
+
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-container-bilet-more-mobile {
+			display: none;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.mapWrapper {
+			@include mapWrapper;
+			margin: 9px auto 30px;
+			max-width: 932px;
+			max-height: 516px;
+			width: 100%;
+			height: 100%;
+		}
+		.back-btn {
+			display: block;
+			float: right;
+			margin: 0 30px 19px 0;
+			color: #770c40;
+			font: 400 22px / 24px $family;
+			text-transform: uppercase;
 		}
 	}
-
-	.swiper-container {
-        width: 100%;
-        height: 100%;
-    }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-
-        img {
-        	width: 100%;
-        	height: 100%;
-        }
-    }
-    .mapWrapper {
-    	@include mapWrapper;
-    	margin: 9px auto 30px;
-    	max-width: 932px;
-		max-height: 516px;
-		width: 100%;
-		height: 100%;
-    }
-    .back-btn {
-    	display: block;
-    	float: right;
-	    margin: 0 30px 19px 0;
-    	color: #770c40;
-		font: 400 22px / 24px $family;
-		text-transform: uppercase;
-    }
 }
