@@ -88,8 +88,12 @@ a {
 	text-decoration: none;
 }
 
+
 //*-----------------MOBILE VERSION---------------------------*/
 @media (max-width: 1023px) {
+	.price-ticket-block {
+		display: none;
+	}
 	header {
 		max-height: 67px;
 		padding: 10px 0 9px;
@@ -473,8 +477,8 @@ a {
 		li {
 			display: block;
 			width: 100%;
-	    max-width: 640px;
-	    margin: 10px auto;
+			max-width: 640px;
+			margin: 10px auto;
 			background: #fff;
 			overflow: hidden;
 			&:first-child,
@@ -771,6 +775,73 @@ footer {
 //*-----------------END MOBILE VERSION---------------------------*/
 
 @media (min-width: 1024px) {
+
+	.price-ticket-block {
+		position: fixed;
+		width: 184px;
+		height: auto;
+		padding: 10px 5px;
+		right: 0;
+		top: 15%;
+		box-sizing: border-box;
+		color: #fff;
+		overflow: hidden;
+		z-index: 9999;
+    background: rgba(255, 255, 255, 0.8);
+
+		.header-list {
+			width: 100%;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+			display: -webkit-flex;
+			display: flex;
+			-ms-flex-pack: space-around;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+			background: rgba(0, 0, 0, 0.6);
+			li {
+				width: 40px;
+				display: inline-block;
+				font: 400 12px / 16px $family;
+				color: #fff;
+				text-align: center;
+			}
+		}
+		.tickets-list {
+			width: 100%;
+			& > li {
+				width: 100%;
+				display: block;
+				text-align: center;
+				margin: 10px auto;
+				background: rgba(116,2,59, 0.8);
+				.tickets-row {
+					width: 100%;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					-webkit-flex-wrap: wrap;
+					flex-wrap: wrap;
+					display: -webkit-flex;
+					display: flex;
+					-ms-flex-pack: space-around;
+					-webkit-justify-content: space-between;
+					justify-content: space-between;
+					align-items: center;
+					li {
+						width: 40px;
+						display: inline-block;
+						text-align: center;
+						span {
+							font: 400 12px / 16px $family;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
 	/*----------------------------- HEADER ---------------------*/
 	header {
 		@include site-container;
