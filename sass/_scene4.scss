@@ -3821,8 +3821,8 @@ $family: 'Open Sans', sans-serif;
 		left: -30px;
 	}
 	.sixth-list-3 {
-		top: -30px;
-		left: -90px;
+		top: -42px;
+    left: -96px;
 
 		li {
 			margin: 2px 5px;
@@ -4083,8 +4083,8 @@ $family: 'Open Sans', sans-serif;
 				text-align: center;
 				font: 400 12px / 22px $family;
 				position: relative;
-				left: 30px;
-				top: -30px;
+				left: 25px;
+    		top: -40px;
 			}
 			.sixth-rotate-list {
 				width: 178px;
@@ -4121,8 +4121,8 @@ $family: 'Open Sans', sans-serif;
 				overflow: hidden;
 				position: relative;
 				padding: 0;
-				top: 0;
-				right: 0;
+				top: 7px;
+    		right: 17px;
 
 				.sixth-list-1, 
 				.sixth-list-2, 
@@ -4218,7 +4218,7 @@ $family: 'Open Sans', sans-serif;
 		}
 		.right-label {
 			float: right;
-			margin: 130px 0 0 30px !important;
+	    margin: 128px 10px 0 30px !important;
 			position: relative;
 			top: -1072px;
 			color: #262626;
@@ -4566,7 +4566,7 @@ $family: 'Open Sans', sans-serif;
 	overflow: hidden;
 	float: right;
 	position: relative;
-	top: 0;
+	top: 8px;
 	right: 0;	
 	.rotate-block {
 		float: left;
@@ -4927,12 +4927,12 @@ $family: 'Open Sans', sans-serif;
 		left: 27px;
 	}
 	.block8-2 {
-		top: 84px;
-		left: 4px;
+    top: 80px;
+    left: -2px;
 	}
 	.block8-3 {
-		top: 53px;
-		left: -43px;
+    top: 37px;
+    left: -56px;
 
 		li {
 			margin: 2px 5px;
@@ -4948,8 +4948,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.block-label {
 		position: relative;
-		top: -5px;
-		left: -45px;
+		top: -29px;
+    left: -54px;
 		text-align: center;
 		font: 400 12px / 22px $family;
 	}
@@ -4971,16 +4971,16 @@ $family: 'Open Sans', sans-serif;
 .balcony-block {
 	margin: -75px auto 46px !important;
 	.scene4-balcony {
-		height: 1000px;
+		height: 1070px;
 	}
 }
 
 .balcony-main {
-	width: 100%;
+	width: 100% !important;
 	@include border-box;
 	padding-left: 0 !important;
 	position: relative;
-	top: -150px !important;
+	top: -200px !important;
 	left: -10px !important;
 	height: 490px !important;
 	padding: 0;
@@ -4993,6 +4993,7 @@ $family: 'Open Sans', sans-serif;
 	.series-label {
 		position: relative;
 		top: 75px;
+		left: -1px;
 		margin: 0 auto;
 		text-align: center;
 		color: #000;
@@ -5099,50 +5100,50 @@ $family: 'Open Sans', sans-serif;
 	}
 	.balcony-left-side-AA {
 		top: -6px;
-		left: -137px;
+		left: -150px;
 	}
 	.balcony-left-side-BB {
 		top: -18px;
-		left: -167px;
+		left: -181px;
 	}
 	.balcony-left-side-CC {
 		top: -30px;
-		left: -197px;
+		left: -213px;
 	}
 	.balcony-left-side-DD {
 		top: -30px;
-		left: -207px;
+		left: -224px;
 	}
 	.balcony-left-side-EE {
 		top: -30px;
-		left: -217px;
+		left: -237px;
 	}
 	.balcony-left-side-FF {
 		top: -29px;
-		left: -227px;
+		left: -248px;
 	}
 	.balcony-left-side-GG {
 		top: -18px;
-		left: -219px;
+		left: -240px;
 	}
 	.balcony-left-side-HH {
 		top: -18px;
-		left: -242px;
+		left: -263px;
 	}
 	.left-alone-DD {
 		position: relative;
 		top: -50px;
-		left: 104px;
+		left: 96px;
 	}
 	.left-alone-EE {
 		position: relative;
 		top: -50px;
-		left: 117px;
+		left: 105px;
 	}
 	.left-alone-FF {
 		position: relative;
 		top: -49px;
-		left: 108px;
+		left: 94px;
 	}
 	.left-alone-DD,
 	.left-alone-EE,
@@ -5167,25 +5168,28 @@ $family: 'Open Sans', sans-serif;
 		z-index: 9;
 	}
 	.balcony-center-side-AA {
-		left: 405px;
+		left: 398px;
 	}
 	.balcony-center-side-BB {
-		left: 395px;
+		left: 387px;
 	}
 	.balcony-center-side-CC {
-		left: 385px;
+		left: 374px;
 	}
 	.balcony-center-side-DD {
-		left: 375px;
+		left: 363px;
 	}
 	.balcony-center-side-EE {
-		left: 365px;
+		left: 351px;
 	}
 	.balcony-center-side-FF {
-		left: 355px;
+		left: 340px;
 	}
 	.balcony-center-side-GG {
-		left: 343px;
+		left: 328px;
+	}
+	.balcony-center-side-HH {
+		left: 305px;
 	}
 	.balcony-right-side-AA,
 	.balcony-right-side-BB,
@@ -5209,38 +5213,38 @@ $family: 'Open Sans', sans-serif;
 	}
 	.balcony-right-side-AA {
 		top: -135px;
-		right: -211px;
+		right: -196px;
 	}
 	.balcony-right-side-BB {
 		top: -135px;
-		right: -224px;
+		right: -209px;
 	}
 	.balcony-right-side-CC {
 		top: -135px;
-		right: -237px;
+		right: -220px;
 	}
 	.balcony-right-side-DD {
 		top: -139px;
-		right: -257px;
+		right: -237px;
 		width: 276px;
 	}
 	.balcony-right-side-EE {
 		top: -139px;
-		right: -270px;
+		right: -248px;
 		width: 276px;
 	}
 	.balcony-right-side-FF {
 		top: -139px;
-		right: -283px;
+		right: -260px;
 		width: 276px;
 	}
 	.balcony-right-side-GG {
 		top: -135px;
-		right: -288px;
+		right: -265px;
 	}
 	.balcony-right-side-HH {
 		top: -135px;
-		right: -311px;
+		right: -288px;
 	}
 	.right-alone-DD {
 		float: right;
@@ -5248,7 +5252,7 @@ $family: 'Open Sans', sans-serif;
 		width: 46px;
 		position: relative;
 		top: -241px;
-		right: 47px;
+		right: 74px;
 	}
 	.right-alone-EE {
 		float: right;
@@ -5256,7 +5260,7 @@ $family: 'Open Sans', sans-serif;
 		width: 46px;
 		position: relative;
 		top: -242px;
-		right: 34px;
+		right: 64px;
 	}
 	.right-alone-FF {
 		float: right;
@@ -5264,7 +5268,7 @@ $family: 'Open Sans', sans-serif;
 		width: 46px;
 		position: relative;
 		top: -242px;
-		right: 21px;
+		right: 52px;
 	}
 
 	.AA, .BB, .CC, .DD,

@@ -14159,8 +14159,8 @@ a {
   }
   /* line 3823, ../sass/_scene4.scss */
   .scene4 .sixth-list-3 {
-    top: -30px;
-    left: -90px;
+    top: -42px;
+    left: -96px;
   }
   /* line 3827, ../sass/_scene4.scss */
   .scene4 .sixth-list-3 li {
@@ -14528,8 +14528,8 @@ a {
     text-align: center;
     font: 400 12px/22px "Open Sans", sans-serif;
     position: relative;
-    left: 30px;
-    top: -30px;
+    left: 25px;
+    top: -40px;
   }
   /* line 4089, ../sass/_scene4.scss */
   .scene4 .main-floor .sixth-block-left .sixth-rotate-list {
@@ -14569,8 +14569,8 @@ a {
     overflow: hidden;
     position: relative;
     padding: 0;
-    top: 0;
-    right: 0;
+    top: 7px;
+    right: 17px;
   }
   /* line 4127, ../sass/_scene4.scss */
   .scene4 .main-floor .sixth-block-right .sixth-rotate-list .sixth-list-1,
@@ -14705,7 +14705,7 @@ a {
   /* line 4219, ../sass/_scene4.scss */
   .scene4 .main-floor .right-label {
     float: right;
-    margin: 130px 0 0 30px !important;
+    margin: 128px 10px 0 30px !important;
     position: relative;
     top: -1072px;
     color: #262626;
@@ -15185,7 +15185,7 @@ a {
     overflow: hidden;
     float: right;
     position: relative;
-    top: 0;
+    top: 8px;
     right: 0;
   }
   /* line 4571, ../sass/_scene4.scss */
@@ -15680,13 +15680,13 @@ a {
   }
   /* line 4929, ../sass/_scene4.scss */
   .block8 .block8-2 {
-    top: 84px;
-    left: 4px;
+    top: 80px;
+    left: -2px;
   }
   /* line 4933, ../sass/_scene4.scss */
   .block8 .block8-3 {
-    top: 53px;
-    left: -43px;
+    top: 37px;
+    left: -56px;
   }
   /* line 4937, ../sass/_scene4.scss */
   .block8 .block8-3 li {
@@ -15703,8 +15703,8 @@ a {
   /* line 4949, ../sass/_scene4.scss */
   .block8 .block-label {
     position: relative;
-    top: -5px;
-    left: -45px;
+    top: -29px;
+    left: -54px;
     text-align: center;
     font: 400 12px/22px "Open Sans", sans-serif;
   }
@@ -15732,19 +15732,19 @@ a {
   }
   /* line 4973, ../sass/_scene4.scss */
   .balcony-block .scene4-balcony {
-    height: 1000px;
+    height: 1070px;
   }
 
   /* line 4978, ../sass/_scene4.scss */
   .balcony-main {
-    width: 100%;
+    width: 100% !important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 0 !important;
     position: relative;
-    top: -150px !important;
+    top: -200px !important;
     left: -10px !important;
     height: 490px !important;
     padding: 0;
@@ -15758,13 +15758,14 @@ a {
   .balcony-main .series-label {
     position: relative;
     top: 75px;
+    left: -1px;
     margin: 0 auto;
     text-align: center;
     color: #000;
     font: 400 14px/17px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 5003, ../sass/_scene4.scss */
+  /* line 5004, ../sass/_scene4.scss */
   .balcony-main .balcony-main-title {
     margin: 0 auto;
     text-align: center;
@@ -15774,7 +15775,7 @@ a {
     position: relative;
     top: -855px;
   }
-  /* line 5013, ../sass/_scene4.scss */
+  /* line 5014, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA,
   .balcony-main .balcony-left-side-BB,
   .balcony-main .balcony-left-side-CC,
@@ -15812,7 +15813,7 @@ a {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 5048, ../sass/_scene4.scss */
+  /* line 5049, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA li,
   .balcony-main .balcony-left-side-BB li,
   .balcony-main .balcony-left-side-CC li,
@@ -15849,7 +15850,7 @@ a {
     height: 21px;
     margin: 1px 1px 2px;
   }
-  /* line 5054, ../sass/_scene4.scss */
+  /* line 5055, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA li a,
   .balcony-main .balcony-left-side-BB li a,
   .balcony-main .balcony-left-side-CC li a,
@@ -15886,7 +15887,7 @@ a {
     color: white;
     font: 400 14px/17px "Open Sans", sans-serif;
   }
-  /* line 5062, ../sass/_scene4.scss */
+  /* line 5063, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .reserved,
   .balcony-main .balcony-left-side-BB .reserved,
   .balcony-main .balcony-left-side-CC .reserved,
@@ -15919,7 +15920,7 @@ a {
   .balcony-main .right-alone-FF .reserved {
     background-color: #bcb8b6;
   }
-  /* line 5065, ../sass/_scene4.scss */
+  /* line 5066, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .ather-backets,
   .balcony-main .balcony-left-side-BB .ather-backets,
   .balcony-main .balcony-left-side-CC .ather-backets,
@@ -15952,7 +15953,7 @@ a {
   .balcony-main .right-alone-FF .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 5068, ../sass/_scene4.scss */
+  /* line 5069, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .in-the-basket,
   .balcony-main .balcony-left-side-BB .in-the-basket,
   .balcony-main .balcony-left-side-CC .in-the-basket,
@@ -15985,7 +15986,7 @@ a {
   .balcony-main .right-alone-FF .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 5071, ../sass/_scene4.scss */
+  /* line 5072, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .cheap-price,
   .balcony-main .balcony-left-side-BB .cheap-price,
   .balcony-main .balcony-left-side-CC .cheap-price,
@@ -16018,7 +16019,7 @@ a {
   .balcony-main .right-alone-FF .cheap-price {
     background-color: #E7CE00;
   }
-  /* line 5074, ../sass/_scene4.scss */
+  /* line 5075, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .average-price,
   .balcony-main .balcony-left-side-BB .average-price,
   .balcony-main .balcony-left-side-CC .average-price,
@@ -16051,7 +16052,7 @@ a {
   .balcony-main .right-alone-FF .average-price {
     background-color: #C00463;
   }
-  /* line 5077, ../sass/_scene4.scss */
+  /* line 5078, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA .highest-price,
   .balcony-main .balcony-left-side-BB .highest-price,
   .balcony-main .balcony-left-side-CC .highest-price,
@@ -16084,7 +16085,7 @@ a {
   .balcony-main .right-alone-FF .highest-price {
     background-color: #840343;
   }
-  /* line 5081, ../sass/_scene4.scss */
+  /* line 5082, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA,
   .balcony-main .balcony-left-side-BB,
   .balcony-main .balcony-left-side-CC,
@@ -16104,65 +16105,65 @@ a {
     transform: rotate(30deg);
     padding: 48px 0 30px 0;
   }
-  /* line 5100, ../sass/_scene4.scss */
+  /* line 5101, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA {
     top: -6px;
-    left: -137px;
+    left: -150px;
   }
-  /* line 5104, ../sass/_scene4.scss */
+  /* line 5105, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-BB {
     top: -18px;
-    left: -167px;
+    left: -181px;
   }
-  /* line 5108, ../sass/_scene4.scss */
+  /* line 5109, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-CC {
     top: -30px;
-    left: -197px;
+    left: -213px;
   }
-  /* line 5112, ../sass/_scene4.scss */
+  /* line 5113, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-DD {
     top: -30px;
-    left: -207px;
+    left: -224px;
   }
-  /* line 5116, ../sass/_scene4.scss */
+  /* line 5117, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-EE {
     top: -30px;
-    left: -217px;
+    left: -237px;
   }
-  /* line 5120, ../sass/_scene4.scss */
+  /* line 5121, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-FF {
     top: -29px;
-    left: -227px;
+    left: -248px;
   }
-  /* line 5124, ../sass/_scene4.scss */
+  /* line 5125, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-GG {
     top: -18px;
-    left: -219px;
+    left: -240px;
   }
-  /* line 5128, ../sass/_scene4.scss */
+  /* line 5129, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-HH {
     top: -18px;
-    left: -242px;
+    left: -263px;
   }
-  /* line 5132, ../sass/_scene4.scss */
+  /* line 5133, ../sass/_scene4.scss */
   .balcony-main .left-alone-DD {
     position: relative;
     top: -50px;
-    left: 104px;
+    left: 96px;
   }
-  /* line 5137, ../sass/_scene4.scss */
+  /* line 5138, ../sass/_scene4.scss */
   .balcony-main .left-alone-EE {
     position: relative;
     top: -50px;
-    left: 117px;
+    left: 105px;
   }
-  /* line 5142, ../sass/_scene4.scss */
+  /* line 5143, ../sass/_scene4.scss */
   .balcony-main .left-alone-FF {
     position: relative;
     top: -49px;
-    left: 108px;
+    left: 94px;
   }
-  /* line 5147, ../sass/_scene4.scss */
+  /* line 5148, ../sass/_scene4.scss */
   .balcony-main .left-alone-DD,
   .balcony-main .left-alone-EE,
   .balcony-main .left-alone-FF,
@@ -16171,7 +16172,7 @@ a {
   .balcony-main .right-alone-FF {
     z-index: 9;
   }
-  /* line 5155, ../sass/_scene4.scss */
+  /* line 5156, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-AA,
   .balcony-main .balcony-center-side-BB,
   .balcony-main .balcony-center-side-CC,
@@ -16186,35 +16187,39 @@ a {
     overflow: hidden;
     z-index: 9;
   }
-  /* line 5169, ../sass/_scene4.scss */
+  /* line 5170, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-AA {
-    left: 405px;
+    left: 398px;
   }
-  /* line 5172, ../sass/_scene4.scss */
+  /* line 5173, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-BB {
-    left: 395px;
+    left: 387px;
   }
-  /* line 5175, ../sass/_scene4.scss */
+  /* line 5176, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-CC {
-    left: 385px;
+    left: 374px;
   }
-  /* line 5178, ../sass/_scene4.scss */
+  /* line 5179, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-DD {
-    left: 375px;
+    left: 363px;
   }
-  /* line 5181, ../sass/_scene4.scss */
+  /* line 5182, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-EE {
-    left: 365px;
+    left: 351px;
   }
-  /* line 5184, ../sass/_scene4.scss */
+  /* line 5185, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-FF {
-    left: 355px;
+    left: 340px;
   }
-  /* line 5187, ../sass/_scene4.scss */
+  /* line 5188, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-GG {
-    left: 343px;
+    left: 328px;
   }
-  /* line 5190, ../sass/_scene4.scss */
+  /* line 5191, ../sass/_scene4.scss */
+  .balcony-main .balcony-center-side-HH {
+    left: 305px;
+  }
+  /* line 5194, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-AA,
   .balcony-main .balcony-right-side-BB,
   .balcony-main .balcony-right-side-CC,
@@ -16235,119 +16240,119 @@ a {
     padding: 48px 0 30px 0;
     z-index: 9;
   }
-  /* line 5210, ../sass/_scene4.scss */
+  /* line 5214, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-AA {
     top: -135px;
-    right: -211px;
-  }
-  /* line 5214, ../sass/_scene4.scss */
-  .balcony-main .balcony-right-side-BB {
-    top: -135px;
-    right: -224px;
+    right: -196px;
   }
   /* line 5218, ../sass/_scene4.scss */
-  .balcony-main .balcony-right-side-CC {
+  .balcony-main .balcony-right-side-BB {
     top: -135px;
-    right: -237px;
+    right: -209px;
   }
   /* line 5222, ../sass/_scene4.scss */
+  .balcony-main .balcony-right-side-CC {
+    top: -135px;
+    right: -220px;
+  }
+  /* line 5226, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-DD {
     top: -139px;
-    right: -257px;
+    right: -237px;
     width: 276px;
   }
-  /* line 5227, ../sass/_scene4.scss */
+  /* line 5231, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-EE {
     top: -139px;
-    right: -270px;
+    right: -248px;
     width: 276px;
   }
-  /* line 5232, ../sass/_scene4.scss */
+  /* line 5236, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-FF {
     top: -139px;
-    right: -283px;
+    right: -260px;
     width: 276px;
   }
-  /* line 5237, ../sass/_scene4.scss */
+  /* line 5241, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-GG {
+    top: -135px;
+    right: -265px;
+  }
+  /* line 5245, ../sass/_scene4.scss */
+  .balcony-main .balcony-right-side-HH {
     top: -135px;
     right: -288px;
   }
-  /* line 5241, ../sass/_scene4.scss */
-  .balcony-main .balcony-right-side-HH {
-    top: -135px;
-    right: -311px;
-  }
-  /* line 5245, ../sass/_scene4.scss */
+  /* line 5249, ../sass/_scene4.scss */
   .balcony-main .right-alone-DD {
     float: right;
     overflow: hidden;
     width: 46px;
     position: relative;
     top: -241px;
-    right: 47px;
+    right: 74px;
   }
-  /* line 5253, ../sass/_scene4.scss */
+  /* line 5257, ../sass/_scene4.scss */
   .balcony-main .right-alone-EE {
     float: right;
     overflow: hidden;
     width: 46px;
     position: relative;
     top: -242px;
-    right: 34px;
+    right: 64px;
   }
-  /* line 5261, ../sass/_scene4.scss */
+  /* line 5265, ../sass/_scene4.scss */
   .balcony-main .right-alone-FF {
     float: right;
     overflow: hidden;
     width: 46px;
     position: relative;
     top: -242px;
-    right: 21px;
+    right: 52px;
   }
-  /* line 5270, ../sass/_scene4.scss */
+  /* line 5274, ../sass/_scene4.scss */
   .balcony-main .AA, .balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
   .balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
     padding-top: 15px;
     height: 165px;
   }
-  /* line 5275, ../sass/_scene4.scss */
+  /* line 5279, ../sass/_scene4.scss */
   .balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
   .balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
     position: relative;
     top: -170px;
   }
-  /* line 5280, ../sass/_scene4.scss */
+  /* line 5284, ../sass/_scene4.scss */
   .balcony-main .BB {
     top: -125px;
     padding-top: 20px;
   }
-  /* line 5284, ../sass/_scene4.scss */
+  /* line 5288, ../sass/_scene4.scss */
   .balcony-main .CC {
     top: -255px;
     padding-top: 30px;
   }
-  /* line 5288, ../sass/_scene4.scss */
+  /* line 5292, ../sass/_scene4.scss */
   .balcony-main .DD {
     top: -388px;
     padding-top: 45px;
   }
-  /* line 5292, ../sass/_scene4.scss */
+  /* line 5296, ../sass/_scene4.scss */
   .balcony-main .EE {
     top: -507px;
     padding-top: 43px;
   }
-  /* line 5297, ../sass/_scene4.scss */
+  /* line 5301, ../sass/_scene4.scss */
   .balcony-main .FF {
     top: -628px;
     padding-top: 44px;
   }
-  /* line 5301, ../sass/_scene4.scss */
+  /* line 5305, ../sass/_scene4.scss */
   .balcony-main .GG {
     top: -735px;
     padding-top: 30px;
   }
-  /* line 5305, ../sass/_scene4.scss */
+  /* line 5309, ../sass/_scene4.scss */
   .balcony-main .HH {
     top: -855px;
     padding-top: 30px;
