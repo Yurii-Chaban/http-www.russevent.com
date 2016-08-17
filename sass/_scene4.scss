@@ -2990,6 +2990,120 @@ $family: 'Open Sans', sans-serif;
 		margin: 43px auto;
 	}
 }
+@media (min-width: 414px) and (max-width: 415px) {
+	.site-container {
+		.designations-block {
+			.designations-sircle-list {
+				width: 40% !important;
+			}
+			.designations-square-list {
+				width: 59% !important;
+			}
+		}
+	}
+	.scene {
+		.scene4 {
+			.center-places {
+				left: -28px;
+				transform: rotate(0deg) scale(0.9, 0.9) skew(-180deg) translate(0);
+				-webkit-transform: rotate(0deg) scale(0.9, 0.9) skew(-180deg) translate(0);
+				-moz-transform: rotate(0deg) scale(0.9, 0.9) skew(-180deg) translate(0);
+				-o-transform: rotate(0deg) scale(0.9, 0.9) skew(-180deg) translate(0);
+				-ms-transform: rotate(0deg) scale(0.9, 0.9) skew(-180deg) translate(0);
+			}
+			.main-floor {
+				.right-label {
+					top: -885px;
+				}
+				.eight-place-right {
+					top: -885px;
+					left: 80px;
+					.sixth-block-right {
+						right: 190px;
+					}
+				}
+			}
+			.floor-places {
+				.R-left {
+					left: 184px;
+					top: 12px;
+				}
+				.S-left {
+					left: 154px;
+					top: 0px;
+				}
+				.T-left {
+					left: 126px;
+					top: -12px;
+				}
+				.U-left {
+					left: 106px;
+					top: -19px;
+				}
+				.V-left {
+					left: 87px;
+					top: -23px;
+				}
+
+				/*-------------------------*/
+				.R-right {
+					right: -573px;
+					top: -106px;
+				}
+				.S-right {
+					right: -585px;
+					top: -106px;
+				}
+				.T-right {
+					right: -600px;
+					top: -106px;
+				}
+				.U-right {
+					right: -615px;
+					top: -106px;
+				}
+				.V-right {
+					right: -628px;
+					top: -106px;
+				}
+			}
+		}
+		.scene4-balcony {
+			.third-row {
+				.scene-block-left {
+					.block8 {
+						left: 0;
+						.block8-2 {
+							top: 77px;
+							left: 0px;
+						}
+						.block8-3 {
+							top: 35px;
+							left: -50px;
+						}
+						.block-label {
+							top: -28px;
+							left: -48px;
+						}
+					}
+				}
+				.scene-block-right {
+					.block7 {
+						right: 25px;
+					}
+				}
+			}
+			.balcony-main {
+				left: -390px;
+				transform: rotate(-90deg) scale(0.8, 0.8) skew(-180deg) translate(-300px);
+				-webkit-transform: rotate(-90deg) scale(0.8, 0.8) skew(-180deg) translate(-300px);
+				-moz-transform: rotate(-90deg) scale(0.8, 0.8) skew(-180deg) translate(-300px);
+				-o-transform: rotate(-90deg) scale(0.8, 0.8) skew(-180deg) translate(-300px);
+				-ms-transform: rotate(-90deg) scale(0.8, 0.8) skew(-180deg) translate(-300px);
+			}
+		}
+	}
+}
 /*---------------481 to 767----------------*/
 @media (min-width: 481px) and (max-width: 539px) {
 	.site-container {
@@ -3809,6 +3923,68 @@ $family: 'Open Sans', sans-serif;
 				.V-right {
 					right: -569px !important;
 					top: -169px !important;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 736px) and (max-width: 737px) {
+	.scene {
+		.scene4 {
+			.top-transform {
+				transform: rotate(0deg) scale(0.95	, 0.95	) skew(-180deg) translate(0);
+				-webkit-transform: rotate(0deg) scale(0.95	, 0.95	) skew(-180deg) translate(0);
+				-moz-transform: rotate(0deg) scale(0.95	, 0.95	) skew(-180deg) translate(0);
+				-o-transform: rotate(0deg) scale(0.95	, 0.95	) skew(-180deg) translate(0);
+				-ms-transform: rotate(0deg) scale(0.95	, 0.95	) skew(-180deg) translate(0);
+			}
+		}
+		.scene4-main-floor {
+			.floor-places {
+				top: -1480px;
+				.floor-title {
+					margin: 15px -275px 0 0;
+				}
+				.R-left {
+					left: 120px !important;
+					top: 90px !important;
+				}
+				.S-left {
+					left: 90px !important;
+					top: 79px !important;
+				}
+				.T-left {
+					left: 61px !important;
+					top: 67px !important;
+				}
+				.U-left {
+					left: 42px !important;
+					top: 60px !important;
+				}
+				.V-left {
+					left: 22px !important;
+					top: 56px !important;
+				}
+				/*--------------------------*/
+				.R-right {
+					right: -511px !important;
+					top: -187px !important;
+				}
+				.S-right {
+					right: -524px !important;
+					top: -187px !important;
+				}
+				.T-right {
+					right: -538px !important;
+					top: -187px !important;
+				}
+				.U-right {
+					right: -553px !important;
+					top: -187px !important;
+				}
+				.V-right {
+					right: -564px !important;
+					top: -187px !important;
 				}
 			}
 		}
