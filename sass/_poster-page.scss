@@ -1,0 +1,389 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+@mixin transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+@mixin border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@mixin page-bg {
+	padding: 31px 0 39px;
+	background: url('../images/backgr.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	.rgb-background {
+		max-width: 1060px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 33px 0 36px;
+		background: rgba(255, 255, 255, 0.6);
+	}
+}
+@mixin mapWrapper {
+	position: relative;
+	padding-bottom: 53.25%;
+	height: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+@mixin white-bg-container {
+	position: relative;
+	max-width: 1010px;
+	margin: 0 auto;
+	padding: 0 0px 20px 19px;
+	background: #fff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+@mixin direction {
+	@include site-container;
+	padding: 6px 0;
+	background-color: #74023b;
+	box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);	
+	z-index: 9;
+	.arrow-back {
+		float: left;
+		margin: 5px 0 0 0;
+	}
+	.direction-title {
+		margin: 0 auto;
+		text-align: center;
+		a {
+			color: white;
+			font: 400 15px / 25px $family;
+			text-transform: uppercase;
+		}
+	}
+}
+$family: 'Open Sans', sans-serif;
+
+@media (min-width: 0px) {
+	.direction {
+		@include direction;
+	}
+	.bilet-poster-page {
+		@include site-container;
+		padding: 0;
+
+		.rgb-background {
+			padding: 33px 3px 0;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+			padding-left: 0;
+
+			.poster-main-title {
+				margin: 0 0 30px;
+				color: #262626;
+				font: 700 30px / 30px $family;
+				text-transform: uppercase;
+			}
+
+			.upcoming-list {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+				display: -webkit-flex;
+				display: flex;
+				-ms-flex-pack: space-around;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+
+				li {
+					display: block;
+					width: 100%;
+					max-width: 640px;
+					margin: 10px auto;
+					background-color: whitesmoke;
+					overflow: hidden;
+					&:first-child,
+					&:nth-child(2) {
+						margin-top: 0;
+					}
+
+					.upcoming-concerts-img {
+						float: left;
+						max-width: 89px;
+						max-height: 136px;
+						width: 100%;
+						height: 100%;
+						margin: 0 8px 0 0;
+						overflow: hidden;
+						img {
+							width: auto;
+							height: 100%;
+						}
+					}
+					.date-info {
+						float: right;
+						width: 41px;
+						height: auto;
+						margin: 0 14px 0 0;
+						.concert-date {
+							margin-bottom: 9px;
+							padding: 0 0 8px 0;
+							color: white;
+							text-align: center;
+							background-color: #74023b;
+							.day {
+								position: relative;
+								margin-bottom: 16px;
+								padding-bottom: 5px;
+								font: 700 16px / 20px $family;
+
+								&:after {
+									position: absolute;
+									bottom: 0;
+									left: 50%;
+									transform: translateX(-50%);
+									content: "";
+									display: block;
+									width: 32px;
+									height: 1px;
+									background: #fff;
+								}
+							}
+							.month {
+								display: block;
+								margin-top: 7px;
+								font: 400 16px / 20px $family;
+							}
+						}
+						.concert-time {
+							color: #74023b;
+							font: 700 10px / 14px $family;
+						}
+					}
+					.main-info {
+						.actor-name {
+							margin: 15px 0 0;
+							color: #262626;
+							font: 700 11px / 14px $family;
+							text-transform: uppercase;
+						}
+						.concert-location {
+							margin: 35px 0 10px;
+							color: #080202;
+							font: 400 10px / 14px $family;
+						}
+					}
+					.action-btn {
+						overflow: hidden;
+						margin-bottom: 0;
+						padding-right: 26px;
+						.buy-ticket-btn,
+						.more-info-btn {
+							display: inline-block;
+							color: #74023b;
+							font: 700 10px / 14px $family;
+							text-decoration: underline;
+							@include transition;
+
+							&:hover {
+								text-decoration: none;
+							}
+						}
+						.buy-ticket-btn {
+							float: left;
+						}
+						.more-info-btn {
+							float: right;
+						}
+					}
+				}
+			}
+			.paginaton-list {
+				margin: 42px auto 35px;
+				text-align: center;
+
+				li {
+					display: inline-block;
+					a {
+						padding: 5px 2px;
+						font: 400 18px / 21px $family;
+						color: #262626;
+						@include transition;
+
+						&:hover {
+							color: #fff;
+							background-color: #74023b;
+						}
+					}
+					a.paginaton-active-item {
+						color: #74023b;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1024px) {
+	.direction {
+		display: none;
+	}
+	.bilet-poster-page {
+		@include site-container;
+		@include page-bg;
+		padding: 38px 0 39px;
+
+		.rgb-background {
+			padding: 33px 3px 36px;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+
+			.poster-concerts {
+
+				.poster-main-title {
+					margin: 25px 0 27px;
+					letter-spacing: 1px;
+					color: #262626;
+					font: 700 48px / 50px $family;
+				}
+
+				.upcoming-list {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					-webkit-flex-wrap: wrap;
+					flex-wrap: wrap;
+					display: -webkit-flex;
+					display: flex;
+					-ms-flex-pack: space-around;
+					-webkit-justify-content: space-between;
+					justify-content: space-between;
+
+					li {
+						width: 48%;
+						margin: 20px 0;
+						overflow: hidden;
+						&:first-child,
+						&:nth-child(2) {
+							margin-top: 0;
+						}
+
+						.upcoming-concerts-img {
+							float: left;
+							max-width: 153px;
+							max-height: 100%;
+							width: 100%;
+							height: 100%;
+							margin: 0 8px 0 0;
+							overflow: hidden;
+							img {
+								width: auto;
+								height: 100%;
+							}
+						}
+						.date-info {
+							float: right;
+							width: 67px;
+							height: auto;
+							margin: 0 26px 0 0;
+							.concert-date {
+								margin-bottom: 11px;
+								padding: 0 0 12px 0;
+								color: white;
+								text-align: center;
+								background-color: #74023b;
+								.day {
+									position: relative;
+									margin-bottom: 16px;
+									padding-bottom: 5px;
+									font: 700 30px / 41px $family;
+
+									&:after {
+										position: absolute;
+										bottom: 0;
+										left: 50%;
+										transform: translateX(-50%);
+										content: "";
+										display: block;
+										width: 52px;
+										height: 1px;
+										background: #fff;
+									}
+								}
+								.month {
+									font: 400 26px / 28px $family;
+								}
+							}
+							.concert-time {
+								color: #74023b;
+								font: 700 16px / 22px $family;
+							}
+						}
+						.main-info {
+							.actor-name {
+								margin: 21px 0;
+								color: #262626;
+								font: 700 18px / 22px $family;
+								text-transform: uppercase;
+							}
+							.concert-location {
+								margin: 50px 0 23px;
+								color: #080202;
+								font: 400 16px / 22px $family;
+							}
+						}
+						.action-btn {
+							overflow: hidden;
+							margin-bottom: 0;
+							padding-right: 26px;
+							.buy-ticket-btn,
+							.more-info-btn {
+								display: inline-block;
+								color: #74023b;
+								font: 700 16px / 22px $family;
+								text-decoration: underline;
+								@include transition;
+
+								&:hover {
+									text-decoration: none;
+								}
+							}
+							.buy-ticket-btn {
+								float: left;
+							}
+							.more-info-btn {
+								float: right;
+							}
+						}
+					}
+				}
+			}
+			.paginaton-list {
+				li {
+					a {
+						margin: 0 5px;
+						padding: 5px;
+					}
+				}
+			}
+		}
+	}
+}

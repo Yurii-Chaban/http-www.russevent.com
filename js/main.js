@@ -31,6 +31,18 @@ $(function () {
     });
 });
 
+// for pagination on poster page
+$(function () {
+    $('.list-menu li a').each(function () {
+        var location = window.location.pathname;
+        var link = this.pathname;
+        var result = location.match(link);
+        if(result && link.length > 0) {
+            $(this).addClass('list-menu-active');
+        }
+    });
+});
+
 // for Russevent_bilet_more slider
 var swiper_main = new Swiper('.swiper-container-bilet-more', {
     nextButton: '.swiper-button-bilet-more-next',
