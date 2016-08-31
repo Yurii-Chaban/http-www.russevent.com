@@ -1,0 +1,150 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+@mixin transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+@mixin border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@mixin page-bg {
+	padding: 31px 0 39px;
+	background: url('../images/backgr.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	.rgb-background {
+		max-width: 1060px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 33px 0 36px;
+		background: rgba(255, 255, 255, 0.6);
+	}
+}
+@mixin mapWrapper {
+	position: relative;
+	padding-bottom: 53.25%;
+	height: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+@mixin white-bg-container {
+	position: relative;
+	max-width: 1010px;
+	margin: 0 auto;
+	padding: 0 0px 20px 19px;
+	background: #fff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+@mixin direction {
+	@include site-container;
+	padding: 6px 0;
+	background-color: #74023b;
+	box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);	
+	z-index: 9;
+	.arrow-back {
+		float: left;
+		margin: 5px 0 0 0;
+	}
+	.direction-title {
+		margin: 0 auto;
+		text-align: center;
+		a {
+			color: white;
+			font: 400 15px / 25px $family;
+			text-transform: uppercase;
+		}
+	}
+}
+$family: 'Open Sans', sans-serif;
+
+@media (min-width: 0px) {
+	.direction {
+		@include direction;
+	}
+	.bilet-pokupka-page {
+		@include site-container;
+		padding: 0;
+
+		.rgb-background {
+			padding: 33px 3px 0;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+			padding-left: 0;
+
+			.how-buy-title {
+				margin: 25px 0 27px;
+				color: #262626;
+				font: 700 30px / 30px $family;
+				text-transform: uppercase;
+			}
+			p {
+				margin: 0 0 20px;
+				color: #262626;
+				font: 400 18px / 22px $family;
+				a {
+					color: #262626;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			.steps-text {
+				li {
+					display: block;
+					color: #262626;
+					font: 400 18px / 22px $family;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1024px) {
+	.direction {
+		display: none;
+	}
+	.bilet-pokupka-page {
+		@include site-container;
+		@include page-bg;
+		padding: 38px 0 39px;
+
+		.rgb-background {
+			padding: 33px 3px 36px;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+
+			.how-buy-title {
+				margin: 25px 0 27px;
+				letter-spacing: 1px;
+				color: #262626;
+				font: 700 48px / 50px $family;
+			}
+		}
+	}
+}

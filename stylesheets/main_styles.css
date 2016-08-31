@@ -2056,6 +2056,141 @@ a {
     text-transform: uppercase;
   }
 }
+@media (min-width: 0px) {
+  /* line 83, ../sass/_bilet_pokupka.scss */
+  .direction {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 6px 0;
+    background-color: #74023b;
+    box-shadow: 2.4px 4.4px 7px rgba(0, 1, 1, 0.26);
+    z-index: 9;
+  }
+  /* line 66, ../sass/_bilet_pokupka.scss */
+  .direction .arrow-back {
+    float: left;
+    margin: 5px 0 0 0;
+  }
+  /* line 70, ../sass/_bilet_pokupka.scss */
+  .direction .direction-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 73, ../sass/_bilet_pokupka.scss */
+  .direction .direction-title a {
+    color: white;
+    font: 400 15px/25px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+
+  /* line 86, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+  }
+  /* line 90, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .rgb-background {
+    padding: 33px 3px 0;
+  }
+  /* line 94, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 19px;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+  /* line 98, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container .how-buy-title {
+    margin: 25px 0 27px;
+    color: #262626;
+    font: 700 30px/30px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 104, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container p {
+    margin: 0 0 20px;
+    color: #262626;
+    font: 400 18px/22px "Open Sans", sans-serif;
+  }
+  /* line 108, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container p a {
+    color: #262626;
+  }
+  /* line 111, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container p a:hover {
+    text-decoration: underline;
+  }
+  /* line 117, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container .steps-text li {
+    display: block;
+    color: #262626;
+    font: 400 18px/22px "Open Sans", sans-serif;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 127, ../sass/_bilet_pokupka.scss */
+  .direction {
+    display: none;
+  }
+
+  /* line 130, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 38px 0 39px;
+  }
+  /* line 27, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 36px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 135, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .rgb-background {
+    padding: 33px 3px 36px;
+  }
+  /* line 139, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 19px;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  /* line 142, ../sass/_bilet_pokupka.scss */
+  .bilet-pokupka-page .white-bg-container .how-buy-title {
+    margin: 25px 0 27px;
+    letter-spacing: 1px;
+    color: #262626;
+    font: 700 48px/50px "Open Sans", sans-serif;
+  }
+}
 @media (min-width: 320px) {
   /* line 85, ../sass/_scene1.scss */
   .direction {
