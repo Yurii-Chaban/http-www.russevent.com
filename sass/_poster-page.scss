@@ -134,8 +134,8 @@ $family: 'Open Sans', sans-serif;
 						margin: 0 8px 0 0;
 						overflow: hidden;
 						img {
-							width: auto;
-							height: 100%;
+							max-width: 100%;
+							height: auto;
 						}
 					}
 					.date-info {
@@ -186,7 +186,7 @@ $family: 'Open Sans', sans-serif;
 							text-transform: uppercase;
 						}
 						.concert-location {
-							margin: 35px 0 10px;
+							margin: 15px 0 10px;
 							color: #080202;
 							font: 400 10px / 14px $family;
 						}
@@ -295,8 +295,8 @@ $family: 'Open Sans', sans-serif;
 							margin: 0 8px 0 0;
 							overflow: hidden;
 							img {
-								width: auto;
-								height: 100%;
+								max-width: 100%;
+								height: auto;
 							}
 						}
 						.date-info {

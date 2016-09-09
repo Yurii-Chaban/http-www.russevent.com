@@ -2296,8 +2296,8 @@ a {
   }
   /* line 136, ../sass/_poster-page.scss */
   .bilet-poster-page .white-bg-container .upcoming-list li .upcoming-concerts-img img {
-    width: auto;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
   }
   /* line 141, ../sass/_poster-page.scss */
   .bilet-poster-page .white-bg-container .upcoming-list li .date-info {
@@ -2353,7 +2353,7 @@ a {
   }
   /* line 188, ../sass/_poster-page.scss */
   .bilet-poster-page .white-bg-container .upcoming-list li .main-info .concert-location {
-    margin: 35px 0 10px;
+    margin: 15px 0 10px;
     color: #080202;
     font: 400 10px/14px "Open Sans", sans-serif;
   }
@@ -2501,8 +2501,8 @@ a {
   }
   /* line 297, ../sass/_poster-page.scss */
   .bilet-poster-page .white-bg-container .poster-concerts .upcoming-list li .upcoming-concerts-img img {
-    width: auto;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
   }
   /* line 302, ../sass/_poster-page.scss */
   .bilet-poster-page .white-bg-container .poster-concerts .upcoming-list li .date-info {
