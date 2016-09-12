@@ -1051,6 +1051,10 @@ $family: 'Open Sans', sans-serif;
 		-moz-transform: rotate(-90deg);
 		-o-transform: rotate(-90deg);
 		transform: rotate(-90deg);
+    height: 195px;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    z-index: 99999;
 		.A-left, .B-left, 
 		.C-left, .D-left, 
 		.E-left {
@@ -1084,9 +1088,9 @@ $family: 'Open Sans', sans-serif;
 		width: 100%;
 		height: auto;
 		min-height: 500px;
-		margin: -40px auto 0;
+		margin: 10px auto 0;
 		overflow: hidden;
-		padding-top: 40px;
+		padding-top: 0;
 
 		.eight-block-left {
 			width: 170px;
@@ -5628,7 +5632,7 @@ $family: 'Open Sans', sans-serif;
 
 	.top-transform {
 		width: 100%;
-		margin: 50px auto 0;
+		margin: 50px auto 10px;
 		-ms-transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
@@ -5649,7 +5653,7 @@ $family: 'Open Sans', sans-serif;
 		}
 		.D-left {
 			left: -153px;
-			top: -1px;
+    	top: -1px;
 		}
 
 		.A-right, .B-right, 
@@ -5670,9 +5674,9 @@ $family: 'Open Sans', sans-serif;
 		clear: both;
 		width: 100%;
 		height: 500px;
-		margin: -40px auto 0;
+		margin: 10px auto 0;
 		overflow: hidden;
-		padding-top: 40px;
+		padding-top: 0;
 
 		.eight-block-left {
 			width: 170px;
@@ -6805,8 +6809,8 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 	.right-alone-DD {
-		top: -230px!important;
-		right: 94px!important;
+    top: -230px !important;
+    right: 94px !important;
 	}
 	.balcony-left-side-AA,
 	.balcony-left-side-BB,
@@ -6830,34 +6834,42 @@ $family: 'Open Sans', sans-serif;
 	.balcony-left-side-AA {
 		top: -6px;
 		left: -150px;
+		z-index: 8;
 	}
 	.balcony-left-side-BB {
 		top: -18px;
 		left: -181px;
+	z-index: 7;	
 	}
 	.balcony-left-side-CC {
 		top: -30px;
 		left: -213px;
+		z-index: 6;
 	}
 	.balcony-left-side-DD {
 		top: -30px;
 		left: -224px;
+		z-index: 5;
 	}
 	.balcony-left-side-EE {
 		top: -30px;
 		left: -237px;
+		z-index: 4;
 	}
 	.balcony-left-side-FF {
 		top: -29px;
 		left: -248px;
+		z-index: 3;
 	}
 	.balcony-left-side-GG {
 		top: -29px;
-		left: -261px;
+    left: -260px;
+    z-index: 2;
 	}
 	.balcony-left-side-HH {
 		top: -18px;
 		left: -263px;
+		z-index: 1;
 	}
 	.left-alone-DD {
 		position: relative;
@@ -6943,37 +6955,45 @@ $family: 'Open Sans', sans-serif;
 	.balcony-right-side-AA {
 		top: -135px;
 		right: -196px;
+		z-index: 8;
 	}
 	.balcony-right-side-BB {
 		top: -135px;
 		right: -209px;
+		z-index: 7;
 	}
 	.balcony-right-side-CC {
 		top: -135px;
 		right: -220px;
+		z-index: 6;
 	}
 	.balcony-right-side-DD {
 		top: -139px;
 		right: -237px;
 		width: 276px;
+		z-index: 5;
 	}
 	.balcony-right-side-EE {
 		top: -139px;
 		right: -248px;
 		width: 276px;
+		z-index: 4;
 	}
 	.balcony-right-side-FF {
 		top: -139px;
 		right: -260px;
 		width: 276px;
+		z-index: 3;	
 	}
 	.balcony-right-side-GG {
 		top: -135px;
 		right: -265px;
+		z-index: 2;
 	}
 	.balcony-right-side-HH {
 		top: -135px;
 		right: -288px;
+		z-index: 1;
 	}
 	.right-alone-DD {
 		float: right;
@@ -6989,7 +7009,7 @@ $family: 'Open Sans', sans-serif;
 		width: 46px;
 		position: relative;
 		top: -230px;
-		right: 84px;
+    right: 83px;	
 	}
 	.right-alone-FF {
 		float: right;
