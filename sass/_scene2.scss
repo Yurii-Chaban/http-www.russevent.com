@@ -495,6 +495,100 @@ $family: 'Open Sans', sans-serif;
 					transform: rotate(-74deg);
 				}
 			}
+			#left-center-block-A1,
+			#left-center-block-C1,
+			#left-center-block-C2,
+			#left-center-block-D1,
+			#left-center-block-D2,
+			#left-center-block-E1,
+			#left-center-block-E2,
+			#left-center-block-E3,
+			#left-center-block-E4,
+			#left-center-block-F1,
+			#left-center-block-F2,
+			#left-center-block-F3,
+			#left-center-block-F4,
+			#left-center-block-F5,
+			#left-center-block-D1,
+			#left-center-block-D2,
+			#left-center-block-D3,
+			#left-center-block-D4,
+			#left-center-block-D5,
+			#left-center-block-H1,
+			#left-center-block-H2,
+			#left-center-block-H3,
+			#left-center-block-H4,
+			#left-center-block-H5,
+			#left-center-block-H6,
+			#left-center-block-I1,
+			#left-center-block-I2,
+			#left-center-block-I3,
+			#left-center-block-I4,
+			#left-center-block-I5,
+			#left-center-block-I6,
+			#left-center-block-I7,
+			#left-center-block-J1,
+			#left-center-block-J2,
+			#left-center-block-J3,
+			#left-center-block-J4,
+			#left-center-block-J5,
+			#left-center-block-J6,
+			#left-center-block-K1,
+			#left-center-block-K2,
+			#left-center-block-K3,
+			#left-center-block-K4,
+			#left-center-block-L1,
+			#left-center-block-L2,
+			#left-center-block-L3,
+			#right-center-block-B1,
+			#right-center-block-C1,
+			#right-center-block-C2,
+			#right-center-block-D1,
+			#right-center-block-D2,
+			#right-center-block-D3,
+			#right-center-block-E1,
+			#right-center-block-E2,
+			#right-center-block-E3,
+			#right-center-block-E4,
+			#right-center-block-F1,
+			#right-center-block-F2,
+			#right-center-block-F3,
+			#right-center-block-F4,
+			#right-center-block-F5,
+			#right-center-block-G1,
+			#right-center-block-G2,
+			#right-center-block-G3,
+			#right-center-block-G4,
+			#right-center-block-G5,
+			#right-center-block-H1,
+			#right-center-block-H2,
+			#right-center-block-H3,
+			#right-center-block-H4,
+			#right-center-block-H5,
+			#right-center-block-H6,
+			#right-center-block-I1,
+			#right-center-block-I2,
+			#right-center-block-I3,
+			#right-center-block-I4,
+			#right-center-block-I5,
+			#right-center-block-I6,
+			#right-center-block-I7,
+			#right-center-block-J1,
+			#right-center-block-J2,
+			#right-center-block-J3,
+			#right-center-block-J4,
+			#right-center-block-J5,
+			#right-center-block-J6,
+			#right-center-block-J7,
+			#right-center-block-K1,
+			#right-center-block-K2,
+			#right-center-block-K3,
+			#right-center-block-K4,
+			#right-center-block-L1,
+			#right-center-block-L2,
+			#right-center-block-M1 {
+				z-index: 999999 !important;
+			}
 		}
 		.right-center-block {
 			.A, .B, .C, .D, .E,
@@ -559,6 +653,96 @@ $family: 'Open Sans', sans-serif;
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
 				z-index: 99;
+			}
+			.A {
+				max-width: 150px;
+				width: 100%;
+				overflow: hidden;
+				z-index: 1 !important;
+				} 
+			.B {
+					max-width: 190px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.C {
+					max-width: 210px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				}
+			.D {
+					max-width: 230px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				}
+				.E {
+						max-width: 270px;
+						width: 100%;
+						overflow: hidden;
+						z-index: 1 !important;
+				}
+			.F {
+					max-width: 285px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.G {
+					max-width: 305px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				}
+			.H {
+					max-width: 330px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.J {
+					max-width: 390px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.I {
+					max-width: 390px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+			}
+			.K {
+					max-width: 420px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.L {
+					max-width: 440px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.M {
+					max-width: 470px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.N {
+					max-width: 495px;
+					width: 100%;
+					overflow: hidden;
+					z-index: 1 !important;
+				} 
+			.O {
+			    max-width: 519px;
+			    width: 100%;
+			    overflow: hidden;
+			    z-index: 1 !important;
 			}
 
 			.hover-block{
@@ -903,6 +1087,7 @@ $family: 'Open Sans', sans-serif;
 			-o-transform: rotate(0);
 			transform: rotate(0);
 			left: 15% !important;
+			z-index: auto;
 		}
 		.left-center-block {
 			margin-top: 0;
@@ -1407,6 +1592,12 @@ $family: 'Open Sans', sans-serif;
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
 				z-index: 8;
+				li {
+					cursor: pointer;
+					a {
+						cursor: pointer;
+					}
+				}
 			}
 			.hoverParent {
 				position: relative;
@@ -1429,6 +1620,12 @@ $family: 'Open Sans', sans-serif;
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
 				z-index: 100;
+				li {
+					cursor: pointer;
+					a {
+						cursor: pointer;
+					}
+				}
 			}
 			.hoverParent {
 				position: relative;
@@ -1479,7 +1676,7 @@ $family: 'Open Sans', sans-serif;
 			width: 541px;
 			position: relative;
 			top: -375px;
-			z-index: 999;
+			z-index: auto;
 			left: 210px !important;
 
 			.A, .B, .C, .D, .E,

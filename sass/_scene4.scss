@@ -1246,7 +1246,7 @@ $family: 'Open Sans', sans-serif;
 			top: -299px;
 			right: 135px;
 			float: right;
-			z-index: 9;
+			z-index: 1;
 			.sixth-title {
 				display: block;
 				width: 15px;
@@ -2307,7 +2307,7 @@ $family: 'Open Sans', sans-serif;
 		top: 0;
 		left: 320px;
 		overflow: hidden;
-		z-index: 9;
+		z-index: 0;
 	}
 	.balcony-center-side-AA {
 		left: 412px;
@@ -2879,7 +2879,7 @@ $family: 'Open Sans', sans-serif;
 						top: -299px;
 						right: 245px;
 						float: right;
-						z-index: 9;
+						z-index: 1;
 					}
 				}
 			}	
@@ -6809,8 +6809,8 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 	.right-alone-DD {
-    top: -230px !important;
-    right: 94px !important;
+    top: -206px !important;
+    right: 93px !important;
 	}
 	.balcony-left-side-AA,
 	.balcony-left-side-BB,
@@ -6906,31 +6906,48 @@ $family: 'Open Sans', sans-serif;
 		top: 0;
 		left: 320px;
 		overflow: hidden;
-		z-index: 9;
+		z-index: 99999;
 	}
 	.balcony-center-side-AA {
 		left: 398px;
+		max-width: 184px;
+		float: left;
 	}
 	.balcony-center-side-BB {
 		left: 387px;
+		max-width: 207px;
+    float: left;
 	}
 	.balcony-center-side-CC {
 		left: 374px;
+		float: left;
+    width: 230px;
+
 	}
 	.balcony-center-side-DD {
 		left: 363px;
+		float: left;
+    width: 260px;
 	}
 	.balcony-center-side-EE {
 		left: 351px;
+		float: left;
+    width: 276px;
 	}
 	.balcony-center-side-FF {
 		left: 340px;
+    float: left;
+    width: 300px;
 	}
 	.balcony-center-side-GG {
 		left: 328px;
+		float: left;
+    width: 325px;
 	}
 	.balcony-center-side-HH {
 		left: 305px;
+    float: left;
+    width: 370px;
 	}
 	.balcony-right-side-AA,
 	.balcony-right-side-BB,
@@ -6953,45 +6970,45 @@ $family: 'Open Sans', sans-serif;
 		z-index: 9;
 	}
 	.balcony-right-side-AA {
-		top: -135px;
+		top: -111px;
 		right: -196px;
 		z-index: 8;
 	}
 	.balcony-right-side-BB {
-		top: -135px;
+		top: -111px;
 		right: -209px;
 		z-index: 7;
 	}
 	.balcony-right-side-CC {
-		top: -135px;
+		top: -111px;
 		right: -220px;
 		z-index: 6;
 	}
 	.balcony-right-side-DD {
-		top: -139px;
-		right: -237px;
+		top: -115px;
+		right: -238px;
 		width: 276px;
 		z-index: 5;
 	}
 	.balcony-right-side-EE {
-		top: -139px;
+		top: -114px;
 		right: -248px;
 		width: 276px;
 		z-index: 4;
 	}
 	.balcony-right-side-FF {
-		top: -139px;
+		top: -114px;
 		right: -260px;
 		width: 276px;
 		z-index: 3;	
 	}
 	.balcony-right-side-GG {
-		top: -135px;
+		top: -111px;
 		right: -265px;
 		z-index: 2;
 	}
 	.balcony-right-side-HH {
-		top: -135px;
+		top: -111px;
 		right: -288px;
 		z-index: 1;
 	}
@@ -7008,7 +7025,7 @@ $family: 'Open Sans', sans-serif;
 		overflow: hidden;
 		width: 46px;
 		position: relative;
-		top: -230px;
+    top: -206px;
     right: 83px;	
 	}
 	.right-alone-FF {

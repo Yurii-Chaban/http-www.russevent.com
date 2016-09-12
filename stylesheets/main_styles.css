@@ -4984,17 +4984,112 @@ a {
     -o-transform: rotate(-74deg);
     transform: rotate(-74deg);
   }
-  /* line 500, ../sass/_scene2.scss */
+  /* line 498, ../sass/_scene2.scss */
+  .scene2 .left-center-block #left-center-block-A1,
+  .scene2 .left-center-block #left-center-block-C1,
+  .scene2 .left-center-block #left-center-block-C2,
+  .scene2 .left-center-block #left-center-block-D1,
+  .scene2 .left-center-block #left-center-block-D2,
+  .scene2 .left-center-block #left-center-block-E1,
+  .scene2 .left-center-block #left-center-block-E2,
+  .scene2 .left-center-block #left-center-block-E3,
+  .scene2 .left-center-block #left-center-block-E4,
+  .scene2 .left-center-block #left-center-block-F1,
+  .scene2 .left-center-block #left-center-block-F2,
+  .scene2 .left-center-block #left-center-block-F3,
+  .scene2 .left-center-block #left-center-block-F4,
+  .scene2 .left-center-block #left-center-block-F5,
+  .scene2 .left-center-block #left-center-block-D1,
+  .scene2 .left-center-block #left-center-block-D2,
+  .scene2 .left-center-block #left-center-block-D3,
+  .scene2 .left-center-block #left-center-block-D4,
+  .scene2 .left-center-block #left-center-block-D5,
+  .scene2 .left-center-block #left-center-block-H1,
+  .scene2 .left-center-block #left-center-block-H2,
+  .scene2 .left-center-block #left-center-block-H3,
+  .scene2 .left-center-block #left-center-block-H4,
+  .scene2 .left-center-block #left-center-block-H5,
+  .scene2 .left-center-block #left-center-block-H6,
+  .scene2 .left-center-block #left-center-block-I1,
+  .scene2 .left-center-block #left-center-block-I2,
+  .scene2 .left-center-block #left-center-block-I3,
+  .scene2 .left-center-block #left-center-block-I4,
+  .scene2 .left-center-block #left-center-block-I5,
+  .scene2 .left-center-block #left-center-block-I6,
+  .scene2 .left-center-block #left-center-block-I7,
+  .scene2 .left-center-block #left-center-block-J1,
+  .scene2 .left-center-block #left-center-block-J2,
+  .scene2 .left-center-block #left-center-block-J3,
+  .scene2 .left-center-block #left-center-block-J4,
+  .scene2 .left-center-block #left-center-block-J5,
+  .scene2 .left-center-block #left-center-block-J6,
+  .scene2 .left-center-block #left-center-block-K1,
+  .scene2 .left-center-block #left-center-block-K2,
+  .scene2 .left-center-block #left-center-block-K3,
+  .scene2 .left-center-block #left-center-block-K4,
+  .scene2 .left-center-block #left-center-block-L1,
+  .scene2 .left-center-block #left-center-block-L2,
+  .scene2 .left-center-block #left-center-block-L3,
+  .scene2 .left-center-block #right-center-block-B1,
+  .scene2 .left-center-block #right-center-block-C1,
+  .scene2 .left-center-block #right-center-block-C2,
+  .scene2 .left-center-block #right-center-block-D1,
+  .scene2 .left-center-block #right-center-block-D2,
+  .scene2 .left-center-block #right-center-block-D3,
+  .scene2 .left-center-block #right-center-block-E1,
+  .scene2 .left-center-block #right-center-block-E2,
+  .scene2 .left-center-block #right-center-block-E3,
+  .scene2 .left-center-block #right-center-block-E4,
+  .scene2 .left-center-block #right-center-block-F1,
+  .scene2 .left-center-block #right-center-block-F2,
+  .scene2 .left-center-block #right-center-block-F3,
+  .scene2 .left-center-block #right-center-block-F4,
+  .scene2 .left-center-block #right-center-block-F5,
+  .scene2 .left-center-block #right-center-block-G1,
+  .scene2 .left-center-block #right-center-block-G2,
+  .scene2 .left-center-block #right-center-block-G3,
+  .scene2 .left-center-block #right-center-block-G4,
+  .scene2 .left-center-block #right-center-block-G5,
+  .scene2 .left-center-block #right-center-block-H1,
+  .scene2 .left-center-block #right-center-block-H2,
+  .scene2 .left-center-block #right-center-block-H3,
+  .scene2 .left-center-block #right-center-block-H4,
+  .scene2 .left-center-block #right-center-block-H5,
+  .scene2 .left-center-block #right-center-block-H6,
+  .scene2 .left-center-block #right-center-block-I1,
+  .scene2 .left-center-block #right-center-block-I2,
+  .scene2 .left-center-block #right-center-block-I3,
+  .scene2 .left-center-block #right-center-block-I4,
+  .scene2 .left-center-block #right-center-block-I5,
+  .scene2 .left-center-block #right-center-block-I6,
+  .scene2 .left-center-block #right-center-block-I7,
+  .scene2 .left-center-block #right-center-block-J1,
+  .scene2 .left-center-block #right-center-block-J2,
+  .scene2 .left-center-block #right-center-block-J3,
+  .scene2 .left-center-block #right-center-block-J4,
+  .scene2 .left-center-block #right-center-block-J5,
+  .scene2 .left-center-block #right-center-block-J6,
+  .scene2 .left-center-block #right-center-block-J7,
+  .scene2 .left-center-block #right-center-block-K1,
+  .scene2 .left-center-block #right-center-block-K2,
+  .scene2 .left-center-block #right-center-block-K3,
+  .scene2 .left-center-block #right-center-block-K4,
+  .scene2 .left-center-block #right-center-block-L1,
+  .scene2 .left-center-block #right-center-block-L2,
+  .scene2 .left-center-block #right-center-block-M1 {
+    z-index: 999999 !important;
+  }
+  /* line 594, ../sass/_scene2.scss */
   .scene2 .right-center-block .A, .scene2 .right-center-block .B, .scene2 .right-center-block .C, .scene2 .right-center-block .D, .scene2 .right-center-block .E,
   .scene2 .right-center-block .F, .scene2 .right-center-block .G, .scene2 .right-center-block .H, .scene2 .right-center-block .J, .scene2 .right-center-block .I,
   .scene2 .right-center-block .K, .scene2 .right-center-block .L, .scene2 .right-center-block .M, .scene2 .right-center-block .N, .scene2 .right-center-block .O {
     z-index: 100;
   }
-  /* line 505, ../sass/_scene2.scss */
+  /* line 599, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent {
     position: relative;
   }
-  /* line 507, ../sass/_scene2.scss */
+  /* line 601, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent:hover .hover-block {
     display: block !important;
     z-index: 9999999999 !important;
@@ -5007,7 +5102,7 @@ a {
     -o-transform: rotate(74deg);
     transform: rotate(74deg);
   }
-  /* line 521, ../sass/_scene2.scss */
+  /* line 615, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     float: left;
     width: 541px;
@@ -5021,7 +5116,7 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 534, ../sass/_scene2.scss */
+  /* line 628, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     float: left;
     width: 541px;
@@ -5034,7 +5129,7 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 546, ../sass/_scene2.scss */
+  /* line 640, ../sass/_scene2.scss */
   .scene2 .center-block {
     float: left;
     width: 541px;
@@ -5047,13 +5142,118 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 558, ../sass/_scene2.scss */
+  /* line 652, ../sass/_scene2.scss */
   .scene2 .center-block .A, .scene2 .center-block .B, .scene2 .center-block .C, .scene2 .center-block .D, .scene2 .center-block .E,
   .scene2 .center-block .F, .scene2 .center-block .G, .scene2 .center-block .H, .scene2 .center-block .J, .scene2 .center-block .I,
   .scene2 .center-block .K, .scene2 .center-block .L, .scene2 .center-block .M, .scene2 .center-block .N, .scene2 .center-block .O {
     z-index: 99;
   }
-  /* line 564, ../sass/_scene2.scss */
+  /* line 657, ../sass/_scene2.scss */
+  .scene2 .center-block .A {
+    max-width: 150px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 663, ../sass/_scene2.scss */
+  .scene2 .center-block .B {
+    max-width: 190px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 669, ../sass/_scene2.scss */
+  .scene2 .center-block .C {
+    max-width: 210px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 675, ../sass/_scene2.scss */
+  .scene2 .center-block .D {
+    max-width: 230px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 681, ../sass/_scene2.scss */
+  .scene2 .center-block .E {
+    max-width: 270px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 687, ../sass/_scene2.scss */
+  .scene2 .center-block .F {
+    max-width: 285px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 693, ../sass/_scene2.scss */
+  .scene2 .center-block .G {
+    max-width: 305px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 699, ../sass/_scene2.scss */
+  .scene2 .center-block .H {
+    max-width: 330px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 705, ../sass/_scene2.scss */
+  .scene2 .center-block .J {
+    max-width: 390px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 711, ../sass/_scene2.scss */
+  .scene2 .center-block .I {
+    max-width: 390px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 717, ../sass/_scene2.scss */
+  .scene2 .center-block .K {
+    max-width: 420px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 723, ../sass/_scene2.scss */
+  .scene2 .center-block .L {
+    max-width: 440px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 729, ../sass/_scene2.scss */
+  .scene2 .center-block .M {
+    max-width: 470px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 735, ../sass/_scene2.scss */
+  .scene2 .center-block .N {
+    max-width: 495px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 741, ../sass/_scene2.scss */
+  .scene2 .center-block .O {
+    max-width: 519px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1 !important;
+  }
+  /* line 748, ../sass/_scene2.scss */
   .scene2 .center-block .hover-block {
     width: 224px;
     height: auto;
@@ -5065,31 +5265,31 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 578, ../sass/_scene2.scss */
+  /* line 762, ../sass/_scene2.scss */
   .scene2 .center-block .H li:nth-child(1), .scene2 .center-block .H li:nth-child(2), .scene2 .center-block .H li:nth-child(3), .scene2 .center-block .H li:nth-child(4), .scene2 .center-block .H li:nth-child(5), .scene2 .center-block .H li:nth-child(11), .scene2 .center-block .H li:nth-child(12), .scene2 .center-block .H li:nth-child(13), .scene2 .center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 593, ../sass/_scene2.scss */
+  /* line 777, ../sass/_scene2.scss */
   .scene2 .center-block .J li:nth-child(1), .scene2 .center-block .J li:nth-child(2), .scene2 .center-block .J li:nth-child(3), .scene2 .center-block .J li:nth-child(4), .scene2 .center-block .J li:nth-child(5), .scene2 .center-block .J li:nth-child(13), .scene2 .center-block .J li:nth-child(14), .scene2 .center-block .J li:nth-child(15), .scene2 .center-block .J li:nth-child(16), .scene2 .center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 609, ../sass/_scene2.scss */
+  /* line 793, ../sass/_scene2.scss */
   .scene2 .center-block .K li:nth-child(1), .scene2 .center-block .K li:nth-child(2), .scene2 .center-block .K li:nth-child(3), .scene2 .center-block .K li:nth-child(17), .scene2 .center-block .K li:nth-child(18), .scene2 .center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 621, ../sass/_scene2.scss */
+  /* line 805, ../sass/_scene2.scss */
   .scene2 .center-block .M li:nth-child(1), .scene2 .center-block .M li:nth-child(2), .scene2 .center-block .M li:nth-child(3), .scene2 .center-block .M li:nth-child(4), .scene2 .center-block .M li:nth-child(5), .scene2 .center-block .M li:nth-child(17), .scene2 .center-block .M li:nth-child(18), .scene2 .center-block .M li:nth-child(19), .scene2 .center-block .M li:nth-child(20), .scene2 .center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 637, ../sass/_scene2.scss */
+  /* line 821, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(14) {
     margin-left: 8px;
   }
-  /* line 640, ../sass/_scene2.scss */
+  /* line 824, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(21), .scene2 .center-block .N li:nth-child(22), .scene2 .center-block .N li:nth-child(23) {
     margin: 0 2px 0 1px;
   }
-  /* line 652, ../sass/_scene2.scss */
+  /* line 836, ../sass/_scene2.scss */
   .scene2 .left-center-block .H li:nth-child(1), .scene2 .left-center-block .H li:nth-child(2), .scene2 .left-center-block .H li:nth-child(3), .scene2 .left-center-block .H li:nth-child(4), .scene2 .left-center-block .H li:nth-child(5), .scene2 .left-center-block .H li:nth-child(11), .scene2 .left-center-block .H li:nth-child(12), .scene2 .left-center-block .H li:nth-child(13), .scene2 .left-center-block .H li:nth-child(14),
   .scene2 .right-center-block .H li:nth-child(1),
   .scene2 .right-center-block .H li:nth-child(2),
@@ -5102,7 +5302,7 @@ a {
   .scene2 .right-center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 667, ../sass/_scene2.scss */
+  /* line 851, ../sass/_scene2.scss */
   .scene2 .left-center-block .J li:nth-child(1), .scene2 .left-center-block .J li:nth-child(2), .scene2 .left-center-block .J li:nth-child(3), .scene2 .left-center-block .J li:nth-child(4), .scene2 .left-center-block .J li:nth-child(5), .scene2 .left-center-block .J li:nth-child(13), .scene2 .left-center-block .J li:nth-child(14), .scene2 .left-center-block .J li:nth-child(15), .scene2 .left-center-block .J li:nth-child(16), .scene2 .left-center-block .J li:nth-child(17),
   .scene2 .right-center-block .J li:nth-child(1),
   .scene2 .right-center-block .J li:nth-child(2),
@@ -5116,7 +5316,7 @@ a {
   .scene2 .right-center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 683, ../sass/_scene2.scss */
+  /* line 867, ../sass/_scene2.scss */
   .scene2 .left-center-block .K li:nth-child(1), .scene2 .left-center-block .K li:nth-child(2), .scene2 .left-center-block .K li:nth-child(3), .scene2 .left-center-block .K li:nth-child(17), .scene2 .left-center-block .K li:nth-child(18), .scene2 .left-center-block .K li:nth-child(19),
   .scene2 .right-center-block .K li:nth-child(1),
   .scene2 .right-center-block .K li:nth-child(2),
@@ -5126,7 +5326,7 @@ a {
   .scene2 .right-center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 695, ../sass/_scene2.scss */
+  /* line 879, ../sass/_scene2.scss */
   .scene2 .left-center-block .M li:nth-child(1), .scene2 .left-center-block .M li:nth-child(2), .scene2 .left-center-block .M li:nth-child(3), .scene2 .left-center-block .M li:nth-child(4), .scene2 .left-center-block .M li:nth-child(5), .scene2 .left-center-block .M li:nth-child(17), .scene2 .left-center-block .M li:nth-child(18), .scene2 .left-center-block .M li:nth-child(19), .scene2 .left-center-block .M li:nth-child(20), .scene2 .left-center-block .M li:nth-child(21),
   .scene2 .right-center-block .M li:nth-child(1),
   .scene2 .right-center-block .M li:nth-child(2),
@@ -5140,17 +5340,17 @@ a {
   .scene2 .right-center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 711, ../sass/_scene2.scss */
+  /* line 895, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(14),
   .scene2 .right-center-block .N li:nth-child(14) {
     margin-left: 1px;
   }
-  /* line 714, ../sass/_scene2.scss */
+  /* line 898, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:first-child,
   .scene2 .right-center-block .N li:first-child {
     margin-right: 8px;
   }
-  /* line 717, ../sass/_scene2.scss */
+  /* line 901, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(21), .scene2 .left-center-block .N li:nth-child(22), .scene2 .left-center-block .N li:nth-child(23),
   .scene2 .right-center-block .N li:nth-child(21),
   .scene2 .right-center-block .N li:nth-child(22),
@@ -5158,7 +5358,7 @@ a {
     margin: 0 2px 0 1px;
   }
 
-  /* line 728, ../sass/_scene2.scss */
+  /* line 912, ../sass/_scene2.scss */
   .scene-block .hover-block {
     min-width: 224px;
     width: 224px;
@@ -5170,7 +5370,7 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 739, ../sass/_scene2.scss */
+  /* line 923, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5179,7 +5379,7 @@ a {
     overflow: hidden;
     padding: 17px 0 21px 16px;
   }
-  /* line 744, ../sass/_scene2.scss */
+  /* line 928, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li {
     display: block;
     width: auto;
@@ -5188,19 +5388,19 @@ a {
     overflow: hidden;
     margin: 11px auto;
   }
-  /* line 752, ../sass/_scene2.scss */
+  /* line 936, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li span {
     float: left;
     overflow: hidden;
     font: 400 16px/20px "Open Sans", sans-serif;
     color: #262626;
   }
-  /* line 759, ../sass/_scene2.scss */
+  /* line 943, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > .color-square-1, .scene-block .hover-block .hover-block-list > .color-square-2, .scene-block .hover-block .hover-block-list > .color-square-3 {
     float: left;
     margin-right: 10px;
   }
-  /* line 765, ../sass/_scene2.scss */
+  /* line 949, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1,
   .scene-block .hover-block .hover-block-list .color-square-2,
   .scene-block .hover-block .hover-block-list .color-square-3 {
@@ -5209,33 +5409,33 @@ a {
     height: 25px;
     margin-right: 15px;
   }
-  /* line 773, ../sass/_scene2.scss */
+  /* line 957, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1 {
     background: #BCB8B5;
   }
-  /* line 776, ../sass/_scene2.scss */
+  /* line 960, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-2 {
     background: #5A009E;
   }
-  /* line 779, ../sass/_scene2.scss */
+  /* line 963, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-3 {
     background: #ED6A00;
   }
 
   /*----------------------------------------------*/
-  /* line 786, ../sass/_scene2.scss */
+  /* line 970, ../sass/_scene2.scss */
   .according-block {
     padding-top: 8px;
     border-top: 2px solid #C2C2C2;
   }
-  /* line 789, ../sass/_scene2.scss */
+  /* line 973, ../sass/_scene2.scss */
   .according-block .according-title {
     margin: 10px 0 0 0;
     letter-spacing: -1px;
     color: #75023B;
     font: 700 22px/24px "Open Sans", sans-serif;
   }
-  /* line 795, ../sass/_scene2.scss */
+  /* line 979, ../sass/_scene2.scss */
   .according-block .according-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5245,21 +5445,21 @@ a {
     overflow: hidden;
     margin: 10px 0 37px 0;
   }
-  /* line 801, ../sass/_scene2.scss */
+  /* line 985, ../sass/_scene2.scss */
   .according-block .according-list li {
     display: block;
     width: 100%;
     overflow: hidden;
   }
-  /* line 807, ../sass/_scene2.scss */
+  /* line 991, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(2) .sign {
     margin: 9px 30px 10px 3px;
   }
-  /* line 812, ../sass/_scene2.scss */
+  /* line 996, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(3) .sign {
     margin: 16px 15px 10px 3px;
   }
-  /* line 816, ../sass/_scene2.scss */
+  /* line 1000, ../sass/_scene2.scss */
   .according-block .according-list li .number {
     float: left;
     color: #E51002;
@@ -5267,7 +5467,7 @@ a {
     display: inline-block;
     margin: 14px 0 0 0;
   }
-  /* line 823, ../sass/_scene2.scss */
+  /* line 1007, ../sass/_scene2.scss */
   .according-block .according-list li .sign {
     float: left;
     margin: 9px 15px 10px 1px;
@@ -5276,7 +5476,7 @@ a {
     color: #656565;
     font: 400 20px/25px "Open Sans", sans-serif;
   }
-  /* line 831, ../sass/_scene2.scss */
+  /* line 1015, ../sass/_scene2.scss */
   .according-block .according-list li img {
     float: left;
     margin: 31px 0;
@@ -5284,62 +5484,62 @@ a {
 }
 /*--------480---------*/
 @media (min-width: 480px) {
-  /* line 843, ../sass/_scene2.scss */
+  /* line 1027, ../sass/_scene2.scss */
   .site-container .designations-block {
     margin: 0 auto 40px !important;
   }
-  /* line 845, ../sass/_scene2.scss */
+  /* line 1029, ../sass/_scene2.scss */
   .site-container .designations-block .designations-sircle-list {
     width: 50% !important;
     float: left;
   }
-  /* line 849, ../sass/_scene2.scss */
+  /* line 1033, ../sass/_scene2.scss */
   .site-container .designations-block .designations-square-list {
     width: 50% !important;
     float: left;
     margin: 0 !important;
   }
-  /* line 854, ../sass/_scene2.scss */
+  /* line 1038, ../sass/_scene2.scss */
   .site-container .designations-block .designations-square-list li {
     margin: 20px 0 !important;
   }
 
-  /* line 860, ../sass/_scene2.scss */
+  /* line 1044, ../sass/_scene2.scss */
   .scene {
     width: 100%;
     margin-top: 31px;
     overflow: hidden;
     top: 0;
   }
-  /* line 867, ../sass/_scene2.scss */
+  /* line 1051, ../sass/_scene2.scss */
   .scene .scene2 .left-center-block,
   .scene .scene2 .right-center-block,
   .scene .scene2 .center-block {
     left: -15%;
   }
-  /* line 873, ../sass/_scene2.scss */
+  /* line 1057, ../sass/_scene2.scss */
   .scene .reservation-btn {
     margin: 43px auto;
   }
 }
 /*--------768---------*/
 @media (min-width: 768px) {
-  /* line 882, ../sass/_scene2.scss */
+  /* line 1066, ../sass/_scene2.scss */
   .according-block .according-list li {
     display: inline-block !important;
     width: auto !important;
     overflow: hidden;
   }
-  /* line 887, ../sass/_scene2.scss */
+  /* line 1071, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(2) {
     margin-left: 40px;
   }
 
-  /* line 894, ../sass/_scene2.scss */
+  /* line 1078, ../sass/_scene2.scss */
   .scene2 .right-side-block {
     float: right;
   }
-  /* line 897, ../sass/_scene2.scss */
+  /* line 1081, ../sass/_scene2.scss */
   .scene2 .left-center-block,
   .scene2 .right-center-block,
   .scene2 .center-block {
@@ -5349,23 +5549,24 @@ a {
     -o-transform: rotate(0);
     transform: rotate(0);
     left: 15% !important;
+    z-index: auto;
   }
-  /* line 907, ../sass/_scene2.scss */
+  /* line 1092, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     margin-top: 0;
   }
-  /* line 910, ../sass/_scene2.scss */
+  /* line 1095, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     margin-top: 30px;
   }
-  /* line 913, ../sass/_scene2.scss */
+  /* line 1098, ../sass/_scene2.scss */
   .scene2 .center-block {
     margin: 60px 0;
   }
 }
 /*------------------------------------*/
 @media (min-width: 1024px) {
-  /* line 920, ../sass/_scene2.scss */
+  /* line 1105, ../sass/_scene2.scss */
   .scene2-page {
     position: relative;
     width: 100%;
@@ -5388,11 +5589,11 @@ a {
     padding: 33px 0 65px;
     background: rgba(255, 255, 255, 0.6);
   }
-  /* line 925, ../sass/_scene2.scss */
+  /* line 1110, ../sass/_scene2.scss */
   .scene2-page .rgb-background {
     padding: 33px 15px 36px;
   }
-  /* line 929, ../sass/_scene2.scss */
+  /* line 1114, ../sass/_scene2.scss */
   .scene2-page .white-bg-container {
     position: relative;
     max-width: 1010px;
@@ -5402,18 +5603,18 @@ a {
     overflow: hidden;
     box-sizing: border-box;
   }
-  /* line 932, ../sass/_scene2.scss */
+  /* line 1117, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content {
     clear: both;
     overflow: hidden;
     padding-bottom: 19px;
     border-bottom: 2px solid #C2C2C2;
   }
-  /* line 938, ../sass/_scene2.scss */
+  /* line 1123, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content {
     float: left;
   }
-  /* line 940, ../sass/_scene2.scss */
+  /* line 1125, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content .title {
     color: #272727;
     margin: 21px 0 0 13px;
@@ -5421,42 +5622,42 @@ a {
     text-transform: uppercase;
     letter-spacing: -0.4px;
   }
-  /* line 947, ../sass/_scene2.scss */
+  /* line 1132, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content .location {
     margin: 8px 0 0 15px;
     color: #252525;
     font: 700 20px/41px "Open Sans", sans-serif;
   }
-  /* line 953, ../sass/_scene2.scss */
+  /* line 1138, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content {
     float: right;
   }
-  /* line 955, ../sass/_scene2.scss */
+  /* line 1140, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content .date {
     margin: 38px 22px 0 0;
     color: #73023A;
     text-transform: uppercase;
     font: 700 30px/41px "Open Sans", sans-serif;
   }
-  /* line 961, ../sass/_scene2.scss */
+  /* line 1146, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content .time {
     float: right;
     margin: 5px 23px 0 0;
     color: #73023A;
     font: 700 30px/41px "Open Sans", sans-serif;
   }
-  /* line 970, ../sass/_scene2.scss */
+  /* line 1155, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block {
     overflow: hidden;
     margin: 0 auto 58px;
   }
-  /* line 973, ../sass/_scene2.scss */
+  /* line 1158, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-title {
     margin: 12px 0 0 17px;
     color: #75023B;
     font: 700 22px/41px "Open Sans", sans-serif;
   }
-  /* line 978, ../sass/_scene2.scss */
+  /* line 1163, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list {
     float: left;
     -webkit-box-sizing: border-box;
@@ -5467,23 +5668,23 @@ a {
     margin: 13px 0 0 17px;
     overflow: hidden;
   }
-  /* line 985, ../sass/_scene2.scss */
+  /* line 1170, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list li {
     display: inline-block;
     margin-left: 36px;
   }
-  /* line 989, ../sass/_scene2.scss */
+  /* line 1174, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list li:first-child {
     margin-left: 0;
   }
-  /* line 996, ../sass/_scene2.scss */
+  /* line 1181, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .circle-1 span,
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .circle-2 span,
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .circle-3 span {
     color: #262626;
     font: 700 21px/40px "Open Sans", sans-serif;
   }
-  /* line 1001, ../sass/_scene2.scss */
+  /* line 1186, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-1,
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-2,
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-3 {
@@ -5493,19 +5694,19 @@ a {
     margin: 0 8px 0 0;
     border-radius: 100%;
   }
-  /* line 1010, ../sass/_scene2.scss */
+  /* line 1195, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-1 {
     background: #840343;
   }
-  /* line 1013, ../sass/_scene2.scss */
+  /* line 1198, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-2 {
     background: #C00463;
   }
-  /* line 1016, ../sass/_scene2.scss */
+  /* line 1201, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-sircle-list .color-circle-3 {
     background: #E7CE00;
   }
-  /* line 1020, ../sass/_scene2.scss */
+  /* line 1205, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list {
     float: right;
     -webkit-box-sizing: border-box;
@@ -5518,17 +5719,17 @@ a {
     margin: 13px 0 0 0 !important;
     overflow: hidden;
   }
-  /* line 1029, ../sass/_scene2.scss */
+  /* line 1214, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list li {
     width: auto !important;
     display: inline-block;
     margin-left: 27px !important;
   }
-  /* line 1034, ../sass/_scene2.scss */
+  /* line 1219, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list li:first-child {
     margin-left: 0 !important;
   }
-  /* line 1042, ../sass/_scene2.scss */
+  /* line 1227, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .square-1 span,
   .scene2-page .white-bg-container .designations-block .designations-square-list .square-2 span,
   .scene2-page .white-bg-container .designations-block .designations-square-list .square-3 span {
@@ -5537,18 +5738,18 @@ a {
     font: 400 18px/20px "Open Sans", sans-serif;
     color: #262626;
   }
-  /* line 1050, ../sass/_scene2.scss */
+  /* line 1235, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .square-2 span {
     margin: 7px 0 0;
   }
-  /* line 1054, ../sass/_scene2.scss */
+  /* line 1239, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-1,
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-2,
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
     float: left;
     margin-right: 10px;
   }
-  /* line 1060, ../sass/_scene2.scss */
+  /* line 1245, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-1,
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-2,
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
@@ -5556,25 +5757,25 @@ a {
     width: 36px;
     height: 36px;
   }
-  /* line 1067, ../sass/_scene2.scss */
+  /* line 1252, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-1 {
     background: #BCB8B5;
   }
-  /* line 1070, ../sass/_scene2.scss */
+  /* line 1255, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-2 {
     background: #5A009E;
   }
-  /* line 1073, ../sass/_scene2.scss */
+  /* line 1258, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .designations-block .designations-square-list .color-square-3 {
     background: #ED6A00;
   }
-  /* line 1078, ../sass/_scene2.scss */
+  /* line 1263, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block,
   .scene2-page .white-bg-container .scene2-block {
     clear: both;
     margin: 0 auto 46px;
   }
-  /* line 1083, ../sass/_scene2.scss */
+  /* line 1268, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .block-title,
   .scene2-page .white-bg-container .scene2-block .block-title {
     width: 210px;
@@ -5594,7 +5795,7 @@ a {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-  /* line 1103, ../sass/_scene2.scss */
+  /* line 1288, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene,
   .scene2-page .white-bg-container .scene2-block .scene {
     width: 100%;
@@ -5603,7 +5804,7 @@ a {
     top: -31px;
     height: 850px;
   }
-  /* line 1110, ../sass/_scene2.scss */
+  /* line 1295, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .left-side-block-title,
   .scene2-page .white-bg-container .scene-block .scene .left-center-block-title,
   .scene2-page .white-bg-container .scene-block .scene .center-block-title,
@@ -5618,19 +5819,19 @@ a {
     font: 400 15px/21px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1119, ../sass/_scene2.scss */
+  /* line 1304, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .left-side-block-title,
   .scene2-page .white-bg-container .scene2-block .scene .left-side-block-title {
     margin: 0 0 10px 50px;
     letter-spacing: 1px;
   }
-  /* line 1123, ../sass/_scene2.scss */
+  /* line 1308, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .right-side-block-title,
   .scene2-page .white-bg-container .scene2-block .scene .right-side-block-title {
     margin: 0 0 10px 78px;
     letter-spacing: 1px;
   }
-  /* line 1129, ../sass/_scene2.scss */
+  /* line 1314, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .reservation-btn,
   .scene2-page .white-bg-container .scene2-block .reservation-btn {
     display: block;
@@ -5651,26 +5852,26 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1147, ../sass/_scene2.scss */
+  /* line 1332, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .reservation-btn:hover,
   .scene2-page .white-bg-container .scene2-block .reservation-btn:hover {
     -webkit-box-shadow: 2.5px 4.3px 9px #74023b;
     -moz-box-shadow: 2.5px 4.3px 9px #74023b;
     box-shadow: 2.5px 4.3px 9px #74023b;
   }
-  /* line 1154, ../sass/_scene2.scss */
+  /* line 1339, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block {
     padding-top: 8px;
     border-top: 2px solid #C2C2C2;
   }
-  /* line 1157, ../sass/_scene2.scss */
+  /* line 1342, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-title {
     margin: 10px 0 0 15px;
     letter-spacing: -1px;
     color: #75023B;
     font: 700 24px/41px "Open Sans", sans-serif;
   }
-  /* line 1163, ../sass/_scene2.scss */
+  /* line 1348, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5682,30 +5883,30 @@ a {
     display: -webkit-flex;
     display: flex;
   }
-  /* line 1171, ../sass/_scene2.scss */
+  /* line 1356, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li {
     position: relative;
     display: inline-block;
     width: 33.3%;
   }
-  /* line 1176, ../sass/_scene2.scss */
+  /* line 1361, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(2) {
     margin-left: 18px;
   }
-  /* line 1178, ../sass/_scene2.scss */
+  /* line 1363, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(2) .sign {
     margin: 9px 40px 10px 19px;
   }
-  /* line 1182, ../sass/_scene2.scss */
+  /* line 1367, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(3) {
     width: 31.3%;
     margin-left: 3px;
   }
-  /* line 1185, ../sass/_scene2.scss */
+  /* line 1370, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(3) .sign {
     margin: 16px 15px 10px 16px;
   }
-  /* line 1189, ../sass/_scene2.scss */
+  /* line 1374, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li .number {
     float: left;
     color: #E51002;
@@ -5713,7 +5914,7 @@ a {
     display: inline-block;
     margin: 14px 0 0 0;
   }
-  /* line 1196, ../sass/_scene2.scss */
+  /* line 1381, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li .sign {
     float: left;
     margin: 9px 15px 10px 1px;
@@ -5722,19 +5923,19 @@ a {
     color: #666666;
     font: 400 20px/25px "Open Sans", sans-serif;
   }
-  /* line 1204, ../sass/_scene2.scss */
+  /* line 1389, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li img {
     float: left;
     margin: 31px 0;
   }
 
-  /* line 1215, ../sass/_scene2.scss */
+  /* line 1400, ../sass/_scene2.scss */
   .scene2 .left-side-block {
     float: left;
     margin: 0 0 20px 5%;
     z-index: 2009;
   }
-  /* line 1220, ../sass/_scene2.scss */
+  /* line 1405, ../sass/_scene2.scss */
   .scene2 .left-side-block .A, .scene2 .left-side-block .B, .scene2 .left-side-block .C, .scene2 .left-side-block .D, .scene2 .left-side-block .E,
   .scene2 .left-side-block .F, .scene2 .left-side-block .G, .scene2 .left-side-block .H, .scene2 .left-side-block .J, .scene2 .left-side-block .I,
   .scene2 .left-side-block .K, .scene2 .left-side-block .L, .scene2 .left-side-block .M, .scene2 .left-side-block .N {
@@ -5748,7 +5949,7 @@ a {
     margin: 0 1px;
     z-index: 9;
   }
-  /* line 1231, ../sass/_scene2.scss */
+  /* line 1416, ../sass/_scene2.scss */
   .scene2 .left-side-block .A li, .scene2 .left-side-block .B li, .scene2 .left-side-block .C li, .scene2 .left-side-block .D li, .scene2 .left-side-block .E li,
   .scene2 .left-side-block .F li, .scene2 .left-side-block .G li, .scene2 .left-side-block .H li, .scene2 .left-side-block .J li, .scene2 .left-side-block .I li,
   .scene2 .left-side-block .K li, .scene2 .left-side-block .L li, .scene2 .left-side-block .M li, .scene2 .left-side-block .N li {
@@ -5757,7 +5958,7 @@ a {
     height: 15px;
     margin: 1px 2px 1px 1px;
   }
-  /* line 1236, ../sass/_scene2.scss */
+  /* line 1421, ../sass/_scene2.scss */
   .scene2 .left-side-block .A li a, .scene2 .left-side-block .B li a, .scene2 .left-side-block .C li a, .scene2 .left-side-block .D li a, .scene2 .left-side-block .E li a,
   .scene2 .left-side-block .F li a, .scene2 .left-side-block .G li a, .scene2 .left-side-block .H li a, .scene2 .left-side-block .J li a, .scene2 .left-side-block .I li a,
   .scene2 .left-side-block .K li a, .scene2 .left-side-block .L li a, .scene2 .left-side-block .M li a, .scene2 .left-side-block .N li a {
@@ -5768,13 +5969,13 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1245, ../sass/_scene2.scss */
+  /* line 1430, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .hoverParent, .scene2 .left-side-block .B .hoverParent, .scene2 .left-side-block .C .hoverParent, .scene2 .left-side-block .D .hoverParent, .scene2 .left-side-block .E .hoverParent,
   .scene2 .left-side-block .F .hoverParent, .scene2 .left-side-block .G .hoverParent, .scene2 .left-side-block .H .hoverParent, .scene2 .left-side-block .J .hoverParent, .scene2 .left-side-block .I .hoverParent,
   .scene2 .left-side-block .K .hoverParent, .scene2 .left-side-block .L .hoverParent, .scene2 .left-side-block .M .hoverParent, .scene2 .left-side-block .N .hoverParent {
     position: relative;
   }
-  /* line 1247, ../sass/_scene2.scss */
+  /* line 1432, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .hoverParent:hover .hover-block, .scene2 .left-side-block .B .hoverParent:hover .hover-block, .scene2 .left-side-block .C .hoverParent:hover .hover-block, .scene2 .left-side-block .D .hoverParent:hover .hover-block, .scene2 .left-side-block .E .hoverParent:hover .hover-block,
   .scene2 .left-side-block .F .hoverParent:hover .hover-block, .scene2 .left-side-block .G .hoverParent:hover .hover-block, .scene2 .left-side-block .H .hoverParent:hover .hover-block, .scene2 .left-side-block .J .hoverParent:hover .hover-block, .scene2 .left-side-block .I .hoverParent:hover .hover-block,
   .scene2 .left-side-block .K .hoverParent:hover .hover-block, .scene2 .left-side-block .L .hoverParent:hover .hover-block, .scene2 .left-side-block .M .hoverParent:hover .hover-block, .scene2 .left-side-block .N .hoverParent:hover .hover-block {
@@ -5783,19 +5984,19 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1254, ../sass/_scene2.scss */
+  /* line 1439, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .reserved, .scene2 .left-side-block .B .reserved, .scene2 .left-side-block .C .reserved, .scene2 .left-side-block .D .reserved, .scene2 .left-side-block .E .reserved,
   .scene2 .left-side-block .F .reserved, .scene2 .left-side-block .G .reserved, .scene2 .left-side-block .H .reserved, .scene2 .left-side-block .J .reserved, .scene2 .left-side-block .I .reserved,
   .scene2 .left-side-block .K .reserved, .scene2 .left-side-block .L .reserved, .scene2 .left-side-block .M .reserved, .scene2 .left-side-block .N .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1257, ../sass/_scene2.scss */
+  /* line 1442, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .ather-backets, .scene2 .left-side-block .B .ather-backets, .scene2 .left-side-block .C .ather-backets, .scene2 .left-side-block .D .ather-backets, .scene2 .left-side-block .E .ather-backets,
   .scene2 .left-side-block .F .ather-backets, .scene2 .left-side-block .G .ather-backets, .scene2 .left-side-block .H .ather-backets, .scene2 .left-side-block .J .ather-backets, .scene2 .left-side-block .I .ather-backets,
   .scene2 .left-side-block .K .ather-backets, .scene2 .left-side-block .L .ather-backets, .scene2 .left-side-block .M .ather-backets, .scene2 .left-side-block .N .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1261, ../sass/_scene2.scss */
+  /* line 1446, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .series-name a, .scene2 .left-side-block .B .series-name a, .scene2 .left-side-block .C .series-name a, .scene2 .left-side-block .D .series-name a, .scene2 .left-side-block .E .series-name a,
   .scene2 .left-side-block .F .series-name a, .scene2 .left-side-block .G .series-name a, .scene2 .left-side-block .H .series-name a, .scene2 .left-side-block .J .series-name a, .scene2 .left-side-block .I .series-name a,
   .scene2 .left-side-block .K .series-name a, .scene2 .left-side-block .L .series-name a, .scene2 .left-side-block .M .series-name a, .scene2 .left-side-block .N .series-name a {
@@ -5803,12 +6004,12 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1269, ../sass/_scene2.scss */
+  /* line 1454, ../sass/_scene2.scss */
   .scene2 .right-side-block {
     float: right;
     margin: 0 7% 20px 0;
   }
-  /* line 1273, ../sass/_scene2.scss */
+  /* line 1458, ../sass/_scene2.scss */
   .scene2 .right-side-block .A, .scene2 .right-side-block .B, .scene2 .right-side-block .C, .scene2 .right-side-block .D, .scene2 .right-side-block .E,
   .scene2 .right-side-block .F, .scene2 .right-side-block .G, .scene2 .right-side-block .H, .scene2 .right-side-block .J, .scene2 .right-side-block .I,
   .scene2 .right-side-block .K, .scene2 .right-side-block .L, .scene2 .right-side-block .M, .scene2 .right-side-block .N {
@@ -5821,7 +6022,7 @@ a {
     float: left;
     margin: 0 1px;
   }
-  /* line 1283, ../sass/_scene2.scss */
+  /* line 1468, ../sass/_scene2.scss */
   .scene2 .right-side-block .A li, .scene2 .right-side-block .B li, .scene2 .right-side-block .C li, .scene2 .right-side-block .D li, .scene2 .right-side-block .E li,
   .scene2 .right-side-block .F li, .scene2 .right-side-block .G li, .scene2 .right-side-block .H li, .scene2 .right-side-block .J li, .scene2 .right-side-block .I li,
   .scene2 .right-side-block .K li, .scene2 .right-side-block .L li, .scene2 .right-side-block .M li, .scene2 .right-side-block .N li {
@@ -5831,7 +6032,7 @@ a {
     height: 15px;
     margin: 1px 2px 1px 1px;
   }
-  /* line 1289, ../sass/_scene2.scss */
+  /* line 1474, ../sass/_scene2.scss */
   .scene2 .right-side-block .A li a, .scene2 .right-side-block .B li a, .scene2 .right-side-block .C li a, .scene2 .right-side-block .D li a, .scene2 .right-side-block .E li a,
   .scene2 .right-side-block .F li a, .scene2 .right-side-block .G li a, .scene2 .right-side-block .H li a, .scene2 .right-side-block .J li a, .scene2 .right-side-block .I li a,
   .scene2 .right-side-block .K li a, .scene2 .right-side-block .L li a, .scene2 .right-side-block .M li a, .scene2 .right-side-block .N li a {
@@ -5841,13 +6042,13 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1297, ../sass/_scene2.scss */
+  /* line 1482, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .hoverParent, .scene2 .right-side-block .B .hoverParent, .scene2 .right-side-block .C .hoverParent, .scene2 .right-side-block .D .hoverParent, .scene2 .right-side-block .E .hoverParent,
   .scene2 .right-side-block .F .hoverParent, .scene2 .right-side-block .G .hoverParent, .scene2 .right-side-block .H .hoverParent, .scene2 .right-side-block .J .hoverParent, .scene2 .right-side-block .I .hoverParent,
   .scene2 .right-side-block .K .hoverParent, .scene2 .right-side-block .L .hoverParent, .scene2 .right-side-block .M .hoverParent, .scene2 .right-side-block .N .hoverParent {
     position: relative;
   }
-  /* line 1299, ../sass/_scene2.scss */
+  /* line 1484, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .hoverParent:hover .hover-block, .scene2 .right-side-block .B .hoverParent:hover .hover-block, .scene2 .right-side-block .C .hoverParent:hover .hover-block, .scene2 .right-side-block .D .hoverParent:hover .hover-block, .scene2 .right-side-block .E .hoverParent:hover .hover-block,
   .scene2 .right-side-block .F .hoverParent:hover .hover-block, .scene2 .right-side-block .G .hoverParent:hover .hover-block, .scene2 .right-side-block .H .hoverParent:hover .hover-block, .scene2 .right-side-block .J .hoverParent:hover .hover-block, .scene2 .right-side-block .I .hoverParent:hover .hover-block,
   .scene2 .right-side-block .K .hoverParent:hover .hover-block, .scene2 .right-side-block .L .hoverParent:hover .hover-block, .scene2 .right-side-block .M .hoverParent:hover .hover-block, .scene2 .right-side-block .N .hoverParent:hover .hover-block {
@@ -5856,25 +6057,25 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1306, ../sass/_scene2.scss */
+  /* line 1491, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .reserved, .scene2 .right-side-block .B .reserved, .scene2 .right-side-block .C .reserved, .scene2 .right-side-block .D .reserved, .scene2 .right-side-block .E .reserved,
   .scene2 .right-side-block .F .reserved, .scene2 .right-side-block .G .reserved, .scene2 .right-side-block .H .reserved, .scene2 .right-side-block .J .reserved, .scene2 .right-side-block .I .reserved,
   .scene2 .right-side-block .K .reserved, .scene2 .right-side-block .L .reserved, .scene2 .right-side-block .M .reserved, .scene2 .right-side-block .N .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1309, ../sass/_scene2.scss */
+  /* line 1494, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .ather-backets, .scene2 .right-side-block .B .ather-backets, .scene2 .right-side-block .C .ather-backets, .scene2 .right-side-block .D .ather-backets, .scene2 .right-side-block .E .ather-backets,
   .scene2 .right-side-block .F .ather-backets, .scene2 .right-side-block .G .ather-backets, .scene2 .right-side-block .H .ather-backets, .scene2 .right-side-block .J .ather-backets, .scene2 .right-side-block .I .ather-backets,
   .scene2 .right-side-block .K .ather-backets, .scene2 .right-side-block .L .ather-backets, .scene2 .right-side-block .M .ather-backets, .scene2 .right-side-block .N .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1312, ../sass/_scene2.scss */
+  /* line 1497, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .in-the-basket, .scene2 .right-side-block .B .in-the-basket, .scene2 .right-side-block .C .in-the-basket, .scene2 .right-side-block .D .in-the-basket, .scene2 .right-side-block .E .in-the-basket,
   .scene2 .right-side-block .F .in-the-basket, .scene2 .right-side-block .G .in-the-basket, .scene2 .right-side-block .H .in-the-basket, .scene2 .right-side-block .J .in-the-basket, .scene2 .right-side-block .I .in-the-basket,
   .scene2 .right-side-block .K .in-the-basket, .scene2 .right-side-block .L .in-the-basket, .scene2 .right-side-block .M .in-the-basket, .scene2 .right-side-block .N .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 1316, ../sass/_scene2.scss */
+  /* line 1501, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .series-name a, .scene2 .right-side-block .B .series-name a, .scene2 .right-side-block .C .series-name a, .scene2 .right-side-block .D .series-name a, .scene2 .right-side-block .E .series-name a,
   .scene2 .right-side-block .F .series-name a, .scene2 .right-side-block .G .series-name a, .scene2 .right-side-block .H .series-name a, .scene2 .right-side-block .J .series-name a, .scene2 .right-side-block .I .series-name a,
   .scene2 .right-side-block .K .series-name a, .scene2 .right-side-block .L .series-name a, .scene2 .right-side-block .M .series-name a, .scene2 .right-side-block .N .series-name a {
@@ -5882,13 +6083,13 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1324, ../sass/_scene2.scss */
+  /* line 1509, ../sass/_scene2.scss */
   .scene2 .rotate-block {
     clear: both;
     padding-top: 45px;
     height: 485px;
   }
-  /* line 1330, ../sass/_scene2.scss */
+  /* line 1515, ../sass/_scene2.scss */
   .scene2 .left-center-block,
   .scene2 .right-center-block,
   .scene2 .center-block {
@@ -5896,7 +6097,7 @@ a {
     margin: 0 auto;
     text-align: center;
   }
-  /* line 1338, ../sass/_scene2.scss */
+  /* line 1523, ../sass/_scene2.scss */
   .scene2 .left-center-block .left-center-block-title,
   .scene2 .left-center-block .right-center-block-title,
   .scene2 .left-center-block .center-block-title,
@@ -5909,7 +6110,7 @@ a {
     margin: 10px 0 0 0;
     letter-spacing: 1px;
   }
-  /* line 1344, ../sass/_scene2.scss */
+  /* line 1529, ../sass/_scene2.scss */
   .scene2 .left-center-block .A, .scene2 .left-center-block .B, .scene2 .left-center-block .C, .scene2 .left-center-block .D, .scene2 .left-center-block .E,
   .scene2 .left-center-block .F, .scene2 .left-center-block .G, .scene2 .left-center-block .H, .scene2 .left-center-block .J, .scene2 .left-center-block .I,
   .scene2 .left-center-block .K, .scene2 .left-center-block .L, .scene2 .left-center-block .M, .scene2 .left-center-block .N, .scene2 .left-center-block .O,
@@ -5952,7 +6153,7 @@ a {
     margin: 0 auto;
     text-align: center;
   }
-  /* line 1354, ../sass/_scene2.scss */
+  /* line 1539, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
   .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
   .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li,
@@ -5993,7 +6194,7 @@ a {
     text-align: center;
     margin: 0;
   }
-  /* line 1361, ../sass/_scene2.scss */
+  /* line 1546, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
   .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
   .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a,
@@ -6033,7 +6234,7 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1369, ../sass/_scene2.scss */
+  /* line 1554, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent, .scene2 .left-center-block .B .hoverParent, .scene2 .left-center-block .C .hoverParent, .scene2 .left-center-block .D .hoverParent, .scene2 .left-center-block .E .hoverParent,
   .scene2 .left-center-block .F .hoverParent, .scene2 .left-center-block .G .hoverParent, .scene2 .left-center-block .H .hoverParent, .scene2 .left-center-block .J .hoverParent, .scene2 .left-center-block .I .hoverParent,
   .scene2 .left-center-block .K .hoverParent, .scene2 .left-center-block .L .hoverParent, .scene2 .left-center-block .M .hoverParent, .scene2 .left-center-block .N .hoverParent, .scene2 .left-center-block .O .hoverParent,
@@ -6069,7 +6270,7 @@ a {
   .scene2 .center-block .O .hoverParent {
     position: relative;
   }
-  /* line 1371, ../sass/_scene2.scss */
+  /* line 1556, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent:hover .hover-block, .scene2 .left-center-block .B .hoverParent:hover .hover-block, .scene2 .left-center-block .C .hoverParent:hover .hover-block, .scene2 .left-center-block .D .hoverParent:hover .hover-block, .scene2 .left-center-block .E .hoverParent:hover .hover-block,
   .scene2 .left-center-block .F .hoverParent:hover .hover-block, .scene2 .left-center-block .G .hoverParent:hover .hover-block, .scene2 .left-center-block .H .hoverParent:hover .hover-block, .scene2 .left-center-block .J .hoverParent:hover .hover-block, .scene2 .left-center-block .I .hoverParent:hover .hover-block,
   .scene2 .left-center-block .K .hoverParent:hover .hover-block, .scene2 .left-center-block .L .hoverParent:hover .hover-block, .scene2 .left-center-block .M .hoverParent:hover .hover-block, .scene2 .left-center-block .N .hoverParent:hover .hover-block, .scene2 .left-center-block .O .hoverParent:hover .hover-block,
@@ -6108,7 +6309,7 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1378, ../sass/_scene2.scss */
+  /* line 1563, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .reserved, .scene2 .left-center-block .B .reserved, .scene2 .left-center-block .C .reserved, .scene2 .left-center-block .D .reserved, .scene2 .left-center-block .E .reserved,
   .scene2 .left-center-block .F .reserved, .scene2 .left-center-block .G .reserved, .scene2 .left-center-block .H .reserved, .scene2 .left-center-block .J .reserved, .scene2 .left-center-block .I .reserved,
   .scene2 .left-center-block .K .reserved, .scene2 .left-center-block .L .reserved, .scene2 .left-center-block .M .reserved, .scene2 .left-center-block .N .reserved, .scene2 .left-center-block .O .reserved,
@@ -6144,7 +6345,7 @@ a {
   .scene2 .center-block .O .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1381, ../sass/_scene2.scss */
+  /* line 1566, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .ather-backets, .scene2 .left-center-block .B .ather-backets, .scene2 .left-center-block .C .ather-backets, .scene2 .left-center-block .D .ather-backets, .scene2 .left-center-block .E .ather-backets,
   .scene2 .left-center-block .F .ather-backets, .scene2 .left-center-block .G .ather-backets, .scene2 .left-center-block .H .ather-backets, .scene2 .left-center-block .J .ather-backets, .scene2 .left-center-block .I .ather-backets,
   .scene2 .left-center-block .K .ather-backets, .scene2 .left-center-block .L .ather-backets, .scene2 .left-center-block .M .ather-backets, .scene2 .left-center-block .N .ather-backets, .scene2 .left-center-block .O .ather-backets,
@@ -6180,7 +6381,7 @@ a {
   .scene2 .center-block .O .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1384, ../sass/_scene2.scss */
+  /* line 1569, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .in-the-basket, .scene2 .left-center-block .B .in-the-basket, .scene2 .left-center-block .C .in-the-basket, .scene2 .left-center-block .D .in-the-basket, .scene2 .left-center-block .E .in-the-basket,
   .scene2 .left-center-block .F .in-the-basket, .scene2 .left-center-block .G .in-the-basket, .scene2 .left-center-block .H .in-the-basket, .scene2 .left-center-block .J .in-the-basket, .scene2 .left-center-block .I .in-the-basket,
   .scene2 .left-center-block .K .in-the-basket, .scene2 .left-center-block .L .in-the-basket, .scene2 .left-center-block .M .in-the-basket, .scene2 .left-center-block .N .in-the-basket, .scene2 .left-center-block .O .in-the-basket,
@@ -6216,7 +6417,7 @@ a {
   .scene2 .center-block .O .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 1387, ../sass/_scene2.scss */
+  /* line 1572, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .cheap-price, .scene2 .left-center-block .B .cheap-price, .scene2 .left-center-block .C .cheap-price, .scene2 .left-center-block .D .cheap-price, .scene2 .left-center-block .E .cheap-price,
   .scene2 .left-center-block .F .cheap-price, .scene2 .left-center-block .G .cheap-price, .scene2 .left-center-block .H .cheap-price, .scene2 .left-center-block .J .cheap-price, .scene2 .left-center-block .I .cheap-price,
   .scene2 .left-center-block .K .cheap-price, .scene2 .left-center-block .L .cheap-price, .scene2 .left-center-block .M .cheap-price, .scene2 .left-center-block .N .cheap-price, .scene2 .left-center-block .O .cheap-price,
@@ -6252,7 +6453,7 @@ a {
   .scene2 .center-block .O .cheap-price {
     background-color: #E7CE00;
   }
-  /* line 1390, ../sass/_scene2.scss */
+  /* line 1575, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .average-price, .scene2 .left-center-block .B .average-price, .scene2 .left-center-block .C .average-price, .scene2 .left-center-block .D .average-price, .scene2 .left-center-block .E .average-price,
   .scene2 .left-center-block .F .average-price, .scene2 .left-center-block .G .average-price, .scene2 .left-center-block .H .average-price, .scene2 .left-center-block .J .average-price, .scene2 .left-center-block .I .average-price,
   .scene2 .left-center-block .K .average-price, .scene2 .left-center-block .L .average-price, .scene2 .left-center-block .M .average-price, .scene2 .left-center-block .N .average-price, .scene2 .left-center-block .O .average-price,
@@ -6288,7 +6489,7 @@ a {
   .scene2 .center-block .O .average-price {
     background-color: #C00463;
   }
-  /* line 1393, ../sass/_scene2.scss */
+  /* line 1578, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .highest-price, .scene2 .left-center-block .B .highest-price, .scene2 .left-center-block .C .highest-price, .scene2 .left-center-block .D .highest-price, .scene2 .left-center-block .E .highest-price,
   .scene2 .left-center-block .F .highest-price, .scene2 .left-center-block .G .highest-price, .scene2 .left-center-block .H .highest-price, .scene2 .left-center-block .J .highest-price, .scene2 .left-center-block .I .highest-price,
   .scene2 .left-center-block .K .highest-price, .scene2 .left-center-block .L .highest-price, .scene2 .left-center-block .M .highest-price, .scene2 .left-center-block .N .highest-price, .scene2 .left-center-block .O .highest-price,
@@ -6324,7 +6525,7 @@ a {
   .scene2 .center-block .O .highest-price {
     background-color: #840343;
   }
-  /* line 1397, ../sass/_scene2.scss */
+  /* line 1582, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .series-name a, .scene2 .left-center-block .B .series-name a, .scene2 .left-center-block .C .series-name a, .scene2 .left-center-block .D .series-name a, .scene2 .left-center-block .E .series-name a,
   .scene2 .left-center-block .F .series-name a, .scene2 .left-center-block .G .series-name a, .scene2 .left-center-block .H .series-name a, .scene2 .left-center-block .J .series-name a, .scene2 .left-center-block .I .series-name a,
   .scene2 .left-center-block .K .series-name a, .scene2 .left-center-block .L .series-name a, .scene2 .left-center-block .M .series-name a, .scene2 .left-center-block .N .series-name a, .scene2 .left-center-block .O .series-name a,
@@ -6362,17 +6563,29 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1406, ../sass/_scene2.scss */
+  /* line 1591, ../sass/_scene2.scss */
   .scene2 .left-center-block .A, .scene2 .left-center-block .B, .scene2 .left-center-block .C, .scene2 .left-center-block .D, .scene2 .left-center-block .E,
   .scene2 .left-center-block .F, .scene2 .left-center-block .G, .scene2 .left-center-block .H, .scene2 .left-center-block .J, .scene2 .left-center-block .I,
   .scene2 .left-center-block .K, .scene2 .left-center-block .L, .scene2 .left-center-block .M, .scene2 .left-center-block .N, .scene2 .left-center-block .O {
     z-index: 8;
   }
-  /* line 1411, ../sass/_scene2.scss */
+  /* line 1595, ../sass/_scene2.scss */
+  .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
+  .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
+  .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li {
+    cursor: pointer;
+  }
+  /* line 1597, ../sass/_scene2.scss */
+  .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
+  .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
+  .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a {
+    cursor: pointer;
+  }
+  /* line 1602, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent {
     position: relative;
   }
-  /* line 1413, ../sass/_scene2.scss */
+  /* line 1604, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent:hover .hover-block {
     display: block !important;
     z-index: 9999999999;
@@ -6385,17 +6598,29 @@ a {
     -o-transform: rotate(-74deg);
     transform: rotate(-74deg);
   }
-  /* line 1428, ../sass/_scene2.scss */
+  /* line 1619, ../sass/_scene2.scss */
   .scene2 .right-center-block .A, .scene2 .right-center-block .B, .scene2 .right-center-block .C, .scene2 .right-center-block .D, .scene2 .right-center-block .E,
   .scene2 .right-center-block .F, .scene2 .right-center-block .G, .scene2 .right-center-block .H, .scene2 .right-center-block .J, .scene2 .right-center-block .I,
   .scene2 .right-center-block .K, .scene2 .right-center-block .L, .scene2 .right-center-block .M, .scene2 .right-center-block .N, .scene2 .right-center-block .O {
     z-index: 100;
   }
-  /* line 1433, ../sass/_scene2.scss */
+  /* line 1623, ../sass/_scene2.scss */
+  .scene2 .right-center-block .A li, .scene2 .right-center-block .B li, .scene2 .right-center-block .C li, .scene2 .right-center-block .D li, .scene2 .right-center-block .E li,
+  .scene2 .right-center-block .F li, .scene2 .right-center-block .G li, .scene2 .right-center-block .H li, .scene2 .right-center-block .J li, .scene2 .right-center-block .I li,
+  .scene2 .right-center-block .K li, .scene2 .right-center-block .L li, .scene2 .right-center-block .M li, .scene2 .right-center-block .N li, .scene2 .right-center-block .O li {
+    cursor: pointer;
+  }
+  /* line 1625, ../sass/_scene2.scss */
+  .scene2 .right-center-block .A li a, .scene2 .right-center-block .B li a, .scene2 .right-center-block .C li a, .scene2 .right-center-block .D li a, .scene2 .right-center-block .E li a,
+  .scene2 .right-center-block .F li a, .scene2 .right-center-block .G li a, .scene2 .right-center-block .H li a, .scene2 .right-center-block .J li a, .scene2 .right-center-block .I li a,
+  .scene2 .right-center-block .K li a, .scene2 .right-center-block .L li a, .scene2 .right-center-block .M li a, .scene2 .right-center-block .N li a, .scene2 .right-center-block .O li a {
+    cursor: pointer;
+  }
+  /* line 1630, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent {
     position: relative;
   }
-  /* line 1435, ../sass/_scene2.scss */
+  /* line 1632, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent:hover .hover-block {
     display: block !important;
     z-index: 9999999999 !important;
@@ -6408,7 +6633,7 @@ a {
     -o-transform: rotate(74deg);
     transform: rotate(74deg);
   }
-  /* line 1449, ../sass/_scene2.scss */
+  /* line 1646, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     float: left;
     width: 541px;
@@ -6422,7 +6647,7 @@ a {
     transform: rotate(73deg);
     z-index: 100;
   }
-  /* line 1463, ../sass/_scene2.scss */
+  /* line 1660, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     float: right;
     width: 541px;
@@ -6436,21 +6661,21 @@ a {
     right: -45px;
     left: auto !important;
   }
-  /* line 1478, ../sass/_scene2.scss */
+  /* line 1675, ../sass/_scene2.scss */
   .scene2 .center-block {
     width: 541px;
     position: relative;
     top: -375px;
-    z-index: 999;
+    z-index: auto;
     left: 210px !important;
   }
-  /* line 1485, ../sass/_scene2.scss */
+  /* line 1682, ../sass/_scene2.scss */
   .scene2 .center-block .A, .scene2 .center-block .B, .scene2 .center-block .C, .scene2 .center-block .D, .scene2 .center-block .E,
   .scene2 .center-block .F, .scene2 .center-block .G, .scene2 .center-block .H, .scene2 .center-block .J, .scene2 .center-block .I,
   .scene2 .center-block .K, .scene2 .center-block .L, .scene2 .center-block .M, .scene2 .center-block .N, .scene2 .center-block .O {
     z-index: 99;
   }
-  /* line 1491, ../sass/_scene2.scss */
+  /* line 1688, ../sass/_scene2.scss */
   .scene2 .center-block .hover-block {
     width: 224px;
     height: auto;
@@ -6462,31 +6687,31 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 1505, ../sass/_scene2.scss */
+  /* line 1702, ../sass/_scene2.scss */
   .scene2 .center-block .H li:nth-child(1), .scene2 .center-block .H li:nth-child(2), .scene2 .center-block .H li:nth-child(3), .scene2 .center-block .H li:nth-child(4), .scene2 .center-block .H li:nth-child(5), .scene2 .center-block .H li:nth-child(11), .scene2 .center-block .H li:nth-child(12), .scene2 .center-block .H li:nth-child(13), .scene2 .center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 1520, ../sass/_scene2.scss */
+  /* line 1717, ../sass/_scene2.scss */
   .scene2 .center-block .J li:nth-child(1), .scene2 .center-block .J li:nth-child(2), .scene2 .center-block .J li:nth-child(3), .scene2 .center-block .J li:nth-child(4), .scene2 .center-block .J li:nth-child(5), .scene2 .center-block .J li:nth-child(13), .scene2 .center-block .J li:nth-child(14), .scene2 .center-block .J li:nth-child(15), .scene2 .center-block .J li:nth-child(16), .scene2 .center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 1536, ../sass/_scene2.scss */
+  /* line 1733, ../sass/_scene2.scss */
   .scene2 .center-block .K li:nth-child(1), .scene2 .center-block .K li:nth-child(2), .scene2 .center-block .K li:nth-child(3), .scene2 .center-block .K li:nth-child(17), .scene2 .center-block .K li:nth-child(18), .scene2 .center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 1548, ../sass/_scene2.scss */
+  /* line 1745, ../sass/_scene2.scss */
   .scene2 .center-block .M li:nth-child(1), .scene2 .center-block .M li:nth-child(2), .scene2 .center-block .M li:nth-child(3), .scene2 .center-block .M li:nth-child(4), .scene2 .center-block .M li:nth-child(5), .scene2 .center-block .M li:nth-child(17), .scene2 .center-block .M li:nth-child(18), .scene2 .center-block .M li:nth-child(19), .scene2 .center-block .M li:nth-child(20), .scene2 .center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 1564, ../sass/_scene2.scss */
+  /* line 1761, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(14) {
     margin-left: 8px;
   }
-  /* line 1567, ../sass/_scene2.scss */
+  /* line 1764, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(21), .scene2 .center-block .N li:nth-child(22), .scene2 .center-block .N li:nth-child(23) {
     margin: 0 2px 0 1px;
   }
-  /* line 1579, ../sass/_scene2.scss */
+  /* line 1776, ../sass/_scene2.scss */
   .scene2 .left-center-block .H li:nth-child(1), .scene2 .left-center-block .H li:nth-child(2), .scene2 .left-center-block .H li:nth-child(3), .scene2 .left-center-block .H li:nth-child(4), .scene2 .left-center-block .H li:nth-child(5), .scene2 .left-center-block .H li:nth-child(11), .scene2 .left-center-block .H li:nth-child(12), .scene2 .left-center-block .H li:nth-child(13), .scene2 .left-center-block .H li:nth-child(14),
   .scene2 .right-center-block .H li:nth-child(1),
   .scene2 .right-center-block .H li:nth-child(2),
@@ -6499,7 +6724,7 @@ a {
   .scene2 .right-center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 1594, ../sass/_scene2.scss */
+  /* line 1791, ../sass/_scene2.scss */
   .scene2 .left-center-block .J li:nth-child(1), .scene2 .left-center-block .J li:nth-child(2), .scene2 .left-center-block .J li:nth-child(3), .scene2 .left-center-block .J li:nth-child(4), .scene2 .left-center-block .J li:nth-child(5), .scene2 .left-center-block .J li:nth-child(13), .scene2 .left-center-block .J li:nth-child(14), .scene2 .left-center-block .J li:nth-child(15), .scene2 .left-center-block .J li:nth-child(16), .scene2 .left-center-block .J li:nth-child(17),
   .scene2 .right-center-block .J li:nth-child(1),
   .scene2 .right-center-block .J li:nth-child(2),
@@ -6513,7 +6738,7 @@ a {
   .scene2 .right-center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 1610, ../sass/_scene2.scss */
+  /* line 1807, ../sass/_scene2.scss */
   .scene2 .left-center-block .K li:nth-child(1), .scene2 .left-center-block .K li:nth-child(2), .scene2 .left-center-block .K li:nth-child(3), .scene2 .left-center-block .K li:nth-child(17), .scene2 .left-center-block .K li:nth-child(18), .scene2 .left-center-block .K li:nth-child(19),
   .scene2 .right-center-block .K li:nth-child(1),
   .scene2 .right-center-block .K li:nth-child(2),
@@ -6523,7 +6748,7 @@ a {
   .scene2 .right-center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 1622, ../sass/_scene2.scss */
+  /* line 1819, ../sass/_scene2.scss */
   .scene2 .left-center-block .M li:nth-child(1), .scene2 .left-center-block .M li:nth-child(2), .scene2 .left-center-block .M li:nth-child(3), .scene2 .left-center-block .M li:nth-child(4), .scene2 .left-center-block .M li:nth-child(5), .scene2 .left-center-block .M li:nth-child(17), .scene2 .left-center-block .M li:nth-child(18), .scene2 .left-center-block .M li:nth-child(19), .scene2 .left-center-block .M li:nth-child(20), .scene2 .left-center-block .M li:nth-child(21),
   .scene2 .right-center-block .M li:nth-child(1),
   .scene2 .right-center-block .M li:nth-child(2),
@@ -6537,17 +6762,17 @@ a {
   .scene2 .right-center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 1638, ../sass/_scene2.scss */
+  /* line 1835, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(14),
   .scene2 .right-center-block .N li:nth-child(14) {
     margin-left: 1px;
   }
-  /* line 1641, ../sass/_scene2.scss */
+  /* line 1838, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:first-child,
   .scene2 .right-center-block .N li:first-child {
     margin-right: 8px;
   }
-  /* line 1644, ../sass/_scene2.scss */
+  /* line 1841, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(21), .scene2 .left-center-block .N li:nth-child(22), .scene2 .left-center-block .N li:nth-child(23),
   .scene2 .right-center-block .N li:nth-child(21),
   .scene2 .right-center-block .N li:nth-child(22),
@@ -6555,7 +6780,7 @@ a {
     margin: 0 2px 0 1px;
   }
 
-  /* line 1655, ../sass/_scene2.scss */
+  /* line 1852, ../sass/_scene2.scss */
   .scene-block .hover-block {
     min-width: 224px;
     width: 224px;
@@ -6567,7 +6792,7 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 1666, ../sass/_scene2.scss */
+  /* line 1863, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -6576,7 +6801,7 @@ a {
     overflow: hidden;
     padding: 17px 0 21px 16px;
   }
-  /* line 1671, ../sass/_scene2.scss */
+  /* line 1868, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li {
     display: block;
     width: auto;
@@ -6585,19 +6810,19 @@ a {
     overflow: hidden;
     margin: 11px auto;
   }
-  /* line 1679, ../sass/_scene2.scss */
+  /* line 1876, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li span {
     float: left;
     overflow: hidden;
     font: 400 16px/20px "Open Sans", sans-serif;
     color: #262626;
   }
-  /* line 1686, ../sass/_scene2.scss */
+  /* line 1883, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > .color-square-1, .scene-block .hover-block .hover-block-list > .color-square-2, .scene-block .hover-block .hover-block-list > .color-square-3 {
     float: left;
     margin-right: 10px;
   }
-  /* line 1692, ../sass/_scene2.scss */
+  /* line 1889, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1,
   .scene-block .hover-block .hover-block-list .color-square-2,
   .scene-block .hover-block .hover-block-list .color-square-3 {
@@ -6606,15 +6831,15 @@ a {
     height: 25px;
     margin-right: 15px;
   }
-  /* line 1700, ../sass/_scene2.scss */
+  /* line 1897, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1 {
     background: #BCB8B5;
   }
-  /* line 1703, ../sass/_scene2.scss */
+  /* line 1900, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-2 {
     background: #5A009E;
   }
-  /* line 1706, ../sass/_scene2.scss */
+  /* line 1903, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-3 {
     background: #ED6A00;
   }
@@ -11348,7 +11573,7 @@ a {
     top: -299px;
     right: 135px;
     float: right;
-    z-index: 9;
+    z-index: 1;
   }
   /* line 1250, ../sass/_scene4.scss */
   .scene4 .main-floor .sixth-block-right .sixth-title {
@@ -12981,7 +13206,7 @@ a {
     top: 0;
     left: 320px;
     overflow: hidden;
-    z-index: 9;
+    z-index: 0;
   }
   /* line 2312, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-AA {
@@ -13573,7 +13798,7 @@ a {
     top: -299px;
     right: 245px;
     float: right;
-    z-index: 9;
+    z-index: 1;
   }
   /* line 2887, ../sass/_scene4.scss */
   .scene .scene4 .floor-places .R-left {
@@ -18894,8 +19119,8 @@ a {
   }
   /* line 6811, ../sass/_scene4.scss */
   .balcony-main .right-alone-DD {
-    top: -230px !important;
-    right: 94px !important;
+    top: -206px !important;
+    right: 93px !important;
   }
   /* line 6815, ../sass/_scene4.scss */
   .balcony-main .balcony-left-side-AA,
@@ -19005,41 +19230,57 @@ a {
     top: 0;
     left: 320px;
     overflow: hidden;
-    z-index: 9;
+    z-index: 99999;
   }
   /* line 6911, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-AA {
     left: 398px;
+    max-width: 184px;
+    float: left;
   }
-  /* line 6914, ../sass/_scene4.scss */
+  /* line 6916, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-BB {
     left: 387px;
+    max-width: 207px;
+    float: left;
   }
-  /* line 6917, ../sass/_scene4.scss */
+  /* line 6921, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-CC {
     left: 374px;
+    float: left;
+    width: 230px;
   }
-  /* line 6920, ../sass/_scene4.scss */
+  /* line 6927, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-DD {
     left: 363px;
-  }
-  /* line 6923, ../sass/_scene4.scss */
-  .balcony-main .balcony-center-side-EE {
-    left: 351px;
-  }
-  /* line 6926, ../sass/_scene4.scss */
-  .balcony-main .balcony-center-side-FF {
-    left: 340px;
-  }
-  /* line 6929, ../sass/_scene4.scss */
-  .balcony-main .balcony-center-side-GG {
-    left: 328px;
+    float: left;
+    width: 260px;
   }
   /* line 6932, ../sass/_scene4.scss */
+  .balcony-main .balcony-center-side-EE {
+    left: 351px;
+    float: left;
+    width: 276px;
+  }
+  /* line 6937, ../sass/_scene4.scss */
+  .balcony-main .balcony-center-side-FF {
+    left: 340px;
+    float: left;
+    width: 300px;
+  }
+  /* line 6942, ../sass/_scene4.scss */
+  .balcony-main .balcony-center-side-GG {
+    left: 328px;
+    float: left;
+    width: 325px;
+  }
+  /* line 6947, ../sass/_scene4.scss */
   .balcony-main .balcony-center-side-HH {
     left: 305px;
+    float: left;
+    width: 370px;
   }
-  /* line 6935, ../sass/_scene4.scss */
+  /* line 6952, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-AA,
   .balcony-main .balcony-right-side-BB,
   .balcony-main .balcony-right-side-CC,
@@ -19060,58 +19301,58 @@ a {
     padding: 48px 0 30px 0;
     z-index: 9;
   }
-  /* line 6955, ../sass/_scene4.scss */
+  /* line 6972, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-AA {
-    top: -135px;
+    top: -111px;
     right: -196px;
     z-index: 8;
   }
-  /* line 6960, ../sass/_scene4.scss */
+  /* line 6977, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-BB {
-    top: -135px;
+    top: -111px;
     right: -209px;
     z-index: 7;
   }
-  /* line 6965, ../sass/_scene4.scss */
+  /* line 6982, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-CC {
-    top: -135px;
+    top: -111px;
     right: -220px;
     z-index: 6;
   }
-  /* line 6970, ../sass/_scene4.scss */
+  /* line 6987, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-DD {
-    top: -139px;
-    right: -237px;
+    top: -115px;
+    right: -238px;
     width: 276px;
     z-index: 5;
   }
-  /* line 6976, ../sass/_scene4.scss */
+  /* line 6993, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-EE {
-    top: -139px;
+    top: -114px;
     right: -248px;
     width: 276px;
     z-index: 4;
   }
-  /* line 6982, ../sass/_scene4.scss */
+  /* line 6999, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-FF {
-    top: -139px;
+    top: -114px;
     right: -260px;
     width: 276px;
     z-index: 3;
   }
-  /* line 6988, ../sass/_scene4.scss */
+  /* line 7005, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-GG {
-    top: -135px;
+    top: -111px;
     right: -265px;
     z-index: 2;
   }
-  /* line 6993, ../sass/_scene4.scss */
+  /* line 7010, ../sass/_scene4.scss */
   .balcony-main .balcony-right-side-HH {
-    top: -135px;
+    top: -111px;
     right: -288px;
     z-index: 1;
   }
-  /* line 6998, ../sass/_scene4.scss */
+  /* line 7015, ../sass/_scene4.scss */
   .balcony-main .right-alone-DD {
     float: right;
     overflow: hidden;
@@ -19120,16 +19361,16 @@ a {
     top: -241px;
     right: 74px;
   }
-  /* line 7006, ../sass/_scene4.scss */
+  /* line 7023, ../sass/_scene4.scss */
   .balcony-main .right-alone-EE {
     float: right;
     overflow: hidden;
     width: 46px;
     position: relative;
-    top: -230px;
+    top: -206px;
     right: 83px;
   }
-  /* line 7014, ../sass/_scene4.scss */
+  /* line 7031, ../sass/_scene4.scss */
   .balcony-main .right-alone-FF {
     float: right;
     overflow: hidden;
@@ -19138,49 +19379,49 @@ a {
     top: -242px;
     right: 52px;
   }
-  /* line 7023, ../sass/_scene4.scss */
+  /* line 7040, ../sass/_scene4.scss */
   .balcony-main .AA, .balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
   .balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
     padding-top: 15px;
     height: 165px;
   }
-  /* line 7028, ../sass/_scene4.scss */
+  /* line 7045, ../sass/_scene4.scss */
   .balcony-main .BB, .balcony-main .CC, .balcony-main .DD,
   .balcony-main .EE, .balcony-main .FF, .balcony-main .GG, .balcony-main .HH {
     position: relative;
     top: -170px;
   }
-  /* line 7033, ../sass/_scene4.scss */
+  /* line 7050, ../sass/_scene4.scss */
   .balcony-main .BB {
     top: -125px;
     padding-top: 20px;
   }
-  /* line 7037, ../sass/_scene4.scss */
+  /* line 7054, ../sass/_scene4.scss */
   .balcony-main .CC {
     top: -255px;
     padding-top: 30px;
   }
-  /* line 7041, ../sass/_scene4.scss */
+  /* line 7058, ../sass/_scene4.scss */
   .balcony-main .DD {
     top: -388px;
     padding-top: 45px;
   }
-  /* line 7045, ../sass/_scene4.scss */
+  /* line 7062, ../sass/_scene4.scss */
   .balcony-main .EE {
     top: -507px;
     padding-top: 43px;
   }
-  /* line 7050, ../sass/_scene4.scss */
+  /* line 7067, ../sass/_scene4.scss */
   .balcony-main .FF {
     top: -628px;
     padding-top: 44px;
   }
-  /* line 7054, ../sass/_scene4.scss */
+  /* line 7071, ../sass/_scene4.scss */
   .balcony-main .GG {
     top: -735px;
     padding-top: 30px;
   }
-  /* line 7058, ../sass/_scene4.scss */
+  /* line 7075, ../sass/_scene4.scss */
   .balcony-main .HH {
     top: -855px;
     padding-top: 30px;
