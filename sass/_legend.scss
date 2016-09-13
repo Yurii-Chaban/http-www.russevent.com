@@ -1,0 +1,181 @@
+
+$family: 'Open Sans', sans-serif;
+
+@mixin transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+@media (min-width: 0) {
+	.designations-block {
+		overflow: hidden;
+		margin: 0 auto 58px;
+		.designations-title {
+			margin: 12px 0 0 0;
+			color: #75023B;
+			font:  700 22px / 41px $family;
+			clear: both;
+		}
+		.designations-sircle-list {
+			@include border-box;
+			width: 100%;
+			max-width: 460px;
+			margin: 0 auto;
+			overflow: hidden;
+
+			li {
+				display: block;
+				width: 50%;
+				margin: 15px 0;
+
+				&:nth-child(odd) {
+					float: left;
+				} 
+				&:nth-child(even) {
+					float: right;
+				} 
+			}
+			.circle-1,
+			.circle-2,
+			.circle-3,
+			.circle-4,
+			.circle-5,
+			.circle-6,
+			.circle-7,
+			.circle-8 {
+				span {
+					color: #262626;
+					font: 400 18px / 30px $family;
+				}
+			}
+			.color-circle-1,
+			.color-circle-2,
+			.color-circle-3,
+			.color-circle-4,
+			.color-circle-5,
+			.color-circle-6,
+			.color-circle-7,
+			.color-circle-8 {
+				float: left;
+				width: 29px;
+				height: 29px;
+				margin: 0 8px 0 0;
+				border-radius: 100%;
+			}
+			.color-circle-1 {
+				background-color: #bcb8b6;					
+			}
+			.color-circle-2 {
+				background-color: #902914;				
+			}
+			.color-circle-3 {
+				background-color: #d74991;					
+			}
+			.color-circle-4 {
+				background-color: #e6ce00;
+			}
+			.color-circle-5 {
+				background-color: #1642b2;	
+			}
+			.color-circle-6 {
+				background-color: #e97300;										
+			}
+			.color-circle-7 {
+				background-color: #59a229;											
+			}
+			.color-circle-8 {
+				background-color: #0f9fa8;											
+			}
+		}
+		.designations-square-list {
+			@include border-box;
+			width: 100%;
+			max-width: 235px;
+			margin: 13px 0 0 0;
+			overflow: hidden;
+			.basket-block {
+				.count {
+					overflow: hidden;
+					margin: 10px 0;
+					img {
+						float: left;
+						margin-right: 10px;
+					}
+					.total-price {
+						color: #262626;
+						font: 700 18px / 43px $family;
+						.total-count {
+							padding-right: 15px;
+						}
+					}
+				}
+			}
+			.btn-container {
+				clear: both;
+				overflow: hidden;
+
+				.paypal-btn {
+					float: left;
+					margin-top: 12px;
+				}
+
+				.reservation-btn {
+					float: right;
+					display: inline-block;
+					width: 103px;
+					height: 41px;
+
+					margin: 0;
+					overflow: hidden;
+
+					color: #fff;
+					font: 700 20px / 43px $family;
+					text-align: center;
+					background-color: #74023b;
+					-webkit-border-radius: 10px;
+					-moz-border-radius: 10px;
+					border-radius: 10px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 500px) {
+	.designations-block {
+		.designations-sircle-list {
+
+			li {
+				display: block;
+				width: 115px;
+				margin: 10px 0;
+
+				&:nth-child(odd) {
+					float: left;
+				} 
+				&:nth-child(even) {
+					float: left;
+				} 
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.designations-block {
+		.designations-sircle-list {
+			float: left;
+		}
+		.designations-square-list {
+			float: right;
+			margin: 0;
+		}
+	}
+}
+@media (min-width: 1024px) {
+	.designations-block {
+		.designations-square-list {
+			margin: 0 60px 0 0;
+		}
+	}
+}

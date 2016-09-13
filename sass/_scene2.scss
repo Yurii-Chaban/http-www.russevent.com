@@ -112,106 +112,6 @@ $family: 'Open Sans', sans-serif;
 				}
 			}
 
-			.designations-block {
-				overflow: hidden;
-				margin: 0 auto 58px;
-				.designations-title {
-					margin: 12px 0 0 0;
-					color: #75023B;
-					font:  700 22px / 41px $family;
-					clear: both;
-				}
-				.designations-sircle-list {
-					@include border-box;
-					width: 100%;
-					margin: 0 auto;
-					overflow: hidden;
-
-					li {
-						display: block;
-						margin: 15px 0;
-					}
-					.circle-1,
-					.circle-2,
-					.circle-3 {
-						span {
-							color: #262626;
-							font: 700 21px / 40px $family;
-						}
-					}
-					.color-circle-1,
-					.color-circle-2,
-					.color-circle-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-						margin: 0 8px 0 0;
-						border-radius: 100%;
-					}
-					.color-circle-1 {
-						background: #840343;					
-					}
-					.color-circle-2 {
-						background: #C00463;					
-					}
-					.color-circle-3 {
-						background: #E7CE00;					
-					}
-				}
-				.designations-square-list {
-					@include border-box;
-					width: 100%;
-					margin: 13px 0 0 0;
-					overflow: hidden;
-
-					li {
-						display: block;
-						width: 100%;
-						margin: 10px auto;
-						clear: both;
-						overflow: hidden;
-					}
-
-					.square-1,
-					.square-2,
-					.square-3 {
-						span {
-							float: left;
-							overflow: hidden;
-							font: 400 18px / 20px $family;
-							color: #262626;
-							margin-top: -5px;
-						}
-					}
-					.square-2 {
-						span {
-							margin: 7px 0 0;
-						}
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						margin-right: 10px;
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-					}
-					.color-square-1 {
-						background: #BCB8B5;					
-					}
-					.color-square-2 {
-						background: #5A009E;					
-					}
-					.color-square-3 {
-						background: #ED6A00;					
-					}
-				}
-			}
 		}
 	}
 	/*----------------------------------------------*/
@@ -261,29 +161,6 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 
-	.reservation-btn {
-		display: block;
-		width: 205px;
-		height: 43px;
-
-		margin: 43px 0 0 380px;
-		overflow: hidden;
-
-		color: #fff;
-		font: 700 20px / 43px $family;
-		text-align: center;
-		background: #74033B;
-		-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
-		border-radius: 10px;
-		box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
-		@include transition;
-		&:hover {
-			-webkit-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-			-moz-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-			box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		}
-	}
 	.scene2 {
 
 		.left-side-block {
@@ -620,7 +497,7 @@ $family: 'Open Sans', sans-serif;
 			-moz-transform: rotate(90deg);
 			-o-transform: rotate(90deg);
 			transform: rotate(-90deg);
-			z-index: 100;
+			z-index: 0;
 			margin: 70px 0 0 0;
 			position: relative;
 			left: -45%;
@@ -1023,24 +900,6 @@ $family: 'Open Sans', sans-serif;
 }
 /*--------480---------*/
 @media (min-width: 480px) {
-	.site-container {
-		.designations-block {
-			margin: 0 auto 40px !important;
-			.designations-sircle-list {
-				width: 50% !important;
-				float: left;
-			}
-			.designations-square-list {
-				width: 50% !important;
-				float: left;
-				margin: 0 !important;
-
-				li {
-					margin: 20px 0 !important;
-				}
-			}
-		}
-	}
 	.scene {
 		width: 100%;
 		margin-top: 31px;
@@ -1053,9 +912,6 @@ $family: 'Open Sans', sans-serif;
 			.center-block {
 				left: -15%;
 			}
-		}
-		.reservation-btn {
-			margin: 43px auto;
 		}
 	}
 }
@@ -1087,7 +943,7 @@ $family: 'Open Sans', sans-serif;
 			-o-transform: rotate(0);
 			transform: rotate(0);
 			left: 15% !important;
-			z-index: auto;
+			z-index: 0;
 		}
 		.left-center-block {
 			margin-top: 0;
@@ -1152,114 +1008,6 @@ $family: 'Open Sans', sans-serif;
 				}
 			}
 
-			.designations-block {
-				overflow: hidden;
-				margin: 0 auto 58px;
-				.designations-title {
-					margin: 12px 0 0 17px;
-					color: #75023B;
-					font:  700 22px / 41px $family;
-				}
-				.designations-sircle-list {
-					float: left;
-					@include border-box;
-					width: 37% !important;
-					margin: 13px 0 0 17px;
-					overflow: hidden;
-
-					li {
-						display: inline-block;
-						margin-left: 36px;
-
-						&:first-child {
-							margin-left: 0;
-						}
-					}
-					.circle-1,
-					.circle-2,
-					.circle-3 {
-						span {
-							color: #262626;
-							font: 700 21px / 40px $family;
-						}
-					}
-					.color-circle-1,
-					.color-circle-2,
-					.color-circle-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-						margin: 0 8px 0 0;
-						border-radius: 100%;
-					}
-					.color-circle-1 {
-						background: #840343;					
-					}
-					.color-circle-2 {
-						background: #C00463;					
-					}
-					.color-circle-3 {
-						background: #E7CE00;					
-					}
-				}
-				.designations-square-list {
-					float: right;
-					@include border-box;
-					display: -webkit-flex;
-					display: flex;
-					width: 56% !important;
-					margin: 13px 0 0 0 !important;
-					overflow: hidden;
-
-					li {
-						width: auto !important;
-						display: inline-block;
-						margin-left: 27px !important;
-
-						&:first-child { 
-							margin-left: 0 !important;
-						}
-					}
-
-					.square-1,
-					.square-2,
-					.square-3 {
-						span {
-							float: left;
-							overflow: hidden;
-							font: 400 18px / 20px $family;
-							color: #262626;
-						}
-					}
-					.square-2 {
-						span {
-							margin: 7px 0 0;
-						}
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						margin-right: 10px;
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-					}
-					.color-square-1 {
-						background: #BCB8B5;					
-					}
-					.color-square-2 {
-						background: #5A009E;					
-					}
-					.color-square-3 {
-						background: #ED6A00;					
-					}
-				}
-			}
 			.scene-block,
 			.scene2-block {
 				clear: both;
@@ -1311,30 +1059,6 @@ $family: 'Open Sans', sans-serif;
 		    	}
 		    }
 
-		    .reservation-btn {
-		    	display: block;
-		    	width: 205px;
-		    	height: 43px;
-		    	
-		    	// margin: 43px auto 0;
-		    	margin: 43px 0 0 380px;
-		    	overflow: hidden;
-
-		    	color: #fff;
-		    	font: 700 20px / 43px $family;
-		    	text-align: center;
-		    	background: #74033B;
-		    	-webkit-border-radius: 10px;
-		    	-moz-border-radius: 10px;
-		    	border-radius: 10px;
-		    	box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
-		    	@include transition;
-		    	&:hover {
-		    		-webkit-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		    		-moz-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		    		box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		    	}
-		    }
 		  } 
 		  .according-block {
 		  	padding-top: 8px;
@@ -1510,7 +1234,7 @@ $family: 'Open Sans', sans-serif;
 			clear: both;
 			// overflow: hidden;
 			padding-top: 45px;
-			height: 485px;
+			height: 700px;
 		}
 		.left-center-block,
 		.right-center-block,
@@ -1675,14 +1399,14 @@ $family: 'Open Sans', sans-serif;
 		.center-block {
 			width: 541px;
 			position: relative;
-			top: -375px;
-			z-index: auto;
+			top: -170px;
+			z-index: 0;
 			left: 210px !important;
 
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 99;
+				z-index: 99 !important;
 			}
 
 			.hover-block{
@@ -1906,4 +1630,65 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 	}
+}
+.top-transform {
+	.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M, .N, .O {
+				@include border-box;
+				width: 100%;
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+
+				li {
+					position: relative;
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					text-align: center;
+					margin: 0;
+					a {
+						overflow: hidden;
+						display: inline-block;
+						text-align: center;
+						color: white;
+						font: 400 7px / 15px $family;
+					}
+				}
+				.hoverParent {
+					position: relative;
+					&:hover .hover-block {
+						display: block !important;
+						z-index: 9999999999;
+						left: 0;
+						right: 0;
+					}
+				}
+				.reserved {
+					background-color: #bcb8b6;
+				}
+				.ather-backets {
+					background-color: #ed6a00;
+				}
+				.in-the-basket {
+					background-color: #5A009E;
+				}
+				.cheap-price {
+					background-color: #E7CE00;
+				}
+				.average-price {
+					background-color: #C00463;
+				}
+				.highest-price {
+					background-color: #840343;
+				}
+				.series-name {
+					a {
+						color: #000;
+						font: 400 7px / 14px $family;
+						text-transform: uppercase;
+					}
+				}
+			}
 }

@@ -173,106 +173,6 @@ $family: 'Open Sans', sans-serif;
 				}
 			}
 
-			.designations-block {
-				overflow: hidden;
-				margin: 0 auto 58px;
-				.designations-title {
-					margin: 12px 0 0 0;
-					color: #75023B;
-					font:  700 22px / 41px $family;
-					clear: both;
-				}
-				.designations-sircle-list {
-					@include border-box;
-					width: 100%;
-					margin: 0 auto;
-					overflow: hidden;
-
-					li {
-						display: block;
-						margin: 15px 0;
-					}
-					.circle-1,
-					.circle-2,
-					.circle-3 {
-						span {
-							color: #262626;
-							font: 700 21px / 40px $family;
-						}
-					}
-					.color-circle-1,
-					.color-circle-2,
-					.color-circle-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-						margin: 0 8px 0 0;
-						border-radius: 100%;
-					}
-					.color-circle-1 {
-						background: #840343;					
-					}
-					.color-circle-2 {
-						background: #C00463;					
-					}
-					.color-circle-3 {
-						background: #E7CE00;					
-					}
-				}
-				.designations-square-list {
-					@include border-box;
-					width: 100%;
-					margin: 13px 0 0 0;
-					overflow: hidden;
-
-					li {
-						display: block;
-						width: 100%;
-						margin: 10px auto;
-						clear: both;
-						overflow: hidden;
-					}
-
-					.square-1,
-					.square-2,
-					.square-3 {
-						span {
-							float: left;
-							overflow: hidden;
-							font: 400 18px / 20px $family;
-							color: #262626;
-							margin-top: -5px;
-						}
-					}
-					.square-2 {
-						span {
-							margin: 7px 0 0;
-						}
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						margin-right: 10px;
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-					}
-					.color-square-1 {
-						background: #BCB8B5;					
-					}
-					.color-square-2 {
-						background: #5A009E;					
-					}
-					.color-square-3 {
-						background: #ED6A00;					
-					}
-				}
-			}
 			.scene-block,
 			.scene4-block {
 				clear: both;
@@ -362,28 +262,6 @@ $family: 'Open Sans', sans-serif;
 					}
 				}
 
-				.reservation-btn {
-					display: block;
-					width: 205px;
-					height: 43px;
-					margin: 100px auto 0;
-					position: relative;
-					z-index: 999999999;
-					color: #fff;
-					font: 700 20px / 43px $family;
-					text-align: center;
-					background: #74033B;
-					-webkit-border-radius: 10px;
-					-moz-border-radius: 10px;
-					border-radius: 10px;
-					box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
-					@include transition;
-					&:hover {
-						-webkit-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-						-moz-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-						box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-					}
-				}
 			} 
 			.according-block {
 				padding-top: 8px;
@@ -1053,7 +931,6 @@ $family: 'Open Sans', sans-serif;
 		transform: rotate(-90deg);
     height: 195px;
     padding: 10px 0 0 0;
-    overflow: hidden;
     z-index: 99999;
 		.A-left, .B-left, 
 		.C-left, .D-left, 
@@ -1067,6 +944,9 @@ $family: 'Open Sans', sans-serif;
 			-moz-transform: rotate(10deg);
 			-o-transform: rotate(10deg);
 			transform: rotate(10deg);
+		}
+		.B-left {
+	    width: 415px !important;
 		}
 
 		.A-right, .B-right, 
@@ -2475,29 +2355,6 @@ $family: 'Open Sans', sans-serif;
 	}
 }
 
-.reservation-btn {
-	display: block;
-	width: 205px;
-	height: 43px;
-
-	margin: 43px 0 0 380px;
-	overflow: hidden;
-
-	color: #fff;
-	font: 700 20px / 43px $family;
-	text-align: center;
-	background: #74033B;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
-	@include transition;
-	&:hover {
-		-webkit-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		-moz-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-		box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-	}
-}
 .scene-block {
 
 	.hover-block {
@@ -2739,24 +2596,6 @@ $family: 'Open Sans', sans-serif;
 }
 /*--------480---------*/
 @media (min-width: 376px) {
-	.site-container {
-		.designations-block {
-			margin: 0 auto 40px !important;
-			.designations-sircle-list {
-				width: 49% !important;
-				float: left;
-			}
-			.designations-square-list {
-				width: 51% !important;
-				float: left;
-				margin: 0 !important;
-
-				li {
-					margin: 20px 0 !important;
-				}
-			}
-		}
-	}
 	.balcony-block {
 		.block-title {
 			margin: 0 auto 40px;
@@ -2990,21 +2829,8 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 	}
-	.reservation-btn {
-		margin: 43px auto;
-	}
 }
 @media (min-width: 414px) and (max-width: 415px) {
-	.site-container {
-		.designations-block {
-			.designations-sircle-list {
-				width: 40% !important;
-			}
-			.designations-square-list {
-				width: 59% !important;
-			}
-		}
-	}
 	.scene {
 		.scene4 {
 			.center-places {
@@ -3110,24 +2936,6 @@ $family: 'Open Sans', sans-serif;
 }
 /*---------------481 to 767----------------*/
 @media (min-width: 481px) and (max-width: 539px) {
-	.site-container {
-		.designations-block {
-			margin: 0 auto 40px !important;
-			.designations-sircle-list {
-				width: 49% !important;
-				float: left;
-			}
-			.designations-square-list {
-				width: 51% !important;
-				float: left;
-				margin: 0 !important;
-
-				li {
-					margin: 20px 0 !important;
-				}
-			}
-		}
-	}
 	.balcony-block {
 		.block-title {
 			margin: 0 auto 40px;
@@ -3363,30 +3171,9 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 	}
-	.reservation-btn {
-		margin: 43px auto;
-	}
 }
 /*---------------540 to 640----------------*/
 @media (min-width: 540px) and (max-width: 640px) {
-	.site-container {
-		.designations-block {
-			margin: 0 auto 40px !important;
-			.designations-sircle-list {
-				width: 49% !important;
-				float: left;
-			}
-			.designations-square-list {
-				width: 51% !important;
-				float: left;
-				margin: 0 !important;
-
-				li {
-					margin: 20px 0 !important;
-				}
-			}
-		}
-	}
 	.balcony-block {
 		.block-title {
 			margin: 0 auto 40px;
@@ -3632,9 +3419,6 @@ $family: 'Open Sans', sans-serif;
 			}
 		}
 	}
-	.reservation-btn {
-		margin: 43px auto;
-	}
 }
 /*--------768---------*/
 @media (min-width: 641px) and (max-width: 767px) {
@@ -3661,6 +3445,8 @@ $family: 'Open Sans', sans-serif;
 				-moz-transform: rotate(0deg);
 				-o-transform: rotate(0deg);
 				transform: rotate(0deg);
+				overflow: hidden;
+
 			}
 			.eight-place {
 				width: 400px;
@@ -4227,6 +4013,18 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+	.scene {
+		.scene4 {
+			.top-transform {
+				.D-left {
+					left: -153px;
+    			top: -1px;
+				}
+			}
+		}
+	}
+}
 @media (min-width: 801px) and (max-width: 889px) {
 	.according-block {
 		.according-list {
@@ -4755,114 +4553,6 @@ $family: 'Open Sans', sans-serif;
 				}
 			}
 
-			.designations-block {
-				overflow: hidden;
-				margin: 0 auto 58px;
-				.designations-title {
-					margin: 12px 0 0 17px;
-					color: #75023B;
-					font:  700 22px / 41px $family;
-				}
-				.designations-sircle-list {
-					float: left;
-					@include border-box;
-					width: 37% !important;
-					margin: 13px 0 0 17px;
-					overflow: hidden;
-
-					li {
-						display: inline-block;
-						margin-left: 36px;
-
-						&:first-child {
-							margin-left: 0;
-						}
-					}
-					.circle-1,
-					.circle-2,
-					.circle-3 {
-						span {
-							color: #262626;
-							font: 700 21px / 40px $family;
-						}
-					}
-					.color-circle-1,
-					.color-circle-2,
-					.color-circle-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-						margin: 0 8px 0 0;
-						border-radius: 100%;
-					}
-					.color-circle-1 {
-						background: #840343;					
-					}
-					.color-circle-2 {
-						background: #C00463;					
-					}
-					.color-circle-3 {
-						background: #E7CE00;					
-					}
-				}
-				.designations-square-list {
-					float: right;
-					@include border-box;
-					display: -webkit-flex;
-					display: flex;
-					width: 56% !important;
-					margin: 13px 0 0 0 !important;
-					overflow: hidden;
-
-					li {
-						display: inline-block;
-						margin-left: 27px !important;
-						width: auto !important;
-
-						&:first-child {
-							margin-left: 0 !important;
-						}
-					}
-
-					.square-1,
-					.square-2,
-					.square-3 {
-						span {
-							float: left;
-							overflow: hidden;
-							font: 400 18px / 20px $family;
-							color: #262626;
-						}
-					}
-					.square-2 {
-						span {
-							margin: 7px 0 0;
-						}
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						margin-right: 10px;
-					}
-					.color-square-1,
-					.color-square-2,
-					.color-square-3 {
-						float: left;
-						width: 36px;
-						height: 36px;
-					}
-					.color-square-1 {
-						background: #BCB8B5;					
-					}
-					.color-square-2 {
-						background: #5A009E;					
-					}
-					.color-square-3 {
-						background: #ED6A00;					
-					}
-				}
-			}
 			.scene-block,
 			.scene4-block {
 				clear: both;
@@ -4951,26 +4641,6 @@ $family: 'Open Sans', sans-serif;
 					}
 				}
 
-				.reservation-btn {
-					display: block;
-					width: 205px;
-					height: 43px;
-					margin: 43px auto 0;
-					color: #fff;
-					font: 700 20px / 43px $family;
-					text-align: center;
-					background: #74033B;
-					-webkit-border-radius: 10px;
-					-moz-border-radius: 10px;
-					border-radius: 10px;
-					box-shadow: 2.5px 4.3px 9px rgba(0, 0, 0, 0.56);
-					@include transition;
-					&:hover {
-						-webkit-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-						-moz-box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-						box-shadow: 2.5px 4.3px 9px rgba(116,2,59,1);
-					}
-				}
 			} 
 			.according-block {
 				padding-top: 8px;

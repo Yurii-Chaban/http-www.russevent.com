@@ -86,7 +86,6 @@ $family: 'Open Sans', sans-serif;
 }
 a {
 	text-decoration: none;
-	cursor: pointer;
 }
 
 
@@ -1389,6 +1388,7 @@ footer {
 }
 /*------------------------------------------------*/
 }
+@import "legend";
 @import "bilet-more";
 @import "bilet_pokupka";
 @import "poster-page";
