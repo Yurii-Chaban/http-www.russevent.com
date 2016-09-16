@@ -929,9 +929,9 @@ $family: 'Open Sans', sans-serif;
 		-moz-transform: rotate(-90deg);
 		-o-transform: rotate(-90deg);
 		transform: rotate(-90deg);
-    height: 195px;
-    padding: 10px 0 0 0;
-    z-index: 99999;
+		height: 195px;
+		padding: 10px 0 0 0;
+		z-index: 99999;
 		.A-left, .B-left, 
 		.C-left, .D-left, 
 		.E-left {
@@ -946,7 +946,7 @@ $family: 'Open Sans', sans-serif;
 			transform: rotate(10deg);
 		}
 		.B-left {
-	    width: 415px !important;
+			width: 415px !important;
 		}
 
 		.A-right, .B-right, 
@@ -1847,14 +1847,17 @@ $family: 'Open Sans', sans-serif;
 	.block7-1 {
 		top: 0;
 		right: 50px;
+		z-index: 1;
 	}
 	.block7-2 {
 		top: -24px;
 		right: 13px;
+		z-index: 1;
 	}
 	.block7-3 {
 		top: -24px;
 		right: -8px;
+		z-index: 1;
 
 		li {
 			margin: 2px 5px;
@@ -2273,8 +2276,8 @@ $family: 'Open Sans', sans-serif;
 		overflow: hidden;
 		width: 46px;
 		position: relative;
-    top: -232px;
-    right: 73px;
+		top: -232px;
+		right: 73px;
 	}
 	.right-alone-EE {
 		float: right;
@@ -4019,7 +4022,7 @@ $family: 'Open Sans', sans-serif;
 			.top-transform {
 				.D-left {
 					left: -153px;
-    			top: -1px;
+					top: -1px;
 				}
 			}
 		}
@@ -5324,7 +5327,7 @@ $family: 'Open Sans', sans-serif;
 		}
 		.D-left {
 			left: -153px;
-    	top: -1px;
+			top: -1px;
 		}
 
 		.A-right, .B-right, 
@@ -6165,8 +6168,8 @@ $family: 'Open Sans', sans-serif;
 	overflow: hidden;
 	position: relative;
 	padding: 0;
-	top: -28px;
-	right: 50px;
+	top: -26px;
+	right: 80px;
 
 	.block7-1, 
 	.block7-2, 
@@ -6230,12 +6233,12 @@ $family: 'Open Sans', sans-serif;
 		right: 50px;
 	}
 	.block7-2 {
-		top: -24px;
-		right: 13px;
+		top: -21px;
+		right: 5px;
 	}
 	.block7-3 {
 		top: -24px;
-		right: -8px;
+		right: -17px;
 
 		li {
 			margin: 2px 5px;
@@ -6324,16 +6327,19 @@ $family: 'Open Sans', sans-serif;
 		}
 	}	
 	.block8-1 {
-		top: 82px;
-		left: 27px;
+		top: 84px;
+		left: 29px;
+		z-index: 1;
 	}
 	.block8-2 {
-		top: 80px;
-		left: -2px;
+		top: 82px;
+		left: -1px;
+		z-index: 1;
 	}
 	.block8-3 {
-		top: 37px;
-		left: -56px;
+		top: 42px;
+		left: -50px;
+		z-index: 1;
 
 		li {
 			margin: 2px 5px;
@@ -6364,6 +6370,7 @@ $family: 'Open Sans', sans-serif;
 .third-row {
 	position: relative;
 	top: -100px;
+	margin-bottom: 10px !important;
 }
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -6481,8 +6488,8 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 	.right-alone-DD {
-    top: -206px !important;
-    right: 93px !important;
+		top: -206px !important;
+		right: 93px !important;
 	}
 	.balcony-left-side-AA,
 	.balcony-left-side-BB,
@@ -6505,13 +6512,14 @@ $family: 'Open Sans', sans-serif;
 	}
 	.balcony-left-side-AA {
 		top: -6px;
-		left: -150px;
-		z-index: 8;
+    left: -151px;
+    z-index: 8;
 	}
 	.balcony-left-side-BB {
-		top: -18px;
-		left: -181px;
-	z-index: 7;	
+		top: -26px;
+    left: -195px;
+    width: 230px;
+    z-index: 7;	
 	}
 	.balcony-left-side-CC {
 		top: -30px;
@@ -6535,8 +6543,8 @@ $family: 'Open Sans', sans-serif;
 	}
 	.balcony-left-side-GG {
 		top: -29px;
-    left: -260px;
-    z-index: 2;
+		left: -260px;
+		z-index: 2;
 	}
 	.balcony-left-side-HH {
 		top: -18px;
@@ -6588,38 +6596,38 @@ $family: 'Open Sans', sans-serif;
 	.balcony-center-side-BB {
 		left: 387px;
 		max-width: 207px;
-    float: left;
+		float: left;
 	}
 	.balcony-center-side-CC {
 		left: 374px;
 		float: left;
-    width: 230px;
+		width: 230px;
 
 	}
 	.balcony-center-side-DD {
 		left: 363px;
 		float: left;
-    width: 260px;
+		width: 260px;
 	}
 	.balcony-center-side-EE {
 		left: 351px;
 		float: left;
-    width: 276px;
+		width: 276px;
 	}
 	.balcony-center-side-FF {
 		left: 340px;
-    float: left;
-    width: 300px;
+		float: left;
+		width: 300px;
 	}
 	.balcony-center-side-GG {
 		left: 328px;
 		float: left;
-    width: 325px;
+		width: 325px;
 	}
 	.balcony-center-side-HH {
 		left: 305px;
-    float: left;
-    width: 370px;
+		float: left;
+		width: 370px;
 	}
 	.balcony-right-side-AA,
 	.balcony-right-side-BB,
@@ -6642,19 +6650,22 @@ $family: 'Open Sans', sans-serif;
 		z-index: 9;
 	}
 	.balcony-right-side-AA {
-		top: -111px;
-		right: -196px;
+		top: -98px;
+		right: -176px;
 		z-index: 8;
+		width: 210px;
 	}
 	.balcony-right-side-BB {
-		top: -111px;
-		right: -209px;
+		top: -104px;
+		right: -197px;
+		width: 231px;
 		z-index: 7;
 	}
 	.balcony-right-side-CC {
-		top: -111px;
-		right: -220px;
+		top: -109px;
+		right: -218px;
 		z-index: 6;
+		width: 255px;
 	}
 	.balcony-right-side-DD {
 		top: -115px;
@@ -6697,8 +6708,8 @@ $family: 'Open Sans', sans-serif;
 		overflow: hidden;
 		width: 46px;
 		position: relative;
-    top: -206px;
-    right: 83px;	
+		top: -206px;
+		right: 83px;	
 	}
 	.right-alone-FF {
 		float: right;
@@ -6713,6 +6724,14 @@ $family: 'Open Sans', sans-serif;
 	.EE, .FF, .GG, .HH {
 		padding-top: 15px;
 		height: 165px;
+	}
+	.AA {
+		width: 558px;
+		.balcony-center-side-AA {
+			left: 188px;
+			max-width: 184px;
+			float: left;
+		}
 	}
 	.BB, .CC, .DD,
 	.EE, .FF, .GG, .HH {
