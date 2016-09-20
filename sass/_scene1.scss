@@ -167,6 +167,7 @@ $family: 'Open Sans', sans-serif;
 			clear: both;
 
 			.scene1-left-side {
+				position: relative;
 				float: left;
 				.A, .B, .C, .D, .E,
 				.F, .G, .H, .J, .I,
@@ -222,6 +223,7 @@ $family: 'Open Sans', sans-serif;
 			}
 			.scene1-center {
 				float: left;
+				position: relative;
 			// margin: 0 0 20px 5%;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
@@ -277,6 +279,7 @@ $family: 'Open Sans', sans-serif;
 		}
 		.scene1-right-side {
 			float: left;
+			position: relative;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {

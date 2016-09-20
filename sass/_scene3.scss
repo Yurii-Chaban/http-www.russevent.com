@@ -137,6 +137,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-left-side-block {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-left-side-A,
 			.scene3-left-side-B,
 			.scene3-left-side-C,
@@ -207,6 +208,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-left-center-side-block {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-left-center-side-A,
 			.scene3-left-center-side-B,
 			.scene3-left-center-side-C,
@@ -277,6 +279,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-center-block {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-center-side-A,
 			.scene3-center-side-B,
 			.scene3-center-side-C,
@@ -347,6 +350,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-right-center-block {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-right-center-side-A,
 			.scene3-right-center-side-B,
 			.scene3-right-center-side-C,
@@ -417,6 +421,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-right-side-block {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-right-side-side-A,
 			.scene3-right-side-side-B,
 			.scene3-right-side-side-C,
@@ -487,6 +492,7 @@ $family: 'Open Sans', sans-serif;
 		.scene3-right-side-block-mobile {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 			.scene3-right-side-side-A,
 			.scene3-right-side-side-B,
 			.scene3-right-side-side-C,
@@ -563,6 +569,7 @@ $family: 'Open Sans', sans-serif;
 		.balcony-right-side {
 			float: left;
 			margin: 20px 0;
+			position: relative;
 		}
 		.balcony-left-side {
 			.balcony-left-side-AA,
@@ -1088,7 +1095,7 @@ $family: 'Open Sans', sans-serif;
 		    	height: auto;
 		    	
 		    	.balcony {
-				    padding: 0 112px;
+		    		padding: 0 112px;
 		    	}
 		    }
 
@@ -1207,6 +1214,186 @@ $family: 'Open Sans', sans-serif;
 				}
 				.color-square-3 {
 					background: #ED6A00;					
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+	.dm-overlay {
+		.scene3-left-side-block,
+		.scene3-left-center-side-block,
+		.scene3-center-block,
+		.scene3-right-center-block,
+		.scene3-right-side-block,
+		.scene3-right-side-block-mobile,
+		.balcony-left-side,
+		.balcony-center,
+		.balcony-right-side {
+			width: 100%;
+			.scene3-left-side-A,
+			.scene3-left-side-B,
+			.scene3-left-side-C,
+			.scene3-left-side-D,
+			.scene3-left-side-E,
+			.scene3-left-side-F,
+			.scene3-left-side-G,
+			.scene3-left-side-H,
+			.scene3-left-side-J,
+			.scene3-left-side-K,
+			.scene3-left-side-L,
+			.scene3-left-side-M,
+			.scene3-left-side-N,
+			.scene3-left-side-P,
+			.scene3-left-side-Q,
+			.scene3-left-side-R,
+			.scene3-left-side-S,
+			.scene3-left-side-T,
+			.scene3-left-side-U,
+			.scene3-left-side-V,
+			.scene3-left-center-side-A,
+			.scene3-left-center-side-B,
+			.scene3-left-center-side-C,
+			.scene3-left-center-side-D,
+			.scene3-left-center-side-E,
+			.scene3-left-center-side-F,
+			.scene3-left-center-side-G,
+			.scene3-left-center-side-H,
+			.scene3-left-center-side-J,
+			.scene3-left-center-side-K,
+			.scene3-left-center-side-L,
+			.scene3-left-center-side-M,
+			.scene3-left-center-side-N,
+			.scene3-left-center-side-P,
+			.scene3-left-center-side-Q,
+			.scene3-left-center-side-R,
+			.scene3-left-center-side-S,
+			.scene3-left-center-side-T,
+			.scene3-left-center-side-U,
+			.scene3-left-center-side-V,
+			.scene3-center-side-A,
+			.scene3-center-side-B,
+			.scene3-center-side-C,
+			.scene3-center-side-D,
+			.scene3-center-side-E,
+			.scene3-center-side-F,
+			.scene3-center-side-G,
+			.scene3-center-side-H,
+			.scene3-center-side-J,
+			.scene3-center-side-K,
+			.scene3-center-side-L,
+			.scene3-center-side-M,
+			.scene3-center-side-N,
+			.scene3-center-side-P,
+			.scene3-center-side-Q,
+			.scene3-center-side-R,
+			.scene3-center-side-S,
+			.scene3-center-side-T,
+			.scene3-center-side-U,
+			.scene3-center-side-V,
+			.scene3-right-center-side-A,
+			.scene3-right-center-side-B,
+			.scene3-right-center-side-C,
+			.scene3-right-center-side-D,
+			.scene3-right-center-side-E,
+			.scene3-right-center-side-F,
+			.scene3-right-center-side-G,
+			.scene3-right-center-side-H,
+			.scene3-right-center-side-J,
+			.scene3-right-center-side-K,
+			.scene3-right-center-side-L,
+			.scene3-right-center-side-M,
+			.scene3-right-center-side-N,
+			.scene3-right-center-side-P,
+			.scene3-right-center-side-Q,
+			.scene3-right-center-side-R,
+			.scene3-right-center-side-S,
+			.scene3-right-center-side-T,
+			.scene3-right-center-side-U,
+			.scene3-right-center-side-V,
+			.scene3-right-side-side-A,
+			.scene3-right-side-side-B,
+			.scene3-right-side-side-C,
+			.scene3-right-side-side-D,
+			.scene3-right-side-side-E,
+			.scene3-right-side-side-F,
+			.scene3-right-side-side-G,
+			.scene3-right-side-side-H,
+			.scene3-right-side-side-J,
+			.scene3-right-side-side-K,
+			.scene3-right-side-side-L,
+			.scene3-right-side-side-M,
+			.scene3-right-side-side-N,
+			.scene3-right-side-side-P,
+			.scene3-right-side-side-Q,
+			.scene3-right-side-side-R,
+			.scene3-right-side-side-S,
+			.scene3-right-side-side-T,
+			.scene3-right-side-side-U,
+			.scene3-right-side-side-V,
+			.balcony-left-side-AA,
+			.balcony-left-side-BB,
+			.balcony-left-side-CC,
+			.balcony-left-side-DD,
+			.balcony-left-side-EE,
+			.balcony-left-side-FF,
+			.balcony-left-side-GG,
+			.balcony-left-side-HH,
+			.balcony-left-side-JJ,
+			.balcony-left-side-KK,
+			.balcony-left-side-LL,
+			.balcony-left-side-MM,
+			.balcony-center-AA,
+			.balcony-center-BB,
+			.balcony-center-CC,
+			.balcony-center-DD,
+			.balcony-center-EE,
+			.balcony-center-FF,
+			.balcony-center-GG,
+			.balcony-center-HH,
+			.balcony-center-JJ,
+			.balcony-center-KK,
+			.balcony-center-LL,
+			.balcony-center-MM,
+			.balcony-right-side-AA,
+			.balcony-right-side-BB,
+			.balcony-right-side-CC,
+			.balcony-right-side-DD,
+			.balcony-right-side-EE,
+			.balcony-right-side-FF,
+			.balcony-right-side-GG,
+			.balcony-right-side-HH,
+			.balcony-right-side-JJ,
+			.balcony-right-side-KK,
+			.balcony-right-side-LL,
+			.balcony-right-side-MM {
+				width: 100%;
+				overflow: hidden;
+				margin: 0 auto;
+
+				li {
+					display: block;
+					float: left;
+					width: 37px;
+					height: 37px;
+					margin: 2px;
+					a {
+						overflow: hidden;
+						display: block;
+						text-align: center;
+						color: white;
+						font: 400 16px / 37px $family;
+					}
+				}
+				.series-name {
+					a {
+						color: #000;
+						font: 400 16px / 37px $family;
+						text-transform: uppercase;
+					}
 				}
 			}
 		}
