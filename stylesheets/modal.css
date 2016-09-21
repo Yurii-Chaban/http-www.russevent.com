@@ -47,14 +47,26 @@ code {
     background-color: inherit;
     background-clip: padding-box;
     position: absolute;
-    z-index: 1;
+    z-index: 9999999;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
 .btn:hover {
-    background: rgba(255, 218, 185, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+/*.btn:hover .left-center-block,
+.btn:hover .center-block,
+.btn:hover .right-center-block {
+    z-index: 1 !important;
+}*/
+.left-center-block .btn:hover .left-center-block {
+    z-index: 99;
 }
 /* Стили модального окна и содержания 
 -------------------------------------------------------------------------------*/

@@ -179,7 +179,7 @@ $family: 'Open Sans', sans-serif;
 				display: block;
 				float: right;
 				margin: 0 1px;
-				z-index: 9;
+				z-index: 1;
 
 				li {
 					display: block;
@@ -199,7 +199,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -252,7 +252,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -322,7 +322,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -358,13 +358,13 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 8;
+				z-index: 0;
 			}
 			.hoverParent {
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 9999999999;
+					z-index: 0;
 					left: -11px !important;
 					right: 0 !important;
 					top: -141px !important;
@@ -467,20 +467,20 @@ $family: 'Open Sans', sans-serif;
 			#right-center-block-L1,
 			#right-center-block-L2,
 			#right-center-block-M1 {
-				z-index: 999999 !important;
+				z-index: 0 !important;
 			}
 		}
 		.right-center-block {
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 100;
+				z-index: 0;
 			}
 			.hoverParent {
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 9999999999 !important;
+					z-index: 1 !important;
 					right: 0 !important;
 					left: -65px !important;
 					top: -208px !important;
@@ -505,6 +505,9 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			left: -45%;
 		}
+		.left-center-block.left-hover {
+			z-index: 9;
+		}
 		.right-center-block {
 			float: left;
 			width: 541px;
@@ -516,6 +519,9 @@ $family: 'Open Sans', sans-serif;
 			margin: 240px 0 0 0;
 			position: relative;
 			left: -45%;
+		}
+		.right-center-block.right-hover {
+			z-index: 9;
 		}
 		.center-block {
 			float: left;
@@ -532,7 +538,7 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 99;
+				z-index: 0;
 			}
 			.A {
 				max-width: 150px;
@@ -631,7 +637,7 @@ $family: 'Open Sans', sans-serif;
 				overflow: hidden;
 				position: absolute;
 				left: -9999999999px;
-				z-index: 9999999999;
+				z-index: 1;
 				top: 15px;
 				background-color: white;
 				box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
@@ -796,7 +802,7 @@ $family: 'Open Sans', sans-serif;
 			overflow: hidden;
 			position: absolute;
 			left: -9999999999px;
-			z-index: 9999999999;
+			z-index: 1;
 			background-color: white;
 			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
 
@@ -1140,7 +1146,7 @@ $family: 'Open Sans', sans-serif;
 				display: block;
 				float: right;
 				margin: 0 1px;
-				z-index: 9;
+				z-index: 1;
 
 				li {
 					display: block;
@@ -1160,7 +1166,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1214,7 +1220,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1287,7 +1293,7 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 9999999999;
+						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1323,7 +1329,7 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 8;
+				z-index: 1;
 				li {
 					cursor: pointer;
 					a {
@@ -1335,7 +1341,7 @@ $family: 'Open Sans', sans-serif;
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 9999999999;
+					z-index: 1;
 					left: -11px !important;
 					right: 0 !important;
 					top: -141px !important;
@@ -1351,7 +1357,7 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 100;
+				z-index: 0;
 				li {
 					cursor: pointer;
 					a {
@@ -1363,7 +1369,7 @@ $family: 'Open Sans', sans-serif;
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 9999999999 !important;
+					z-index: 1 !important;
 					right: 0 !important;
 					left: -65px !important;
 					top: -208px !important;
@@ -1387,7 +1393,7 @@ $family: 'Open Sans', sans-serif;
 			-moz-transform: rotate(73deg);
 			-o-transform: rotate(73deg);
 			transform: rotate(73deg);
-			z-index: 100;
+			z-index: 0;
 		}
 		.right-center-block {
 			float: right;
@@ -1414,7 +1420,7 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 99 !important;
+				z-index: 0 !important;
 			}
 
 			.hover-block{
@@ -1423,7 +1429,7 @@ $family: 'Open Sans', sans-serif;
 				overflow: hidden;
 				position: absolute;
 				left: -9999999999px;
-				z-index: 9999999999;
+				z-index: 1;
 				top: 15px;
 				background-color: white;
 				box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
@@ -1588,7 +1594,7 @@ $family: 'Open Sans', sans-serif;
 			overflow: hidden;
 			position: absolute;
 			left: -9999999999px;
-			z-index: 9999999999;
+			z-index: 1;
 			background-color: white;
 			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
 
@@ -1668,7 +1674,7 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			&:hover .hover-block {
 				display: block !important;
-				z-index: 9999999999;
+				z-index: 1;
 				left: 0;
 				right: 0;
 			}
@@ -1721,7 +1727,7 @@ $family: 'Open Sans', sans-serif;
 		.left-side-block,
 		.right-side-block {
 			margin: 0;
-			z-index: 1;
+			z-index: 0;
 			width: 100%;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
@@ -1766,7 +1772,7 @@ $family: 'Open Sans', sans-serif;
 				-moz-transform: rotate(0) !important;
 				-o-transform: rotate(0) !important;
 				transform: rotate(0) !important;
-				z-index: 100;
+				z-index: 0;
 				.A, .B, .C, .D, .E,
 				.F, .G, .H, .J, .I,
 				.K, .L, .M, .N, .O {
