@@ -71,19 +71,19 @@ var swiper_main = new Swiper('.swiper-container-bilet-more-mobile', {
     watchSlidesProgress: true,
     autoplayDisableOnInteraction: false
 });
-// on scene2 hover left-block
-$(".left-center-block .left-ceter").hover(
-  function() {
-    $(this).parent(".left-center-block").addClass("left-hover")
-  }, function() {
-    $(this).parent(".left-center-block").removeClass("left-hover")
-  }
-);
-// on scene2 hover rigth-block
-$(".right-center-block .right-ceter").hover(
-  function() {
-    $(this).parent(".right-center-block").addClass("right-hover")
-  }, function() {
-    $(this).parent(".right-center-block").removeClass("right-hover")
-  }
-);
+// // on scene2 hover left-block
+// $(".left-center-block .left-ceter").hover(
+//   function() {
+//     $(this).parent(".left-center-block").addClass("left-hover")
+//   }, function() {
+//     $(this).parent(".left-center-block").removeClass("left-hover")
+//   }
+// );
+// // on scene2 hover rigth-block
+// $(".right-center-block .right-ceter").hover(
+//   function() {
+//     $(this).parent(".right-center-block").addClass("right-hover")
+//   }, function() {
+//     $(this).parent(".right-center-block").removeClass("right-hover")
+//   }
+// );

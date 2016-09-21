@@ -167,9 +167,7 @@ $family: 'Open Sans', sans-serif;
 			float: left;
 			// overflow: hidden;
 			margin: 0 0 20px 5%;
-			// z-index: 2009;
 			position: relative;
-			z-index: 1;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {
@@ -179,7 +177,6 @@ $family: 'Open Sans', sans-serif;
 				display: block;
 				float: right;
 				margin: 0 1px;
-				z-index: 1;
 
 				li {
 					display: block;
@@ -199,7 +196,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -252,7 +248,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -322,7 +317,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -358,13 +352,11 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 0;
 			}
 			.hoverParent {
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 0;
 					left: -11px !important;
 					right: 0 !important;
 					top: -141px !important;
@@ -375,112 +367,12 @@ $family: 'Open Sans', sans-serif;
 					transform: rotate(-74deg);
 				}
 			}
-			#left-center-block-A1,
-			#left-center-block-C1,
-			#left-center-block-C2,
-			#left-center-block-D1,
-			#left-center-block-D2,
-			#left-center-block-E1,
-			#left-center-block-E2,
-			#left-center-block-E3,
-			#left-center-block-E4,
-			#left-center-block-F1,
-			#left-center-block-F2,
-			#left-center-block-F3,
-			#left-center-block-F4,
-			#left-center-block-F5,
-			#left-center-block-D1,
-			#left-center-block-D2,
-			#left-center-block-D3,
-			#left-center-block-D4,
-			#left-center-block-D5,
-			#left-center-block-H1,
-			#left-center-block-H2,
-			#left-center-block-H3,
-			#left-center-block-H4,
-			#left-center-block-H5,
-			#left-center-block-H6,
-			#left-center-block-I1,
-			#left-center-block-I2,
-			#left-center-block-I3,
-			#left-center-block-I4,
-			#left-center-block-I5,
-			#left-center-block-I6,
-			#left-center-block-I7,
-			#left-center-block-J1,
-			#left-center-block-J2,
-			#left-center-block-J3,
-			#left-center-block-J4,
-			#left-center-block-J5,
-			#left-center-block-J6,
-			#left-center-block-K1,
-			#left-center-block-K2,
-			#left-center-block-K3,
-			#left-center-block-K4,
-			#left-center-block-L1,
-			#left-center-block-L2,
-			#left-center-block-L3,
-			#right-center-block-B1,
-			#right-center-block-C1,
-			#right-center-block-C2,
-			#right-center-block-D1,
-			#right-center-block-D2,
-			#right-center-block-D3,
-			#right-center-block-E1,
-			#right-center-block-E2,
-			#right-center-block-E3,
-			#right-center-block-E4,
-			#right-center-block-F1,
-			#right-center-block-F2,
-			#right-center-block-F3,
-			#right-center-block-F4,
-			#right-center-block-F5,
-			#right-center-block-G1,
-			#right-center-block-G2,
-			#right-center-block-G3,
-			#right-center-block-G4,
-			#right-center-block-G5,
-			#right-center-block-H1,
-			#right-center-block-H2,
-			#right-center-block-H3,
-			#right-center-block-H4,
-			#right-center-block-H5,
-			#right-center-block-H6,
-			#right-center-block-I1,
-			#right-center-block-I2,
-			#right-center-block-I3,
-			#right-center-block-I4,
-			#right-center-block-I5,
-			#right-center-block-I6,
-			#right-center-block-I7,
-			#right-center-block-J1,
-			#right-center-block-J2,
-			#right-center-block-J3,
-			#right-center-block-J4,
-			#right-center-block-J5,
-			#right-center-block-J6,
-			#right-center-block-J7,
-			#right-center-block-K1,
-			#right-center-block-K2,
-			#right-center-block-K3,
-			#right-center-block-K4,
-			#right-center-block-L1,
-			#right-center-block-L2,
-			#right-center-block-M1 {
-				z-index: 0 !important;
-			}
 		}
 		.right-center-block {
-			.A, .B, .C, .D, .E,
-			.F, .G, .H, .J, .I,
-			.K, .L, .M, .N, .O {
-				z-index: 0;
-			}
 			.hoverParent {
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 1 !important;
 					right: 0 !important;
 					left: -65px !important;
 					top: -208px !important;
@@ -500,14 +392,13 @@ $family: 'Open Sans', sans-serif;
 			-moz-transform: rotate(90deg);
 			-o-transform: rotate(90deg);
 			transform: rotate(-90deg);
-			z-index: 0;
 			margin: 70px 0 0 0;
 			position: relative;
 			left: -45%;
 		}
-		.left-center-block.left-hover {
-			z-index: 9;
-		}
+		// .left-center-block.left-hover {
+		// 	z-index: 9;
+		// }
 		.right-center-block {
 			float: left;
 			width: 541px;
@@ -520,9 +411,9 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			left: -45%;
 		}
-		.right-center-block.right-hover {
-			z-index: 9;
-		}
+		// .right-center-block.right-hover {
+		// 	z-index: 9;
+		// }
 		.center-block {
 			float: left;
 			width: 541px;
@@ -535,100 +426,80 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			left: -45%;
 
-			.A, .B, .C, .D, .E,
-			.F, .G, .H, .J, .I,
-			.K, .L, .M, .N, .O {
-				z-index: 0;
-			}
 			.A {
 				max-width: 150px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.B {
 				max-width: 190px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.C {
 				max-width: 210px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 			.D {
 				max-width: 230px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 			.E {
 				max-width: 270px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 			.F {
 				max-width: 285px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.G {
 				max-width: 305px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 			.H {
 				max-width: 330px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.J {
 				max-width: 390px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.I {
 				max-width: 390px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 			.K {
 				max-width: 420px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.L {
 				max-width: 440px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.M {
 				max-width: 470px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.N {
 				max-width: 495px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			} 
 			.O {
 				max-width: 519px;
 				width: 100%;
 				overflow: hidden;
-				z-index: 1 !important;
 			}
 
 			.hover-block{
@@ -637,7 +508,6 @@ $family: 'Open Sans', sans-serif;
 				overflow: hidden;
 				position: absolute;
 				left: -9999999999px;
-				z-index: 1;
 				top: 15px;
 				background-color: white;
 				box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
@@ -802,7 +672,6 @@ $family: 'Open Sans', sans-serif;
 			overflow: hidden;
 			position: absolute;
 			left: -9999999999px;
-			z-index: 1;
 			background-color: white;
 			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
 
@@ -952,7 +821,6 @@ $family: 'Open Sans', sans-serif;
 			-o-transform: rotate(0);
 			transform: rotate(0);
 			left: 15% !important;
-			z-index: 0;
 		}
 		.left-center-block {
 			margin-top: 0;
@@ -1047,7 +915,7 @@ $family: 'Open Sans', sans-serif;
 		    	margin-top: -15px;
 		    	position: relative;
 		    	top: -31px;
-		    	height: 750px;
+		    	height: 950px;
 
 		    	.left-side-block-title,
 		    	.left-center-block-title,
@@ -1135,8 +1003,6 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			// overflow: hidden;
 			margin: 0 0 20px 5%;
-			// z-index: 2009;
-			z-index: 1;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {
@@ -1146,7 +1012,6 @@ $family: 'Open Sans', sans-serif;
 				display: block;
 				float: right;
 				margin: 0 1px;
-				z-index: 1;
 
 				li {
 					display: block;
@@ -1166,7 +1031,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1192,7 +1056,6 @@ $family: 'Open Sans', sans-serif;
 			// overflow: hidden;
 			margin: 0 7% 20px 0;
 			position: relative;
-			z-index: 0;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N {
@@ -1221,7 +1084,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1294,7 +1156,6 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 					&:hover .hover-block {
 						display: block !important;
-						z-index: 1;
 						left: 0;
 						right: 0;
 					}
@@ -1330,7 +1191,6 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 1;
 				li {
 					cursor: pointer;
 					a {
@@ -1342,7 +1202,6 @@ $family: 'Open Sans', sans-serif;
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 1;
 					left: -11px !important;
 					right: 0 !important;
 					top: -141px !important;
@@ -1358,7 +1217,6 @@ $family: 'Open Sans', sans-serif;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 0;
 				li {
 					cursor: pointer;
 					a {
@@ -1370,7 +1228,6 @@ $family: 'Open Sans', sans-serif;
 				position: relative;
 				&:hover .hover-block {
 					display: block !important;
-					z-index: 1 !important;
 					right: 0 !important;
 					left: -65px !important;
 					top: -208px !important;
@@ -1394,7 +1251,6 @@ $family: 'Open Sans', sans-serif;
 			-moz-transform: rotate(73deg);
 			-o-transform: rotate(73deg);
 			transform: rotate(73deg);
-			z-index: 0;
 		}
 		.right-center-block {
 			float: right;
@@ -1409,19 +1265,16 @@ $family: 'Open Sans', sans-serif;
 			top: -260px;
 			right: -45px;
 			left: auto !important;
-			// z-index: 9;
 		}
 		.center-block {
 			width: 541px;
 			position: relative;
-			top: -380px;
-			z-index: 0;
+			top: -170px;
 			left: 210px !important;
 
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
 			.K, .L, .M, .N, .O {
-				z-index: 0 !important;
 			}
 
 			.hover-block{
@@ -1430,7 +1283,6 @@ $family: 'Open Sans', sans-serif;
 				overflow: hidden;
 				position: absolute;
 				left: -9999999999px;
-				z-index: 1;
 				top: 15px;
 				background-color: white;
 				box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
@@ -1595,7 +1447,6 @@ $family: 'Open Sans', sans-serif;
 			overflow: hidden;
 			position: absolute;
 			left: -9999999999px;
-			z-index: 1;
 			background-color: white;
 			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
 
@@ -1675,7 +1526,6 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 			&:hover .hover-block {
 				display: block !important;
-				z-index: 1;
 				left: 0;
 				right: 0;
 			}
@@ -1728,7 +1578,6 @@ $family: 'Open Sans', sans-serif;
 		.left-side-block,
 		.right-side-block {
 			margin: 0;
-			z-index: 0;
 			width: 100%;
 			.A, .B, .C, .D, .E,
 			.F, .G, .H, .J, .I,
@@ -1773,7 +1622,6 @@ $family: 'Open Sans', sans-serif;
 				-moz-transform: rotate(0) !important;
 				-o-transform: rotate(0) !important;
 				transform: rotate(0) !important;
-				z-index: 0;
 				.A, .B, .C, .D, .E,
 				.F, .G, .H, .J, .I,
 				.K, .L, .M, .N, .O {

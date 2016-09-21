@@ -47,7 +47,7 @@ code {
     background-color: inherit;
     background-clip: padding-box;
     position: absolute;
-    z-index: 9999999;
+    z-index: 9;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -56,18 +56,20 @@ code {
     -moz-border-radius: 25px;
     border-radius: 25px;
 }
-.btn:hover {
+/*.btn:hover {
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-/*.btn:hover .left-center-block,
-.btn:hover .center-block,
-.btn:hover .right-center-block {
-    z-index: 1 !important;
+    z-index: 10;
 }*/
-.left-center-block .btn:hover .left-center-block {
-    z-index: 99;
-}
+.btn:hover ~ ul li.reserved {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 0px 7px darkred;
+    background: #9D9D9D !important;
+
+
+    }
 /* Стили модального окна и содержания 
 -------------------------------------------------------------------------------*/
 
@@ -114,7 +116,7 @@ code {
     padding: 20px;
     /*max-width: 50em;*/
     max-width: 100%;
-    background: #607d8b;
+    background: #fff;
     -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
@@ -191,8 +193,8 @@ code {
 /* кнопка закрытия при наведении */
 
 .close:hover:after {
-    border-color: #fff;
-    color: #fff;
+    border-color: #777;
+    color: #777;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);

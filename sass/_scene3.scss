@@ -831,65 +831,6 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 
-	.scene-block {
-
-		.hover-block {
-			min-width: 224px;
-			width: 224px;
-			height: auto;
-			overflow: hidden;
-			position: absolute;
-			left: -9999999999px;
-			z-index: 9999999999;
-			background-color: white;
-			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
-
-			.hover-block-list {
-				@include border-box;
-				overflow: hidden;
-				padding: 17px 0 21px 16px;
-
-				& > li {
-					display: block;
-					width: auto;
-					height: auto;
-					clear: both;
-					overflow: hidden;
-					margin: 11px auto;
-
-					span {
-						float: left;
-						overflow: hidden;
-						font: 400 16px / 20px $family;
-						color: #262626;
-					}
-				}
-				& > .color-square-1,
-				& > .color-square-2,
-				& > .color-square-3 {
-					float: left;
-					margin-right: 10px;
-				}
-				.color-square-1,
-				.color-square-2,
-				.color-square-3 {
-					float: left;
-					width: 25px;
-					height: 25px;
-					margin-right: 15px;
-				}
-				.color-square-1 {
-					background: #BCB8B5;					
-				}
-				.color-square-2 {
-					background: #5A009E;					
-				}
-				.color-square-3 {
-					background: #ED6A00;					
-				}
-			}
-		}
-	}
 	/*----------------------------------------------*/
 	.according-block {
 		padding-top: 8px;
@@ -1161,62 +1102,7 @@ $family: 'Open Sans', sans-serif;
 	}
 	.scene-block {
 
-		.hover-block {
-			min-width: 224px;
-			width: 224px;
-			height: auto;
-			overflow: hidden;
-			position: absolute;
-			left: -9999999999px;
-			z-index: 9999999999;
-			background-color: white;
-			box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);			
-
-			.hover-block-list {
-				@include border-box;
-				overflow: hidden;
-				padding: 17px 0 21px 16px;
-
-				& > li {
-					display: block;
-					width: auto;
-					height: auto;
-					clear: both;
-					overflow: hidden;
-					margin: 11px auto;
-
-					span {
-						float: left;
-						overflow: hidden;
-						font: 400 16px / 20px $family;
-						color: #262626;
-					}
-				}
-				& > .color-square-1,
-				& > .color-square-2,
-				& > .color-square-3 {
-					float: left;
-					margin-right: 10px;
-				}
-				.color-square-1,
-				.color-square-2,
-				.color-square-3 {
-					float: left;
-					width: 25px;
-					height: 25px;
-					margin-right: 15px;
-				}
-				.color-square-1 {
-					background: #BCB8B5;					
-				}
-				.color-square-2 {
-					background: #5A009E;					
-				}
-				.color-square-3 {
-					background: #ED6A00;					
-				}
-			}
-		}
+		
 	}
 }
 @media (max-width: 767px) {
