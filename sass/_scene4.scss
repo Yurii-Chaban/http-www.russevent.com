@@ -4120,8 +4120,9 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 				}
 				.R-right {
-					right: -492px	!important;
-					top: -256px	!important;
+					right: -159px !important;
+					width: 210px;
+					top: -63px !important;
 				}
 				.S-right {
 					right: -504px	!important;
@@ -4358,8 +4359,9 @@ $family: 'Open Sans', sans-serif;
 					position: relative;
 				}
 				.R-right {
-					right: -492px	!important;
-					top: -256px	!important;
+					right: -159px !important;
+					width: 210px;
+					top: -63px !important;
 				}
 				.S-right {
 					right: -504px	!important;
@@ -4955,8 +4957,9 @@ $family: 'Open Sans', sans-serif;
 			position: relative;
 		}
 		.R-right {
-			right: -492px	!important;
-			top: -256px	!important;
+			right: -159px !important;
+			width: 210px;
+			top: -63px !important;
 		}
 		.S-right {
 			right: -504px	!important;
@@ -5191,6 +5194,9 @@ $family: 'Open Sans', sans-serif;
 	.other-list-7 {
 		padding-left: 10px;
 	}
+	.other-list-7 {
+		left: 20px;
+	}
 
 
 	.top-transform {
@@ -5267,15 +5273,17 @@ $family: 'Open Sans', sans-serif;
 		}
 		.eight-place-right {
 			position: relative;
-			top: -1091px !important;
-			right: -105px !important;
+			top: -1244px !important;
+			width: 940px;
+			right: -90px !important;
+			float: right;
 			left: auto !important;
 			.eight-block-right {
 				width: 230px !important;
 				overflow: hidden;
 				position: relative;
 				top: -25px !important;
-				right: -635px !important;
+				right: -610px !important;
 				.place-title {
 					display: block;
 					width: 15px;
@@ -5414,8 +5422,8 @@ $family: 'Open Sans', sans-serif;
 				position: relative;
 				padding: 0;
 				// top: 7px;
-				top: 0;
-				right: 17px;
+				top: 7px;
+				right: 0;
 
 				.sixth-list-1, 
 				.sixth-list-2, 
@@ -5514,7 +5522,7 @@ $family: 'Open Sans', sans-serif;
 			margin: 128px 10px 0 30px !important;
 			position: relative;
 			top: -1084px;
-			    right: -10px;
+			right: -10px;
 			color: #262626;
 			font: 400 20px / 22px $family;
 			text-transform: uppercase;
@@ -5588,7 +5596,7 @@ $family: 'Open Sans', sans-serif;
 		height: 205px !important;
 		position: relative;
 		top: -242px !important;
-		right: -598px !important;
+		right: -570px !important;
 		z-index: 9;
 
 		.other-list-1, 
@@ -5650,6 +5658,14 @@ $family: 'Open Sans', sans-serif;
 					text-transform: uppercase;
 				}
 			}
+		}
+		.other-list-6 {
+			width: 125px;
+		}
+		.other-list-7 {
+			width: 47px;
+			padding: 0;
+			left: -10px;
 		}
 	}
 }
@@ -5777,7 +5793,7 @@ $family: 'Open Sans', sans-serif;
 		float: left;
 		position: relative;
 		top: 35px;
-    left: 20px;
+		left: 20px;
 		color: #262626;
 		font: 400 20px / 22px $family;
 		text-transform: uppercase;
@@ -5785,7 +5801,7 @@ $family: 'Open Sans', sans-serif;
 	.block-label {
 		position: relative;
 		top: 30px;
-    left: 80px;
+		left: 80px;
 		margin-bottom: 15px;
 		text-align: center;
 		font: 400 12px / 22px $family;
@@ -5975,7 +5991,7 @@ $family: 'Open Sans', sans-serif;
 		float: left;
 		position: relative;
 		top: 50px;
-    left: 40px;
+		left: 40px;
 		color: #262626;
 		font: 400 20px / 22px $family;
 		text-transform: uppercase;
@@ -6403,14 +6419,14 @@ $family: 'Open Sans', sans-serif;
 	}
 	.balcony-left-side-AA {
 		top: -6px;
-    left: -151px;
-    z-index: 8;
+		left: -151px;
+		z-index: 8;
 	}
 	.balcony-left-side-BB {
 		top: -26px;
-    left: -195px;
-    width: 230px;
-    z-index: 7;	
+		left: -195px;
+		width: 230px;
+		z-index: 7;	
 	}
 	.balcony-left-side-CC {
 		top: -30px;
