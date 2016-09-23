@@ -113,7 +113,7 @@ code {
 
 .dm-modal {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 20px 40px;
     /*max-width: 50em;*/
     max-width: 100%;
     background: #fff;

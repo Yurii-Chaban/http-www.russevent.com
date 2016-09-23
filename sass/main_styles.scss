@@ -1184,13 +1184,15 @@ footer {
 			}
 			.main-info {
 				.actor-name {
+					min-height: 50px;
 					margin: 21px 0;
 					color: #262626;
 					font: 700 18px / 22px $family;
 					text-transform: uppercase;
 				}
 				.concert-location {
-					margin: 50px 0 23px;
+					// margin: 50px 0 23px;
+					margin: 5% 0 23px;
 					color: #080202;
 					font: 400 16px / 22px $family;
 				}

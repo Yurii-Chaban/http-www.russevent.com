@@ -1361,24 +1361,25 @@ a {
   }
   /* line 1186, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .actor-name {
+    min-height: 50px;
     margin: 21px 0;
     color: #262626;
     font: 700 18px/22px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1192, ../sass/main_styles.scss */
+  /* line 1193, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .concert-location {
-    margin: 50px 0 23px;
+    margin: 5% 0 23px;
     color: #080202;
     font: 400 16px/22px "Open Sans", sans-serif;
   }
-  /* line 1198, ../sass/main_styles.scss */
+  /* line 1200, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn {
     overflow: hidden;
     margin-bottom: 0;
     padding-right: 26px;
   }
-  /* line 1202, ../sass/main_styles.scss */
+  /* line 1204, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     display: inline-block;
@@ -1390,22 +1391,22 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1210, ../sass/main_styles.scss */
+  /* line 1212, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
     text-decoration: none;
   }
-  /* line 1214, ../sass/main_styles.scss */
+  /* line 1216, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
     float: left;
   }
-  /* line 1217, ../sass/main_styles.scss */
+  /* line 1219, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     float: right;
   }
 
   /*-----------------------------FOOTER--------------*/
-  /* line 1225, ../sass/main_styles.scss */
+  /* line 1227, ../sass/main_styles.scss */
   footer {
     position: relative;
     width: 100%;
@@ -1414,18 +1415,18 @@ a {
     background-size: contain;
     background-position: center;
   }
-  /* line 1228, ../sass/main_styles.scss */
+  /* line 1230, ../sass/main_styles.scss */
   footer .footer-contacts {
     display: none;
   }
-  /* line 1231, ../sass/main_styles.scss */
+  /* line 1233, ../sass/main_styles.scss */
   footer .contact-form {
     padding: 69px 0 138px;
     background: url("../images/photo------.png") no-repeat;
     background-size: initial;
     background-position: right center;
   }
-  /* line 1237, ../sass/main_styles.scss */
+  /* line 1239, ../sass/main_styles.scss */
   footer .contact-form .form-title {
     margin: 0 auto 82px;
     text-align: center;
@@ -1433,32 +1434,32 @@ a {
     font: 700 25px/30px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1245, ../sass/main_styles.scss */
+  /* line 1247, ../sass/main_styles.scss */
   footer .contact-form label {
     display: block;
     color: white;
     font: 400 18px/22px "Open Sans", sans-serif;
   }
-  /* line 1250, ../sass/main_styles.scss */
+  /* line 1252, ../sass/main_styles.scss */
   footer .contact-form label img {
     display: inline-block;
     margin-right: 10px;
   }
-  /* line 1256, ../sass/main_styles.scss */
+  /* line 1258, ../sass/main_styles.scss */
   footer .contact-form .form-row {
     width: 100%;
     margin: 36px auto;
     padding-left: 12px;
     overflow: hidden;
   }
-  /* line 1261, ../sass/main_styles.scss */
+  /* line 1263, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
   footer .contact-form .form-row #theme {
     height: 38px;
   }
-  /* line 1267, ../sass/main_styles.scss */
+  /* line 1269, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
@@ -1476,76 +1477,76 @@ a {
     box-sizing: border-box;
     overflow: hidden;
   }
-  /* line 1284, ../sass/main_styles.scss */
+  /* line 1286, ../sass/main_styles.scss */
   footer .contact-form .form-row #name {
     background: url("../images/icon-user.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1288, ../sass/main_styles.scss */
+  /* line 1290, ../sass/main_styles.scss */
   footer .contact-form .form-row #tel {
     background: url("../images/icon-phone-form.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1292, ../sass/main_styles.scss */
+  /* line 1294, ../sass/main_styles.scss */
   footer .contact-form .form-row #email {
     background: url("../images/icon-envelope.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1296, ../sass/main_styles.scss */
+  /* line 1298, ../sass/main_styles.scss */
   footer .contact-form .form-row #theme {
     background: url("../images/icon-theme.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1300, ../sass/main_styles.scss */
+  /* line 1302, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     background: url("../images/icon-comment.png") no-repeat;
     background-position: 0 5%;
   }
-  /* line 1304, ../sass/main_styles.scss */
+  /* line 1306, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     resize: none;
     height: 245px;
     margin-bottom: 33px;
   }
-  /* line 1309, ../sass/main_styles.scss */
+  /* line 1311, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-webkit-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1314, ../sass/main_styles.scss */
+  /* line 1316, ../sass/main_styles.scss */
   footer .contact-form .form-row :-moz-placeholder {
     /* Firefox 18- */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1319, ../sass/main_styles.scss */
+  /* line 1321, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-moz-placeholder {
     /* Firefox 19+ */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1324, ../sass/main_styles.scss */
+  /* line 1326, ../sass/main_styles.scss */
   footer .contact-form .form-row :-ms-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1329, ../sass/main_styles.scss */
+  /* line 1331, ../sass/main_styles.scss */
   footer .contact-form .half-block-name,
   footer .contact-form .half-block-tel {
     width: 44.5%;
     margin: 0;
     overflow: hidden;
   }
-  /* line 1335, ../sass/main_styles.scss */
+  /* line 1337, ../sass/main_styles.scss */
   footer .contact-form .half-block-name {
     float: left;
     margin-right: 7.9%;
   }
-  /* line 1339, ../sass/main_styles.scss */
+  /* line 1341, ../sass/main_styles.scss */
   footer .contact-form .half-width-tel {
     float: right;
   }
-  /* line 1342, ../sass/main_styles.scss */
+  /* line 1344, ../sass/main_styles.scss */
   footer .contact-form .required-fields {
     float: left;
     margin-top: 4px;
@@ -1553,7 +1554,7 @@ a {
     font: 400 18px/38px "Open Sans", sans-serif;
     letter-spacing: -1px;
   }
-  /* line 1349, ../sass/main_styles.scss */
+  /* line 1351, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn {
     float: right;
     width: 225px;
@@ -1571,30 +1572,30 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1363, ../sass/main_styles.scss */
+  /* line 1365, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn:hover {
     -webkit-box-shadow: 0px 0px 5px 1px white;
     -moz-box-shadow: 0px 0px 5px 1px white;
     box-shadow: 0px 0px 5px 1px white;
   }
-  /* line 1370, ../sass/main_styles.scss */
+  /* line 1372, ../sass/main_styles.scss */
   footer .copyright {
     width: 100%;
     background: #000;
     padding: 18px 0;
   }
-  /* line 1375, ../sass/main_styles.scss */
+  /* line 1377, ../sass/main_styles.scss */
   footer .copyright h4 {
     margin: 0 auto;
     text-align: center;
     color: white;
     font: 400 16px/27px "Open Sans", sans-serif;
   }
-  /* line 1380, ../sass/main_styles.scss */
+  /* line 1382, ../sass/main_styles.scss */
   footer .copyright h4 a {
     color: #fff;
   }
-  /* line 1382, ../sass/main_styles.scss */
+  /* line 1384, ../sass/main_styles.scss */
   footer .copyright h4 a:hover {
     text-decoration: underline;
   }
@@ -2124,7 +2125,7 @@ a {
   }
   /* line 321, ../sass/_bilet-more.scss */
   .bilet-more-page .about-actor .actor-name {
-    max-width: 310px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto 16px;
     padding-top: 20px;
@@ -21039,7 +21040,7 @@ a {
     margin: 15px auto;
     width: 165px;
     position: relative;
-    top: 0;
+    top: -10px;
     left: 0;
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
@@ -21557,7 +21558,7 @@ a {
   /* line 5513, ../sass/_scene4.scss */
   .scene4 .main-floor .left-label {
     float: left;
-    margin: 43px 0 0 0;
+    margin: 0;
     color: #262626;
     font: 400 20px/22px "Open Sans", sans-serif;
     text-transform: uppercase;
@@ -21567,7 +21568,7 @@ a {
     float: right;
     margin: 128px 10px 0 30px !important;
     position: relative;
-    top: -1084px;
+    top: -1122px;
     right: -10px;
     color: #262626;
     font: 400 20px/22px "Open Sans", sans-serif;
@@ -21663,7 +21664,7 @@ a {
     margin: 15px auto;
     width: 165px;
     position: relative;
-    top: 0;
+    top: -5px;
     right: 0;
     -ms-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
