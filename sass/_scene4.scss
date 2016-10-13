@@ -285,7 +285,7 @@ $family: 'Open Sans', sans-serif;
 
 						&:nth-child(2) {
 							.sign {
-								margin: 9px 30px 10px 3px;
+								margin: 15px 30px 10px 3px;
 							}
 						}
 						&:nth-child(3) {
@@ -302,7 +302,7 @@ $family: 'Open Sans', sans-serif;
 						}
 						.sign {
 							float: left;
-							margin: 9px 15px 10px 1px;
+							margin: 15px 15px 10px 1px;
 							overflow: hidden;
 							letter-spacing: 1px;
 							color: #656565;
@@ -948,6 +948,14 @@ $family: 'Open Sans', sans-serif;
 		.B-left {
 			width: 415px !important;
 		}
+		.D-left {
+			left: -154px;
+			top: -1px;
+		}
+		.E-left {
+			left: -153px;
+			top: -1px;
+		}
 
 		.A-right, .B-right, 
 		.C-right, .D-right, 
@@ -1109,8 +1117,8 @@ $family: 'Open Sans', sans-serif;
 				top: -30px;
 			}
 			.sixth-rotate-list {
-				width: 178px;
-				height: 170px;
+				width: 290px;
+				height: 200px;
 				overflow: hidden;
 				position: relative;
 				padding: 62px 0 0 15px;
@@ -1493,7 +1501,8 @@ $family: 'Open Sans', sans-serif;
 		height: 140px;
 		padding-top: 15px;
 		position: relative;
-		right: -25px;
+		right: -9px;
+		top: -12px;
 		-ms-transform: rotate(50deg);
 		-webkit-transform: rotate(50deg);
 		-moz-transform: rotate(50deg);
@@ -1503,7 +1512,7 @@ $family: 'Open Sans', sans-serif;
 	.scene-block-title {
 		float: left;
 		position: relative;
-		top: -100px;
+		top: 30px;
 		color: #262626;
 		font: 400 20px / 22px $family;
 		text-transform: uppercase;
@@ -1690,7 +1699,8 @@ $family: 'Open Sans', sans-serif;
 		height: 140px;
 		padding-top: 15px;
 		position: relative;
-		right: -25px;
+		right: -4px;
+		top: -4px;
 		-ms-transform: rotate(30deg);
 		-webkit-transform: rotate(30deg);
 		-moz-transform: rotate(30deg);
@@ -1700,7 +1710,7 @@ $family: 'Open Sans', sans-serif;
 	.scene-block-title {
 		float: left;
 		position: relative;
-		top: -100px;
+		top: 30px;
 		color: #262626;
 		font: 400 20px / 22px $family;
 		text-transform: uppercase;
@@ -2382,7 +2392,7 @@ $family: 'Open Sans', sans-serif;
 
 			&:nth-child(2) {
 				.sign {
-					margin: 9px 30px 10px 3px;
+					margin: 15px 30px 10px 3px;
 				}
 			}
 			&:nth-child(3) {
@@ -2399,7 +2409,7 @@ $family: 'Open Sans', sans-serif;
 			}
 			.sign {
 				float: left;
-				margin: 9px 15px 10px 1px;
+				margin: 15px 15px 10px 1px;
 				overflow: hidden;
 				letter-spacing: 1px;
 				color: #656565;
@@ -3673,6 +3683,17 @@ $family: 'Open Sans', sans-serif;
 	}
 }
 @media (min-width: 768px) and (max-width: 800px) {
+
+	.scene4 {
+		.main-floor {
+			.sixth-block-left {
+				.sixth-rotate-list {
+					left: -23px;
+				}
+			}
+		}
+	}
+
 	.according-block {
 		.according-list {
 			li {
@@ -3703,12 +3724,12 @@ $family: 'Open Sans', sans-serif;
 			.main-floor {
 				.right-label {
 					float: right;
-					top: -1785px;
+					top: -1700px;
 					margin: 130px 0 0 30px;
 				}
 				.eight-place-right {
 					position: relative;
-					top: -1757px;
+					top: -1700px;
 					right: -260px;
 					width: 400px;
 					float: right;
@@ -3738,7 +3759,7 @@ $family: 'Open Sans', sans-serif;
 				width: 100%;
 				position: relative;
 				left: 5%;
-				top: -1580px;
+				top: -1525px;
 				margin-top: 0;
 				z-index: 99;
 
@@ -4157,6 +4178,23 @@ $family: 'Open Sans', sans-serif;
 	}
 }
 @media (min-width: 890px) and (max-width: 1023px) {
+	.scene4 {
+		.main-floor {
+			.eight-block-left {
+				.rotate-list {
+					left: -40px;
+				}
+			}
+			.sixth-block-left {
+				.sixth-rotate-list {
+					width: 250px;
+					height: 185px;
+				}
+			}
+		}
+	}
+
+
 	.according-block {
 		.according-list {
 			li {
@@ -4172,6 +4210,7 @@ $family: 'Open Sans', sans-serif;
 	}
 	.scene {
 		.scene4 {
+
 			.top-transform {
 				width: 100%;
 				margin: 40px auto;
@@ -4187,12 +4226,12 @@ $family: 'Open Sans', sans-serif;
 			.main-floor {
 				.right-label {
 					float: right;
-					top: -1785px;
+					top: -1712px;
 					margin: 130px 0 0 30px;
 				}
 				.eight-place-right {
 					position: relative;
-					top: -1757px;
+					top: -1687px;
 					right: -260px;
 					width: 400px;
 					float: right;
@@ -4561,7 +4600,7 @@ $family: 'Open Sans', sans-serif;
 						&:nth-child(2) {
 							margin-left: 18px;
 							.sign {
-								margin: 9px 40px 10px 19px;
+								margin: 15px 40px 10px 19px;
 							}
 						}
 						&:nth-child(3) {
@@ -4580,7 +4619,7 @@ $family: 'Open Sans', sans-serif;
 						}
 						.sign {
 							float: left;
-							margin: 9px 15px 10px 1px;
+							margin: 15px 15px 10px 1px;
 							overflow: hidden;
 							letter-spacing: 1px;
 							color: #666666;
@@ -5663,7 +5702,7 @@ $family: 'Open Sans', sans-serif;
 			width: 125px;
 		}
 		.other-list-7 {
-			width: 47px;
+			width: 70px;
 			padding: 0;
 			left: -10px;
 		}
@@ -5782,6 +5821,7 @@ $family: 'Open Sans', sans-serif;
 		height: 140px;
 		padding-top: 15px;
 		position: relative;
+		top: 0;
 		right: -25px;
 		-ms-transform: rotate(50deg);
 		-webkit-transform: rotate(50deg);
@@ -6136,8 +6176,8 @@ $family: 'Open Sans', sans-serif;
 		}
 	}	
 	.block7-1 {
-		top: 0;
-		right: 50px;
+		top: 1px;
+		right: 48px;
 	}
 	.block7-2 {
 		top: -21px;

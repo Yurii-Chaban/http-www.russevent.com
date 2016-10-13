@@ -169,6 +169,10 @@ $family: 'Open Sans', sans-serif;
 		.designations-sircle-list {
 			float: left;
 		}
+	}
+}
+@media (min-width: 920px) {
+	.designations-block {
 		.designations-square-list {
 			float: right;
 			margin: 0;
