@@ -176,7 +176,7 @@ $family: 'Open Sans', sans-serif;
 					width: auto;
 					clear: both;
 					display: block;
-					margin: 10px 1px;
+					margin: 5px 1px;
 					overflow: hidden;
 
 					li {
@@ -184,7 +184,7 @@ $family: 'Open Sans', sans-serif;
 						display: block;
 						width: 25px;
 						height: 25px;
-						margin: 1px 4px 1px 1px;
+						margin: 1px 2px 1px 1px;
 						a {
 							position: relative;
 							overflow: hidden;
@@ -232,7 +232,7 @@ $family: 'Open Sans', sans-serif;
 				width: auto;
 				clear: both;
 				display: block;
-				margin: 10px 1px;
+				margin: 5px 1px;
 				overflow: hidden;
 
 				li {
@@ -240,7 +240,7 @@ $family: 'Open Sans', sans-serif;
 					display: block;
 					width: 25px;
 					height: 25px;
-					margin: 1px 4px 1px 1px;
+					margin: 1px 2px 1px 1px;
 					a {
 						position: relative;
 						overflow: hidden;
@@ -276,6 +276,11 @@ $family: 'Open Sans', sans-serif;
 					}
 				}
 			}
+			.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M {
+				margin: 5px 1px 5px 15px;
+			}
 		}
 		.scene1-right-side {
 			float: left;
@@ -287,7 +292,7 @@ $family: 'Open Sans', sans-serif;
 				width: auto;
 				clear: both;
 				display: block;
-				margin: 10px 1px;
+				margin: 5px 1px;
 				overflow: hidden;
 
 				li {
@@ -295,7 +300,7 @@ $family: 'Open Sans', sans-serif;
 					display: block;
 					width: 25px;
 					height: 25px;
-					margin: 1px 4px 1px 1px;
+					margin: 1px 2px 1px 1px;
 					a {
 						position: relative;
 						overflow: hidden;
@@ -531,7 +536,7 @@ $family: 'Open Sans', sans-serif;
 				width: auto;
 				clear: both;
 				display: block;
-				margin: 10px 1px;
+				margin: 5px 1px;
 				overflow: hidden;
 				// z-index: 9;
 
@@ -540,7 +545,7 @@ $family: 'Open Sans', sans-serif;
 					display: block;
 					width: 33px;
 					height: 33px;
-					margin: 1px 4px 1px 1px;
+					margin: 1px 2px 1px 1px;
 					a {
 						position: relative;
 						overflow: hidden;
@@ -587,7 +592,7 @@ $family: 'Open Sans', sans-serif;
 				width: auto;
 				clear: both;
 				display: block;
-				margin: 10px 1px;
+				margin: 5px 1px;
 				overflow: hidden;
 
 				li {
@@ -595,7 +600,7 @@ $family: 'Open Sans', sans-serif;
 					display: block;
 					width: 33px;
 					height: 33px;
-					margin: 1px 4px 1px 1px;
+					margin: 1px 2px 1px 1px;
 					a {
 						position: relative;
 						overflow: hidden;
@@ -631,6 +636,11 @@ $family: 'Open Sans', sans-serif;
 					}
 				}
 			}
+			.A, .B, .C, .D, .E,
+			.F, .G, .H, .J, .I,
+			.K, .L, .M {
+				margin: 5px 1px 5px 15px;
+			}
 		}
 		.scene1-right-side {
 			float: left;
@@ -642,7 +652,7 @@ $family: 'Open Sans', sans-serif;
 				width: auto;
 				clear: both;
 				display: block;
-				margin: 10px 1px;
+				margin: 5px 1px;
 				overflow: hidden;
 
 				li {
@@ -650,7 +660,7 @@ $family: 'Open Sans', sans-serif;
 					display: block;
 					width: 33px;
 					height: 33px;
-					margin: 1px 4px 1px 1px;
+					margin: 1px 2px 1px 1px;
 					a {
 						position: relative;
 						overflow: hidden;
@@ -752,4 +762,15 @@ $family: 'Open Sans', sans-serif;
 		}
 	}
 }
+}
+@media (min-width: 1200px) {
+	.scene1-page .scene .scene1-left-side .A li, .scene1-page .scene .scene1-left-side .B li, .scene1-page .scene .scene1-left-side .C li, .scene1-page .scene .scene1-left-side .D li, .scene1-page .scene .scene1-left-side .E li, .scene1-page .scene .scene1-left-side .F li, .scene1-page .scene .scene1-left-side .G li, .scene1-page .scene .scene1-left-side .H li, .scene1-page .scene .scene1-left-side .J li, .scene1-page .scene .scene1-left-side .I li, .scene1-page .scene .scene1-left-side .K li, .scene1-page .scene .scene1-left-side .L li, .scene1-page .scene .scene1-left-side .M li, .scene1-page .scene .scene1-left-side .N li {
+		margin: 1px 3px 1px 1px;
+	}
+	.scene1-page .scene .scene1-center .A li, .scene1-page .scene .scene1-center .B li, .scene1-page .scene .scene1-center .C li, .scene1-page .scene .scene1-center .D li, .scene1-page .scene .scene1-center .E li, .scene1-page .scene .scene1-center .F li, .scene1-page .scene .scene1-center .G li, .scene1-page .scene .scene1-center .H li, .scene1-page .scene .scene1-center .J li, .scene1-page .scene .scene1-center .I li, .scene1-page .scene .scene1-center .K li, .scene1-page .scene .scene1-center .L li, .scene1-page .scene .scene1-center .M li, .scene1-page .scene .scene1-center .N li {
+		margin: 1px 3px 1px 1px;	
+	}
+	.scene1-page .scene .scene1-right-side .A li, .scene1-page .scene .scene1-right-side .B li, .scene1-page .scene .scene1-right-side .C li, .scene1-page .scene .scene1-right-side .D li, .scene1-page .scene .scene1-right-side .E li, .scene1-page .scene .scene1-right-side .F li, .scene1-page .scene .scene1-right-side .G li, .scene1-page .scene .scene1-right-side .H li, .scene1-page .scene .scene1-right-side .J li, .scene1-page .scene .scene1-right-side .I li, .scene1-page .scene .scene1-right-side .K li, .scene1-page .scene .scene1-right-side .L li, .scene1-page .scene .scene1-right-side .M li, .scene1-page .scene .scene1-right-side .N li {
+		margin: 1px 3px 1px 1px;
+	}
 }
