@@ -7,7 +7,7 @@
 
 	Андрей @dobrovoi :: http://dbmast.ru
 
--------------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------------*/
 
 /* Базовые стили демо-страницы
 -------------------------------------------------------------------------------*/
@@ -59,14 +59,14 @@ code {
 /*.btn:hover {
     background: rgba(0, 0, 0, 0.5);
     z-index: 10;
-}*/
-.btn:hover ~ ul li.reserved {
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    box-shadow: 0px 0px 7px darkred;
-    background: #9D9D9D !important;
+    }*/
+    .btn:hover ~ ul li.reserved {
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        box-shadow: 0px 0px 7px darkred;
+        background: #9D9D9D !important;
 
 
     }
@@ -129,6 +129,30 @@ code {
     width: 100%;
     height: auto;
 }
+.scene2 .dm-modal .left-side-block,
+.scene2 .dm-modal .right-side-block,
+.scene2 .dm-modal .left-center-block
+.scene2 .dm-modal .center-block
+.scene2 .dm-modal .right-center-block,
+.scene .dm-modal .scene3-left-side-block, 
+.scene .dm-modal .scene3-left-center-side-block,
+.scene .dm-modal .scene3-center-block,
+.scene .dm-modal .scene3-right-center-block,
+.scene .dm-modal .scene3-right-side-block,
+.scene .dm-modal .balcony-left-side,
+.scene .dm-modal .balcony-right-side,
+.scene1-page .scene .dm-modal .scene1-left-side {
+    clear: both;
+}
+.scene1-page .scene .dm-modal .scene1-left-side,
+.scene1-page .scene .dm-modal .scene1-center,
+.scene1-page .scene .dm-modal .scene1-right-side {
+    clear:  both;
+    padding:  20px 0 0;
+}
+.scene .dm-modal .balcony-center {
+    clear:  right;
+}
 /* миниатюры изображений */
 
 .pl-left,
@@ -170,15 +194,22 @@ code {
 .close {
     z-index: 9999;
     float: right;
-    width: 30px;
-    height: 30px;
-    color: #cfd8dc;
+    display: inline-block;
+    width: auto;
+    height: 41px;
+    margin: 15px 0 0 0;
+    padding: 0 5px;
+    overflow: hidden;
+    color: #fff;
+    font: 700 20px/43px "Open Sans", sans-serif;
     text-align: center;
-    text-decoration: none;
-    line-height: 26px;
+    background-color: #74023b;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     cursor: pointer;
 }
-.close:after {
+/* .close:after {
     display: block;
     border: 2px solid #cfd8dc;
     -webkit-border-radius: 50%;
@@ -189,51 +220,51 @@ code {
     -moz-transform: scale(0.85);
     -ms-transform: scale(0.85);
     transform: scale(0.85);
-}
-/* кнопка закрытия при наведении */
+    } */
+    /* кнопка закрытия при наведении */
 
-.close:hover:after {
+/* .close:hover:after {
     border-color: #777;
     color: #777;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-}
-/* варианты фонвой заливки модального блока */
+    } */
+    /* варианты фонвой заливки модального блока */
 
-.green {
-    background: #388e3c!important;
-}
-.cyan {
-    background: #0097a7!important;
-}
-.teal {
-    background: #00796b!important;
-}
-/* движуха при появлении блоков с содержанием */
+    .green {
+        background: #388e3c!important;
+    }
+    .cyan {
+        background: #0097a7!important;
+    }
+    .teal {
+        background: #00796b!important;
+    }
+    /* движуха при появлении блоков с содержанием */
 
-@-moz-keyframes fade {
-    from {
-        opacity: 0;
+    @-moz-keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
     }
-    to {
-        opacity: 1
+    @-webkit-keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
     }
-}
-@-webkit-keyframes fade {
-    from {
-        opacity: 0;
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
     }
-    to {
-        opacity: 1
-    }
-}
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1
-    }
-}

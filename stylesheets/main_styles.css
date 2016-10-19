@@ -4313,8 +4313,9 @@ a {
     display: block;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
   }
-  /* line 301, ../sass/_scene2.scss */
+  /* line 302, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
   .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
   .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li,
@@ -4354,8 +4355,9 @@ a {
     height: 15px;
     text-align: center;
     margin: 0;
+    overflow: hidden;
   }
-  /* line 308, ../sass/_scene2.scss */
+  /* line 310, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
   .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
   .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a,
@@ -4395,7 +4397,7 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 316, ../sass/_scene2.scss */
+  /* line 318, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent, .scene2 .left-center-block .B .hoverParent, .scene2 .left-center-block .C .hoverParent, .scene2 .left-center-block .D .hoverParent, .scene2 .left-center-block .E .hoverParent,
   .scene2 .left-center-block .F .hoverParent, .scene2 .left-center-block .G .hoverParent, .scene2 .left-center-block .H .hoverParent, .scene2 .left-center-block .J .hoverParent, .scene2 .left-center-block .I .hoverParent,
   .scene2 .left-center-block .K .hoverParent, .scene2 .left-center-block .L .hoverParent, .scene2 .left-center-block .M .hoverParent, .scene2 .left-center-block .N .hoverParent, .scene2 .left-center-block .O .hoverParent,
@@ -4431,7 +4433,7 @@ a {
   .scene2 .center-block .O .hoverParent {
     position: relative;
   }
-  /* line 318, ../sass/_scene2.scss */
+  /* line 320, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent:hover .hover-block, .scene2 .left-center-block .B .hoverParent:hover .hover-block, .scene2 .left-center-block .C .hoverParent:hover .hover-block, .scene2 .left-center-block .D .hoverParent:hover .hover-block, .scene2 .left-center-block .E .hoverParent:hover .hover-block,
   .scene2 .left-center-block .F .hoverParent:hover .hover-block, .scene2 .left-center-block .G .hoverParent:hover .hover-block, .scene2 .left-center-block .H .hoverParent:hover .hover-block, .scene2 .left-center-block .J .hoverParent:hover .hover-block, .scene2 .left-center-block .I .hoverParent:hover .hover-block,
   .scene2 .left-center-block .K .hoverParent:hover .hover-block, .scene2 .left-center-block .L .hoverParent:hover .hover-block, .scene2 .left-center-block .M .hoverParent:hover .hover-block, .scene2 .left-center-block .N .hoverParent:hover .hover-block, .scene2 .left-center-block .O .hoverParent:hover .hover-block,
@@ -4469,7 +4471,7 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 324, ../sass/_scene2.scss */
+  /* line 326, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .reserved, .scene2 .left-center-block .B .reserved, .scene2 .left-center-block .C .reserved, .scene2 .left-center-block .D .reserved, .scene2 .left-center-block .E .reserved,
   .scene2 .left-center-block .F .reserved, .scene2 .left-center-block .G .reserved, .scene2 .left-center-block .H .reserved, .scene2 .left-center-block .J .reserved, .scene2 .left-center-block .I .reserved,
   .scene2 .left-center-block .K .reserved, .scene2 .left-center-block .L .reserved, .scene2 .left-center-block .M .reserved, .scene2 .left-center-block .N .reserved, .scene2 .left-center-block .O .reserved,
@@ -4505,7 +4507,7 @@ a {
   .scene2 .center-block .O .reserved {
     background-color: #bcb8b6;
   }
-  /* line 327, ../sass/_scene2.scss */
+  /* line 329, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .ather-backets, .scene2 .left-center-block .B .ather-backets, .scene2 .left-center-block .C .ather-backets, .scene2 .left-center-block .D .ather-backets, .scene2 .left-center-block .E .ather-backets,
   .scene2 .left-center-block .F .ather-backets, .scene2 .left-center-block .G .ather-backets, .scene2 .left-center-block .H .ather-backets, .scene2 .left-center-block .J .ather-backets, .scene2 .left-center-block .I .ather-backets,
   .scene2 .left-center-block .K .ather-backets, .scene2 .left-center-block .L .ather-backets, .scene2 .left-center-block .M .ather-backets, .scene2 .left-center-block .N .ather-backets, .scene2 .left-center-block .O .ather-backets,
@@ -4541,7 +4543,7 @@ a {
   .scene2 .center-block .O .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 330, ../sass/_scene2.scss */
+  /* line 332, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .in-the-basket, .scene2 .left-center-block .B .in-the-basket, .scene2 .left-center-block .C .in-the-basket, .scene2 .left-center-block .D .in-the-basket, .scene2 .left-center-block .E .in-the-basket,
   .scene2 .left-center-block .F .in-the-basket, .scene2 .left-center-block .G .in-the-basket, .scene2 .left-center-block .H .in-the-basket, .scene2 .left-center-block .J .in-the-basket, .scene2 .left-center-block .I .in-the-basket,
   .scene2 .left-center-block .K .in-the-basket, .scene2 .left-center-block .L .in-the-basket, .scene2 .left-center-block .M .in-the-basket, .scene2 .left-center-block .N .in-the-basket, .scene2 .left-center-block .O .in-the-basket,
@@ -4577,7 +4579,7 @@ a {
   .scene2 .center-block .O .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 333, ../sass/_scene2.scss */
+  /* line 335, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .cheap-price, .scene2 .left-center-block .B .cheap-price, .scene2 .left-center-block .C .cheap-price, .scene2 .left-center-block .D .cheap-price, .scene2 .left-center-block .E .cheap-price,
   .scene2 .left-center-block .F .cheap-price, .scene2 .left-center-block .G .cheap-price, .scene2 .left-center-block .H .cheap-price, .scene2 .left-center-block .J .cheap-price, .scene2 .left-center-block .I .cheap-price,
   .scene2 .left-center-block .K .cheap-price, .scene2 .left-center-block .L .cheap-price, .scene2 .left-center-block .M .cheap-price, .scene2 .left-center-block .N .cheap-price, .scene2 .left-center-block .O .cheap-price,
@@ -4613,7 +4615,7 @@ a {
   .scene2 .center-block .O .cheap-price {
     background-color: #E7CE00;
   }
-  /* line 336, ../sass/_scene2.scss */
+  /* line 338, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .average-price, .scene2 .left-center-block .B .average-price, .scene2 .left-center-block .C .average-price, .scene2 .left-center-block .D .average-price, .scene2 .left-center-block .E .average-price,
   .scene2 .left-center-block .F .average-price, .scene2 .left-center-block .G .average-price, .scene2 .left-center-block .H .average-price, .scene2 .left-center-block .J .average-price, .scene2 .left-center-block .I .average-price,
   .scene2 .left-center-block .K .average-price, .scene2 .left-center-block .L .average-price, .scene2 .left-center-block .M .average-price, .scene2 .left-center-block .N .average-price, .scene2 .left-center-block .O .average-price,
@@ -4649,7 +4651,7 @@ a {
   .scene2 .center-block .O .average-price {
     background-color: #C00463;
   }
-  /* line 339, ../sass/_scene2.scss */
+  /* line 341, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .highest-price, .scene2 .left-center-block .B .highest-price, .scene2 .left-center-block .C .highest-price, .scene2 .left-center-block .D .highest-price, .scene2 .left-center-block .E .highest-price,
   .scene2 .left-center-block .F .highest-price, .scene2 .left-center-block .G .highest-price, .scene2 .left-center-block .H .highest-price, .scene2 .left-center-block .J .highest-price, .scene2 .left-center-block .I .highest-price,
   .scene2 .left-center-block .K .highest-price, .scene2 .left-center-block .L .highest-price, .scene2 .left-center-block .M .highest-price, .scene2 .left-center-block .N .highest-price, .scene2 .left-center-block .O .highest-price,
@@ -4685,7 +4687,7 @@ a {
   .scene2 .center-block .O .highest-price {
     background-color: #840343;
   }
-  /* line 343, ../sass/_scene2.scss */
+  /* line 345, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .series-name a, .scene2 .left-center-block .B .series-name a, .scene2 .left-center-block .C .series-name a, .scene2 .left-center-block .D .series-name a, .scene2 .left-center-block .E .series-name a,
   .scene2 .left-center-block .F .series-name a, .scene2 .left-center-block .G .series-name a, .scene2 .left-center-block .H .series-name a, .scene2 .left-center-block .J .series-name a, .scene2 .left-center-block .I .series-name a,
   .scene2 .left-center-block .K .series-name a, .scene2 .left-center-block .L .series-name a, .scene2 .left-center-block .M .series-name a, .scene2 .left-center-block .N .series-name a, .scene2 .left-center-block .O .series-name a,
@@ -4723,11 +4725,11 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 356, ../sass/_scene2.scss */
+  /* line 358, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent {
     position: relative;
   }
-  /* line 358, ../sass/_scene2.scss */
+  /* line 360, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent:hover .hover-block {
     display: block !important;
     left: -11px !important;
@@ -4739,11 +4741,11 @@ a {
     -o-transform: rotate(-74deg);
     transform: rotate(-74deg);
   }
-  /* line 372, ../sass/_scene2.scss */
+  /* line 374, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent {
     position: relative;
   }
-  /* line 374, ../sass/_scene2.scss */
+  /* line 376, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent:hover .hover-block {
     display: block !important;
     right: 0 !important;
@@ -4755,7 +4757,7 @@ a {
     -o-transform: rotate(74deg);
     transform: rotate(74deg);
   }
-  /* line 387, ../sass/_scene2.scss */
+  /* line 389, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     float: left;
     width: 541px;
@@ -4768,7 +4770,7 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 402, ../sass/_scene2.scss */
+  /* line 404, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     float: left;
     width: 541px;
@@ -4781,7 +4783,7 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 417, ../sass/_scene2.scss */
+  /* line 419, ../sass/_scene2.scss */
   .scene2 .center-block {
     float: left;
     width: 541px;
@@ -4794,82 +4796,82 @@ a {
     position: relative;
     left: -45%;
   }
-  /* line 429, ../sass/_scene2.scss */
+  /* line 431, ../sass/_scene2.scss */
   .scene2 .center-block .A {
     width: 100%;
     overflow: hidden;
   }
-  /* line 434, ../sass/_scene2.scss */
+  /* line 436, ../sass/_scene2.scss */
   .scene2 .center-block .B {
     width: 100%;
     overflow: hidden;
   }
-  /* line 439, ../sass/_scene2.scss */
+  /* line 441, ../sass/_scene2.scss */
   .scene2 .center-block .C {
     width: 100%;
     overflow: hidden;
   }
-  /* line 444, ../sass/_scene2.scss */
+  /* line 446, ../sass/_scene2.scss */
   .scene2 .center-block .D {
     width: 100%;
     overflow: hidden;
   }
-  /* line 449, ../sass/_scene2.scss */
+  /* line 451, ../sass/_scene2.scss */
   .scene2 .center-block .E {
     width: 100%;
     overflow: hidden;
   }
-  /* line 454, ../sass/_scene2.scss */
+  /* line 456, ../sass/_scene2.scss */
   .scene2 .center-block .F {
     width: 100%;
     overflow: hidden;
   }
-  /* line 459, ../sass/_scene2.scss */
+  /* line 461, ../sass/_scene2.scss */
   .scene2 .center-block .G {
     width: 100%;
     overflow: hidden;
   }
-  /* line 464, ../sass/_scene2.scss */
+  /* line 466, ../sass/_scene2.scss */
   .scene2 .center-block .H {
     width: 100%;
     overflow: hidden;
   }
-  /* line 469, ../sass/_scene2.scss */
+  /* line 471, ../sass/_scene2.scss */
   .scene2 .center-block .J {
     width: 100%;
     overflow: hidden;
   }
-  /* line 474, ../sass/_scene2.scss */
+  /* line 476, ../sass/_scene2.scss */
   .scene2 .center-block .I {
     width: 100%;
     overflow: hidden;
   }
-  /* line 479, ../sass/_scene2.scss */
+  /* line 481, ../sass/_scene2.scss */
   .scene2 .center-block .K {
     width: 100%;
     overflow: hidden;
   }
-  /* line 484, ../sass/_scene2.scss */
+  /* line 486, ../sass/_scene2.scss */
   .scene2 .center-block .L {
     width: 100%;
     overflow: hidden;
   }
-  /* line 489, ../sass/_scene2.scss */
+  /* line 491, ../sass/_scene2.scss */
   .scene2 .center-block .M {
     width: 100%;
     overflow: hidden;
   }
-  /* line 494, ../sass/_scene2.scss */
+  /* line 496, ../sass/_scene2.scss */
   .scene2 .center-block .N {
     width: 100%;
     overflow: hidden;
   }
-  /* line 499, ../sass/_scene2.scss */
+  /* line 501, ../sass/_scene2.scss */
   .scene2 .center-block .O {
     width: 100%;
     overflow: hidden;
   }
-  /* line 505, ../sass/_scene2.scss */
+  /* line 507, ../sass/_scene2.scss */
   .scene2 .center-block .hover-block {
     width: 224px;
     height: auto;
@@ -4880,31 +4882,31 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 518, ../sass/_scene2.scss */
+  /* line 520, ../sass/_scene2.scss */
   .scene2 .center-block .H li:nth-child(1), .scene2 .center-block .H li:nth-child(2), .scene2 .center-block .H li:nth-child(3), .scene2 .center-block .H li:nth-child(4), .scene2 .center-block .H li:nth-child(5), .scene2 .center-block .H li:nth-child(11), .scene2 .center-block .H li:nth-child(12), .scene2 .center-block .H li:nth-child(13), .scene2 .center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 533, ../sass/_scene2.scss */
+  /* line 535, ../sass/_scene2.scss */
   .scene2 .center-block .J li:nth-child(1), .scene2 .center-block .J li:nth-child(2), .scene2 .center-block .J li:nth-child(3), .scene2 .center-block .J li:nth-child(4), .scene2 .center-block .J li:nth-child(5), .scene2 .center-block .J li:nth-child(13), .scene2 .center-block .J li:nth-child(14), .scene2 .center-block .J li:nth-child(15), .scene2 .center-block .J li:nth-child(16), .scene2 .center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 549, ../sass/_scene2.scss */
+  /* line 551, ../sass/_scene2.scss */
   .scene2 .center-block .K li:nth-child(1), .scene2 .center-block .K li:nth-child(2), .scene2 .center-block .K li:nth-child(3), .scene2 .center-block .K li:nth-child(17), .scene2 .center-block .K li:nth-child(18), .scene2 .center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 561, ../sass/_scene2.scss */
+  /* line 563, ../sass/_scene2.scss */
   .scene2 .center-block .M li:nth-child(1), .scene2 .center-block .M li:nth-child(2), .scene2 .center-block .M li:nth-child(3), .scene2 .center-block .M li:nth-child(4), .scene2 .center-block .M li:nth-child(5), .scene2 .center-block .M li:nth-child(17), .scene2 .center-block .M li:nth-child(18), .scene2 .center-block .M li:nth-child(19), .scene2 .center-block .M li:nth-child(20), .scene2 .center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 577, ../sass/_scene2.scss */
+  /* line 579, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(14) {
     margin-left: 8px;
   }
-  /* line 580, ../sass/_scene2.scss */
+  /* line 582, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(21), .scene2 .center-block .N li:nth-child(22), .scene2 .center-block .N li:nth-child(23) {
     margin: 0 2px 0 1px;
   }
-  /* line 592, ../sass/_scene2.scss */
+  /* line 594, ../sass/_scene2.scss */
   .scene2 .left-center-block .H li:nth-child(1), .scene2 .left-center-block .H li:nth-child(2), .scene2 .left-center-block .H li:nth-child(3), .scene2 .left-center-block .H li:nth-child(4), .scene2 .left-center-block .H li:nth-child(5), .scene2 .left-center-block .H li:nth-child(11), .scene2 .left-center-block .H li:nth-child(12), .scene2 .left-center-block .H li:nth-child(13), .scene2 .left-center-block .H li:nth-child(14),
   .scene2 .right-center-block .H li:nth-child(1),
   .scene2 .right-center-block .H li:nth-child(2),
@@ -4917,7 +4919,7 @@ a {
   .scene2 .right-center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 607, ../sass/_scene2.scss */
+  /* line 609, ../sass/_scene2.scss */
   .scene2 .left-center-block .J li:nth-child(1), .scene2 .left-center-block .J li:nth-child(2), .scene2 .left-center-block .J li:nth-child(3), .scene2 .left-center-block .J li:nth-child(4), .scene2 .left-center-block .J li:nth-child(5), .scene2 .left-center-block .J li:nth-child(13), .scene2 .left-center-block .J li:nth-child(14), .scene2 .left-center-block .J li:nth-child(15), .scene2 .left-center-block .J li:nth-child(16), .scene2 .left-center-block .J li:nth-child(17),
   .scene2 .right-center-block .J li:nth-child(1),
   .scene2 .right-center-block .J li:nth-child(2),
@@ -4931,7 +4933,7 @@ a {
   .scene2 .right-center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 623, ../sass/_scene2.scss */
+  /* line 625, ../sass/_scene2.scss */
   .scene2 .left-center-block .K li:nth-child(1), .scene2 .left-center-block .K li:nth-child(2), .scene2 .left-center-block .K li:nth-child(3), .scene2 .left-center-block .K li:nth-child(17), .scene2 .left-center-block .K li:nth-child(18), .scene2 .left-center-block .K li:nth-child(19),
   .scene2 .right-center-block .K li:nth-child(1),
   .scene2 .right-center-block .K li:nth-child(2),
@@ -4941,7 +4943,7 @@ a {
   .scene2 .right-center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 635, ../sass/_scene2.scss */
+  /* line 637, ../sass/_scene2.scss */
   .scene2 .left-center-block .M li:nth-child(1), .scene2 .left-center-block .M li:nth-child(2), .scene2 .left-center-block .M li:nth-child(3), .scene2 .left-center-block .M li:nth-child(4), .scene2 .left-center-block .M li:nth-child(5), .scene2 .left-center-block .M li:nth-child(17), .scene2 .left-center-block .M li:nth-child(18), .scene2 .left-center-block .M li:nth-child(19), .scene2 .left-center-block .M li:nth-child(20), .scene2 .left-center-block .M li:nth-child(21),
   .scene2 .right-center-block .M li:nth-child(1),
   .scene2 .right-center-block .M li:nth-child(2),
@@ -4955,17 +4957,17 @@ a {
   .scene2 .right-center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 651, ../sass/_scene2.scss */
+  /* line 653, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(14),
   .scene2 .right-center-block .N li:nth-child(14) {
     margin-left: 1px;
   }
-  /* line 654, ../sass/_scene2.scss */
+  /* line 656, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:first-child,
   .scene2 .right-center-block .N li:first-child {
     margin-right: 8px;
   }
-  /* line 657, ../sass/_scene2.scss */
+  /* line 659, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(21), .scene2 .left-center-block .N li:nth-child(22), .scene2 .left-center-block .N li:nth-child(23),
   .scene2 .right-center-block .N li:nth-child(21),
   .scene2 .right-center-block .N li:nth-child(22),
@@ -4973,7 +4975,7 @@ a {
     margin: 0 2px 0 1px;
   }
 
-  /* line 668, ../sass/_scene2.scss */
+  /* line 670, ../sass/_scene2.scss */
   .scene-block .hover-block {
     min-width: 224px;
     width: 224px;
@@ -4984,7 +4986,7 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 678, ../sass/_scene2.scss */
+  /* line 680, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -4993,7 +4995,7 @@ a {
     overflow: hidden;
     padding: 17px 0 21px 16px;
   }
-  /* line 683, ../sass/_scene2.scss */
+  /* line 685, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li {
     display: block;
     width: auto;
@@ -5002,19 +5004,19 @@ a {
     overflow: hidden;
     margin: 11px auto;
   }
-  /* line 691, ../sass/_scene2.scss */
+  /* line 693, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li span {
     float: left;
     overflow: hidden;
     font: 400 16px/20px "Open Sans", sans-serif;
     color: #262626;
   }
-  /* line 698, ../sass/_scene2.scss */
+  /* line 700, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > .color-square-1, .scene-block .hover-block .hover-block-list > .color-square-2, .scene-block .hover-block .hover-block-list > .color-square-3 {
     float: left;
     margin-right: 10px;
   }
-  /* line 704, ../sass/_scene2.scss */
+  /* line 706, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1,
   .scene-block .hover-block .hover-block-list .color-square-2,
   .scene-block .hover-block .hover-block-list .color-square-3 {
@@ -5023,33 +5025,33 @@ a {
     height: 25px;
     margin-right: 15px;
   }
-  /* line 712, ../sass/_scene2.scss */
+  /* line 714, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1 {
     background: #BCB8B5;
   }
-  /* line 715, ../sass/_scene2.scss */
+  /* line 717, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-2 {
     background: #5A009E;
   }
-  /* line 718, ../sass/_scene2.scss */
+  /* line 720, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-3 {
     background: #ED6A00;
   }
 
   /*----------------------------------------------*/
-  /* line 725, ../sass/_scene2.scss */
+  /* line 727, ../sass/_scene2.scss */
   .according-block {
     padding-top: 8px;
     border-top: 2px solid #C2C2C2;
   }
-  /* line 728, ../sass/_scene2.scss */
+  /* line 730, ../sass/_scene2.scss */
   .according-block .according-title {
     margin: 10px 0 0 0;
     letter-spacing: -1px;
     color: #75023B;
     font: 700 22px/24px "Open Sans", sans-serif;
   }
-  /* line 734, ../sass/_scene2.scss */
+  /* line 736, ../sass/_scene2.scss */
   .according-block .according-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5059,21 +5061,21 @@ a {
     overflow: hidden;
     margin: 10px 0 37px 0;
   }
-  /* line 740, ../sass/_scene2.scss */
+  /* line 742, ../sass/_scene2.scss */
   .according-block .according-list li {
     display: block;
     width: 100%;
     overflow: hidden;
   }
-  /* line 746, ../sass/_scene2.scss */
+  /* line 748, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(2) .sign {
     margin: 15px 30px 10px 3px;
   }
-  /* line 751, ../sass/_scene2.scss */
+  /* line 753, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(3) .sign {
     margin: 16px 15px 10px 3px;
   }
-  /* line 755, ../sass/_scene2.scss */
+  /* line 757, ../sass/_scene2.scss */
   .according-block .according-list li .number {
     float: left;
     color: #E51002;
@@ -5081,7 +5083,7 @@ a {
     display: inline-block;
     margin: 14px 0 0 0;
   }
-  /* line 762, ../sass/_scene2.scss */
+  /* line 764, ../sass/_scene2.scss */
   .according-block .according-list li .sign {
     float: left;
     margin: 15px 15px 10px 1px;
@@ -5090,7 +5092,7 @@ a {
     color: #656565;
     font: 400 20px/25px "Open Sans", sans-serif;
   }
-  /* line 770, ../sass/_scene2.scss */
+  /* line 772, ../sass/_scene2.scss */
   .according-block .according-list li img {
     float: left;
     margin: 31px 0;
@@ -5098,14 +5100,14 @@ a {
 }
 /*--------480---------*/
 @media (min-width: 480px) {
-  /* line 781, ../sass/_scene2.scss */
+  /* line 783, ../sass/_scene2.scss */
   .scene {
     width: 100%;
     margin-top: 31px;
     overflow: hidden;
     top: 0;
   }
-  /* line 788, ../sass/_scene2.scss */
+  /* line 790, ../sass/_scene2.scss */
   .scene .scene2 .left-center-block,
   .scene .scene2 .right-center-block,
   .scene .scene2 .center-block {
@@ -5114,22 +5116,22 @@ a {
 }
 /*--------768---------*/
 @media (min-width: 768px) {
-  /* line 800, ../sass/_scene2.scss */
+  /* line 802, ../sass/_scene2.scss */
   .according-block .according-list li {
     display: inline-block !important;
     width: auto !important;
     overflow: hidden;
   }
-  /* line 805, ../sass/_scene2.scss */
+  /* line 807, ../sass/_scene2.scss */
   .according-block .according-list li:nth-child(2) {
     margin-left: 40px;
   }
 
-  /* line 812, ../sass/_scene2.scss */
+  /* line 814, ../sass/_scene2.scss */
   .scene2 .right-side-block {
     float: right;
   }
-  /* line 815, ../sass/_scene2.scss */
+  /* line 817, ../sass/_scene2.scss */
   .scene2 .left-center-block,
   .scene2 .right-center-block,
   .scene2 .center-block {
@@ -5140,22 +5142,22 @@ a {
     transform: rotate(0);
     left: 15% !important;
   }
-  /* line 825, ../sass/_scene2.scss */
+  /* line 827, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     margin-top: 0;
   }
-  /* line 828, ../sass/_scene2.scss */
+  /* line 830, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     margin-top: 30px;
   }
-  /* line 831, ../sass/_scene2.scss */
+  /* line 833, ../sass/_scene2.scss */
   .scene2 .center-block {
     margin: 60px 0;
   }
 }
 /*------------------------------------*/
 @media (min-width: 1024px) {
-  /* line 838, ../sass/_scene2.scss */
+  /* line 840, ../sass/_scene2.scss */
   .scene2-page {
     position: relative;
     width: 100%;
@@ -5178,11 +5180,11 @@ a {
     padding: 33px 0 65px;
     background: rgba(255, 255, 255, 0.6);
   }
-  /* line 843, ../sass/_scene2.scss */
+  /* line 845, ../sass/_scene2.scss */
   .scene2-page .rgb-background {
     padding: 33px 15px 36px;
   }
-  /* line 847, ../sass/_scene2.scss */
+  /* line 849, ../sass/_scene2.scss */
   .scene2-page .white-bg-container {
     position: relative;
     max-width: 1010px;
@@ -5192,18 +5194,18 @@ a {
     overflow: hidden;
     box-sizing: border-box;
   }
-  /* line 850, ../sass/_scene2.scss */
+  /* line 852, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content {
     clear: both;
     overflow: hidden;
     padding-bottom: 19px;
     border-bottom: 2px solid #C2C2C2;
   }
-  /* line 856, ../sass/_scene2.scss */
+  /* line 858, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content {
     float: left;
   }
-  /* line 858, ../sass/_scene2.scss */
+  /* line 860, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content .title {
     color: #272727;
     margin: 21px 0 0 13px;
@@ -5211,37 +5213,37 @@ a {
     text-transform: uppercase;
     letter-spacing: -0.4px;
   }
-  /* line 865, ../sass/_scene2.scss */
+  /* line 867, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .left-content .location {
     margin: 8px 0 0 15px;
     color: #252525;
     font: 700 20px/41px "Open Sans", sans-serif;
   }
-  /* line 871, ../sass/_scene2.scss */
+  /* line 873, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content {
     float: right;
   }
-  /* line 873, ../sass/_scene2.scss */
+  /* line 875, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content .date {
     margin: 38px 22px 0 0;
     color: #73023A;
     text-transform: uppercase;
     font: 700 30px/41px "Open Sans", sans-serif;
   }
-  /* line 879, ../sass/_scene2.scss */
+  /* line 881, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .header-content .right-content .time {
     float: right;
     margin: 5px 23px 0 0;
     color: #73023A;
     font: 700 30px/41px "Open Sans", sans-serif;
   }
-  /* line 888, ../sass/_scene2.scss */
+  /* line 890, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block,
   .scene2-page .white-bg-container .scene2-block {
     clear: both;
     margin: 0 auto 46px;
   }
-  /* line 893, ../sass/_scene2.scss */
+  /* line 895, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .block-title,
   .scene2-page .white-bg-container .scene2-block .block-title {
     width: 210px;
@@ -5261,7 +5263,7 @@ a {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-  /* line 913, ../sass/_scene2.scss */
+  /* line 915, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene,
   .scene2-page .white-bg-container .scene2-block .scene {
     width: 100%;
@@ -5270,7 +5272,7 @@ a {
     top: -31px;
     height: 950px;
   }
-  /* line 920, ../sass/_scene2.scss */
+  /* line 922, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .left-side-block-title,
   .scene2-page .white-bg-container .scene-block .scene .left-center-block-title,
   .scene2-page .white-bg-container .scene-block .scene .center-block-title,
@@ -5285,31 +5287,31 @@ a {
     font: 400 15px/21px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 929, ../sass/_scene2.scss */
+  /* line 931, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .left-side-block-title,
   .scene2-page .white-bg-container .scene2-block .scene .left-side-block-title {
     margin: 0 0 10px 50px;
     letter-spacing: 1px;
   }
-  /* line 933, ../sass/_scene2.scss */
+  /* line 935, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .scene-block .scene .right-side-block-title,
   .scene2-page .white-bg-container .scene2-block .scene .right-side-block-title {
     margin: 0 0 10px 78px;
     letter-spacing: 1px;
   }
-  /* line 940, ../sass/_scene2.scss */
+  /* line 942, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block {
     padding-top: 8px;
     border-top: 2px solid #C2C2C2;
   }
-  /* line 943, ../sass/_scene2.scss */
+  /* line 945, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-title {
     margin: 10px 0 0 15px;
     letter-spacing: -1px;
     color: #75023B;
     font: 700 24px/41px "Open Sans", sans-serif;
   }
-  /* line 949, ../sass/_scene2.scss */
+  /* line 951, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5321,30 +5323,30 @@ a {
     display: -webkit-flex;
     display: flex;
   }
-  /* line 957, ../sass/_scene2.scss */
+  /* line 959, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li {
     position: relative;
     display: inline-block;
     width: 33.3%;
   }
-  /* line 962, ../sass/_scene2.scss */
+  /* line 964, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(2) {
     margin-left: 18px;
   }
-  /* line 964, ../sass/_scene2.scss */
+  /* line 966, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(2) .sign {
     margin: 15px 40px 10px 19px;
   }
-  /* line 968, ../sass/_scene2.scss */
+  /* line 970, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(3) {
     width: 31.3%;
     margin-left: 3px;
   }
-  /* line 971, ../sass/_scene2.scss */
+  /* line 973, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li:nth-child(3) .sign {
     margin: 16px 15px 10px 16px;
   }
-  /* line 975, ../sass/_scene2.scss */
+  /* line 977, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li .number {
     float: left;
     color: #E51002;
@@ -5352,7 +5354,7 @@ a {
     display: inline-block;
     margin: 14px 0 0 0;
   }
-  /* line 982, ../sass/_scene2.scss */
+  /* line 984, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li .sign {
     float: left;
     margin: 15px 15px 10px 1px;
@@ -5361,19 +5363,19 @@ a {
     color: #666666;
     font: 400 20px/25px "Open Sans", sans-serif;
   }
-  /* line 990, ../sass/_scene2.scss */
+  /* line 992, ../sass/_scene2.scss */
   .scene2-page .white-bg-container .according-block .according-list li img {
     float: left;
     margin: 31px 0;
   }
 
-  /* line 1001, ../sass/_scene2.scss */
+  /* line 1003, ../sass/_scene2.scss */
   .scene2 .left-side-block {
     float: left;
     position: relative;
     margin: 0 0 20px 5%;
   }
-  /* line 1006, ../sass/_scene2.scss */
+  /* line 1008, ../sass/_scene2.scss */
   .scene2 .left-side-block .A, .scene2 .left-side-block .B, .scene2 .left-side-block .C, .scene2 .left-side-block .D, .scene2 .left-side-block .E,
   .scene2 .left-side-block .F, .scene2 .left-side-block .G, .scene2 .left-side-block .H, .scene2 .left-side-block .J, .scene2 .left-side-block .I,
   .scene2 .left-side-block .K, .scene2 .left-side-block .L, .scene2 .left-side-block .M, .scene2 .left-side-block .N {
@@ -5386,7 +5388,7 @@ a {
     float: right;
     margin: 0 1px;
   }
-  /* line 1016, ../sass/_scene2.scss */
+  /* line 1018, ../sass/_scene2.scss */
   .scene2 .left-side-block .A li, .scene2 .left-side-block .B li, .scene2 .left-side-block .C li, .scene2 .left-side-block .D li, .scene2 .left-side-block .E li,
   .scene2 .left-side-block .F li, .scene2 .left-side-block .G li, .scene2 .left-side-block .H li, .scene2 .left-side-block .J li, .scene2 .left-side-block .I li,
   .scene2 .left-side-block .K li, .scene2 .left-side-block .L li, .scene2 .left-side-block .M li, .scene2 .left-side-block .N li {
@@ -5395,7 +5397,7 @@ a {
     height: 15px;
     margin: 1px 2px 1px 1px;
   }
-  /* line 1021, ../sass/_scene2.scss */
+  /* line 1023, ../sass/_scene2.scss */
   .scene2 .left-side-block .A li a, .scene2 .left-side-block .B li a, .scene2 .left-side-block .C li a, .scene2 .left-side-block .D li a, .scene2 .left-side-block .E li a,
   .scene2 .left-side-block .F li a, .scene2 .left-side-block .G li a, .scene2 .left-side-block .H li a, .scene2 .left-side-block .J li a, .scene2 .left-side-block .I li a,
   .scene2 .left-side-block .K li a, .scene2 .left-side-block .L li a, .scene2 .left-side-block .M li a, .scene2 .left-side-block .N li a {
@@ -5406,13 +5408,13 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1030, ../sass/_scene2.scss */
+  /* line 1032, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .hoverParent, .scene2 .left-side-block .B .hoverParent, .scene2 .left-side-block .C .hoverParent, .scene2 .left-side-block .D .hoverParent, .scene2 .left-side-block .E .hoverParent,
   .scene2 .left-side-block .F .hoverParent, .scene2 .left-side-block .G .hoverParent, .scene2 .left-side-block .H .hoverParent, .scene2 .left-side-block .J .hoverParent, .scene2 .left-side-block .I .hoverParent,
   .scene2 .left-side-block .K .hoverParent, .scene2 .left-side-block .L .hoverParent, .scene2 .left-side-block .M .hoverParent, .scene2 .left-side-block .N .hoverParent {
     position: relative;
   }
-  /* line 1032, ../sass/_scene2.scss */
+  /* line 1034, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .hoverParent:hover .hover-block, .scene2 .left-side-block .B .hoverParent:hover .hover-block, .scene2 .left-side-block .C .hoverParent:hover .hover-block, .scene2 .left-side-block .D .hoverParent:hover .hover-block, .scene2 .left-side-block .E .hoverParent:hover .hover-block,
   .scene2 .left-side-block .F .hoverParent:hover .hover-block, .scene2 .left-side-block .G .hoverParent:hover .hover-block, .scene2 .left-side-block .H .hoverParent:hover .hover-block, .scene2 .left-side-block .J .hoverParent:hover .hover-block, .scene2 .left-side-block .I .hoverParent:hover .hover-block,
   .scene2 .left-side-block .K .hoverParent:hover .hover-block, .scene2 .left-side-block .L .hoverParent:hover .hover-block, .scene2 .left-side-block .M .hoverParent:hover .hover-block, .scene2 .left-side-block .N .hoverParent:hover .hover-block {
@@ -5420,19 +5422,19 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1038, ../sass/_scene2.scss */
+  /* line 1040, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .reserved, .scene2 .left-side-block .B .reserved, .scene2 .left-side-block .C .reserved, .scene2 .left-side-block .D .reserved, .scene2 .left-side-block .E .reserved,
   .scene2 .left-side-block .F .reserved, .scene2 .left-side-block .G .reserved, .scene2 .left-side-block .H .reserved, .scene2 .left-side-block .J .reserved, .scene2 .left-side-block .I .reserved,
   .scene2 .left-side-block .K .reserved, .scene2 .left-side-block .L .reserved, .scene2 .left-side-block .M .reserved, .scene2 .left-side-block .N .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1041, ../sass/_scene2.scss */
+  /* line 1043, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .ather-backets, .scene2 .left-side-block .B .ather-backets, .scene2 .left-side-block .C .ather-backets, .scene2 .left-side-block .D .ather-backets, .scene2 .left-side-block .E .ather-backets,
   .scene2 .left-side-block .F .ather-backets, .scene2 .left-side-block .G .ather-backets, .scene2 .left-side-block .H .ather-backets, .scene2 .left-side-block .J .ather-backets, .scene2 .left-side-block .I .ather-backets,
   .scene2 .left-side-block .K .ather-backets, .scene2 .left-side-block .L .ather-backets, .scene2 .left-side-block .M .ather-backets, .scene2 .left-side-block .N .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1045, ../sass/_scene2.scss */
+  /* line 1047, ../sass/_scene2.scss */
   .scene2 .left-side-block .A .series-name a, .scene2 .left-side-block .B .series-name a, .scene2 .left-side-block .C .series-name a, .scene2 .left-side-block .D .series-name a, .scene2 .left-side-block .E .series-name a,
   .scene2 .left-side-block .F .series-name a, .scene2 .left-side-block .G .series-name a, .scene2 .left-side-block .H .series-name a, .scene2 .left-side-block .J .series-name a, .scene2 .left-side-block .I .series-name a,
   .scene2 .left-side-block .K .series-name a, .scene2 .left-side-block .L .series-name a, .scene2 .left-side-block .M .series-name a, .scene2 .left-side-block .N .series-name a {
@@ -5440,14 +5442,14 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1053, ../sass/_scene2.scss */
+  /* line 1055, ../sass/_scene2.scss */
   .scene2 .right-side-block {
     float: right;
     position: relative;
     margin: 0 7% 20px 0;
     position: relative;
   }
-  /* line 1059, ../sass/_scene2.scss */
+  /* line 1061, ../sass/_scene2.scss */
   .scene2 .right-side-block .A, .scene2 .right-side-block .B, .scene2 .right-side-block .C, .scene2 .right-side-block .D, .scene2 .right-side-block .E,
   .scene2 .right-side-block .F, .scene2 .right-side-block .G, .scene2 .right-side-block .H, .scene2 .right-side-block .J, .scene2 .right-side-block .I,
   .scene2 .right-side-block .K, .scene2 .right-side-block .L, .scene2 .right-side-block .M, .scene2 .right-side-block .N {
@@ -5460,7 +5462,7 @@ a {
     float: left;
     margin: 0 1px;
   }
-  /* line 1069, ../sass/_scene2.scss */
+  /* line 1071, ../sass/_scene2.scss */
   .scene2 .right-side-block .A li, .scene2 .right-side-block .B li, .scene2 .right-side-block .C li, .scene2 .right-side-block .D li, .scene2 .right-side-block .E li,
   .scene2 .right-side-block .F li, .scene2 .right-side-block .G li, .scene2 .right-side-block .H li, .scene2 .right-side-block .J li, .scene2 .right-side-block .I li,
   .scene2 .right-side-block .K li, .scene2 .right-side-block .L li, .scene2 .right-side-block .M li, .scene2 .right-side-block .N li {
@@ -5470,7 +5472,7 @@ a {
     height: 15px;
     margin: 1px 2px 1px 1px;
   }
-  /* line 1075, ../sass/_scene2.scss */
+  /* line 1077, ../sass/_scene2.scss */
   .scene2 .right-side-block .A li a, .scene2 .right-side-block .B li a, .scene2 .right-side-block .C li a, .scene2 .right-side-block .D li a, .scene2 .right-side-block .E li a,
   .scene2 .right-side-block .F li a, .scene2 .right-side-block .G li a, .scene2 .right-side-block .H li a, .scene2 .right-side-block .J li a, .scene2 .right-side-block .I li a,
   .scene2 .right-side-block .K li a, .scene2 .right-side-block .L li a, .scene2 .right-side-block .M li a, .scene2 .right-side-block .N li a {
@@ -5480,13 +5482,13 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1083, ../sass/_scene2.scss */
+  /* line 1085, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .hoverParent, .scene2 .right-side-block .B .hoverParent, .scene2 .right-side-block .C .hoverParent, .scene2 .right-side-block .D .hoverParent, .scene2 .right-side-block .E .hoverParent,
   .scene2 .right-side-block .F .hoverParent, .scene2 .right-side-block .G .hoverParent, .scene2 .right-side-block .H .hoverParent, .scene2 .right-side-block .J .hoverParent, .scene2 .right-side-block .I .hoverParent,
   .scene2 .right-side-block .K .hoverParent, .scene2 .right-side-block .L .hoverParent, .scene2 .right-side-block .M .hoverParent, .scene2 .right-side-block .N .hoverParent {
     position: relative;
   }
-  /* line 1085, ../sass/_scene2.scss */
+  /* line 1087, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .hoverParent:hover .hover-block, .scene2 .right-side-block .B .hoverParent:hover .hover-block, .scene2 .right-side-block .C .hoverParent:hover .hover-block, .scene2 .right-side-block .D .hoverParent:hover .hover-block, .scene2 .right-side-block .E .hoverParent:hover .hover-block,
   .scene2 .right-side-block .F .hoverParent:hover .hover-block, .scene2 .right-side-block .G .hoverParent:hover .hover-block, .scene2 .right-side-block .H .hoverParent:hover .hover-block, .scene2 .right-side-block .J .hoverParent:hover .hover-block, .scene2 .right-side-block .I .hoverParent:hover .hover-block,
   .scene2 .right-side-block .K .hoverParent:hover .hover-block, .scene2 .right-side-block .L .hoverParent:hover .hover-block, .scene2 .right-side-block .M .hoverParent:hover .hover-block, .scene2 .right-side-block .N .hoverParent:hover .hover-block {
@@ -5494,25 +5496,25 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1091, ../sass/_scene2.scss */
+  /* line 1093, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .reserved, .scene2 .right-side-block .B .reserved, .scene2 .right-side-block .C .reserved, .scene2 .right-side-block .D .reserved, .scene2 .right-side-block .E .reserved,
   .scene2 .right-side-block .F .reserved, .scene2 .right-side-block .G .reserved, .scene2 .right-side-block .H .reserved, .scene2 .right-side-block .J .reserved, .scene2 .right-side-block .I .reserved,
   .scene2 .right-side-block .K .reserved, .scene2 .right-side-block .L .reserved, .scene2 .right-side-block .M .reserved, .scene2 .right-side-block .N .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1094, ../sass/_scene2.scss */
+  /* line 1096, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .ather-backets, .scene2 .right-side-block .B .ather-backets, .scene2 .right-side-block .C .ather-backets, .scene2 .right-side-block .D .ather-backets, .scene2 .right-side-block .E .ather-backets,
   .scene2 .right-side-block .F .ather-backets, .scene2 .right-side-block .G .ather-backets, .scene2 .right-side-block .H .ather-backets, .scene2 .right-side-block .J .ather-backets, .scene2 .right-side-block .I .ather-backets,
   .scene2 .right-side-block .K .ather-backets, .scene2 .right-side-block .L .ather-backets, .scene2 .right-side-block .M .ather-backets, .scene2 .right-side-block .N .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1097, ../sass/_scene2.scss */
+  /* line 1099, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .in-the-basket, .scene2 .right-side-block .B .in-the-basket, .scene2 .right-side-block .C .in-the-basket, .scene2 .right-side-block .D .in-the-basket, .scene2 .right-side-block .E .in-the-basket,
   .scene2 .right-side-block .F .in-the-basket, .scene2 .right-side-block .G .in-the-basket, .scene2 .right-side-block .H .in-the-basket, .scene2 .right-side-block .J .in-the-basket, .scene2 .right-side-block .I .in-the-basket,
   .scene2 .right-side-block .K .in-the-basket, .scene2 .right-side-block .L .in-the-basket, .scene2 .right-side-block .M .in-the-basket, .scene2 .right-side-block .N .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 1101, ../sass/_scene2.scss */
+  /* line 1103, ../sass/_scene2.scss */
   .scene2 .right-side-block .A .series-name a, .scene2 .right-side-block .B .series-name a, .scene2 .right-side-block .C .series-name a, .scene2 .right-side-block .D .series-name a, .scene2 .right-side-block .E .series-name a,
   .scene2 .right-side-block .F .series-name a, .scene2 .right-side-block .G .series-name a, .scene2 .right-side-block .H .series-name a, .scene2 .right-side-block .J .series-name a, .scene2 .right-side-block .I .series-name a,
   .scene2 .right-side-block .K .series-name a, .scene2 .right-side-block .L .series-name a, .scene2 .right-side-block .M .series-name a, .scene2 .right-side-block .N .series-name a {
@@ -5520,13 +5522,13 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1109, ../sass/_scene2.scss */
+  /* line 1111, ../sass/_scene2.scss */
   .scene2 .rotate-block {
     clear: both;
     padding-top: 45px;
-    height: 700px;
+    height: 750px;
   }
-  /* line 1115, ../sass/_scene2.scss */
+  /* line 1117, ../sass/_scene2.scss */
   .scene2 .left-center-block,
   .scene2 .right-center-block,
   .scene2 .center-block {
@@ -5535,7 +5537,7 @@ a {
     margin: 0 auto;
     text-align: center;
   }
-  /* line 1124, ../sass/_scene2.scss */
+  /* line 1126, ../sass/_scene2.scss */
   .scene2 .left-center-block .left-center-block-title,
   .scene2 .left-center-block .right-center-block-title,
   .scene2 .left-center-block .center-block-title,
@@ -5548,7 +5550,7 @@ a {
     margin: 10px 0 0 0;
     letter-spacing: 1px;
   }
-  /* line 1130, ../sass/_scene2.scss */
+  /* line 1132, ../sass/_scene2.scss */
   .scene2 .left-center-block .A, .scene2 .left-center-block .B, .scene2 .left-center-block .C, .scene2 .left-center-block .D, .scene2 .left-center-block .E,
   .scene2 .left-center-block .F, .scene2 .left-center-block .G, .scene2 .left-center-block .H, .scene2 .left-center-block .J, .scene2 .left-center-block .I,
   .scene2 .left-center-block .K, .scene2 .left-center-block .L, .scene2 .left-center-block .M, .scene2 .left-center-block .N, .scene2 .left-center-block .O,
@@ -5591,7 +5593,7 @@ a {
     margin: 0 auto;
     text-align: center;
   }
-  /* line 1140, ../sass/_scene2.scss */
+  /* line 1142, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
   .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
   .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li,
@@ -5632,7 +5634,7 @@ a {
     text-align: center;
     margin: 0;
   }
-  /* line 1147, ../sass/_scene2.scss */
+  /* line 1149, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
   .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
   .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a,
@@ -5672,7 +5674,7 @@ a {
     color: white;
     font: 400 7px/15px "Open Sans", sans-serif;
   }
-  /* line 1155, ../sass/_scene2.scss */
+  /* line 1157, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent, .scene2 .left-center-block .B .hoverParent, .scene2 .left-center-block .C .hoverParent, .scene2 .left-center-block .D .hoverParent, .scene2 .left-center-block .E .hoverParent,
   .scene2 .left-center-block .F .hoverParent, .scene2 .left-center-block .G .hoverParent, .scene2 .left-center-block .H .hoverParent, .scene2 .left-center-block .J .hoverParent, .scene2 .left-center-block .I .hoverParent,
   .scene2 .left-center-block .K .hoverParent, .scene2 .left-center-block .L .hoverParent, .scene2 .left-center-block .M .hoverParent, .scene2 .left-center-block .N .hoverParent, .scene2 .left-center-block .O .hoverParent,
@@ -5708,7 +5710,7 @@ a {
   .scene2 .center-block .O .hoverParent {
     position: relative;
   }
-  /* line 1157, ../sass/_scene2.scss */
+  /* line 1159, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .hoverParent:hover .hover-block, .scene2 .left-center-block .B .hoverParent:hover .hover-block, .scene2 .left-center-block .C .hoverParent:hover .hover-block, .scene2 .left-center-block .D .hoverParent:hover .hover-block, .scene2 .left-center-block .E .hoverParent:hover .hover-block,
   .scene2 .left-center-block .F .hoverParent:hover .hover-block, .scene2 .left-center-block .G .hoverParent:hover .hover-block, .scene2 .left-center-block .H .hoverParent:hover .hover-block, .scene2 .left-center-block .J .hoverParent:hover .hover-block, .scene2 .left-center-block .I .hoverParent:hover .hover-block,
   .scene2 .left-center-block .K .hoverParent:hover .hover-block, .scene2 .left-center-block .L .hoverParent:hover .hover-block, .scene2 .left-center-block .M .hoverParent:hover .hover-block, .scene2 .left-center-block .N .hoverParent:hover .hover-block, .scene2 .left-center-block .O .hoverParent:hover .hover-block,
@@ -5746,7 +5748,7 @@ a {
     left: 0;
     right: 0;
   }
-  /* line 1163, ../sass/_scene2.scss */
+  /* line 1165, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .reserved, .scene2 .left-center-block .B .reserved, .scene2 .left-center-block .C .reserved, .scene2 .left-center-block .D .reserved, .scene2 .left-center-block .E .reserved,
   .scene2 .left-center-block .F .reserved, .scene2 .left-center-block .G .reserved, .scene2 .left-center-block .H .reserved, .scene2 .left-center-block .J .reserved, .scene2 .left-center-block .I .reserved,
   .scene2 .left-center-block .K .reserved, .scene2 .left-center-block .L .reserved, .scene2 .left-center-block .M .reserved, .scene2 .left-center-block .N .reserved, .scene2 .left-center-block .O .reserved,
@@ -5782,7 +5784,7 @@ a {
   .scene2 .center-block .O .reserved {
     background-color: #bcb8b6;
   }
-  /* line 1166, ../sass/_scene2.scss */
+  /* line 1168, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .ather-backets, .scene2 .left-center-block .B .ather-backets, .scene2 .left-center-block .C .ather-backets, .scene2 .left-center-block .D .ather-backets, .scene2 .left-center-block .E .ather-backets,
   .scene2 .left-center-block .F .ather-backets, .scene2 .left-center-block .G .ather-backets, .scene2 .left-center-block .H .ather-backets, .scene2 .left-center-block .J .ather-backets, .scene2 .left-center-block .I .ather-backets,
   .scene2 .left-center-block .K .ather-backets, .scene2 .left-center-block .L .ather-backets, .scene2 .left-center-block .M .ather-backets, .scene2 .left-center-block .N .ather-backets, .scene2 .left-center-block .O .ather-backets,
@@ -5818,7 +5820,7 @@ a {
   .scene2 .center-block .O .ather-backets {
     background-color: #ed6a00;
   }
-  /* line 1169, ../sass/_scene2.scss */
+  /* line 1171, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .in-the-basket, .scene2 .left-center-block .B .in-the-basket, .scene2 .left-center-block .C .in-the-basket, .scene2 .left-center-block .D .in-the-basket, .scene2 .left-center-block .E .in-the-basket,
   .scene2 .left-center-block .F .in-the-basket, .scene2 .left-center-block .G .in-the-basket, .scene2 .left-center-block .H .in-the-basket, .scene2 .left-center-block .J .in-the-basket, .scene2 .left-center-block .I .in-the-basket,
   .scene2 .left-center-block .K .in-the-basket, .scene2 .left-center-block .L .in-the-basket, .scene2 .left-center-block .M .in-the-basket, .scene2 .left-center-block .N .in-the-basket, .scene2 .left-center-block .O .in-the-basket,
@@ -5854,7 +5856,7 @@ a {
   .scene2 .center-block .O .in-the-basket {
     background-color: #5A009E;
   }
-  /* line 1172, ../sass/_scene2.scss */
+  /* line 1174, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .cheap-price, .scene2 .left-center-block .B .cheap-price, .scene2 .left-center-block .C .cheap-price, .scene2 .left-center-block .D .cheap-price, .scene2 .left-center-block .E .cheap-price,
   .scene2 .left-center-block .F .cheap-price, .scene2 .left-center-block .G .cheap-price, .scene2 .left-center-block .H .cheap-price, .scene2 .left-center-block .J .cheap-price, .scene2 .left-center-block .I .cheap-price,
   .scene2 .left-center-block .K .cheap-price, .scene2 .left-center-block .L .cheap-price, .scene2 .left-center-block .M .cheap-price, .scene2 .left-center-block .N .cheap-price, .scene2 .left-center-block .O .cheap-price,
@@ -5890,7 +5892,7 @@ a {
   .scene2 .center-block .O .cheap-price {
     background-color: #E7CE00;
   }
-  /* line 1175, ../sass/_scene2.scss */
+  /* line 1177, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .average-price, .scene2 .left-center-block .B .average-price, .scene2 .left-center-block .C .average-price, .scene2 .left-center-block .D .average-price, .scene2 .left-center-block .E .average-price,
   .scene2 .left-center-block .F .average-price, .scene2 .left-center-block .G .average-price, .scene2 .left-center-block .H .average-price, .scene2 .left-center-block .J .average-price, .scene2 .left-center-block .I .average-price,
   .scene2 .left-center-block .K .average-price, .scene2 .left-center-block .L .average-price, .scene2 .left-center-block .M .average-price, .scene2 .left-center-block .N .average-price, .scene2 .left-center-block .O .average-price,
@@ -5926,7 +5928,7 @@ a {
   .scene2 .center-block .O .average-price {
     background-color: #C00463;
   }
-  /* line 1178, ../sass/_scene2.scss */
+  /* line 1180, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .highest-price, .scene2 .left-center-block .B .highest-price, .scene2 .left-center-block .C .highest-price, .scene2 .left-center-block .D .highest-price, .scene2 .left-center-block .E .highest-price,
   .scene2 .left-center-block .F .highest-price, .scene2 .left-center-block .G .highest-price, .scene2 .left-center-block .H .highest-price, .scene2 .left-center-block .J .highest-price, .scene2 .left-center-block .I .highest-price,
   .scene2 .left-center-block .K .highest-price, .scene2 .left-center-block .L .highest-price, .scene2 .left-center-block .M .highest-price, .scene2 .left-center-block .N .highest-price, .scene2 .left-center-block .O .highest-price,
@@ -5962,7 +5964,7 @@ a {
   .scene2 .center-block .O .highest-price {
     background-color: #840343;
   }
-  /* line 1182, ../sass/_scene2.scss */
+  /* line 1184, ../sass/_scene2.scss */
   .scene2 .left-center-block .A .series-name a, .scene2 .left-center-block .B .series-name a, .scene2 .left-center-block .C .series-name a, .scene2 .left-center-block .D .series-name a, .scene2 .left-center-block .E .series-name a,
   .scene2 .left-center-block .F .series-name a, .scene2 .left-center-block .G .series-name a, .scene2 .left-center-block .H .series-name a, .scene2 .left-center-block .J .series-name a, .scene2 .left-center-block .I .series-name a,
   .scene2 .left-center-block .K .series-name a, .scene2 .left-center-block .L .series-name a, .scene2 .left-center-block .M .series-name a, .scene2 .left-center-block .N .series-name a, .scene2 .left-center-block .O .series-name a,
@@ -6000,23 +6002,23 @@ a {
     font: 400 7px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1194, ../sass/_scene2.scss */
+  /* line 1196, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li, .scene2 .left-center-block .B li, .scene2 .left-center-block .C li, .scene2 .left-center-block .D li, .scene2 .left-center-block .E li,
   .scene2 .left-center-block .F li, .scene2 .left-center-block .G li, .scene2 .left-center-block .H li, .scene2 .left-center-block .J li, .scene2 .left-center-block .I li,
   .scene2 .left-center-block .K li, .scene2 .left-center-block .L li, .scene2 .left-center-block .M li, .scene2 .left-center-block .N li, .scene2 .left-center-block .O li {
     cursor: pointer;
   }
-  /* line 1196, ../sass/_scene2.scss */
+  /* line 1198, ../sass/_scene2.scss */
   .scene2 .left-center-block .A li a, .scene2 .left-center-block .B li a, .scene2 .left-center-block .C li a, .scene2 .left-center-block .D li a, .scene2 .left-center-block .E li a,
   .scene2 .left-center-block .F li a, .scene2 .left-center-block .G li a, .scene2 .left-center-block .H li a, .scene2 .left-center-block .J li a, .scene2 .left-center-block .I li a,
   .scene2 .left-center-block .K li a, .scene2 .left-center-block .L li a, .scene2 .left-center-block .M li a, .scene2 .left-center-block .N li a, .scene2 .left-center-block .O li a {
     cursor: pointer;
   }
-  /* line 1201, ../sass/_scene2.scss */
+  /* line 1203, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent {
     position: relative;
   }
-  /* line 1203, ../sass/_scene2.scss */
+  /* line 1205, ../sass/_scene2.scss */
   .scene2 .left-center-block .hoverParent:hover .hover-block {
     display: block !important;
     left: -11px !important;
@@ -6028,23 +6030,23 @@ a {
     -o-transform: rotate(-74deg);
     transform: rotate(-74deg);
   }
-  /* line 1220, ../sass/_scene2.scss */
+  /* line 1222, ../sass/_scene2.scss */
   .scene2 .right-center-block .A li, .scene2 .right-center-block .B li, .scene2 .right-center-block .C li, .scene2 .right-center-block .D li, .scene2 .right-center-block .E li,
   .scene2 .right-center-block .F li, .scene2 .right-center-block .G li, .scene2 .right-center-block .H li, .scene2 .right-center-block .J li, .scene2 .right-center-block .I li,
   .scene2 .right-center-block .K li, .scene2 .right-center-block .L li, .scene2 .right-center-block .M li, .scene2 .right-center-block .N li, .scene2 .right-center-block .O li {
     cursor: pointer;
   }
-  /* line 1222, ../sass/_scene2.scss */
+  /* line 1224, ../sass/_scene2.scss */
   .scene2 .right-center-block .A li a, .scene2 .right-center-block .B li a, .scene2 .right-center-block .C li a, .scene2 .right-center-block .D li a, .scene2 .right-center-block .E li a,
   .scene2 .right-center-block .F li a, .scene2 .right-center-block .G li a, .scene2 .right-center-block .H li a, .scene2 .right-center-block .J li a, .scene2 .right-center-block .I li a,
   .scene2 .right-center-block .K li a, .scene2 .right-center-block .L li a, .scene2 .right-center-block .M li a, .scene2 .right-center-block .N li a, .scene2 .right-center-block .O li a {
     cursor: pointer;
   }
-  /* line 1227, ../sass/_scene2.scss */
+  /* line 1229, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent {
     position: relative;
   }
-  /* line 1229, ../sass/_scene2.scss */
+  /* line 1231, ../sass/_scene2.scss */
   .scene2 .right-center-block .hoverParent:hover .hover-block {
     display: block !important;
     right: 0 !important;
@@ -6056,7 +6058,7 @@ a {
     -o-transform: rotate(74deg);
     transform: rotate(74deg);
   }
-  /* line 1242, ../sass/_scene2.scss */
+  /* line 1244, ../sass/_scene2.scss */
   .scene2 .left-center-block {
     float: left;
     width: 541px;
@@ -6069,7 +6071,7 @@ a {
     -o-transform: rotate(73deg);
     transform: rotate(73deg);
   }
-  /* line 1255, ../sass/_scene2.scss */
+  /* line 1257, ../sass/_scene2.scss */
   .scene2 .right-center-block {
     float: right;
     width: 541px;
@@ -6083,14 +6085,14 @@ a {
     right: -45px;
     left: auto !important;
   }
-  /* line 1269, ../sass/_scene2.scss */
+  /* line 1271, ../sass/_scene2.scss */
   .scene2 .center-block {
     width: 541px;
     position: relative;
     top: -170px;
     left: 210px !important;
   }
-  /* line 1280, ../sass/_scene2.scss */
+  /* line 1282, ../sass/_scene2.scss */
   .scene2 .center-block .hover-block {
     width: 224px;
     height: auto;
@@ -6101,31 +6103,31 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 1293, ../sass/_scene2.scss */
+  /* line 1295, ../sass/_scene2.scss */
   .scene2 .center-block .H li:nth-child(1), .scene2 .center-block .H li:nth-child(2), .scene2 .center-block .H li:nth-child(3), .scene2 .center-block .H li:nth-child(4), .scene2 .center-block .H li:nth-child(5), .scene2 .center-block .H li:nth-child(11), .scene2 .center-block .H li:nth-child(12), .scene2 .center-block .H li:nth-child(13), .scene2 .center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 1308, ../sass/_scene2.scss */
+  /* line 1310, ../sass/_scene2.scss */
   .scene2 .center-block .J li:nth-child(1), .scene2 .center-block .J li:nth-child(2), .scene2 .center-block .J li:nth-child(3), .scene2 .center-block .J li:nth-child(4), .scene2 .center-block .J li:nth-child(5), .scene2 .center-block .J li:nth-child(13), .scene2 .center-block .J li:nth-child(14), .scene2 .center-block .J li:nth-child(15), .scene2 .center-block .J li:nth-child(16), .scene2 .center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 1324, ../sass/_scene2.scss */
+  /* line 1326, ../sass/_scene2.scss */
   .scene2 .center-block .K li:nth-child(1), .scene2 .center-block .K li:nth-child(2), .scene2 .center-block .K li:nth-child(3), .scene2 .center-block .K li:nth-child(17), .scene2 .center-block .K li:nth-child(18), .scene2 .center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 1336, ../sass/_scene2.scss */
+  /* line 1338, ../sass/_scene2.scss */
   .scene2 .center-block .M li:nth-child(1), .scene2 .center-block .M li:nth-child(2), .scene2 .center-block .M li:nth-child(3), .scene2 .center-block .M li:nth-child(4), .scene2 .center-block .M li:nth-child(5), .scene2 .center-block .M li:nth-child(17), .scene2 .center-block .M li:nth-child(18), .scene2 .center-block .M li:nth-child(19), .scene2 .center-block .M li:nth-child(20), .scene2 .center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 1352, ../sass/_scene2.scss */
+  /* line 1354, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(14) {
     margin-left: 8px;
   }
-  /* line 1355, ../sass/_scene2.scss */
+  /* line 1357, ../sass/_scene2.scss */
   .scene2 .center-block .N li:nth-child(21), .scene2 .center-block .N li:nth-child(22), .scene2 .center-block .N li:nth-child(23) {
     margin: 0 2px 0 1px;
   }
-  /* line 1367, ../sass/_scene2.scss */
+  /* line 1369, ../sass/_scene2.scss */
   .scene2 .left-center-block .H li:nth-child(1), .scene2 .left-center-block .H li:nth-child(2), .scene2 .left-center-block .H li:nth-child(3), .scene2 .left-center-block .H li:nth-child(4), .scene2 .left-center-block .H li:nth-child(5), .scene2 .left-center-block .H li:nth-child(11), .scene2 .left-center-block .H li:nth-child(12), .scene2 .left-center-block .H li:nth-child(13), .scene2 .left-center-block .H li:nth-child(14),
   .scene2 .right-center-block .H li:nth-child(1),
   .scene2 .right-center-block .H li:nth-child(2),
@@ -6138,7 +6140,7 @@ a {
   .scene2 .right-center-block .H li:nth-child(14) {
     margin: 0 2px 0 1px;
   }
-  /* line 1382, ../sass/_scene2.scss */
+  /* line 1384, ../sass/_scene2.scss */
   .scene2 .left-center-block .J li:nth-child(1), .scene2 .left-center-block .J li:nth-child(2), .scene2 .left-center-block .J li:nth-child(3), .scene2 .left-center-block .J li:nth-child(4), .scene2 .left-center-block .J li:nth-child(5), .scene2 .left-center-block .J li:nth-child(13), .scene2 .left-center-block .J li:nth-child(14), .scene2 .left-center-block .J li:nth-child(15), .scene2 .left-center-block .J li:nth-child(16), .scene2 .left-center-block .J li:nth-child(17),
   .scene2 .right-center-block .J li:nth-child(1),
   .scene2 .right-center-block .J li:nth-child(2),
@@ -6152,7 +6154,7 @@ a {
   .scene2 .right-center-block .J li:nth-child(17) {
     margin: 0 2px 0 1px;
   }
-  /* line 1398, ../sass/_scene2.scss */
+  /* line 1400, ../sass/_scene2.scss */
   .scene2 .left-center-block .K li:nth-child(1), .scene2 .left-center-block .K li:nth-child(2), .scene2 .left-center-block .K li:nth-child(3), .scene2 .left-center-block .K li:nth-child(17), .scene2 .left-center-block .K li:nth-child(18), .scene2 .left-center-block .K li:nth-child(19),
   .scene2 .right-center-block .K li:nth-child(1),
   .scene2 .right-center-block .K li:nth-child(2),
@@ -6162,7 +6164,7 @@ a {
   .scene2 .right-center-block .K li:nth-child(19) {
     margin: 0 2px 0 1px;
   }
-  /* line 1410, ../sass/_scene2.scss */
+  /* line 1412, ../sass/_scene2.scss */
   .scene2 .left-center-block .M li:nth-child(1), .scene2 .left-center-block .M li:nth-child(2), .scene2 .left-center-block .M li:nth-child(3), .scene2 .left-center-block .M li:nth-child(4), .scene2 .left-center-block .M li:nth-child(5), .scene2 .left-center-block .M li:nth-child(17), .scene2 .left-center-block .M li:nth-child(18), .scene2 .left-center-block .M li:nth-child(19), .scene2 .left-center-block .M li:nth-child(20), .scene2 .left-center-block .M li:nth-child(21),
   .scene2 .right-center-block .M li:nth-child(1),
   .scene2 .right-center-block .M li:nth-child(2),
@@ -6176,17 +6178,17 @@ a {
   .scene2 .right-center-block .M li:nth-child(21) {
     margin: 0 2px 0 1px;
   }
-  /* line 1426, ../sass/_scene2.scss */
+  /* line 1428, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(14),
   .scene2 .right-center-block .N li:nth-child(14) {
     margin-left: 1px;
   }
-  /* line 1429, ../sass/_scene2.scss */
+  /* line 1431, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:first-child,
   .scene2 .right-center-block .N li:first-child {
     margin-right: 8px;
   }
-  /* line 1432, ../sass/_scene2.scss */
+  /* line 1434, ../sass/_scene2.scss */
   .scene2 .left-center-block .N li:nth-child(21), .scene2 .left-center-block .N li:nth-child(22), .scene2 .left-center-block .N li:nth-child(23),
   .scene2 .right-center-block .N li:nth-child(21),
   .scene2 .right-center-block .N li:nth-child(22),
@@ -6194,7 +6196,7 @@ a {
     margin: 0 2px 0 1px;
   }
 
-  /* line 1443, ../sass/_scene2.scss */
+  /* line 1445, ../sass/_scene2.scss */
   .scene-block .hover-block {
     min-width: 224px;
     width: 224px;
@@ -6205,7 +6207,7 @@ a {
     background-color: white;
     box-shadow: -0.4px 1.9px 18px rgba(0, 1, 1, 0.37);
   }
-  /* line 1453, ../sass/_scene2.scss */
+  /* line 1455, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -6214,7 +6216,7 @@ a {
     overflow: hidden;
     padding: 17px 0 21px 16px;
   }
-  /* line 1458, ../sass/_scene2.scss */
+  /* line 1460, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li {
     display: block;
     width: auto;
@@ -6223,19 +6225,19 @@ a {
     overflow: hidden;
     margin: 11px auto;
   }
-  /* line 1466, ../sass/_scene2.scss */
+  /* line 1468, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > li span {
     float: left;
     overflow: hidden;
     font: 400 16px/20px "Open Sans", sans-serif;
     color: #262626;
   }
-  /* line 1473, ../sass/_scene2.scss */
+  /* line 1475, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list > .color-square-1, .scene-block .hover-block .hover-block-list > .color-square-2, .scene-block .hover-block .hover-block-list > .color-square-3 {
     float: left;
     margin-right: 10px;
   }
-  /* line 1479, ../sass/_scene2.scss */
+  /* line 1481, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1,
   .scene-block .hover-block .hover-block-list .color-square-2,
   .scene-block .hover-block .hover-block-list .color-square-3 {
@@ -6244,20 +6246,20 @@ a {
     height: 25px;
     margin-right: 15px;
   }
-  /* line 1487, ../sass/_scene2.scss */
+  /* line 1489, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-1 {
     background: #BCB8B5;
   }
-  /* line 1490, ../sass/_scene2.scss */
+  /* line 1492, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-2 {
     background: #5A009E;
   }
-  /* line 1493, ../sass/_scene2.scss */
+  /* line 1495, ../sass/_scene2.scss */
   .scene-block .hover-block .hover-block-list .color-square-3 {
     background: #ED6A00;
   }
 }
-/* line 1501, ../sass/_scene2.scss */
+/* line 1503, ../sass/_scene2.scss */
 .top-transform .A, .top-transform .B, .top-transform .C, .top-transform .D, .top-transform .E,
 .top-transform .F, .top-transform .G, .top-transform .H, .top-transform .J, .top-transform .I,
 .top-transform .K, .top-transform .L, .top-transform .M, .top-transform .N, .top-transform .O {
@@ -6270,7 +6272,7 @@ a {
   margin: 0 auto;
   text-align: center;
 }
-/* line 1510, ../sass/_scene2.scss */
+/* line 1512, ../sass/_scene2.scss */
 .top-transform .A li, .top-transform .B li, .top-transform .C li, .top-transform .D li, .top-transform .E li,
 .top-transform .F li, .top-transform .G li, .top-transform .H li, .top-transform .J li, .top-transform .I li,
 .top-transform .K li, .top-transform .L li, .top-transform .M li, .top-transform .N li, .top-transform .O li {
@@ -6281,7 +6283,7 @@ a {
   text-align: center;
   margin: 0;
 }
-/* line 1517, ../sass/_scene2.scss */
+/* line 1519, ../sass/_scene2.scss */
 .top-transform .A li a, .top-transform .B li a, .top-transform .C li a, .top-transform .D li a, .top-transform .E li a,
 .top-transform .F li a, .top-transform .G li a, .top-transform .H li a, .top-transform .J li a, .top-transform .I li a,
 .top-transform .K li a, .top-transform .L li a, .top-transform .M li a, .top-transform .N li a, .top-transform .O li a {
@@ -6291,13 +6293,13 @@ a {
   color: white;
   font: 400 7px/15px "Open Sans", sans-serif;
 }
-/* line 1525, ../sass/_scene2.scss */
+/* line 1527, ../sass/_scene2.scss */
 .top-transform .A .hoverParent, .top-transform .B .hoverParent, .top-transform .C .hoverParent, .top-transform .D .hoverParent, .top-transform .E .hoverParent,
 .top-transform .F .hoverParent, .top-transform .G .hoverParent, .top-transform .H .hoverParent, .top-transform .J .hoverParent, .top-transform .I .hoverParent,
 .top-transform .K .hoverParent, .top-transform .L .hoverParent, .top-transform .M .hoverParent, .top-transform .N .hoverParent, .top-transform .O .hoverParent {
   position: relative;
 }
-/* line 1527, ../sass/_scene2.scss */
+/* line 1529, ../sass/_scene2.scss */
 .top-transform .A .hoverParent:hover .hover-block, .top-transform .B .hoverParent:hover .hover-block, .top-transform .C .hoverParent:hover .hover-block, .top-transform .D .hoverParent:hover .hover-block, .top-transform .E .hoverParent:hover .hover-block,
 .top-transform .F .hoverParent:hover .hover-block, .top-transform .G .hoverParent:hover .hover-block, .top-transform .H .hoverParent:hover .hover-block, .top-transform .J .hoverParent:hover .hover-block, .top-transform .I .hoverParent:hover .hover-block,
 .top-transform .K .hoverParent:hover .hover-block, .top-transform .L .hoverParent:hover .hover-block, .top-transform .M .hoverParent:hover .hover-block, .top-transform .N .hoverParent:hover .hover-block, .top-transform .O .hoverParent:hover .hover-block {
@@ -6305,43 +6307,43 @@ a {
   left: 0;
   right: 0;
 }
-/* line 1533, ../sass/_scene2.scss */
+/* line 1535, ../sass/_scene2.scss */
 .top-transform .A .reserved, .top-transform .B .reserved, .top-transform .C .reserved, .top-transform .D .reserved, .top-transform .E .reserved,
 .top-transform .F .reserved, .top-transform .G .reserved, .top-transform .H .reserved, .top-transform .J .reserved, .top-transform .I .reserved,
 .top-transform .K .reserved, .top-transform .L .reserved, .top-transform .M .reserved, .top-transform .N .reserved, .top-transform .O .reserved {
   background-color: #bcb8b6;
 }
-/* line 1536, ../sass/_scene2.scss */
+/* line 1538, ../sass/_scene2.scss */
 .top-transform .A .ather-backets, .top-transform .B .ather-backets, .top-transform .C .ather-backets, .top-transform .D .ather-backets, .top-transform .E .ather-backets,
 .top-transform .F .ather-backets, .top-transform .G .ather-backets, .top-transform .H .ather-backets, .top-transform .J .ather-backets, .top-transform .I .ather-backets,
 .top-transform .K .ather-backets, .top-transform .L .ather-backets, .top-transform .M .ather-backets, .top-transform .N .ather-backets, .top-transform .O .ather-backets {
   background-color: #ed6a00;
 }
-/* line 1539, ../sass/_scene2.scss */
+/* line 1541, ../sass/_scene2.scss */
 .top-transform .A .in-the-basket, .top-transform .B .in-the-basket, .top-transform .C .in-the-basket, .top-transform .D .in-the-basket, .top-transform .E .in-the-basket,
 .top-transform .F .in-the-basket, .top-transform .G .in-the-basket, .top-transform .H .in-the-basket, .top-transform .J .in-the-basket, .top-transform .I .in-the-basket,
 .top-transform .K .in-the-basket, .top-transform .L .in-the-basket, .top-transform .M .in-the-basket, .top-transform .N .in-the-basket, .top-transform .O .in-the-basket {
   background-color: #5A009E;
 }
-/* line 1542, ../sass/_scene2.scss */
+/* line 1544, ../sass/_scene2.scss */
 .top-transform .A .cheap-price, .top-transform .B .cheap-price, .top-transform .C .cheap-price, .top-transform .D .cheap-price, .top-transform .E .cheap-price,
 .top-transform .F .cheap-price, .top-transform .G .cheap-price, .top-transform .H .cheap-price, .top-transform .J .cheap-price, .top-transform .I .cheap-price,
 .top-transform .K .cheap-price, .top-transform .L .cheap-price, .top-transform .M .cheap-price, .top-transform .N .cheap-price, .top-transform .O .cheap-price {
   background-color: #E7CE00;
 }
-/* line 1545, ../sass/_scene2.scss */
+/* line 1547, ../sass/_scene2.scss */
 .top-transform .A .average-price, .top-transform .B .average-price, .top-transform .C .average-price, .top-transform .D .average-price, .top-transform .E .average-price,
 .top-transform .F .average-price, .top-transform .G .average-price, .top-transform .H .average-price, .top-transform .J .average-price, .top-transform .I .average-price,
 .top-transform .K .average-price, .top-transform .L .average-price, .top-transform .M .average-price, .top-transform .N .average-price, .top-transform .O .average-price {
   background-color: #C00463;
 }
-/* line 1548, ../sass/_scene2.scss */
+/* line 1550, ../sass/_scene2.scss */
 .top-transform .A .highest-price, .top-transform .B .highest-price, .top-transform .C .highest-price, .top-transform .D .highest-price, .top-transform .E .highest-price,
 .top-transform .F .highest-price, .top-transform .G .highest-price, .top-transform .H .highest-price, .top-transform .J .highest-price, .top-transform .I .highest-price,
 .top-transform .K .highest-price, .top-transform .L .highest-price, .top-transform .M .highest-price, .top-transform .N .highest-price, .top-transform .O .highest-price {
   background-color: #840343;
 }
-/* line 1552, ../sass/_scene2.scss */
+/* line 1554, ../sass/_scene2.scss */
 .top-transform .A .series-name a, .top-transform .B .series-name a, .top-transform .C .series-name a, .top-transform .D .series-name a, .top-transform .E .series-name a,
 .top-transform .F .series-name a, .top-transform .G .series-name a, .top-transform .H .series-name a, .top-transform .J .series-name a, .top-transform .I .series-name a,
 .top-transform .K .series-name a, .top-transform .L .series-name a, .top-transform .M .series-name a, .top-transform .N .series-name a, .top-transform .O .series-name a {
@@ -6351,13 +6353,13 @@ a {
 }
 
 @media (max-width: 767px) {
-  /* line 1561, ../sass/_scene2.scss */
+  /* line 1563, ../sass/_scene2.scss */
   .dm-overlay,
   .btn {
     display: none;
   }
 
-  /* line 1566, ../sass/_scene2.scss */
+  /* line 1568, ../sass/_scene2.scss */
   .scene2 .left-side-block,
   .scene2 .right-side-block,
   .scene2 .left-center-block,
@@ -6367,13 +6369,13 @@ a {
   }
 }
 @media (min-width: 768px) {
-  /* line 1578, ../sass/_scene2.scss */
+  /* line 1580, ../sass/_scene2.scss */
   .dm-overlay .left-side-block,
   .dm-overlay .right-side-block {
     margin: 0;
     width: 100%;
   }
-  /* line 1582, ../sass/_scene2.scss */
+  /* line 1584, ../sass/_scene2.scss */
   .dm-overlay .left-side-block .A, .dm-overlay .left-side-block .B, .dm-overlay .left-side-block .C, .dm-overlay .left-side-block .D, .dm-overlay .left-side-block .E,
   .dm-overlay .left-side-block .F, .dm-overlay .left-side-block .G, .dm-overlay .left-side-block .H, .dm-overlay .left-side-block .J, .dm-overlay .left-side-block .I,
   .dm-overlay .left-side-block .K, .dm-overlay .left-side-block .L, .dm-overlay .left-side-block .M, .dm-overlay .left-side-block .N,
@@ -6394,7 +6396,7 @@ a {
     width: auto;
     margin: 0;
   }
-  /* line 1588, ../sass/_scene2.scss */
+  /* line 1590, ../sass/_scene2.scss */
   .dm-overlay .left-side-block .A li, .dm-overlay .left-side-block .B li, .dm-overlay .left-side-block .C li, .dm-overlay .left-side-block .D li, .dm-overlay .left-side-block .E li,
   .dm-overlay .left-side-block .F li, .dm-overlay .left-side-block .G li, .dm-overlay .left-side-block .H li, .dm-overlay .left-side-block .J li, .dm-overlay .left-side-block .I li,
   .dm-overlay .left-side-block .K li, .dm-overlay .left-side-block .L li, .dm-overlay .left-side-block .M li, .dm-overlay .left-side-block .N li,
@@ -6417,7 +6419,7 @@ a {
     height: 25px;
     margin: 4px 2px;
   }
-  /* line 1593, ../sass/_scene2.scss */
+  /* line 1595, ../sass/_scene2.scss */
   .dm-overlay .left-side-block .A li a, .dm-overlay .left-side-block .B li a, .dm-overlay .left-side-block .C li a, .dm-overlay .left-side-block .D li a, .dm-overlay .left-side-block .E li a,
   .dm-overlay .left-side-block .F li a, .dm-overlay .left-side-block .G li a, .dm-overlay .left-side-block .H li a, .dm-overlay .left-side-block .J li a, .dm-overlay .left-side-block .I li a,
   .dm-overlay .left-side-block .K li a, .dm-overlay .left-side-block .L li a, .dm-overlay .left-side-block .M li a, .dm-overlay .left-side-block .N li a,
@@ -6442,7 +6444,7 @@ a {
     color: white;
     font: 400 16px/25px "Open Sans", sans-serif;
   }
-  /* line 1603, ../sass/_scene2.scss */
+  /* line 1605, ../sass/_scene2.scss */
   .dm-overlay .left-side-block .A .series-name a, .dm-overlay .left-side-block .B .series-name a, .dm-overlay .left-side-block .C .series-name a, .dm-overlay .left-side-block .D .series-name a, .dm-overlay .left-side-block .E .series-name a,
   .dm-overlay .left-side-block .F .series-name a, .dm-overlay .left-side-block .G .series-name a, .dm-overlay .left-side-block .H .series-name a, .dm-overlay .left-side-block .J .series-name a, .dm-overlay .left-side-block .I .series-name a,
   .dm-overlay .left-side-block .K .series-name a, .dm-overlay .left-side-block .L .series-name a, .dm-overlay .left-side-block .M .series-name a, .dm-overlay .left-side-block .N .series-name a,
@@ -6464,7 +6466,7 @@ a {
     font: 400 16px/25px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1613, ../sass/_scene2.scss */
+  /* line 1615, ../sass/_scene2.scss */
   .dm-overlay .dm-modal .left-center-block,
   .dm-overlay .dm-modal .right-center-block,
   .dm-overlay .dm-modal .center-block {
@@ -6478,7 +6480,7 @@ a {
     -o-transform: rotate(0) !important;
     transform: rotate(0) !important;
   }
-  /* line 1625, ../sass/_scene2.scss */
+  /* line 1627, ../sass/_scene2.scss */
   .dm-overlay .dm-modal .left-center-block .A, .dm-overlay .dm-modal .left-center-block .B, .dm-overlay .dm-modal .left-center-block .C, .dm-overlay .dm-modal .left-center-block .D, .dm-overlay .dm-modal .left-center-block .E,
   .dm-overlay .dm-modal .left-center-block .F, .dm-overlay .dm-modal .left-center-block .G, .dm-overlay .dm-modal .left-center-block .H, .dm-overlay .dm-modal .left-center-block .J, .dm-overlay .dm-modal .left-center-block .I,
   .dm-overlay .dm-modal .left-center-block .K, .dm-overlay .dm-modal .left-center-block .L, .dm-overlay .dm-modal .left-center-block .M, .dm-overlay .dm-modal .left-center-block .N, .dm-overlay .dm-modal .left-center-block .O,
@@ -6514,12 +6516,12 @@ a {
   .dm-overlay .dm-modal .center-block .O {
     max-width: 100%;
     width: 100%;
-    height: 26px;
+    height: auto;
     display: block;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 1634, ../sass/_scene2.scss */
+  /* line 1636, ../sass/_scene2.scss */
   .dm-overlay .dm-modal .left-center-block .A li, .dm-overlay .dm-modal .left-center-block .B li, .dm-overlay .dm-modal .left-center-block .C li, .dm-overlay .dm-modal .left-center-block .D li, .dm-overlay .dm-modal .left-center-block .E li,
   .dm-overlay .dm-modal .left-center-block .F li, .dm-overlay .dm-modal .left-center-block .G li, .dm-overlay .dm-modal .left-center-block .H li, .dm-overlay .dm-modal .left-center-block .J li, .dm-overlay .dm-modal .left-center-block .I li,
   .dm-overlay .dm-modal .left-center-block .K li, .dm-overlay .dm-modal .left-center-block .L li, .dm-overlay .dm-modal .left-center-block .M li, .dm-overlay .dm-modal .left-center-block .N li, .dm-overlay .dm-modal .left-center-block .O li,
@@ -6554,11 +6556,12 @@ a {
   .dm-overlay .dm-modal .center-block .N li,
   .dm-overlay .dm-modal .center-block .O li {
     display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin: 2px auto;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+    overflow: hidden;
   }
-  /* line 1639, ../sass/_scene2.scss */
+  /* line 1642, ../sass/_scene2.scss */
   .dm-overlay .dm-modal .left-center-block .A li a, .dm-overlay .dm-modal .left-center-block .B li a, .dm-overlay .dm-modal .left-center-block .C li a, .dm-overlay .dm-modal .left-center-block .D li a, .dm-overlay .dm-modal .left-center-block .E li a,
   .dm-overlay .dm-modal .left-center-block .F li a, .dm-overlay .dm-modal .left-center-block .G li a, .dm-overlay .dm-modal .left-center-block .H li a, .dm-overlay .dm-modal .left-center-block .J li a, .dm-overlay .dm-modal .left-center-block .I li a,
   .dm-overlay .dm-modal .left-center-block .K li a, .dm-overlay .dm-modal .left-center-block .L li a, .dm-overlay .dm-modal .left-center-block .M li a, .dm-overlay .dm-modal .left-center-block .N li a, .dm-overlay .dm-modal .left-center-block .O li a,
@@ -6597,9 +6600,9 @@ a {
     display: block;
     text-align: center;
     color: white;
-    font: 400 16px/25px "Open Sans", sans-serif;
+    font: 400 14px/22px "Open Sans", sans-serif;
   }
-  /* line 1649, ../sass/_scene2.scss */
+  /* line 1652, ../sass/_scene2.scss */
   .dm-overlay .dm-modal .left-center-block .A .series-name a, .dm-overlay .dm-modal .left-center-block .B .series-name a, .dm-overlay .dm-modal .left-center-block .C .series-name a, .dm-overlay .dm-modal .left-center-block .D .series-name a, .dm-overlay .dm-modal .left-center-block .E .series-name a,
   .dm-overlay .dm-modal .left-center-block .F .series-name a, .dm-overlay .dm-modal .left-center-block .G .series-name a, .dm-overlay .dm-modal .left-center-block .H .series-name a, .dm-overlay .dm-modal .left-center-block .J .series-name a, .dm-overlay .dm-modal .left-center-block .I .series-name a,
   .dm-overlay .dm-modal .left-center-block .K .series-name a, .dm-overlay .dm-modal .left-center-block .L .series-name a, .dm-overlay .dm-modal .left-center-block .M .series-name a, .dm-overlay .dm-modal .left-center-block .N .series-name a, .dm-overlay .dm-modal .left-center-block .O .series-name a,
@@ -6634,7 +6637,7 @@ a {
   .dm-overlay .dm-modal .center-block .N .series-name a,
   .dm-overlay .dm-modal .center-block .O .series-name a {
     color: #000;
-    font: 400 16px/25px "Open Sans", sans-serif;
+    font: 400 16px/22px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
 }
