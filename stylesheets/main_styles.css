@@ -23342,3 +23342,281 @@ a {
     padding-top: 30px;
   }
 }
+/* line 1, ../sass/_fill-date-page.scss */
+.fill-date-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  padding: 28px 0;
+  padding: 31px 0 39px;
+  background: url("../images/backgr.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 89, ../sass/_scene4.scss */
+.fill-date-page .rgb-background {
+  max-width: 1060px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 33px 0 65px;
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 6, ../sass/_fill-date-page.scss */
+.fill-date-page .rgb-background {
+  padding: 33px 3px;
+}
+/* line 10, ../sass/_fill-date-page.scss */
+.fill-date-page .white-bg-container {
+  position: relative;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 0px 20px 0;
+  background: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 32px 15px 60px;
+}
+/* line 15, ../sass/_fill-date-page.scss */
+.fill-date-page .fill-date-page-title {
+  color: #262626;
+  font: 700 27px/30px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 20, ../sass/_fill-date-page.scss */
+.fill-date-page .formWrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 24, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form input {
+  display: inline-block;
+}
+/* line 27, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name,
+.fill-date-page #fill-date-form #client-phone,
+.fill-date-page #fill-date-form #client-email {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  margin: 25px auto 0;
+  padding-left: 54px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #686868;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 44, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name ::-webkit-input-placeholder,
+.fill-date-page #fill-date-form #client-phone ::-webkit-input-placeholder,
+.fill-date-page #fill-date-form #client-email ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 48, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name ::-moz-placeholder,
+.fill-date-page #fill-date-form #client-phone ::-moz-placeholder,
+.fill-date-page #fill-date-form #client-email ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 52, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name :-ms-input-placeholder,
+.fill-date-page #fill-date-form #client-phone :-ms-input-placeholder,
+.fill-date-page #fill-date-form #client-email :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 56, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name :-moz-placeholder,
+.fill-date-page #fill-date-form #client-phone :-moz-placeholder,
+.fill-date-page #fill-date-form #client-email :-moz-placeholder {
+  /* Firefox 18- */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 61, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-name {
+  background-image: url("../images/icon-user-page.png");
+}
+/* line 65, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-phone {
+  background-image: url("../images/icon-phone-user-page.png");
+}
+/* line 68, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #client-email {
+  background-image: url("../images/icon-mail-user-page.png");
+}
+/* line 71, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .for-payment-title {
+  margin: 27px 0 0;
+  color: #74023b;
+  font: 700 22px/26px "Open Sans", sans-serif;
+}
+/* line 76, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 20px 0 0;
+  /* .squaredFour */
+  /* end .squaredFour */
+}
+/* line 81, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon #paypal,
+.fill-date-page #fill-date-form .payment-icon #visa {
+  width: 22px;
+  height: 22px;
+  background-color: #bcb8b6;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+/* line 91, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  margin: 0 15px 3px 10px;
+  display: inline-block;
+}
+/* line 97, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour label {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fcfff4;
+  background: #bcb8b6;
+  border-radius: 7px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 108, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour label:after {
+  content: '';
+  width: 11px;
+  height: 5px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  border: 2px solid #262626;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+/* line 126, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 128, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+/* line 136, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .img-wrapper {
+  overflow: hidden;
+  display: inline-block;
+}
+/* line 139, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form .img-wrapper img {
+  margin: 10px 0 0;
+}
+/* line 144, ../sass/_fill-date-page.scss */
+.fill-date-page #fill-date-form #fill-date-sbm-btn {
+  display: block;
+  width: 154px;
+  height: 40px;
+  margin: 50px auto 20px;
+  text-align: center;
+  color: white;
+  font: 600 16px/22px "Open Sans", sans-serif;
+  background-color: #74023b;
+  border-radius: 7px;
+  box-shadow: 2.4px 4.4px 9px rgba(0, 0, 0, 0.56);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  /* line 166, ../sass/_fill-date-page.scss */
+  .fill-date-page .rgb-background {
+    padding: 41px 3px 42px;
+  }
+  /* line 170, ../sass/_fill-date-page.scss */
+  .fill-date-page .white-bg-container {
+    max-width: 982px;
+    padding: 24px 0 41px;
+  }
+  /* line 175, ../sass/_fill-date-page.scss */
+  .fill-date-page .fill-date-page-title {
+    margin: 0 0 17px;
+    font-size: 50px;
+    line-height: 52px;
+  }
+  /* line 180, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form {
+    text-align: center;
+  }
+  /* line 182, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .top-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* line 187, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-name,
+  .fill-date-page #fill-date-form .top-field #client-phone,
+  .fill-date-page #fill-date-form .top-field #client-email {
+    width: 31%;
+    height: 41px;
+    margin: 23px 1% 0;
+    line-height: 33px;
+    padding-left: 34px;
+  }
+  /* line 196, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-name {
+    margin-left: 0;
+  }
+  /* line 199, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-email {
+    margin-right: 0;
+  }
+  /* line 203, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .for-payment-title {
+    margin: 48px auto 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  /* line 209, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form .payment-icon {
+    margin: 18px auto 0;
+    width: 22%;
+    display: inline-block;
+  }
+  /* line 214, ../sass/_fill-date-page.scss */
+  .fill-date-page #fill-date-form #fill-date-sbm-btn {
+    margin: 30px auto 20px;
+    font-size: 17px;
+  }
+}
