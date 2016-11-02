@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 4, ../sass/main_styles.scss */
+/* line 3, ../sass/main_styles.scss */
 body {
   font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
@@ -71,7 +71,7 @@ body {
   background: #fff;
 }
 
-/* line 81, ../sass/main_styles.scss */
+/* line 80, ../sass/main_styles.scss */
 .wrapper {
   max-width: 1010px;
   margin: 0 auto;
@@ -79,18 +79,18 @@ body {
   box-sizing: border-box;
 }
 
-/* line 87, ../sass/main_styles.scss */
+/* line 86, ../sass/main_styles.scss */
 a {
   text-decoration: none;
 }
 
 @media (max-width: 1023px) {
-  /* line 94, ../sass/main_styles.scss */
+  /* line 93, ../sass/main_styles.scss */
   .price-ticket-block {
     display: none;
   }
 
-  /* line 97, ../sass/main_styles.scss */
+  /* line 96, ../sass/main_styles.scss */
   header {
     max-height: 67px;
     padding: 10px 0 9px;
@@ -98,11 +98,11 @@ a {
     border-bottom: 3px solid #74023b;
   }
 
-  /* line 103, ../sass/main_styles.scss */
+  /* line 102, ../sass/main_styles.scss */
   .dropdovn-menu-mobile {
     position: relative;
   }
-  /* line 105, ../sass/main_styles.scss */
+  /* line 104, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu {
     display: block;
     position: absolute;
@@ -121,7 +121,7 @@ a {
     -webkit-transform: classZ(0);
     -webkit-backface-visibility: hidden;
   }
-  /* line 122, ../sass/main_styles.scss */
+  /* line 121, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu li {
     display: block;
     width: 100%;
@@ -131,7 +131,7 @@ a {
     line-height: 43px;
     vertical-align: middle;
   }
-  /* line 131, ../sass/main_styles.scss */
+  /* line 130, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu li a {
     display: block;
     width: 100%;
@@ -145,17 +145,17 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 141, ../sass/main_styles.scss */
+  /* line 140, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu li a:hover {
     color: #fff;
     background: #bf0361;
   }
-  /* line 146, ../sass/main_styles.scss */
+  /* line 145, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu li a.active {
     color: #fff;
     background: #bf0361;
   }
-  /* line 152, ../sass/main_styles.scss */
+  /* line 151, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu .language-item a {
     display: inline-block;
     width: 28px;
@@ -163,28 +163,28 @@ a {
     color: white;
     font: 400 15px/20px "Open Sans", sans-serif;
   }
-  /* line 158, ../sass/main_styles.scss */
+  /* line 157, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu .language-item a:first-of-type {
     margin-left: 26px;
     padding: 0;
   }
-  /* line 162, ../sass/main_styles.scss */
+  /* line 161, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu .language-item a:nth-of-type(2) {
     padding: 0 0 0 3px;
   }
-  /* line 166, ../sass/main_styles.scss */
+  /* line 165, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu .language-item a.active-lenguage {
     background: #bf0361;
   }
-  /* line 169, ../sass/main_styles.scss */
+  /* line 168, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu .language-item span {
     color: #fff;
   }
-  /* line 174, ../sass/main_styles.scss */
+  /* line 173, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu-ticker {
     display: none;
   }
-  /* line 177, ../sass/main_styles.scss */
+  /* line 176, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .btn-menu {
     color: #fff;
     background-color: none;
@@ -198,7 +198,7 @@ a {
     -webkit-transform: classZ(0);
     -webkit-backface-visibility: hidden;
   }
-  /* line 190, ../sass/main_styles.scss */
+  /* line 189, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .btn-menu span {
     display: block;
     height: 2px;
@@ -208,21 +208,21 @@ a {
     border-radius: 10px;
     position: relative;
   }
-  /* line 199, ../sass/main_styles.scss */
+  /* line 198, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .btn-menu span.first {
     margin-top: 0;
   }
-  /* line 202, ../sass/main_styles.scss */
+  /* line 201, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu {
     left: 160px;
     top: 15px;
     z-index: 99999;
   }
-  /* line 207, ../sass/main_styles.scss */
+  /* line 206, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu span {
     background-color: #fff;
   }
-  /* line 210, ../sass/main_styles.scss */
+  /* line 209, ../sass/main_styles.scss */
   .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .hidden-menu {
     left: -15px;
     top: -25px;
@@ -232,7 +232,7 @@ a {
   }
 
   /*logo*/
-  /* line 221, ../sass/main_styles.scss */
+  /* line 220, ../sass/main_styles.scss */
   .mobile-logo .logo {
     max-width: 106px;
     width: 100%;
@@ -244,27 +244,27 @@ a {
     padding-top: 5px;
     text-align: center;
   }
-  /* line 232, ../sass/main_styles.scss */
+  /* line 231, ../sass/main_styles.scss */
   .mobile-logo .logo img {
     max-width: 100%;
     height: auto;
   }
 
   /*dropdown phone*/
-  /* line 239, ../sass/main_styles.scss */
+  /* line 238, ../sass/main_styles.scss */
   .call-us-block {
     float: right;
     margin: 0;
     vertical-align: middle;
   }
-  /* line 244, ../sass/main_styles.scss */
+  /* line 243, ../sass/main_styles.scss */
   .call-us-block img {
     display: inline-block;
     line-height: 33px;
     vertical-align: middle;
   }
 
-  /* line 250, ../sass/main_styles.scss */
+  /* line 249, ../sass/main_styles.scss */
   #info-mobile {
     width: 230px;
     height: auto;
@@ -281,19 +281,19 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 263, ../sass/main_styles.scss */
+  /* line 262, ../sass/main_styles.scss */
   #info-mobile a {
     display: block;
     margin: 6px auto 5px;
     text-align: center;
   }
-  /* line 267, ../sass/main_styles.scss */
+  /* line 266, ../sass/main_styles.scss */
   #info-mobile a .phone {
     color: #fff;
     font: 700 22px/35px "Open Sans", sans-serif;
   }
 
-  /* line 273, ../sass/main_styles.scss */
+  /* line 272, ../sass/main_styles.scss */
   .call-us-block > label {
     color: #000;
     float: right;
@@ -305,26 +305,26 @@ a {
     transition: all .3s ease-in-out;
   }
 
-  /* line 280, ../sass/main_styles.scss */
+  /* line 279, ../sass/main_styles.scss */
   input {
     display: none;
   }
 
-  /* line 281, ../sass/main_styles.scss */
+  /* line 280, ../sass/main_styles.scss */
   input:checked + #info-mobile {
     display: none;
   }
 
   /*end dropdown phone*/
   /*end menu*/
-  /* line 285, ../sass/main_styles.scss */
+  /* line 284, ../sass/main_styles.scss */
   .main-menu,
   .lenguage-block {
     display: none;
   }
 
   /*---------------------MAIN CONTENT----------------------------------*/
-  /* line 291, ../sass/main_styles.scss */
+  /* line 290, ../sass/main_styles.scss */
   .main-block-content {
     position: relative;
     width: 100%;
@@ -333,12 +333,12 @@ a {
     background-size: contain;
     background-position: center;
   }
-  /* line 294, ../sass/main_styles.scss */
+  /* line 293, ../sass/main_styles.scss */
   .main-block-content .content-block {
     margin: 20px auto 0;
     max-width: 640px;
   }
-  /* line 298, ../sass/main_styles.scss */
+  /* line 297, ../sass/main_styles.scss */
   .main-block-content .content-block .full-width-img {
     display: none;
     width: 100%;
@@ -346,26 +346,26 @@ a {
     height-max-width: 100%;
     height-height: 100%;
   }
-  /* line 308, ../sass/main_styles.scss */
+  /* line 307, ../sass/main_styles.scss */
   .main-block-content .content-block .full-width-img-mobile {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
   }
-  /* line 313, ../sass/main_styles.scss */
+  /* line 312, ../sass/main_styles.scss */
   .main-block-content .content-block .full-width-img-mobile img {
     width: 100%;
     height: 100%;
   }
-  /* line 319, ../sass/main_styles.scss */
+  /* line 318, ../sass/main_styles.scss */
   .main-block-content .content-block:last-of-type {
     margin-bottom: 0;
   }
-  /* line 324, ../sass/main_styles.scss */
+  /* line 323, ../sass/main_styles.scss */
   .main-block-content .relative-block {
     position: relative;
   }
-  /* line 327, ../sass/main_styles.scss */
+  /* line 326, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block {
     position: absolute;
     top: 0;
@@ -374,13 +374,13 @@ a {
     height: 100%;
     overflow: hidden;
   }
-  /* line 335, ../sass/main_styles.scss */
+  /* line 334, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content,
   .main-block-content .relative-block .position-block .description-info {
     clear: both;
     overflow: hidden;
   }
-  /* line 342, ../sass/main_styles.scss */
+  /* line 341, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-title {
     width: 195px;
     height: auto;
@@ -392,11 +392,11 @@ a {
     background: rgba(255, 255, 255, 0.7);
     color: #74023b;
   }
-  /* line 352, ../sass/main_styles.scss */
+  /* line 351, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-title a {
     color: #74023b;
   }
-  /* line 356, ../sass/main_styles.scss */
+  /* line 355, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date {
     float: right;
     width: 47px;
@@ -408,16 +408,16 @@ a {
     text-align: center;
     background-color: #74023b;
   }
-  /* line 366, ../sass/main_styles.scss */
+  /* line 365, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date a {
     color: #fff;
   }
-  /* line 370, ../sass/main_styles.scss */
+  /* line 369, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date .day {
     position: relative;
     padding-bottom: 5px;
   }
-  /* line 374, ../sass/main_styles.scss */
+  /* line 373, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date .day:after {
     position: absolute;
     bottom: 0;
@@ -429,25 +429,25 @@ a {
     height: 1px;
     background: #fff;
   }
-  /* line 386, ../sass/main_styles.scss */
+  /* line 385, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date .month {
     display: block;
     margin-top: 15px;
   }
-  /* line 392, ../sass/main_styles.scss */
+  /* line 391, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info {
     display: none;
   }
 }
 @media (max-width: 1023px) and (max-width: 1023px) {
-  /* line 396, ../sass/main_styles.scss */
+  /* line 395, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile {
     position: absolute;
     bottom: 20px;
     width: 100%;
     overflow: visible;
   }
-  /* line 401, ../sass/main_styles.scss */
+  /* line 400, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .description-sign {
     width: 100%;
     height: auto;
@@ -458,16 +458,16 @@ a {
     font: 600 16px/20px "Open Sans", sans-serif;
     background: rgba(255, 255, 255, 0.7);
   }
-  /* line 410, ../sass/main_styles.scss */
+  /* line 409, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .description-sign a {
     color: #333;
   }
-  /* line 414, ../sass/main_styles.scss */
+  /* line 413, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block {
     margin: 0 auto;
     text-align: center;
   }
-  /* line 417, ../sass/main_styles.scss */
+  /* line 416, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .buy-ticket {
     display: block;
     width: 154px;
@@ -483,13 +483,13 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 429, ../sass/main_styles.scss */
+  /* line 428, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .buy-ticket:hover {
     -webkit-box-shadow: 0px 0px 5px 1px white;
     -moz-box-shadow: 0px 0px 5px 1px white;
     box-shadow: 0px 0px 5px 1px white;
   }
-  /* line 435, ../sass/main_styles.scss */
+  /* line 434, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .more-btn {
     display: block;
     width: 154px;
@@ -505,7 +505,7 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 447, ../sass/main_styles.scss */
+  /* line 446, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile .float-btn-block .more-btn:hover {
     -webkit-box-shadow: 0px 0px 5px 1px #74023b;
     -moz-box-shadow: 0px 0px 5px 1px #74023b;
@@ -515,7 +515,7 @@ a {
 
 @media (max-width: 1023px) {
   /*-------------------------------------UPCOMING CONCERTS------------------------------------*/
-  /* line 460, ../sass/main_styles.scss */
+  /* line 459, ../sass/main_styles.scss */
   .upcoming-concerts {
     position: relative;
     width: 100%;
@@ -527,7 +527,7 @@ a {
     margin: 0 auto;
     background-color: #eaedf2;
   }
-  /* line 466, ../sass/main_styles.scss */
+  /* line 465, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -539,7 +539,7 @@ a {
     -webkit-justify-content: space-between;
     justify-content: space-between;
   }
-  /* line 477, ../sass/main_styles.scss */
+  /* line 476, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li {
     display: block;
     width: 100%;
@@ -548,11 +548,11 @@ a {
     background: #fff;
     overflow: hidden;
   }
-  /* line 484, ../sass/main_styles.scss */
+  /* line 483, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li:first-child, .upcoming-concerts .upcoming-list li:nth-child(2) {
     margin-top: 0;
   }
-  /* line 489, ../sass/main_styles.scss */
+  /* line 488, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .upcoming-concerts-img {
     float: left;
     max-width: 89px;
@@ -562,19 +562,19 @@ a {
     margin: 0 8px 0 0;
     overflow: hidden;
   }
-  /* line 497, ../sass/main_styles.scss */
+  /* line 496, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .upcoming-concerts-img img {
     width: auto;
     height: 100%;
   }
-  /* line 502, ../sass/main_styles.scss */
+  /* line 501, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info {
     float: right;
     width: 41px;
     height: auto;
     margin: 0 14px 0 0;
   }
-  /* line 507, ../sass/main_styles.scss */
+  /* line 506, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date {
     margin-bottom: 9px;
     padding: 0 0 8px 0;
@@ -582,14 +582,14 @@ a {
     text-align: center;
     background-color: #74023b;
   }
-  /* line 513, ../sass/main_styles.scss */
+  /* line 512, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .day {
     position: relative;
     margin-bottom: 16px;
     padding-bottom: 5px;
     font: 700 16px/20px "Open Sans", sans-serif;
   }
-  /* line 519, ../sass/main_styles.scss */
+  /* line 518, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .day:after {
     position: absolute;
     bottom: 0;
@@ -601,37 +601,37 @@ a {
     height: 1px;
     background: #fff;
   }
-  /* line 531, ../sass/main_styles.scss */
+  /* line 530, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .month {
     display: block;
     margin-top: 7px;
     font: 400 16px/20px "Open Sans", sans-serif;
   }
-  /* line 537, ../sass/main_styles.scss */
+  /* line 536, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-time {
     color: #74023b;
     font: 700 10px/14px "Open Sans", sans-serif;
   }
-  /* line 543, ../sass/main_styles.scss */
+  /* line 542, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .actor-name {
     margin: 15px 0 0;
     color: #262626;
     font: 700 11px/14px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 549, ../sass/main_styles.scss */
+  /* line 548, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .concert-location {
     margin: 35px 0 10px;
     color: #080202;
     font: 400 10px/14px "Open Sans", sans-serif;
   }
-  /* line 555, ../sass/main_styles.scss */
+  /* line 554, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn {
     overflow: hidden;
     margin-bottom: 0;
     padding-right: 26px;
   }
-  /* line 559, ../sass/main_styles.scss */
+  /* line 558, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     display: inline-block;
@@ -643,23 +643,23 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 567, ../sass/main_styles.scss */
+  /* line 566, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
     text-decoration: none;
   }
-  /* line 571, ../sass/main_styles.scss */
+  /* line 570, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
     float: left;
   }
-  /* line 574, ../sass/main_styles.scss */
+  /* line 573, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     float: right;
   }
 
   /*---------------------END MAIN CONTENT----------------------------------*/
   /*---------------------FOOTER----------------------------------*/
-  /* line 583, ../sass/main_styles.scss */
+  /* line 582, ../sass/main_styles.scss */
   footer {
     position: relative;
     width: 100%;
@@ -668,7 +668,7 @@ a {
     background-size: contain;
     background-position: center;
   }
-  /* line 585, ../sass/main_styles.scss */
+  /* line 584, ../sass/main_styles.scss */
   footer .contact-form {
     padding: 47px 0 0;
     background: url("../images/photo------.png") no-repeat;
@@ -676,7 +676,7 @@ a {
     background-position: right center;
     overflow: hidden;
   }
-  /* line 592, ../sass/main_styles.scss */
+  /* line 591, ../sass/main_styles.scss */
   footer .contact-form .form-title {
     margin: 0 auto 82px;
     text-align: center;
@@ -684,18 +684,18 @@ a {
     font: 700 25px/30px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 600, ../sass/main_styles.scss */
+  /* line 599, ../sass/main_styles.scss */
   footer .contact-form label {
     display: block;
     color: white;
     font: 400 18px/22px "Open Sans", sans-serif;
   }
-  /* line 605, ../sass/main_styles.scss */
+  /* line 604, ../sass/main_styles.scss */
   footer .contact-form label img {
     display: inline-block;
     margin-right: 10px;
   }
-  /* line 611, ../sass/main_styles.scss */
+  /* line 610, ../sass/main_styles.scss */
   footer .contact-form .form-row {
     width: 100%;
     margin: 36px auto;
@@ -705,18 +705,18 @@ a {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 617, ../sass/main_styles.scss */
+  /* line 616, ../sass/main_styles.scss */
   footer .contact-form .form-row:last-of-type {
     margin-bottom: 0;
   }
-  /* line 621, ../sass/main_styles.scss */
+  /* line 620, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
   footer .contact-form .form-row #theme {
     height: 38px;
   }
-  /* line 627, ../sass/main_styles.scss */
+  /* line 626, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
@@ -738,67 +738,67 @@ a {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 645, ../sass/main_styles.scss */
+  /* line 644, ../sass/main_styles.scss */
   footer .contact-form .form-row #name {
     background: url("../images/icon-user.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 649, ../sass/main_styles.scss */
+  /* line 648, ../sass/main_styles.scss */
   footer .contact-form .form-row #tel {
     background: url("../images/icon-phone-form.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 653, ../sass/main_styles.scss */
+  /* line 652, ../sass/main_styles.scss */
   footer .contact-form .form-row #email {
     background: url("../images/icon-envelope.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 657, ../sass/main_styles.scss */
+  /* line 656, ../sass/main_styles.scss */
   footer .contact-form .form-row #theme {
     background: url("../images/icon-theme.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 661, ../sass/main_styles.scss */
+  /* line 660, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     background: url("../images/icon-comment.png") no-repeat;
     background-position: 0 5%;
   }
-  /* line 665, ../sass/main_styles.scss */
+  /* line 664, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     resize: none;
     height: 245px;
     margin-bottom: 33px;
   }
-  /* line 670, ../sass/main_styles.scss */
+  /* line 669, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-webkit-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 675, ../sass/main_styles.scss */
+  /* line 674, ../sass/main_styles.scss */
   footer .contact-form .form-row :-moz-placeholder {
     /* Firefox 18- */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 680, ../sass/main_styles.scss */
+  /* line 679, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-moz-placeholder {
     /* Firefox 19+ */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 685, ../sass/main_styles.scss */
+  /* line 684, ../sass/main_styles.scss */
   footer .contact-form .form-row :-ms-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 704, ../sass/main_styles.scss */
+  /* line 703, ../sass/main_styles.scss */
   footer .contact-form .required-fields {
     margin: 4px 0 0;
     color: #fff;
     font: 400 15px/22px "Open Sans", sans-serif;
     letter-spacing: -1px;
   }
-  /* line 710, ../sass/main_styles.scss */
+  /* line 709, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn {
     display: block;
     width: 225px;
@@ -816,13 +816,13 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 724, ../sass/main_styles.scss */
+  /* line 723, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn:hover {
     -webkit-box-shadow: 0px 0px 5px 1px white;
     -moz-box-shadow: 0px 0px 5px 1px white;
     box-shadow: 0px 0px 5px 1px white;
   }
-  /* line 731, ../sass/main_styles.scss */
+  /* line 730, ../sass/main_styles.scss */
   footer .footer-contacts {
     width: 100%;
     margin: 0 auto;
@@ -830,7 +830,7 @@ a {
     text-align: center;
     background-color: #74023b;
   }
-  /* line 737, ../sass/main_styles.scss */
+  /* line 736, ../sass/main_styles.scss */
   footer .footer-contacts .contact-phone {
     display: block;
     margin: 0 auto 30px;
@@ -838,41 +838,41 @@ a {
     color: white;
     font: 700 22px/35px "Open Sans", sans-serif;
   }
-  /* line 744, ../sass/main_styles.scss */
+  /* line 743, ../sass/main_styles.scss */
   footer .footer-contacts .contact-location {
     margin: 0 auto;
     text-align: center;
     color: white;
     font: 400 18px/25px "Open Sans", sans-serif;
   }
-  /* line 749, ../sass/main_styles.scss */
+  /* line 748, ../sass/main_styles.scss */
   footer .footer-contacts .contact-location a {
     color: #fff;
   }
-  /* line 754, ../sass/main_styles.scss */
+  /* line 753, ../sass/main_styles.scss */
   footer .copyright {
     width: 100%;
     background: #000;
     padding: 18px 0;
   }
-  /* line 759, ../sass/main_styles.scss */
+  /* line 758, ../sass/main_styles.scss */
   footer .copyright h4 {
     margin: 0 auto;
     text-align: center;
     color: white;
     font: 400 16px/27px "Open Sans", sans-serif;
   }
-  /* line 764, ../sass/main_styles.scss */
+  /* line 763, ../sass/main_styles.scss */
   footer .copyright h4 a {
     color: #fff;
   }
-  /* line 766, ../sass/main_styles.scss */
+  /* line 765, ../sass/main_styles.scss */
   footer .copyright h4 a:hover {
     text-decoration: underline;
   }
 }
 @media (min-width: 1024px) {
-  /* line 779, ../sass/main_styles.scss */
+  /* line 778, ../sass/main_styles.scss */
   .price-ticket-block {
     position: fixed;
     width: 184px;
@@ -886,7 +886,7 @@ a {
     z-index: 9999;
     background: rgba(255, 255, 255, 0.8);
   }
-  /* line 792, ../sass/main_styles.scss */
+  /* line 791, ../sass/main_styles.scss */
   .price-ticket-block .header-list {
     width: 100%;
     display: -webkit-box;
@@ -900,7 +900,7 @@ a {
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.6);
   }
-  /* line 804, ../sass/main_styles.scss */
+  /* line 803, ../sass/main_styles.scss */
   .price-ticket-block .header-list li {
     width: 40px;
     display: inline-block;
@@ -908,11 +908,11 @@ a {
     color: #fff;
     text-align: center;
   }
-  /* line 812, ../sass/main_styles.scss */
+  /* line 811, ../sass/main_styles.scss */
   .price-ticket-block .tickets-list {
     width: 100%;
   }
-  /* line 814, ../sass/main_styles.scss */
+  /* line 813, ../sass/main_styles.scss */
   .price-ticket-block .tickets-list > li {
     width: 100%;
     display: block;
@@ -920,7 +920,7 @@ a {
     margin: 10px auto;
     background: rgba(116, 2, 59, 0.8);
   }
-  /* line 820, ../sass/main_styles.scss */
+  /* line 819, ../sass/main_styles.scss */
   .price-ticket-block .tickets-list > li .tickets-row {
     width: 100%;
     display: -webkit-box;
@@ -934,20 +934,20 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  /* line 832, ../sass/main_styles.scss */
+  /* line 831, ../sass/main_styles.scss */
   .price-ticket-block .tickets-list > li .tickets-row li {
     width: 40px;
     display: inline-block;
     text-align: center;
   }
-  /* line 836, ../sass/main_styles.scss */
+  /* line 835, ../sass/main_styles.scss */
   .price-ticket-block .tickets-list > li .tickets-row li span {
     font: 400 12px/16px "Open Sans", sans-serif;
     color: #fff;
   }
 
   /*----------------------------- HEADER ---------------------*/
-  /* line 846, ../sass/main_styles.scss */
+  /* line 845, ../sass/main_styles.scss */
   header {
     position: relative;
     width: 100%;
@@ -956,16 +956,16 @@ a {
     background-size: contain;
     background-position: center;
   }
-  /* line 849, ../sass/main_styles.scss */
+  /* line 848, ../sass/main_styles.scss */
   header .mobile-logo,
   header .call-us-block {
     display: none;
   }
-  /* line 853, ../sass/main_styles.scss */
+  /* line 852, ../sass/main_styles.scss */
   header .dropdovn-menu-mobile {
     display: none;
   }
-  /* line 856, ../sass/main_styles.scss */
+  /* line 855, ../sass/main_styles.scss */
   header .lenguage-block {
     display: block;
     padding: 27px 0 25px;
@@ -976,31 +976,31 @@ a {
     box-sizing: border-box;
     background: #fff;
   }
-  /* line 863, ../sass/main_styles.scss */
+  /* line 862, ../sass/main_styles.scss */
   header .lenguage-block .logo {
     float: left;
     width: 142px;
     height: 54px;
     overflow: hidden;
   }
-  /* line 869, ../sass/main_styles.scss */
+  /* line 868, ../sass/main_styles.scss */
   header .lenguage-block .logo img {
     max-width: 100%;
     height: auto;
   }
-  /* line 874, ../sass/main_styles.scss */
+  /* line 873, ../sass/main_styles.scss */
   header .lenguage-block #lenguage-list {
     float: right;
     padding: 9px 0;
   }
-  /* line 878, ../sass/main_styles.scss */
+  /* line 877, ../sass/main_styles.scss */
   header .lenguage-block #lenguage-list li {
     display: inline-block;
     width: 53px;
     height: 35px;
     margin-left: -.36em;
   }
-  /* line 883, ../sass/main_styles.scss */
+  /* line 882, ../sass/main_styles.scss */
   header .lenguage-block #lenguage-list li a {
     display: block;
     width: 100%;
@@ -1013,24 +1013,24 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 892, ../sass/main_styles.scss */
+  /* line 891, ../sass/main_styles.scss */
   header .lenguage-block #lenguage-list li a:hover {
     color: #fff;
     background-color: #74023b;
   }
-  /* line 897, ../sass/main_styles.scss */
+  /* line 896, ../sass/main_styles.scss */
   header .lenguage-block #lenguage-list li a.lenguage-list-active {
     color: #fff;
     background-color: #74023b;
   }
-  /* line 904, ../sass/main_styles.scss */
+  /* line 903, ../sass/main_styles.scss */
   header .main-menu {
     display: block;
     width: 100%;
     height: 38px;
     background-color: #74023b;
   }
-  /* line 909, ../sass/main_styles.scss */
+  /* line 908, ../sass/main_styles.scss */
   header .main-menu .list-menu {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -1045,14 +1045,14 @@ a {
     -webkit-justify-content: space-around;
     justify-content: space-around;
   }
-  /* line 920, ../sass/main_styles.scss */
+  /* line 919, ../sass/main_styles.scss */
   header .main-menu .list-menu li {
     width: auto;
     display: inline-block;
     margin-left: -.36em;
     height: 100%;
   }
-  /* line 926, ../sass/main_styles.scss */
+  /* line 925, ../sass/main_styles.scss */
   header .main-menu .list-menu li a {
     display: block;
     width: auto;
@@ -1065,19 +1065,19 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 935, ../sass/main_styles.scss */
+  /* line 934, ../sass/main_styles.scss */
   header .main-menu .list-menu li a:hover {
     color: #1c1c1c;
     background: #fff;
   }
-  /* line 940, ../sass/main_styles.scss */
+  /* line 939, ../sass/main_styles.scss */
   header .main-menu .list-menu li a.list-menu-active {
     color: #1c1c1c;
     background: #fff;
   }
 
   /*---------------------------MAIN BLOCK CONTENT-----------------------------*/
-  /* line 950, ../sass/main_styles.scss */
+  /* line 949, ../sass/main_styles.scss */
   .main-block-content {
     position: relative;
     width: 100%;
@@ -1090,7 +1090,7 @@ a {
     background-size: cover;
     background-position: center center;
   }
-  /* line 72, ../sass/main_styles.scss */
+  /* line 71, ../sass/main_styles.scss */
   .main-block-content .rgb-background {
     max-width: 1060px;
     width: 100%;
@@ -1099,11 +1099,11 @@ a {
     padding: 33px 0 36px;
     background: rgba(255, 255, 255, 0.6);
   }
-  /* line 954, ../sass/main_styles.scss */
+  /* line 953, ../sass/main_styles.scss */
   .main-block-content .content-block {
     margin: 58px auto 0;
   }
-  /* line 957, ../sass/main_styles.scss */
+  /* line 956, ../sass/main_styles.scss */
   .main-block-content .content-block .full-width-img {
     display: block;
     width: 100%;
@@ -1111,23 +1111,23 @@ a {
     height-max-width: 100%;
     height-height: 100%;
   }
-  /* line 967, ../sass/main_styles.scss */
+  /* line 966, ../sass/main_styles.scss */
   .main-block-content .content-block .full-width-img-mobile {
     display: none;
   }
-  /* line 971, ../sass/main_styles.scss */
+  /* line 970, ../sass/main_styles.scss */
   .main-block-content .content-block:first-of-type {
     margin-top: 0;
   }
-  /* line 974, ../sass/main_styles.scss */
+  /* line 973, ../sass/main_styles.scss */
   .main-block-content .content-block:last-of-type {
     margin-bottom: 0;
   }
-  /* line 979, ../sass/main_styles.scss */
+  /* line 978, ../sass/main_styles.scss */
   .main-block-content .relative-block {
     position: relative;
   }
-  /* line 982, ../sass/main_styles.scss */
+  /* line 981, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block {
     position: absolute;
     top: 0;
@@ -1136,13 +1136,13 @@ a {
     height: 100%;
     overflow: hidden;
   }
-  /* line 990, ../sass/main_styles.scss */
+  /* line 989, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content,
   .main-block-content .relative-block .position-block .description-info {
     clear: both;
     overflow: hidden;
   }
-  /* line 997, ../sass/main_styles.scss */
+  /* line 996, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-title {
     width: 331px;
     height: auto;
@@ -1153,11 +1153,11 @@ a {
     text-transform: uppercase;
     background: rgba(255, 255, 255, 0.7);
   }
-  /* line 1006, ../sass/main_styles.scss */
+  /* line 1005, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-title a {
     color: #74023b;
   }
-  /* line 1010, ../sass/main_styles.scss */
+  /* line 1009, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date {
     float: right;
     width: 87px;
@@ -1169,16 +1169,16 @@ a {
     text-align: center;
     background-color: #74023b;
   }
-  /* line 1020, ../sass/main_styles.scss */
+  /* line 1019, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date a {
     color: #fff;
   }
-  /* line 1024, ../sass/main_styles.scss */
+  /* line 1023, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date .day {
     position: relative;
     padding-bottom: 5px;
   }
-  /* line 1028, ../sass/main_styles.scss */
+  /* line 1027, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .top-content .top-content-date .day:after {
     position: absolute;
     bottom: 0;
@@ -1190,11 +1190,11 @@ a {
     height: 1px;
     background: #fff;
   }
-  /* line 1042, ../sass/main_styles.scss */
+  /* line 1041, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info-mobile {
     display: none !important;
   }
-  /* line 1045, ../sass/main_styles.scss */
+  /* line 1044, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info {
     display: block;
     position: absolute;
@@ -1202,7 +1202,7 @@ a {
     width: 100%;
     overflow: visible;
   }
-  /* line 1051, ../sass/main_styles.scss */
+  /* line 1050, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .description-sign {
     width: 499px;
     height: auto;
@@ -1212,16 +1212,16 @@ a {
     font: 600 16px/20px "Open Sans", sans-serif;
     background: rgba(255, 255, 255, 0.7);
   }
-  /* line 1059, ../sass/main_styles.scss */
+  /* line 1058, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .description-sign a {
     color: #333;
   }
-  /* line 1063, ../sass/main_styles.scss */
+  /* line 1062, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .float-btn-block {
     float: right;
     margin: 0 28px 0 0;
   }
-  /* line 1066, ../sass/main_styles.scss */
+  /* line 1065, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket {
     display: block;
     width: 154px;
@@ -1237,13 +1237,13 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1078, ../sass/main_styles.scss */
+  /* line 1077, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .float-btn-block .buy-ticket:hover {
     -webkit-box-shadow: 0px 0px 5px 1px white;
     -moz-box-shadow: 0px 0px 5px 1px white;
     box-shadow: 0px 0px 5px 1px white;
   }
-  /* line 1084, ../sass/main_styles.scss */
+  /* line 1083, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn {
     display: block;
     width: 154px;
@@ -1259,7 +1259,7 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1096, ../sass/main_styles.scss */
+  /* line 1095, ../sass/main_styles.scss */
   .main-block-content .relative-block .position-block .description-info .float-btn-block .more-btn:hover {
     -webkit-box-shadow: 0px 0px 5px 1px #74023b;
     -moz-box-shadow: 0px 0px 5px 1px #74023b;
@@ -1267,7 +1267,7 @@ a {
   }
 
   /*-------------------------------------UPCOMING CONCERTS------------------------------------*/
-  /* line 1108, ../sass/main_styles.scss */
+  /* line 1107, ../sass/main_styles.scss */
   .upcoming-concerts {
     position: relative;
     width: 100%;
@@ -1279,7 +1279,7 @@ a {
     margin: 0 auto;
     background-color: #eaedf2;
   }
-  /* line 1114, ../sass/main_styles.scss */
+  /* line 1113, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1291,18 +1291,18 @@ a {
     -webkit-justify-content: space-between;
     justify-content: space-between;
   }
-  /* line 1125, ../sass/main_styles.scss */
+  /* line 1124, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li {
     width: 48%;
     margin: 20px 0;
     background: #fff;
     overflow: hidden;
   }
-  /* line 1130, ../sass/main_styles.scss */
+  /* line 1129, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li:first-child, .upcoming-concerts .upcoming-list li:nth-child(2) {
     margin-top: 0;
   }
-  /* line 1135, ../sass/main_styles.scss */
+  /* line 1134, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .upcoming-concerts-img {
     float: left;
     max-width: 153px;
@@ -1311,19 +1311,19 @@ a {
     margin: 0 8px 0 0;
     overflow: hidden;
   }
-  /* line 1142, ../sass/main_styles.scss */
+  /* line 1141, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .upcoming-concerts-img img {
     width: auto;
     height: 100%;
   }
-  /* line 1147, ../sass/main_styles.scss */
+  /* line 1146, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info {
     float: right;
     width: 67px;
     height: auto;
     margin: 0 26px 0 0;
   }
-  /* line 1152, ../sass/main_styles.scss */
+  /* line 1151, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date {
     margin-bottom: 11px;
     padding: 0 0 12px 0;
@@ -1331,14 +1331,14 @@ a {
     text-align: center;
     background-color: #74023b;
   }
-  /* line 1158, ../sass/main_styles.scss */
+  /* line 1157, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .day {
     position: relative;
     margin-bottom: 16px;
     padding-bottom: 5px;
     font: 700 30px/41px "Open Sans", sans-serif;
   }
-  /* line 1164, ../sass/main_styles.scss */
+  /* line 1163, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .day:after {
     position: absolute;
     bottom: 0;
@@ -1350,16 +1350,16 @@ a {
     height: 1px;
     background: #fff;
   }
-  /* line 1176, ../sass/main_styles.scss */
+  /* line 1175, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-date .month {
     font: 400 26px/28px "Open Sans", sans-serif;
   }
-  /* line 1180, ../sass/main_styles.scss */
+  /* line 1179, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .date-info .concert-time {
     color: #74023b;
     font: 700 16px/22px "Open Sans", sans-serif;
   }
-  /* line 1186, ../sass/main_styles.scss */
+  /* line 1185, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .actor-name {
     min-height: 50px;
     margin: 21px 0;
@@ -1367,19 +1367,19 @@ a {
     font: 700 18px/22px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1193, ../sass/main_styles.scss */
+  /* line 1192, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .main-info .concert-location {
     margin: 5% 0 23px;
     color: #080202;
     font: 400 16px/22px "Open Sans", sans-serif;
   }
-  /* line 1200, ../sass/main_styles.scss */
+  /* line 1199, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn {
     overflow: hidden;
     margin-bottom: 0;
     padding-right: 26px;
   }
-  /* line 1204, ../sass/main_styles.scss */
+  /* line 1203, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     display: inline-block;
@@ -1391,22 +1391,22 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1212, ../sass/main_styles.scss */
+  /* line 1211, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn:hover,
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn:hover {
     text-decoration: none;
   }
-  /* line 1216, ../sass/main_styles.scss */
+  /* line 1215, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .buy-ticket-btn {
     float: left;
   }
-  /* line 1219, ../sass/main_styles.scss */
+  /* line 1218, ../sass/main_styles.scss */
   .upcoming-concerts .upcoming-list li .action-btn .more-info-btn {
     float: right;
   }
 
   /*-----------------------------FOOTER--------------*/
-  /* line 1227, ../sass/main_styles.scss */
+  /* line 1226, ../sass/main_styles.scss */
   footer {
     position: relative;
     width: 100%;
@@ -1415,18 +1415,18 @@ a {
     background-size: contain;
     background-position: center;
   }
-  /* line 1230, ../sass/main_styles.scss */
+  /* line 1229, ../sass/main_styles.scss */
   footer .footer-contacts {
     display: none;
   }
-  /* line 1233, ../sass/main_styles.scss */
+  /* line 1232, ../sass/main_styles.scss */
   footer .contact-form {
     padding: 69px 0 138px;
     background: url("../images/photo------.png") no-repeat;
     background-size: initial;
     background-position: right center;
   }
-  /* line 1239, ../sass/main_styles.scss */
+  /* line 1238, ../sass/main_styles.scss */
   footer .contact-form .form-title {
     margin: 0 auto 82px;
     text-align: center;
@@ -1434,32 +1434,32 @@ a {
     font: 700 25px/30px "Open Sans", sans-serif;
     text-transform: uppercase;
   }
-  /* line 1247, ../sass/main_styles.scss */
+  /* line 1246, ../sass/main_styles.scss */
   footer .contact-form label {
     display: block;
     color: white;
     font: 400 18px/22px "Open Sans", sans-serif;
   }
-  /* line 1252, ../sass/main_styles.scss */
+  /* line 1251, ../sass/main_styles.scss */
   footer .contact-form label img {
     display: inline-block;
     margin-right: 10px;
   }
-  /* line 1258, ../sass/main_styles.scss */
+  /* line 1257, ../sass/main_styles.scss */
   footer .contact-form .form-row {
     width: 100%;
     margin: 36px auto;
     padding-left: 12px;
     overflow: hidden;
   }
-  /* line 1263, ../sass/main_styles.scss */
+  /* line 1262, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
   footer .contact-form .form-row #theme {
     height: 38px;
   }
-  /* line 1269, ../sass/main_styles.scss */
+  /* line 1268, ../sass/main_styles.scss */
   footer .contact-form .form-row #name,
   footer .contact-form .form-row #tel,
   footer .contact-form .form-row #email,
@@ -1477,76 +1477,76 @@ a {
     box-sizing: border-box;
     overflow: hidden;
   }
-  /* line 1286, ../sass/main_styles.scss */
+  /* line 1285, ../sass/main_styles.scss */
   footer .contact-form .form-row #name {
     background: url("../images/icon-user.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1290, ../sass/main_styles.scss */
+  /* line 1289, ../sass/main_styles.scss */
   footer .contact-form .form-row #tel {
     background: url("../images/icon-phone-form.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1294, ../sass/main_styles.scss */
+  /* line 1293, ../sass/main_styles.scss */
   footer .contact-form .form-row #email {
     background: url("../images/icon-envelope.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1298, ../sass/main_styles.scss */
+  /* line 1297, ../sass/main_styles.scss */
   footer .contact-form .form-row #theme {
     background: url("../images/icon-theme.png") no-repeat;
     background-position: 0 10%;
   }
-  /* line 1302, ../sass/main_styles.scss */
+  /* line 1301, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     background: url("../images/icon-comment.png") no-repeat;
     background-position: 0 5%;
   }
-  /* line 1306, ../sass/main_styles.scss */
+  /* line 1305, ../sass/main_styles.scss */
   footer .contact-form .form-row #message {
     resize: none;
     height: 245px;
     margin-bottom: 33px;
   }
-  /* line 1311, ../sass/main_styles.scss */
+  /* line 1310, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-webkit-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1316, ../sass/main_styles.scss */
+  /* line 1315, ../sass/main_styles.scss */
   footer .contact-form .form-row :-moz-placeholder {
     /* Firefox 18- */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1321, ../sass/main_styles.scss */
+  /* line 1320, ../sass/main_styles.scss */
   footer .contact-form .form-row ::-moz-placeholder {
     /* Firefox 19+ */
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1326, ../sass/main_styles.scss */
+  /* line 1325, ../sass/main_styles.scss */
   footer .contact-form .form-row :-ms-input-placeholder {
     color: white;
     font: 400 18px/38px "Open Sans", sans-serif;
   }
-  /* line 1331, ../sass/main_styles.scss */
+  /* line 1330, ../sass/main_styles.scss */
   footer .contact-form .half-block-name,
   footer .contact-form .half-block-tel {
     width: 44.5%;
     margin: 0;
     overflow: hidden;
   }
-  /* line 1337, ../sass/main_styles.scss */
+  /* line 1336, ../sass/main_styles.scss */
   footer .contact-form .half-block-name {
     float: left;
     margin-right: 7.9%;
   }
-  /* line 1341, ../sass/main_styles.scss */
+  /* line 1340, ../sass/main_styles.scss */
   footer .contact-form .half-width-tel {
     float: right;
   }
-  /* line 1344, ../sass/main_styles.scss */
+  /* line 1343, ../sass/main_styles.scss */
   footer .contact-form .required-fields {
     float: left;
     margin-top: 4px;
@@ -1554,7 +1554,7 @@ a {
     font: 400 18px/38px "Open Sans", sans-serif;
     letter-spacing: -1px;
   }
-  /* line 1351, ../sass/main_styles.scss */
+  /* line 1350, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn {
     float: right;
     width: 225px;
@@ -1572,30 +1572,30 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 1365, ../sass/main_styles.scss */
+  /* line 1364, ../sass/main_styles.scss */
   footer .contact-form .submit-form-btn:hover {
     -webkit-box-shadow: 0px 0px 5px 1px white;
     -moz-box-shadow: 0px 0px 5px 1px white;
     box-shadow: 0px 0px 5px 1px white;
   }
-  /* line 1372, ../sass/main_styles.scss */
+  /* line 1371, ../sass/main_styles.scss */
   footer .copyright {
     width: 100%;
     background: #000;
     padding: 18px 0;
   }
-  /* line 1377, ../sass/main_styles.scss */
+  /* line 1376, ../sass/main_styles.scss */
   footer .copyright h4 {
     margin: 0 auto;
     text-align: center;
     color: white;
     font: 400 16px/27px "Open Sans", sans-serif;
   }
-  /* line 1382, ../sass/main_styles.scss */
+  /* line 1381, ../sass/main_styles.scss */
   footer .copyright h4 a {
     color: #fff;
   }
-  /* line 1384, ../sass/main_styles.scss */
+  /* line 1383, ../sass/main_styles.scss */
   footer .copyright h4 a:hover {
     text-decoration: underline;
   }
@@ -23857,5 +23857,286 @@ a {
   /* line 195, ../sass/_card-page.scss */
   .card-page .continue {
     margin: 27px auto 0;
+  }
+}
+/* line 1, ../sass/_billing-page.scss */
+.fill-date-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  padding: 28px 0;
+}
+/* line 5, ../sass/_billing-page.scss */
+.fill-date-page .fill-date-page-title {
+  color: #262626;
+  font: 700 27px/30px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/_billing-page.scss */
+.fill-date-page .formWrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 14, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form input {
+  display: inline-block;
+}
+/* line 17, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name,
+.fill-date-page #fill-date-form #client-phone,
+.fill-date-page #fill-date-form #client-email {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  margin: 25px auto 0;
+  padding-left: 54px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #686868;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 34, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name ::-webkit-input-placeholder,
+.fill-date-page #fill-date-form #client-phone ::-webkit-input-placeholder,
+.fill-date-page #fill-date-form #client-email ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 38, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name ::-moz-placeholder,
+.fill-date-page #fill-date-form #client-phone ::-moz-placeholder,
+.fill-date-page #fill-date-form #client-email ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 42, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name :-ms-input-placeholder,
+.fill-date-page #fill-date-form #client-phone :-ms-input-placeholder,
+.fill-date-page #fill-date-form #client-email :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 46, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name :-moz-placeholder,
+.fill-date-page #fill-date-form #client-phone :-moz-placeholder,
+.fill-date-page #fill-date-form #client-email :-moz-placeholder {
+  /* Firefox 18- */
+  color: #262626;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 51, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-name {
+  background-image: url("../images/icon-user-page.png");
+}
+/* line 55, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-phone {
+  background-image: url("../images/icon-phone-user-page.png");
+}
+/* line 58, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #client-email {
+  background-image: url("../images/icon-mail-user-page.png");
+}
+/* line 61, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .for-payment-title {
+  margin: 27px 0 0;
+  color: #74023b;
+  font: 700 22px/26px "Open Sans", sans-serif;
+}
+/* line 66, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 20px 0 0;
+  /* .squaredFour */
+  /* end .squaredFour */
+}
+/* line 71, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon #paypal,
+.fill-date-page #fill-date-form .payment-icon #visa {
+  width: 22px;
+  height: 22px;
+  background-color: #bcb8b6;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+/* line 81, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  margin: 0 15px 3px 10px;
+  display: inline-block;
+}
+/* line 87, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour label {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fcfff4;
+  background: #bcb8b6;
+  border-radius: 7px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 98, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour label:after {
+  content: '';
+  width: 11px;
+  height: 5px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  border: 2px solid #262626;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+/* line 116, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 118, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+/* line 126, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .img-wrapper {
+  overflow: hidden;
+  display: inline-block;
+}
+/* line 129, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form .img-wrapper img {
+  margin: 10px 0 0;
+}
+/* line 134, ../sass/_billing-page.scss */
+.fill-date-page #fill-date-form #fill-date-sbm-btn {
+  display: block;
+  width: 154px;
+  height: 40px;
+  margin: 50px auto 20px;
+  text-align: center;
+  color: white;
+  font: 600 16px/22px "Open Sans", sans-serif;
+  background-color: #74023b;
+  border-radius: 7px;
+  box-shadow: 2.4px 4.4px 9px rgba(0, 0, 0, 0.56);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  /* line 154, ../sass/_billing-page.scss */
+  .fill-date-page {
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 89, ../sass/_scene4.scss */
+  .fill-date-page .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 65px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 157, ../sass/_billing-page.scss */
+  .fill-date-page .rgb-background {
+    padding: 33px 3px;
+  }
+  /* line 161, ../sass/_billing-page.scss */
+  .fill-date-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 0;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 32px 15px 60px;
+  }
+  /* line 166, ../sass/_billing-page.scss */
+  .fill-date-page .rgb-background {
+    padding: 41px 3px 42px;
+  }
+  /* line 170, ../sass/_billing-page.scss */
+  .fill-date-page .white-bg-container {
+    max-width: 982px;
+    padding: 24px 0 41px;
+  }
+  /* line 175, ../sass/_billing-page.scss */
+  .fill-date-page .fill-date-page-title {
+    margin: 0 0 17px;
+    font-size: 50px;
+    line-height: 52px;
+  }
+  /* line 180, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form {
+    text-align: center;
+  }
+  /* line 182, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .top-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* line 187, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-name,
+  .fill-date-page #fill-date-form .top-field #client-phone,
+  .fill-date-page #fill-date-form .top-field #client-email {
+    width: 31%;
+    height: 41px;
+    margin: 23px 1% 0;
+    line-height: 33px;
+    padding-left: 34px;
+  }
+  /* line 196, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-name {
+    margin-left: 0;
+  }
+  /* line 199, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .top-field #client-email {
+    margin-right: 0;
+  }
+  /* line 203, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .for-payment-title {
+    margin: 48px auto 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  /* line 209, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form .payment-icon {
+    margin: 18px auto 0;
+    width: 22%;
+    display: inline-block;
+  }
+  /* line 214, ../sass/_billing-page.scss */
+  .fill-date-page #fill-date-form #fill-date-sbm-btn {
+    margin: 30px auto 20px;
+    font-size: 17px;
   }
 }
