@@ -23351,53 +23351,25 @@ a {
   background-size: contain;
   background-position: center;
   padding: 28px 0;
-  padding: 31px 0 39px;
-  background: url("../images/backgr.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
-/* line 89, ../sass/_scene4.scss */
-.fill-date-page .rgb-background {
-  max-width: 1060px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 33px 0 65px;
-  background: rgba(255, 255, 255, 0.6);
-}
-/* line 6, ../sass/_fill-date-page.scss */
-.fill-date-page .rgb-background {
-  padding: 33px 3px;
-}
-/* line 10, ../sass/_fill-date-page.scss */
-.fill-date-page .white-bg-container {
-  position: relative;
-  max-width: 1010px;
-  margin: 0 auto;
-  padding: 0 0px 20px 0;
-  background: #fff;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding: 32px 15px 60px;
-}
-/* line 15, ../sass/_fill-date-page.scss */
+/* line 5, ../sass/_fill-date-page.scss */
 .fill-date-page .fill-date-page-title {
   color: #262626;
   font: 700 27px/30px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 20, ../sass/_fill-date-page.scss */
+/* line 10, ../sass/_fill-date-page.scss */
 .fill-date-page .formWrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 24, ../sass/_fill-date-page.scss */
+/* line 14, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form input {
   display: inline-block;
 }
-/* line 27, ../sass/_fill-date-page.scss */
+/* line 17, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name,
 .fill-date-page #fill-date-form #client-phone,
 .fill-date-page #fill-date-form #client-email {
@@ -23417,7 +23389,7 @@ a {
   color: #262626;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 44, ../sass/_fill-date-page.scss */
+/* line 34, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name ::-webkit-input-placeholder,
 .fill-date-page #fill-date-form #client-phone ::-webkit-input-placeholder,
 .fill-date-page #fill-date-form #client-email ::-webkit-input-placeholder {
@@ -23425,7 +23397,7 @@ a {
   color: #262626;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 48, ../sass/_fill-date-page.scss */
+/* line 38, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name ::-moz-placeholder,
 .fill-date-page #fill-date-form #client-phone ::-moz-placeholder,
 .fill-date-page #fill-date-form #client-email ::-moz-placeholder {
@@ -23433,7 +23405,7 @@ a {
   color: #262626;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 52, ../sass/_fill-date-page.scss */
+/* line 42, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name :-ms-input-placeholder,
 .fill-date-page #fill-date-form #client-phone :-ms-input-placeholder,
 .fill-date-page #fill-date-form #client-email :-ms-input-placeholder {
@@ -23441,7 +23413,7 @@ a {
   color: #262626;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 56, ../sass/_fill-date-page.scss */
+/* line 46, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name :-moz-placeholder,
 .fill-date-page #fill-date-form #client-phone :-moz-placeholder,
 .fill-date-page #fill-date-form #client-email :-moz-placeholder {
@@ -23449,25 +23421,25 @@ a {
   color: #262626;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 61, ../sass/_fill-date-page.scss */
+/* line 51, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-name {
   background-image: url("../images/icon-user-page.png");
 }
-/* line 65, ../sass/_fill-date-page.scss */
+/* line 55, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-phone {
   background-image: url("../images/icon-phone-user-page.png");
 }
-/* line 68, ../sass/_fill-date-page.scss */
+/* line 58, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #client-email {
   background-image: url("../images/icon-mail-user-page.png");
 }
-/* line 71, ../sass/_fill-date-page.scss */
+/* line 61, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .for-payment-title {
   margin: 27px 0 0;
   color: #74023b;
   font: 700 22px/26px "Open Sans", sans-serif;
 }
-/* line 76, ../sass/_fill-date-page.scss */
+/* line 66, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23478,7 +23450,7 @@ a {
   /* .squaredFour */
   /* end .squaredFour */
 }
-/* line 81, ../sass/_fill-date-page.scss */
+/* line 71, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon #paypal,
 .fill-date-page #fill-date-form .payment-icon #visa {
   width: 22px;
@@ -23487,7 +23459,7 @@ a {
   border-radius: 7px;
   margin-top: 10px;
 }
-/* line 91, ../sass/_fill-date-page.scss */
+/* line 81, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon .squaredFour {
   width: 22px;
   height: 22px;
@@ -23495,7 +23467,7 @@ a {
   margin: 0 15px 3px 10px;
   display: inline-block;
 }
-/* line 97, ../sass/_fill-date-page.scss */
+/* line 87, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon .squaredFour label {
   width: 22px;
   height: 22px;
@@ -23508,7 +23480,7 @@ a {
   border-radius: 7px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 108, ../sass/_fill-date-page.scss */
+/* line 98, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon .squaredFour label:after {
   content: '';
   width: 11px;
@@ -23523,24 +23495,24 @@ a {
   opacity: 0;
   transform: rotate(-45deg);
 }
-/* line 126, ../sass/_fill-date-page.scss */
+/* line 116, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox] {
   visibility: hidden;
 }
-/* line 128, ../sass/_fill-date-page.scss */
+/* line 118, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .payment-icon .squaredFour input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
-/* line 136, ../sass/_fill-date-page.scss */
+/* line 126, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .img-wrapper {
   overflow: hidden;
   display: inline-block;
 }
-/* line 139, ../sass/_fill-date-page.scss */
+/* line 129, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form .img-wrapper img {
   margin: 10px 0 0;
 }
-/* line 144, ../sass/_fill-date-page.scss */
+/* line 134, ../sass/_fill-date-page.scss */
 .fill-date-page #fill-date-form #fill-date-sbm-btn {
   display: block;
   width: 154px;
@@ -23558,6 +23530,37 @@ a {
 }
 
 @media (min-width: 1024px) {
+  /* line 154, ../sass/_fill-date-page.scss */
+  .fill-date-page {
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 89, ../sass/_scene4.scss */
+  .fill-date-page .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 65px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 157, ../sass/_fill-date-page.scss */
+  .fill-date-page .rgb-background {
+    padding: 33px 3px;
+  }
+  /* line 161, ../sass/_fill-date-page.scss */
+  .fill-date-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 0;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 32px 15px 60px;
+  }
   /* line 166, ../sass/_fill-date-page.scss */
   .fill-date-page .rgb-background {
     padding: 41px 3px 42px;
@@ -23618,5 +23621,241 @@ a {
   .fill-date-page #fill-date-form #fill-date-sbm-btn {
     margin: 30px auto 20px;
     font-size: 17px;
+  }
+}
+/* line 1, ../sass/_card-page.scss */
+.card-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  padding: 28px 0;
+}
+/* line 5, ../sass/_card-page.scss */
+.card-page .card-page-title {
+  color: #262626;
+  font: 700 27px/30px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 11, ../sass/_card-page.scss */
+.card-page .mobile-basket {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-top: 2px solid #c2c2c2;
+}
+/* line 16, ../sass/_card-page.scss */
+.card-page .mobile-basket:nth-of-type(1) {
+  border: none;
+}
+/* line 20, ../sass/_card-page.scss */
+.card-page .desctop-basket {
+  display: none;
+}
+/* line 23, ../sass/_card-page.scss */
+.card-page .total-price {
+  border: none;
+  background-color: #eaedf2;
+}
+/* line 28, ../sass/_card-page.scss */
+.card-page .item-row {
+  margin: 12px auto;
+}
+/* line 30, ../sass/_card-page.scss */
+.card-page .item-row .headind {
+  width: 49%;
+  display: inline-block;
+  color: #74023b;
+  font: 700 22px/32px "Open Sans", sans-serif;
+}
+/* line 36, ../sass/_card-page.scss */
+.card-page .item-row .content {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  color: #262626;
+  font: 400 18px/32px "Open Sans", sans-serif;
+}
+/* line 43, ../sass/_card-page.scss */
+.card-page .item-row .content img {
+  cursor: pointer;
+}
+/* line 47, ../sass/_card-page.scss */
+.card-page .item-row .content strong {
+  font: 700 22px/32px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 53, ../sass/_card-page.scss */
+.card-page .continue {
+  display: block;
+  width: 154px;
+  height: 40px;
+  margin: 30px auto 0;
+  padding: 0 5px;
+  overflow: hidden;
+  color: #fff;
+  font: 700 20px/40px "Open Sans", sans-serif;
+  text-align: center;
+  background-color: #74023b;
+  box-shadow: 2.4px 4.4px 9px rgba(0, 0, 0, 0.56);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  /* line 72, ../sass/_card-page.scss */
+  .card-page {
+    padding: 31px 0 39px;
+    background: url("../images/backgr.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* line 89, ../sass/_scene4.scss */
+  .card-page .rgb-background {
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 33px 0 65px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  /* line 75, ../sass/_card-page.scss */
+  .card-page .rgb-background {
+    padding: 41px 3px 42px;
+  }
+  /* line 79, ../sass/_card-page.scss */
+  .card-page .white-bg-container {
+    position: relative;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 0px 20px 0;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 982px;
+    padding: 24px 0 41px;
+  }
+  /* line 85, ../sass/_card-page.scss */
+  .card-page .card-page-title {
+    margin: 0 0 25px;
+    font-size: 50px;
+    line-height: 52px;
+  }
+  /* line 91, ../sass/_card-page.scss */
+  .card-page .mobile-basket {
+    display: none;
+  }
+  /* line 95, ../sass/_card-page.scss */
+  .card-page .desctop-basket {
+    display: block;
+  }
+  /* line 99, ../sass/_card-page.scss */
+  .card-page .table-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 105, ../sass/_card-page.scss */
+  .card-page .table-header li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 108, ../sass/_card-page.scss */
+  .card-page .table-header li:first-child, .card-page .table-header li:nth-child(3), .card-page .table-header li:nth-child(4), .card-page .table-header li:nth-child(5), .card-page .table-header li:nth-child(6) {
+    width: 10%;
+  }
+  /* line 116, ../sass/_card-page.scss */
+  .card-page .table-header li:nth-child(2) {
+    width: 17%;
+  }
+  /* line 120, ../sass/_card-page.scss */
+  .card-page .table-header li span {
+    color: #74023b;
+    font: 700 22px/32px "Open Sans", sans-serif;
+  }
+  /* line 126, ../sass/_card-page.scss */
+  .card-page .border-item {
+    margin: 7px auto;
+    padding: 15px 0 8px;
+    border-top: 2px solid rgba(194, 194, 194, 0.7);
+  }
+  /* line 132, ../sass/_card-page.scss */
+  .card-page .item-content {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 139, ../sass/_card-page.scss */
+  .card-page .item-content li {
+    display: inline-block;
+    text-align: center;
+    min-width: 10%;
+    width: auto;
+  }
+  /* line 145, ../sass/_card-page.scss */
+  .card-page .item-content li:first-child, .card-page .item-content li:nth-child(3), .card-page .item-content li:nth-child(4), .card-page .item-content li:nth-child(5), .card-page .item-content li:nth-child(6) {
+    width: 10%;
+  }
+  /* line 153, ../sass/_card-page.scss */
+  .card-page .item-content li:nth-child(2) {
+    width: 17%;
+  }
+  /* line 157, ../sass/_card-page.scss */
+  .card-page .item-content li span {
+    text-align: center;
+    color: #262626;
+    font: 400 18px/32px "Open Sans", sans-serif;
+  }
+  /* line 163, ../sass/_card-page.scss */
+  .card-page .item-content li img {
+    cursor: pointer;
+  }
+  /* line 167, ../sass/_card-page.scss */
+  .card-page .item-content li strong {
+    font: 700 22px/32px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 173, ../sass/_card-page.scss */
+  .card-page .total {
+    padding: 15px 0;
+    background-color: #eaedf2;
+  }
+  /* line 177, ../sass/_card-page.scss */
+  .card-page .total .heading {
+    display: inline-block;
+    width: 74%;
+    padding-left: 2%;
+    color: #74023b;
+    font: 700 22px/32px "Open Sans", sans-serif;
+  }
+  /* line 184, ../sass/_card-page.scss */
+  .card-page .total .total-price {
+    display: inline-block;
+    width: 20%;
+  }
+  /* line 188, ../sass/_card-page.scss */
+  .card-page .total .total-price strong {
+    color: #262626;
+    font: 700 22px/34px "Open Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  /* line 195, ../sass/_card-page.scss */
+  .card-page .continue {
+    margin: 27px auto 0;
   }
 }

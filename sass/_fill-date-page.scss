@@ -1,16 +1,6 @@
 .fill-date-page {
 	@include site-container;
 	padding: 28px 0;
-	@include page-bg;
-
-	.rgb-background {
-		padding: 33px 3px;
-	}
-
-	.white-bg-container {
-		@include white-bg-container;
-		padding: 32px 15px 60px;
-	}
 
 	.fill-date-page-title {
 		color: #262626;
@@ -162,6 +152,16 @@
 }
 @media (min-width: 1024px) {
 	.fill-date-page {
+		@include page-bg;
+
+		.rgb-background {
+			padding: 33px 3px;
+		}
+
+		.white-bg-container {
+			@include white-bg-container;
+			padding: 32px 15px 60px;
+		}
 
 		.rgb-background {
 			padding: 41px 3px 42px;

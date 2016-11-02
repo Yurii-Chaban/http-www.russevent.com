@@ -87,3 +87,5 @@ var swiper_main = new Swiper('.swiper-container-bilet-more-mobile', {
 //     $(this).parent(".right-center-block").removeClass("right-hover")
 //   }
 // );
+// for first child mobile in bascket page
+$('.mobile-basket').first().css({border:'none'});
