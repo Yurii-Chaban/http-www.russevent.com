@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="stylesheets/font-awesome.css">
 	<!--- Component CSS -->
 	<link rel="stylesheet" href="stylesheets/swiper.css">
+	<link rel="stylesheet" href="stylesheets/semantic.min.css">
+	<link rel="stylesheet" href="stylesheets/components/icon.min.css">
+	<link rel="stylesheet" href="stylesheets/dropdown.min.css">
 	<link rel="stylesheet" href="stylesheets/main_styles.css">
 </head>
 <body>
@@ -115,95 +118,195 @@
 			</h3>
 		</div>
 	</section>
-	<section class="site-container fill-date-page">
+	<section class="site-container billing-page">
 		<div class="rgb-background">
 			<div class="white-bg-container">
 				<div class="wrapper">
-					<h2 class="fill-date-page-title">заполните ваши данные</h2>
+					<h2 class="billing-page-title">заполните ваши данные</h2>
 					<div class="formWrapper">
 						<form id="billing-form" method="post">
-							<div class="top-field">
+							<div class="top-field first-name">
 								<input autocomplete="off" id="client-name" type="text" name="client-name" placeholder="Певое имя">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-name" type="text" name="client-name" placeholder="Второе имя">
+							<div class="top-field second-name">
+								<input autocomplete="off" id="client-surname" type="text" name="client-surname" placeholder="Второе имя">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-email" type="client-email" name="client-email" placeholder="E-mail">
+							<div class="top-field email">
+								<input autocomplete="off" id="client-email" type="email" name="client-email" placeholder="E-mail">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-address" type="client-address" name="client-address" placeholder="Адрес">
+							<div class="top-field address">
+								<input autocomplete="off" id="client-address" type="text" name="client-address" placeholder="Адрес">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-city" type="client-city" name="client-city" placeholder="Город">
+							<div class="top-field city">
+								<input autocomplete="off" id="client-city" type="text" name="client-city" placeholder="Город">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-district" type="client-district" name="client-district" placeholder="Штат">
+							<div class="top-field district">
+								<span class="triangle"></span>
+								<select id="client-district" class="ui search dropdown">
+									<option value="">Штат</option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District Of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-zip-code" type="client-zip-code" name="client-zip-code" placeholder="Зип код">
+							<div class="top-field zip-code">
+								<input autocomplete="off" id="client-zip-code" type="text" name="client-zip-code" placeholder="Зип код">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-cart-number" type="client-cart-number" name="client-cart-number" placeholder="Номер карточки">
+							<div class="top-field cart-number">
+								<input autocomplete="off" id="client-cart-number" type="number" name="client-cart-number" placeholder="Номер карточки">
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-month" type="client-month" name="client-month" placeholder="Месяц">
+							<div class="top-field month">
+								<span class="triangle"></span>
+								<select id="month" class="ui angle down dropdown">
+									<option value="">Месяц</option>
+									<option value="">Январь</option>
+									<option value="">Февраль</option>
+									<option value="">Март</option>
+									<option value="">Апрель</option>
+									<option value="">Май</option>
+									<option value="">Июнь</option>
+									<option value="">Июль</option>
+									<option value="">Август</option>
+									<option value="">Сентябрь</option>
+									<option value="">Октябрь</option>
+									<option value="">Ноябрь</option>
+									<option value="">Декабрь</option>
+								</select>
 							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-year" type="client-year" name="client-year" placeholder="Год">
-							</div>
-							<div class="top-field">
-								<input autocomplete="off" id="client-cvc-code" type="client-cvc-code" name="client-cvc-code" placeholder="CVC код">
-							</div>
-							<input id="fill-date-sbm-btn" type="submit" name="submit-form-btn" value="Отправить">
-						</form>
+							<div class="top-field year">
+								<span class="triangle"></span>
+								<select id="month" class="ui angle down dropdown">
+									<option value="">Год</option>
+									<option value="">2016</option>
+									<option value="">2015</option>
+									<option value="">2014</option>
+									<option value="">2013</option>
+									<option value="">2012</option>
+									<option value="">2011</option>
+									<option value="">2010</option>
+									<option value="">2009</option>
+									<option value="">2008</option>
+									<option value="">2007</option>
+									<option value="">2006</option>
+									<option value="">2005</option>
+									<option value="">2004</option>
+									<option value="">2003</option>
+									<option value="">2002</option>
+									<option value="">2001</option>
+									<option value="">2000</option>
+									<option value="">2000</option>
+									<option value="">1999</option>
+									<option value="">1997</option>
+									<option value="">1996</option>
+									<option value="">1995</option>
+									<option value="">1994</option>
+									<option value="">1993</option>
+									<option value="">1992</option>
+									<option value="">1991</option>
+									<option value="">1990</option>
+								</select>
+								</div>
+								<div class="top-field cvc-code">
+									<input autocomplete="off" id="client-cvc-code" type="number" name="client-cvc-code" placeholder="CVC код">
+								</div>
+								<input id="billing-sbm-btn" type="submit" name="submit-form-btn" value="Отправить">
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<footer class="site-container">
-		<div class="contact-form">
-			<div class="wrapper">
-				<h2 class="form-title">Написать нам :</h2>
-				<form action="#" method="post" id="contact-form">
-					<div class="form-row half-block-name">
-						<input id="name" type="text" name="name" placeholder="Имя *">
-					</div>
-					<div class="form-row half-block-tel">
-						<input id="tel" type="tel" name="tel" placeholder="Телефон*">
-					</div>
-					<div class="form-row">
-						<input id="email" type="email" name="email" placeholder="E-mail*">
-					</div>
-					<div class="form-row">
-						<input id="theme" type="theme" name="theme" placeholder="Тема *">
-					</div>
-					<div class="form-row">
-						<textarea id="message" name="message" placeholder="Сообщение *"></textarea>
-					</div>
-					<h3 class="required-fields">* Обязательные для заполнения поля</h3>
-					<button class="submit-form-btn" type="submit">Отправить</button>
-				</form>
+		</section>
+		<footer class="site-container">
+			<div class="contact-form">
+				<div class="wrapper">
+					<h2 class="form-title">Написать нам :</h2>
+					<form action="#" method="post" id="contact-form">
+						<div class="form-row half-block-name">
+							<input id="name" type="text" name="name" placeholder="Имя *">
+						</div>
+						<div class="form-row half-block-tel">
+							<input id="tel" type="tel" name="tel" placeholder="Телефон*">
+						</div>
+						<div class="form-row">
+							<input id="email" type="email" name="email" placeholder="E-mail*">
+						</div>
+						<div class="form-row">
+							<input id="theme" type="theme" name="theme" placeholder="Тема *">
+						</div>
+						<div class="form-row">
+							<textarea id="message" name="message" placeholder="Сообщение *"></textarea>
+						</div>
+						<h3 class="required-fields">* Обязательные для заполнения поля</h3>
+						<button class="submit-form-btn" type="submit">Отправить</button>
+					</form>
+				</div>
 			</div>
-		</div>
-		<div class="footer-contacts">
-			<div class="wrapper">
-				<a class="contact-phone" href="tel: (123) 456-7890">Tel: (123) 456-7890</a>
-				<h3 class="contact-location">
-					<a href="https://www.google.com/maps/place/6814+N+Sheridan+Rd,+Chicago,+IL+60626/@42.005983,-87.6635584,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd1a893bb486f:0x437d9b087bbc1588!8m2!3d42.005983!4d-87.6613697">6814 N Sheridan Rd<br> Chicago, IL 60062</a>
-				</h3>
+			<div class="footer-contacts">
+				<div class="wrapper">
+					<a class="contact-phone" href="tel: (123) 456-7890">Tel: (123) 456-7890</a>
+					<h3 class="contact-location">
+						<a href="https://www.google.com/maps/place/6814+N+Sheridan+Rd,+Chicago,+IL+60626/@42.005983,-87.6635584,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd1a893bb486f:0x437d9b087bbc1588!8m2!3d42.005983!4d-87.6613697">6814 N Sheridan Rd<br> Chicago, IL 60062</a>
+					</h3>
+				</div>
 			</div>
-		</div>
-		<div class="copyright">
-			<div class="wrapper">
-				<h4>Website development &copy; <a href="http://globalvision.name/">Global Vision</a></h4>
+			<div class="copyright">
+				<div class="wrapper">
+					<h4>Website development &copy; <a href="http://globalvision.name/">Global Vision</a></h4>
+				</div>
 			</div>
-		</div>
-	</footer>
-	<script src="js/jquery.min.js"></script>
-	<!-- <script src="js/swiper.jquery.js"></script> -->
-	<script src="js/swiper.js"></script>
-	<script src="js/main.js"></script>
-</body>
-</html>
+		</footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/swiper.jquery.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/semantic.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+	</html>

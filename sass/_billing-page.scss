@@ -1,8 +1,20 @@
-.fill-date-page {
+@font-face {
+	font-family: 'Icon';
+	src: url('../stylesheets/themes/default/assets/fonts/icons.eot') format('eot');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.otf') format('otf');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.svg') format('svg');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.ttf') format('ttf');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.woff') format('woff');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.billing-page {
 	@include site-container;
 	padding: 28px 0;
 
-	.fill-date-page-title {
+	.billing-page-title {
 		color: #262626;
 		font: 700 27px / 30px $family;
 		text-transform: uppercase;
@@ -10,13 +22,53 @@
 	.formWrapper {
 		@include border-box;
 	}
-	#fill-date-form {
+	#billing-form {
 		input {
 			display: inline-block;
 		}
+
+		.top-field {
+			position: relative;
+
+			span {
+				position: absolute;
+				top: 35px;
+				right: 2px;
+				z-index: 1;
+				width: 0;
+				height: 0;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				border-top: 10px solid #686868;
+
+			}
+		}
+		.month,
+		.year {
+			display: inline-block;
+			width: 48%;
+		}
+		.month: {
+			float: left;
+		}
+		.year {
+			float: right;
+		}
+		.cvc-code {
+			clear: both;
+		}
+
 		#client-name,
-		#client-phone,
-		#client-email {
+		#client-surname,
+		#client-email, 
+		#client-address,
+		#client-city,
+		#client-district,
+		#client-zip-code,
+		#client-cart-number,
+		#month,
+		#year,
+		#client-cvc-code {
 			@include border-box;
 			width: 100%;
 			height: 34px;
@@ -48,90 +100,49 @@
 				font: 400 18px / 22px $family;
 			}
 		}
+		#client-district,
+		#month,
+		#year {
+			position: relative;
+			color: rgba(38,38,38, 0.4);
+			font: 600 18px / 22px $family;
+		}
+		#client-district{
+			padding: 0 0 0 54px;
+		}
+		#month,
+		#year {
+			padding: 0;
+		}
 		#client-name {
 			background-image: url("../images/icon-user-page.png");   
-
 		}
-		#client-phone {
-			background-image: url("../images/icon-phone-user-page.png");
+		#client-surname {
+			background-image: url("../images/icon-user-page.png");   
 		}
 		#client-email {
 			background-image: url("../images/icon-mail-user-page.png");
 		}
-		.for-payment-title {
-			margin: 27px 0 0;
-			color: #74023b;
-			font: 700 22px / 26px $family;
+		#client-address {
+			background-image: url("../images/icon-billing-map.png");
 		}
-		.payment-icon {
-			@include border-box;
-			overflow: hidden;
-			margin: 20px 0 0;
-
-			#paypal,
-			#visa {
-				width: 22px;
-				height: 22px;
-				background-color: #bcb8b6;
-				border-radius: 7px;
-				margin-top: 10px;
-			}
-
-			/* .squaredFour */
-			.squaredFour {
-				width: 22px;
-				height: 22px;
-				position: relative;
-				margin: 0 15px 3px 10px;
-				display: inline-block;
-				label {
-					width: 22px;
-					height: 22px;
-					cursor: pointer;
-					position: absolute;
-					top: 0;
-					left: 0;
-					background: #fcfff4;
-					background: #bcb8b6;
-					border-radius: 7px;
-					box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
-					&:after {
-						content: '';
-						width: 11px;
-						height: 5px;
-						position: absolute;
-						top: 8px;
-						left: 5px;
-						border: 2px solid #262626;
-						border-top: none;
-						border-right: none;
-						background: transparent;
-						opacity: 0;
-						transform: rotate(-45deg);
-					}
-					// &:hover::after {
-					// 	opacity: 0.5;
-					// }
-				}
-				input[type=checkbox] {
-					visibility: hidden;
-					&:checked + label:after {
-						opacity: 1;
-					}
-				}    
-			}
-			/* end .squaredFour */
-
+		#client-city {
+			background-image: url("../images/icon-billing-city.png");
 		}
-		.img-wrapper {
-			overflow: hidden;
-			display: inline-block;
-			img {
-				margin: 10px 0 0;
-			}
+		#client-district {
+			background-image: url("../images/icon-billing-flag.png");
+		}
+		#client-zip-code {
+			background-image: url("../images/icon-billing-zip.png");
+		}
+		#client-cart-number {
+			background-image: url("../images/icon-billing-number.png");
+		}
+		#client-cvc-code {
+			background-image: url("../images/icon-billing-CVC.png");
 		}
 
-		#fill-date-sbm-btn {
+		#billing-sbm-btn {
 			display: block;
 			width: 154px;
 			height: 40px;
@@ -151,7 +162,7 @@
 	}
 }
 @media (min-width: 1024px) {
-	.fill-date-page {
+	.billing-page {
 		@include page-bg;
 
 		.rgb-background {
@@ -172,48 +183,57 @@
 			padding: 24px 0 41px;
 		}
 
-		.fill-date-page-title {
+		.billing-page-title {
 			margin: 0 0 17px;
 			font-size: 50px;
 			line-height: 52px;
 		}
-		#fill-date-form {
+		#billing-form {
 			text-align: center;
-			.top-field {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
+			
+			.first-name,
+			.email,
+			.city,
+			.zip-code {
+				float: left;
+				width: 48%;
+				margin-top: 15px;
+			}
 
-				#client-name,
-				#client-phone,
-				#client-email {
-					width: 31%;
-					height: 41px;
-					margin: 23px 1% 0;
-					line-height: 33px;
-					padding-left: 34px;
-				}
-				#client-name {
-					margin-left: 0;
-				}
-				#client-email {
-					margin-right: 0;
-				}
+			.second-name,
+			.address,
+			.district,
+			.cart-number,
+			.cvc-code {
+				float: right;
+				width: 48%;
+				margin-top: 15px;
 			}
-			.for-payment-title {
-				margin: 48px auto 0;
-				text-align: center;
-				font-size: 25px;
-				line-height: 30px;
+
+			.first-name,
+			.second-name {
+				margin-top: 0;
 			}
-			.payment-icon {
-				margin: 18px auto 0;
-				width: 22%;
-				display: inline-block;
+
+			.cvc-code {
+				clear: inherit;
+				margin-bottom: 70px;
 			}
-			#fill-date-sbm-btn {
+
+			.month,
+			.year {
+				width: 23.5%;
+				float: left;
+				margin-top: 15px;
+			}
+			.month {
+				margin-right: 1%;
+			}
+
+			#billing-sbm-btn {
 				margin: 30px auto 20px;
 				font-size: 17px;
+				clear: both;
 			}
 		}
 	}
